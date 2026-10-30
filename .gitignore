@@ -84,3 +84,4 @@ android-sdk/
 # overlay black-box crash/user-report dumps — session data, never history
 **/.emergent/recordings/
 data/Enterprise_ESG_Synthetic_Data/ERP/Finance/GL/gl_transactions.parquet
+data/exports/Enterprise_ESG_Synthetic_Data.zip

@@ -1,0 +1,46 @@
+{
+  "summary": "First full e2e pass of ESG Data Forge. Backend: 22/22 pytest cases pass (status, index 109 datasets, previews parquet/csv/json, 404/422, validation VALIDATED, anomalies 403/filters/pagination/summary splits, GHG 2022-2026 + S3-C01..C15, documents 3,539 + real PDF/DOCX/XLSX downloads, traversal 404, tree, generate 422/400/resume, export build+zip download). Resume run (seed 42, scale 0.1, docs 3000, fresh=false) skipped all batches and completed in ~1s; no fresh run triggered. Frontend: all 7 tabs and requested flows verified with Playwright; everything works. One security issue found (sibling-prefix path traversal) plus a few minor UX items.",
+  "backend_issues": {
+    "critical": [
+      {"endpoint": "GET /api/files/download", "issue": "Path containment check uses str(p).startswith(str(DATA.resolve())). path=../Enterprise_ESG_Synthetic_Data_x/s.txt escapes DATA_ROOT and returns 200 (reproduced with a temporary sibling dir). Use p.is_relative_to(DATA.resolve()) or compare against str(DATA)+os.sep.", "priority": "HIGH"}
+    ],
+    "minor": [
+      {"endpoint": "POST /api/export", "issue": "The ZIP is written in place to the final filename. Starting a rebuild while a download of the previous ZIP is in progress truncates or corrupts that download. Write to a .tmp file and os.replace it when done. The EXPORT state is also in-memory only, so it is lost after a backend restart even though the file stays on disk."},
+      {"endpoint": "GET /api/datasets/{name}/preview", "issue": "For parquet it reads only row group 0, so an offset larger than the first row group silently returns empty rows."},
+      {"endpoint": "GET /api/anomalies/summary", "issue": "by_split is in value_counts order (train, test, validation). The UI shows that order instead of train/validation/test."},
+      {"endpoint": "Raw export (labels excluded)", "issue": "Validation_Reports, which is included in the raw ZIP, exposes aggregate label info: intentionally_defective_records per dataset, anomaly_ground_truth_validation.csv with ground_truth_records per dataset, and the names of the held-out test-only anomaly subtypes. No record-level leakage was found (no ANOM- ids outside Anomaly_Ground_Truth). Consider excluding these files when include_ground_truth=false."}
+    ]
+  },
+  "frontend_issues": {
+    "ui_bugs": [
+      {"component": "Documents", "issue": "Type and format filters are independent, so many combinations give 0 results (e.g. 'Carbon accounting workbook' + pdf). The page then shows '0 synthetic business documents' with an empty grid and no 'no matches' message.", "selector": "[data-testid=doc-type-filter],[data-testid=doc-format-filter]", "priority": "LOW"},
+      {"component": "GroundTruth search", "issue": "Each keystroke in gt-search fires a request with no debounce. Out-of-order responses could show stale results.", "selector": "[data-testid=gt-search]", "priority": "LOW"}
+    ],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "Mobile 390px", "issues": ["document scrollWidth is 1181px, so the page scrolls horizontally (likely wide tables or charts not contained). Desktop and 1920 layouts look good."]},
+      {"screen": "Export", "issue_note": "folder-tree panel testid shares the 'folder-' prefix with folder-<name> items, so [data-testid^=folder-] also matches the panel itself", "issues": ["testid naming collision (minor)"]}
+    ]
+  },
+  "test_report_links": ["/app/backend/tests/test_esg_forge_api.py", "/app/test_reports/pytest/pytest_results.xml"],
+  "action_items": [
+    "Fix the path containment check in /api/files/download (use Path.is_relative_to)",
+    "Write the export ZIP to a temp file and swap it atomically",
+    "Optionally exclude aggregate label info (Validation_Reports anomaly files and injected counts) from the labels-excluded ZIP",
+    "Sort by_split in train/validation/test order",
+    "Add an empty-results message for document filters and debounce gt-search",
+    "Fix horizontal overflow on mobile"
+  ],
+  "critical_code_review_comments": [
+    "server.py download(): the startswith prefix check can be bypassed (see backend critical issue)",
+    "build_zip writes in place; there is no tmp file or atomic rename",
+    "/api/status reads the whole generation.log on every 2.5s poll. Fine now, but it grows without bound over many runs.",
+    "/api/generate opens a log file handle that is never closed in the parent process (it leaks one fd per run)"
+  ],
+  "updated_files": ["/app/backend/tests/test_esg_forge_api.py"],
+  "success_rate": {"backend": "100% (22/22), plus 1 security issue found by a manual probe", "frontend": "100% of requested flows"},
+  "seed_data_creation": "None. Built Enterprise_ESG_Synthetic_Data.zip (236.8 MB, 5,562 files) in /app/data/exports. Triggered one resume run (fresh=false), which skipped all batches.",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Run: REACT_APP_BACKEND_URL=... pytest /app/backend/tests/test_esg_forge_api.py (pytest.ini uses xdist). The export takes about 13s (not minutes). Never use fresh=true. The system clock reads Oct 2026, which explains the log timestamps. The temporary traversal-probe directory was removed."
+}

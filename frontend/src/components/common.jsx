@@ -1,5 +1,5 @@
 export const Panel = ({ title, eyebrow, right, children, className = "", testid }) => (
-  <section data-testid={testid} className={`panel p-5 fade-up ${className}`}>
+  <section data-testid={testid} className={`panel p-4 sm:p-5 fade-up min-w-0 ${className}`}>
     {(title || eyebrow) && (
       <div className="flex items-start justify-between gap-4 mb-4">
         <div>
@@ -14,7 +14,7 @@ export const Panel = ({ title, eyebrow, right, children, className = "", testid 
 );
 
 export const Stat = ({ label, value, sub, accent = "text-emerald-400", testid }) => (
-  <div data-testid={testid} className="panel p-4 fade-up">
+  <div data-testid={testid} className="panel p-4 fade-up min-w-0">
     <div className="eyebrow !text-slate-400">{label}</div>
     <div className={`font-display text-3xl font-bold mt-1 ${accent}`}>{value}</div>
     {sub && <div className="text-xs text-slate-500 mt-1 font-mono">{sub}</div>}

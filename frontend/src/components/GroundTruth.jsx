@@ -16,7 +16,9 @@ export default function GroundTruth({ status }) {
   useEffect(() => { http.get("/anomalies/summary").then((r) => setSum(r.data)).catch(() => setSum(null)); }, [status?.state]);
   useEffect(() => {
     if (!clear) { setRes(null); return; }
-    http.get("/anomalies", { params: { clearance: true, ...f, page } }).then((r) => setRes(r.data));
+    let live = true;
+    const t = setTimeout(() => http.get("/anomalies", { params: { clearance: true, ...f, page } }).then((r) => live && setRes(r.data)), 300);
+    return () => { live = false; clearTimeout(t); };
   }, [clear, f, page]);
   if (!sum) return <Empty text="Ground truth is assembled in batch B14." />;
   const sel = (k, opts) => (

@@ -116,7 +116,7 @@ async def preview(name: str, limit: int = Query(50, le=500), offset: int = 0):
     if m["format"] == "parquet":
         import pyarrow.parquet as pq
         pf = pq.ParquetFile(p)
-        df = pf.read_row_group(0).to_pandas().iloc[offset:offset + limit]
+        df = next(pf.iter_batches(batch_size=offset + limit)).to_pandas().iloc[offset:offset + limit]
     elif m["format"] == "json":
         df = pd.read_json(p).iloc[offset:offset + limit]
     else:
@@ -140,7 +140,7 @@ def gt_df():
 @api.get("/anomalies/summary")
 async def anomaly_summary():
     g = gt_df()
-    return dict(total=len(g), by_family=g.family.value_counts().to_dict(), by_split=g.evaluation_split.value_counts().to_dict(), by_severity=g.severity.value_counts().to_dict(),
+    return dict(total=len(g), by_family=g.family.value_counts().to_dict(), by_split={k: int((g.evaluation_split == k).sum()) for k in ("train", "validation", "test")}, by_severity=g.severity.value_counts().to_dict(),
                 by_subtype=clean(g.groupby(["family", "anomaly_subtype"]).size().rename("count").reset_index().sort_values("count", ascending=False)))
 
 
@@ -205,7 +205,7 @@ async def tree():
 @api.get("/files/download")
 async def download(path: str):
     p = (DATA / path).resolve()
-    if not str(p).startswith(str(DATA.resolve())) or not p.is_file():
+    if not p.is_relative_to(DATA.resolve()) or not p.is_file():
         raise HTTPException(404, "File not found")
     return FileResponse(p, filename=p.name)
 
@@ -217,13 +217,17 @@ def build_zip(include_gt: bool):
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     name = f"Enterprise_ESG_Synthetic_Data{'_with_ground_truth' if include_gt else ''}.zip"
     out = EXPORT_DIR / name
+    tmp = EXPORT_DIR / (name + ".tmp")
+    restricted = ("Anomaly_Ground_Truth", "Validation_Reports")
     try:
-        files = [f for f in DATA.rglob("*") if f.is_file() and "_batches" not in f.parts and "_files" not in f.parts and (include_gt or "Anomaly_Ground_Truth" not in f.parts)]
+        files = [f for f in DATA.rglob("*") if f.is_file() and "_batches" not in f.parts and "_files" not in f.parts
+                 and (include_gt or (not any(r in f.parts for r in restricted) and f.name != "generation_config.json"))]
         EXPORT.update(state="building", total=len(files), done=0, file=name)
-        with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED, compresslevel=5) as z:
+        with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED, compresslevel=5) as z:
             for i, f in enumerate(files):
                 z.write(f, "Enterprise_ESG_Synthetic_Data/" + str(f.relative_to(DATA)))
                 EXPORT["done"] = i + 1
+        os.replace(tmp, out)
         EXPORT.update(state="ready", size_bytes=out.stat().st_size, finished_at=datetime.now(timezone.utc).isoformat())
     except Exception as e:
         EXPORT.update(state="failed", error=str(e))
@@ -240,6 +244,10 @@ async def export(include_ground_truth: bool = False):
 
 @api.get("/export/status")
 async def export_status():
+    if EXPORT.get("state") == "idle" and EXPORT_DIR.exists():
+        zips = sorted(EXPORT_DIR.glob("*.zip"), key=lambda f: f.stat().st_mtime)
+        if zips:
+            EXPORT.update(state="ready", file=zips[-1].name, size_bytes=zips[-1].stat().st_size)
     return EXPORT
 
 

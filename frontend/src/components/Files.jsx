@@ -26,6 +26,7 @@ export function Documents({ status }) {
             <div className="text-[11px] text-slate-500 font-mono mt-1 truncate">{r.document_type} · {r.related_dataset || "—"} · {r.related_record_id || ""}</div>
           </a>); })}
       </div>
+      {d && !d.total && <div data-testid="doc-no-match" className="p-8 text-center text-slate-500 text-sm">No documents match this type and format combination.</div>}
       <div className="flex justify-end gap-2 mt-4">
         <Button data-testid="doc-prev" variant="outline" size="sm" disabled={page === 1} onClick={() => setPage(page - 1)}>Prev</Button>
         <span className="font-mono text-xs text-slate-400 self-center">page {page}</span>
@@ -56,7 +57,7 @@ export function Export({ status }) {
           <p className="text-xs text-slate-500">Files also live on the server under /app/data/Enterprise_ESG_Synthetic_Data for direct pipeline ingestion.</p>
         </div>
       </Panel>
-      <Panel className="xl:col-span-3" eyebrow="Output directory" title="Folder structure" testid="folder-tree" right={<FolderTree className="w-5 h-5 text-slate-500" />}>
+      <Panel className="xl:col-span-3" eyebrow="Output directory" title="Folder structure" testid="folder-tree-panel" right={<FolderTree className="w-5 h-5 text-slate-500" />}>
         <div className="space-y-2 max-h-[600px] overflow-auto scroll-thin">
           {tree.map((n) => (
             <div key={n.name} className="p-2 rounded border border-[#2A3447]" data-testid={`folder-${n.name}`}>

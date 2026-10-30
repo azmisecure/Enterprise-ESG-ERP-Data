@@ -22,12 +22,12 @@ function App() {
   const st = data?.status || {};
   const props = { status: st, data, refresh };
   return (
-    <div className="min-h-screen grid-bg noise">
+    <div className="min-h-screen grid-bg noise overflow-x-hidden">
       <header className="sticky top-0 z-50 bg-[#090B0E]/85 backdrop-blur-md border-b border-[#2A3447]">
         <div className="max-w-[1500px] mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center gap-4">
           <div>
             <div className="eyebrow">Synthetic enterprise data engine</div>
-            <h1 className="font-display text-2xl sm:text-3xl font-extrabold tracking-tight leading-none">HALVORSEN-KAITO <span className="text-emerald-400">// ESG DATA FORGE</span></h1>
+            <h1 className="font-display text-xl sm:text-3xl font-extrabold tracking-tight leading-none">HALVORSEN-KAITO <span className="text-emerald-400">// ESG DATA FORGE</span></h1>
           </div>
           <div className="ml-auto flex items-center gap-3 font-mono text-xs" data-testid="header-status">
             <span className={`w-2 h-2 rounded-full ${st.state === "running" ? "bg-amber-400 pulse-dot" : st.state === "completed" ? "bg-emerald-400" : "bg-slate-500"}`} />
