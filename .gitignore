@@ -85,3 +85,27 @@ android-sdk/
 **/.emergent/recordings/
 data/Enterprise_ESG_Synthetic_Data/ERP/Finance/GL/gl_transactions.parquet
 data/exports/Enterprise_ESG_Synthetic_Data.zip
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+
+# Runtime logs
+*.log
+
+# Generated export archives
+data/exports/*.zip
+frontend/node_modules/
+
+# Emergent temporary environment files
+.emergent/cron/
+.emergent/markers/
+frontend/node_modules/.cache/default-development/0.pack
