@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-302969673 for account UA-53706643
+Date: Thu, 08 Feb 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for January 2024 is attached (PDF). Amount due: 33,037.40 AUD.

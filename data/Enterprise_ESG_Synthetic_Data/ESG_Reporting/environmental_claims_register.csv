@@ -1,0 +1,6 @@
+claim_id,channel,claim_text,reporting_year,approval_status,supported
+CLM-001,Corporate ESG report 2025,Our operations were carbon neutral in 2025.,2025,Approved by marketing only,False
+CLM-002,Product brochure,Eco-line motors cut emissions 40% vs 2022.,2025,Pending legal,False
+CLM-003,Corporate ESG report 2024,Scope 1+2 market-based emissions reduced vs 2022 baseline.,2024,Approved,True
+CLM-004,Investor presentation,100% renewable electricity at all European sites.,2026,Approved,False
+CLM-005,Customer questionnaire,Net-zero across value chain by 2026 via offsets.,2026,Not reviewed,False

@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-926435681 for account UA-85748423
+Date: Thu, 09 Jun 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for May 2022 is attached (PDF). Amount due: 440,041.26 INR.

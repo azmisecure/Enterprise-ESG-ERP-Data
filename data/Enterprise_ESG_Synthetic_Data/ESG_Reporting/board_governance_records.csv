@@ -1,0 +1,21 @@
+record_id,meeting_date,body,esg_agenda_items,climate_risk_reviewed,independent_directors_pct,women_on_board_pct
+BRD-2022-Q1,2022-03-20,Board of Directors,3,False,63.4,31.8
+BRD-2022-Q2,2022-06-20,Board of Directors,2,False,66.6,36.7
+BRD-2022-Q3,2022-09-20,Board of Directors,4,True,55.4,29.4
+BRD-2022-Q4,2022-12-20,Board of Directors,2,False,72.6,34.8
+BRD-2023-Q1,2023-03-20,Board of Directors,2,True,72.0,32.3
+BRD-2023-Q2,2023-06-20,Board of Directors,4,True,74.8,25.1
+BRD-2023-Q3,2023-09-20,Board of Directors,4,True,74.0,26.1
+BRD-2023-Q4,2023-12-20,Board of Directors,1,True,59.4,31.3
+BRD-2024-Q1,2024-03-20,Board of Directors,3,False,57.3,25.5
+BRD-2024-Q2,2024-06-20,Board of Directors,4,False,61.0,33.0
+BRD-2024-Q3,2024-09-20,Board of Directors,3,True,61.4,27.1
+BRD-2024-Q4,2024-12-20,Board of Directors,2,True,56.1,40.3
+BRD-2025-Q1,2025-03-20,Board of Directors,1,True,72.6,40.5
+BRD-2025-Q2,2025-06-20,Board of Directors,3,True,57.9,40.6
+BRD-2025-Q3,2025-09-20,Board of Directors,4,True,65.9,25.8
+BRD-2025-Q4,2025-12-20,Board of Directors,4,True,69.3,27.7
+BRD-2026-Q1,2026-03-20,Board of Directors,3,True,62.3,38.8
+BRD-2026-Q2,2026-06-20,Board of Directors,4,False,59.6,39.2
+BRD-2026-Q3,2026-09-20,Board of Directors,2,True,68.4,36.4
+BRD-2026-Q4,2026-12-20,Board of Directors,3,True,70.2,26.1

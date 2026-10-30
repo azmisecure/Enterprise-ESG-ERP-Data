@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-142424842 for account UA-59036051
+Date: Sun, 14 Aug 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for July 2022 is attached (PDF). Amount due: 186.79 USD.

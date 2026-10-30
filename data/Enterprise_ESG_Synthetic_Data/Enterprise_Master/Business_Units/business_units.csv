@@ -1,0 +1,22 @@
+business_unit_id,division_id,business_unit_name,region,enterprise_id
+BU-IMC-AM,DIV-IMC,Industrial Machinery - Americas,Americas,ENT-0001
+BU-IMC-EU,DIV-IMC,Industrial Machinery - Europe & MEA,Europe & MEA,ENT-0001
+BU-IMC-AP,DIV-IMC,Industrial Machinery - Asia Pacific,Asia Pacific,ENT-0001
+BU-AUT-AM,DIV-AUT,Automotive Components - Americas,Americas,ENT-0001
+BU-AUT-EU,DIV-AUT,Automotive Components - Europe & MEA,Europe & MEA,ENT-0001
+BU-AUT-AP,DIV-AUT,Automotive Components - Asia Pacific,Asia Pacific,ENT-0001
+BU-MET-AM,DIV-MET,Metals & Engineered Materials - Americas,Americas,ENT-0001
+BU-MET-EU,DIV-MET,Metals & Engineered Materials - Europe & MEA,Europe & MEA,ENT-0001
+BU-MET-AP,DIV-MET,Metals & Engineered Materials - Asia Pacific,Asia Pacific,ENT-0001
+BU-CHM-AM,DIV-CHM,Chemicals & Industrial Materials - Americas,Americas,ENT-0001
+BU-CHM-EU,DIV-CHM,Chemicals & Industrial Materials - Europe & MEA,Europe & MEA,ENT-0001
+BU-CHM-AP,DIV-CHM,Chemicals & Industrial Materials - Asia Pacific,Asia Pacific,ENT-0001
+BU-ELE-AM,DIV-ELE,Electrical & Energy Equipment - Americas,Americas,ENT-0001
+BU-ELE-EU,DIV-ELE,Electrical & Energy Equipment - Europe & MEA,Europe & MEA,ENT-0001
+BU-ELE-AP,DIV-ELE,Electrical & Energy Equipment - Asia Pacific,Asia Pacific,ENT-0001
+BU-PKG-AM,DIV-PKG,Industrial Packaging - Americas,Americas,ENT-0001
+BU-PKG-EU,DIV-PKG,Industrial Packaging - Europe & MEA,Europe & MEA,ENT-0001
+BU-PKG-AP,DIV-PKG,Industrial Packaging - Asia Pacific,Asia Pacific,ENT-0001
+BU-CON-AM,DIV-CON,Construction Materials - Americas,Americas,ENT-0001
+BU-CON-EU,DIV-CON,Construction Materials - Europe & MEA,Europe & MEA,ENT-0001
+BU-CON-AP,DIV-CON,Construction Materials - Asia Pacific,Asia Pacific,ENT-0001

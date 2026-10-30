@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-515206316 for account UA-91900280
+Date: Thu, 04 Jan 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for December 2023 is attached (PDF). Amount due: 4,520.58 EUR.

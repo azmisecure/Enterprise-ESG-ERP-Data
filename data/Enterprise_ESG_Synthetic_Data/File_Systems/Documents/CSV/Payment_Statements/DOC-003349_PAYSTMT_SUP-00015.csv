@@ -1,0 +1,3 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0000686,APINV-0000732,SUP-00015,2023-01-15,2627.02,EUR,Local transfer,PV8000685
+APPAY-0004378,APINV-0004731,SUP-00015,2022-07-22,3602.65,EUR,SWIFT,PV8004377

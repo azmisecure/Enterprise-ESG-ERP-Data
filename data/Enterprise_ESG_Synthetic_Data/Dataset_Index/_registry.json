@@ -1,0 +1,7417 @@
+{
+ "enterprise": {
+  "name": "enterprise",
+  "path": "Enterprise_Master/Enterprise/enterprise.json",
+  "format": "json",
+  "rows": 1,
+  "columns": [
+   {
+    "name": "enterprise_id",
+    "dtype": "str"
+   },
+   {
+    "name": "enterprise_name",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_form",
+    "dtype": "str"
+   },
+   {
+    "name": "hq_country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "hq_city",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_currency",
+    "dtype": "str"
+   },
+   {
+    "name": "consolidation_approach",
+    "dtype": "str"
+   },
+   {
+    "name": "ghg_base_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "fiscal_year_convention",
+    "dtype": "str"
+   },
+   {
+    "name": "employees_target",
+    "dtype": "int64"
+   },
+   {
+    "name": "annual_revenue_usd_bn",
+    "dtype": "float64"
+   },
+   {
+    "name": "industry",
+    "dtype": "str"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "enterprise_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "MDG",
+  "description": "Fictional enterprise identity",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 511,
+  "sha256": "10d999618a95d967193c054583187938351bda16293f3bc89638d27772aae44a"
+ },
+ "countries": {
+  "name": "countries",
+  "path": "Enterprise_Master/Countries/countries.csv",
+  "format": "csv",
+  "rows": 22,
+  "columns": [
+   {
+    "name": "country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "country_name",
+    "dtype": "str"
+   },
+   {
+    "name": "region",
+    "dtype": "str"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "time_zone",
+    "dtype": "str"
+   },
+   {
+    "name": "language",
+    "dtype": "str"
+   },
+   {
+    "name": "measurement_system",
+    "dtype": "str"
+   },
+   {
+    "name": "local_fiscal_year_start_month",
+    "dtype": "int64"
+   },
+   {
+    "name": "grid_region",
+    "dtype": "str"
+   },
+   {
+    "name": "regulatory_jurisdiction",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_requirements",
+    "dtype": "str"
+   },
+   {
+    "name": "enterprise_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "country_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "MDG",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 3165,
+  "sha256": "900f97c9ef54fbd33880dd9a1a9fef6ff4090b8d43e45afeb1334e07cf992ee2"
+ },
+ "legal_entities": {
+  "name": "legal_entities",
+  "path": "Enterprise_Master/Legal_Entities/legal_entities.csv",
+  "format": "csv",
+  "rows": 26,
+  "columns": [
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "company_code",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_entity_name",
+    "dtype": "str"
+   },
+   {
+    "name": "country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "functional_currency",
+    "dtype": "str"
+   },
+   {
+    "name": "fiscal_year_start_month",
+    "dtype": "int64"
+   },
+   {
+    "name": "ownership_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "consolidation_method",
+    "dtype": "str"
+   },
+   {
+    "name": "enterprise_id",
+    "dtype": "str"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "legal_entity_id",
+  "fks": {
+   "country_id": "countries.country_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 2892,
+  "sha256": "ddf7214000c727c0ef20e1c59ec2e2cd59f7ecda9ca6075630eded245088a2ca"
+ },
+ "divisions": {
+  "name": "divisions",
+  "path": "Enterprise_Master/Business_Units/divisions.csv",
+  "format": "csv",
+  "rows": 7,
+  "columns": [
+   {
+    "name": "division_id",
+    "dtype": "str"
+   },
+   {
+    "name": "division_name",
+    "dtype": "str"
+   },
+   {
+    "name": "enterprise_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "division_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "MDG",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 339,
+  "sha256": "70336eff808cad5bc5cc36bdcde66fc55f06e673c30fcb15421dc9eff2e25169"
+ },
+ "business_units": {
+  "name": "business_units",
+  "path": "Enterprise_Master/Business_Units/business_units.csv",
+  "format": "csv",
+  "rows": 21,
+  "columns": [
+   {
+    "name": "business_unit_id",
+    "dtype": "str"
+   },
+   {
+    "name": "division_id",
+    "dtype": "str"
+   },
+   {
+    "name": "business_unit_name",
+    "dtype": "str"
+   },
+   {
+    "name": "region",
+    "dtype": "str"
+   },
+   {
+    "name": "enterprise_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "business_unit_id",
+  "fks": {
+   "division_id": "divisions.division_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "MDG",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 1708,
+  "sha256": "3d6526884076a81956b75e75b0e2d0a068123dd7805c551db51e10cabbb91c6a"
+ },
+ "facilities": {
+  "name": "facilities",
+  "path": "Enterprise_Master/Facilities/facilities.csv",
+  "format": "csv",
+  "rows": 152,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_name",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_type",
+    "dtype": "str"
+   },
+   {
+    "name": "country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "city",
+    "dtype": "str"
+   },
+   {
+    "name": "address",
+    "dtype": "str"
+   },
+   {
+    "name": "latitude",
+    "dtype": "float64"
+   },
+   {
+    "name": "longitude",
+    "dtype": "float64"
+   },
+   {
+    "name": "division_id",
+    "dtype": "str"
+   },
+   {
+    "name": "business_unit_id",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "time_zone",
+    "dtype": "str"
+   },
+   {
+    "name": "floor_area_m2",
+    "dtype": "int64"
+   },
+   {
+    "name": "tenure",
+    "dtype": "str"
+   },
+   {
+    "name": "leased_out_portion_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "commissioning_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "temporary_shutdown_start",
+    "dtype": "datetime64[s]"
+   },
+   {
+    "name": "temporary_shutdown_end",
+    "dtype": "datetime64[s]"
+   },
+   {
+    "name": "divestment_date",
+    "dtype": "datetime64[s]"
+   },
+   {
+    "name": "energy_intensity_index",
+    "dtype": "float64"
+   },
+   {
+    "name": "climate_zone",
+    "dtype": "str"
+   },
+   {
+    "name": "grid_region",
+    "dtype": "str"
+   },
+   {
+    "name": "operational_control",
+    "dtype": "bool"
+   },
+   {
+    "name": "enterprise_id",
+    "dtype": "str"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "facility_id",
+  "fks": {
+   "country_id": "countries.country_id",
+   "legal_entity_id": "legal_entities.legal_entity_id",
+   "business_unit_id": "business_units.business_unit_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "MDG",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 36986,
+  "sha256": "c9455d2af9e2de8f0b51eac90f11fa876517a4b1b7bc0d754f0ef9198c670d7c"
+ },
+ "plants": {
+  "name": "plants",
+  "path": "Enterprise_Master/Plants/plants.csv",
+  "format": "csv",
+  "rows": 59,
+  "columns": [
+   {
+    "name": "plant_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_plant_code",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "plant_name",
+    "dtype": "str"
+   },
+   {
+    "name": "division_id",
+    "dtype": "str"
+   },
+   {
+    "name": "capacity_index",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "plant_id",
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 3349,
+  "sha256": "3b9ecde0f056348f9acea21424615d9338a3acf35d1f6d7b8eca0e31bd2f6a50"
+ },
+ "production_lines": {
+  "name": "production_lines",
+  "path": "Enterprise_Master/Plants/production_lines.csv",
+  "format": "csv",
+  "rows": 293,
+  "columns": [
+   {
+    "name": "production_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "plant_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "division_id",
+    "dtype": "str"
+   },
+   {
+    "name": "line_name",
+    "dtype": "str"
+   },
+   {
+    "name": "line_type",
+    "dtype": "str"
+   },
+   {
+    "name": "rated_capacity_units_per_hr",
+    "dtype": "float64"
+   },
+   {
+    "name": "commissioning_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "oee_baseline",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "production_line_id",
+  "fks": {
+   "plant_id": "plants.plant_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "MES",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 20029,
+  "sha256": "6d5530e49d16b107adeaf78c863ae3ea965677c367b1d747071e89ed8fad755a"
+ },
+ "departments": {
+  "name": "departments",
+  "path": "Enterprise_Master/Departments/departments.csv",
+  "format": "csv",
+  "rows": 312,
+  "columns": [
+   {
+    "name": "department_id",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "department_name",
+    "dtype": "str"
+   },
+   {
+    "name": "enterprise_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "department_id",
+  "fks": {
+   "legal_entity_id": "legal_entities.legal_entity_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "HRMS",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 12696,
+  "sha256": "4f429333f8b83f92cd99f64bb413eaad9c03c2f00e87de27dd267c6a966896d4"
+ },
+ "cost_centres": {
+  "name": "cost_centres",
+  "path": "Enterprise_Master/Cost_Centres/cost_centres.csv",
+  "format": "csv",
+  "rows": 886,
+  "columns": [
+   {
+    "name": "cost_centre_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_kostl",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "department_name",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "profit_centre_id",
+    "dtype": "str"
+   },
+   {
+    "name": "business_unit_id",
+    "dtype": "str"
+   },
+   {
+    "name": "team_name",
+    "dtype": "str"
+   }
+  ],
+  "pk": "cost_centre_id",
+  "fks": {
+   "facility_id": "facilities.facility_id",
+   "profit_centre_id": "profit_centres.profit_centre_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 91783,
+  "sha256": "9e721650435cb2430dcdee6d122ca8a740ec881d4f091869de6a94edf729544f"
+ },
+ "profit_centres": {
+  "name": "profit_centres",
+  "path": "Enterprise_Master/Cost_Centres/profit_centres.csv",
+  "format": "csv",
+  "rows": 91,
+  "columns": [
+   {
+    "name": "profit_centre_id",
+    "dtype": "str"
+   },
+   {
+    "name": "business_unit_id",
+    "dtype": "str"
+   },
+   {
+    "name": "profit_centre_name",
+    "dtype": "str"
+   }
+  ],
+  "pk": "profit_centre_id",
+  "fks": {
+   "business_unit_id": "business_units.business_unit_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 4330,
+  "sha256": "3be8215fb04693f18324c8b7d1524f1821edaf78e1cf39bbffe31d3271c34e76"
+ },
+ "fx_rates": {
+  "name": "fx_rates",
+  "path": "Enterprise_Master/Countries/fx_rates_monthly.csv",
+  "format": "csv",
+  "rows": 1080,
+  "columns": [
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "usd_per_unit",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "TREASURY",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 22295,
+  "sha256": "c55f126412246729b44bc4b629974b1274d2796cbdc9346948ccf8f2c2de2a14"
+ },
+ "reporting_calendar": {
+  "name": "reporting_calendar",
+  "path": "Enterprise_Master/Enterprise/reporting_calendar.csv",
+  "format": "csv",
+  "rows": 60,
+  "columns": [
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "period_start",
+    "dtype": "object"
+   },
+   {
+    "name": "period_end",
+    "dtype": "object"
+   },
+   {
+    "name": "calendar_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "quarter",
+    "dtype": "str"
+   }
+  ],
+  "pk": "period",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B01",
+  "source_system": "MDG",
+  "description": "",
+  "domain": "Enterprise_Master",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 2633,
+  "sha256": "2edc178978c6d452bfee595a8281642506b9d18f924983379b8444d52b869f5b"
+ },
+ "suppliers": {
+  "name": "suppliers",
+  "path": "Procurement/Suppliers/supplier_master.parquet",
+  "format": "parquet",
+  "rows": 10000,
+  "columns": [
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "erp_vendor_no",
+    "dtype": "str"
+   },
+   {
+    "name": "srm_supplier_ref",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_name",
+    "dtype": "str"
+   },
+   {
+    "name": "country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_category",
+    "dtype": "str"
+   },
+   {
+    "name": "tier",
+    "dtype": "int64"
+   },
+   {
+    "name": "onboarding_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "termination_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "payment_terms",
+    "dtype": "str"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "risk_rating",
+    "dtype": "str"
+   },
+   {
+    "name": "data_maturity",
+    "dtype": "str"
+   },
+   {
+    "name": "synthetic_id_tax",
+    "dtype": "str"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   },
+   {
+    "name": "status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "supplier_id",
+  "fks": {
+   "country_id": "countries.country_id"
+  },
+  "target": 10000,
+  "scaled_target": 1000,
+  "batch_id": "B02",
+  "source_system": "SAP_Ariba",
+  "description": "",
+  "domain": "Procurement",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 588977,
+  "sha256": "071ab1175c4c053a2cf5dcba829af9424ef9798e02f956472a280c315b373df1"
+ },
+ "supplier_locations": {
+  "name": "supplier_locations",
+  "path": "Procurement/Suppliers/supplier_locations.parquet",
+  "format": "parquet",
+  "rows": 17478,
+  "columns": [
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_location_id",
+    "dtype": "str"
+   },
+   {
+    "name": "city",
+    "dtype": "str"
+   },
+   {
+    "name": "latitude",
+    "dtype": "float64"
+   },
+   {
+    "name": "longitude",
+    "dtype": "float64"
+   },
+   {
+    "name": "location_type",
+    "dtype": "str"
+   },
+   {
+    "name": "grid_region",
+    "dtype": "str"
+   }
+  ],
+  "pk": "supplier_location_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B02",
+  "source_system": "SAP_Ariba",
+  "description": "",
+  "domain": "Procurement",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 510513,
+  "sha256": "291b4fb2e2ddedf30c54b88db02d521c62a8a1c165ede07bbc88c1f8acf873c5"
+ },
+ "materials": {
+  "name": "materials",
+  "path": "ERP/Materials/material_master.parquet",
+  "format": "parquet",
+  "rows": 5000,
+  "columns": [
+   {
+    "name": "material_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_matnr",
+    "dtype": "str"
+   },
+   {
+    "name": "material_family",
+    "dtype": "str"
+   },
+   {
+    "name": "material_group",
+    "dtype": "str"
+   },
+   {
+    "name": "base_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "description",
+    "dtype": "str"
+   },
+   {
+    "name": "standard_price_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "recycled_content_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "hazardous_flag",
+    "dtype": "bool"
+   },
+   {
+    "name": "weight_kg_per_unit",
+    "dtype": "float64"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   },
+   {
+    "name": "primary_supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "secondary_supplier_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "material_id",
+  "fks": {
+   "primary_supplier_id": "suppliers.supplier_id",
+   "secondary_supplier_id": "suppliers.supplier_id"
+  },
+  "target": 5000,
+  "scaled_target": 500,
+  "batch_id": "B02",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:53+00:00",
+  "size_bytes": 224595,
+  "sha256": "a40e7aae4456fb89dd5b941e8c0a0f2294a1badc72e88347ea5c9e3e0da70873"
+ },
+ "products": {
+  "name": "products",
+  "path": "ERP/Products/product_master.parquet",
+  "format": "parquet",
+  "rows": 2000,
+  "columns": [
+   {
+    "name": "product_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sku",
+    "dtype": "str"
+   },
+   {
+    "name": "division_id",
+    "dtype": "str"
+   },
+   {
+    "name": "product_family",
+    "dtype": "str"
+   },
+   {
+    "name": "product_name",
+    "dtype": "str"
+   },
+   {
+    "name": "sales_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "unit_weight_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "list_price_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "lifetime_years",
+    "dtype": "int64"
+   },
+   {
+    "name": "use_phase_kwh_per_year",
+    "dtype": "float64"
+   },
+   {
+    "name": "intermediate_product",
+    "dtype": "bool"
+   },
+   {
+    "name": "launch_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "discontinuation_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "recyclable_share_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "product_id",
+  "fks": {
+   "division_id": "divisions.division_id"
+  },
+  "target": 2000,
+  "scaled_target": 200,
+  "batch_id": "B02",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:54+00:00",
+  "size_bytes": 86907,
+  "sha256": "b4621ff5fbfd5ab259f27bf35ea869e356069f31e502a6010ca0b9841115eea5"
+ },
+ "bom": {
+  "name": "bom",
+  "path": "ERP/Products/bill_of_materials.parquet",
+  "format": "parquet",
+  "rows": 13126,
+  "columns": [
+   {
+    "name": "bom_id",
+    "dtype": "str"
+   },
+   {
+    "name": "bom_item_id",
+    "dtype": "str"
+   },
+   {
+    "name": "product_id",
+    "dtype": "str"
+   },
+   {
+    "name": "material_id",
+    "dtype": "str"
+   },
+   {
+    "name": "component_qty_per_unit",
+    "dtype": "float64"
+   },
+   {
+    "name": "component_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "scrap_allowance_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "valid_from",
+    "dtype": "object"
+   }
+  ],
+  "pk": "bom_item_id",
+  "fks": {
+   "product_id": "products.product_id",
+   "material_id": "materials.material_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B02",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:54+00:00",
+  "size_bytes": 311817,
+  "sha256": "a89701f73feeed00173a4bc699bc1ed68b996c9d6734033e317daedbe2ea96e2"
+ },
+ "routings": {
+  "name": "routings",
+  "path": "ERP/Products/routings.parquet",
+  "format": "parquet",
+  "rows": 4000,
+  "columns": [
+   {
+    "name": "routing_id",
+    "dtype": "str"
+   },
+   {
+    "name": "product_id",
+    "dtype": "str"
+   },
+   {
+    "name": "production_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "plant_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "cycle_time_min",
+    "dtype": "float64"
+   },
+   {
+    "name": "energy_kwh_per_unit",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "routing_id",
+  "fks": {
+   "product_id": "products.product_id",
+   "production_line_id": "production_lines.production_line_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B02",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:54+00:00",
+  "size_bytes": 83261,
+  "sha256": "86ed7fb0fe98351fa0296cffddcfd3928ee7a39dbed1835024f7c89c60700f4d"
+ },
+ "assets": {
+  "name": "assets",
+  "path": "ERP/Assets/fixed_asset_register.parquet",
+  "format": "parquet",
+  "rows": 20000,
+  "columns": [
+   {
+    "name": "asset_id",
+    "dtype": "str"
+   },
+   {
+    "name": "machine_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_anln1",
+    "dtype": "str"
+   },
+   {
+    "name": "asset_type",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "production_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "acquisition_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "acquisition_cost_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "useful_life_years",
+    "dtype": "int64"
+   },
+   {
+    "name": "rated_power_kw",
+    "dtype": "float64"
+   },
+   {
+    "name": "fuel_type",
+    "dtype": "str"
+   },
+   {
+    "name": "refrigerant_type",
+    "dtype": "str"
+   },
+   {
+    "name": "refrigerant_charge_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "manufacturer",
+    "dtype": "str"
+   },
+   {
+    "name": "status",
+    "dtype": "str"
+   },
+   {
+    "name": "retirement_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "asset_id",
+  "fks": {
+   "facility_id": "facilities.facility_id",
+   "production_line_id": "production_lines.production_line_id"
+  },
+  "target": 20000,
+  "scaled_target": 2000,
+  "batch_id": "B02",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:54+00:00",
+  "size_bytes": 815268,
+  "sha256": "29491e2c93944fc0b54bde1e532a6288238ac7b264218b7f57f22de23b2f7ebf"
+ },
+ "meters": {
+  "name": "meters",
+  "path": "Energy/energy_meters.csv",
+  "format": "csv",
+  "rows": 5000,
+  "columns": [
+   {
+    "name": "meter_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "utility_type",
+    "dtype": "str"
+   },
+   {
+    "name": "meter_level",
+    "dtype": "str"
+   },
+   {
+    "name": "linked_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "serial_no",
+    "dtype": "str"
+   },
+   {
+    "name": "utility_account_no",
+    "dtype": "str"
+   },
+   {
+    "name": "protocol",
+    "dtype": "str"
+   },
+   {
+    "name": "install_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "last_calibration_date",
+    "dtype": "datetime64[us]"
+   }
+  ],
+  "pk": "meter_id",
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": 5000,
+  "scaled_target": 500,
+  "batch_id": "B02",
+  "source_system": "EMS",
+  "description": "",
+  "domain": "Energy",
+  "created": "2026-10-30T14:49:54+00:00",
+  "size_bytes": 482753,
+  "sha256": "82f64d92c5f22f868f7c554425c358e2207c144534a2a96de66e60b8420d8453"
+ },
+ "vehicles": {
+  "name": "vehicles",
+  "path": "Logistics/fleet_master.csv",
+  "format": "csv",
+  "rows": 3000,
+  "columns": [
+   {
+    "name": "vehicle_id",
+    "dtype": "str"
+   },
+   {
+    "name": "fleet_system_ref",
+    "dtype": "str"
+   },
+   {
+    "name": "registration_synthetic",
+    "dtype": "str"
+   },
+   {
+    "name": "vehicle_type",
+    "dtype": "str"
+   },
+   {
+    "name": "fuel_type",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "model_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "rated_consumption_per_100km",
+    "dtype": "float64"
+   },
+   {
+    "name": "rated_kwh_per_100km",
+    "dtype": "float64"
+   },
+   {
+    "name": "payload_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "in_service_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   },
+   {
+    "name": "disposal_date",
+    "dtype": "datetime64[ns]"
+   }
+  ],
+  "pk": "vehicle_id",
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": 3000,
+  "scaled_target": 300,
+  "batch_id": "B02",
+  "source_system": "FLEET_MGMT",
+  "description": "",
+  "domain": "Logistics",
+  "created": "2026-10-30T14:49:54+00:00",
+  "size_bytes": 286769,
+  "sha256": "18377ccac20aced24cd0d5c54a311543a8b7be02a5f9ea35b8f99e44bbbdd46b"
+ },
+ "customers": {
+  "name": "customers",
+  "path": "CRM/Customers/customer_master.parquet",
+  "format": "parquet",
+  "rows": 20000,
+  "columns": [
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "crm_account_id",
+    "dtype": "str"
+   },
+   {
+    "name": "erp_sold_to",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_name",
+    "dtype": "str"
+   },
+   {
+    "name": "country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "segment",
+    "dtype": "str"
+   },
+   {
+    "name": "sales_territory",
+    "dtype": "str"
+   },
+   {
+    "name": "credit_limit_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "acquisition_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "churn_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "incoterm",
+    "dtype": "str"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   },
+   {
+    "name": "latitude",
+    "dtype": "float64"
+   },
+   {
+    "name": "longitude",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "customer_id",
+  "fks": {
+   "country_id": "countries.country_id"
+  },
+  "target": 20000,
+  "scaled_target": 2000,
+  "batch_id": "B02",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:54+00:00",
+  "size_bytes": 1449684,
+  "sha256": "1c767f67d821b0095e2175a6268c8d632fd6805eb7f96e0c0b1bf6fea755daca"
+ },
+ "erp_customers": {
+  "name": "erp_customers",
+  "path": "ERP/Finance/AR/erp_customer_master.parquet",
+  "format": "parquet",
+  "rows": 20000,
+  "columns": [
+   {
+    "name": "customer_ref",
+    "dtype": "str"
+   },
+   {
+    "name": "erp_sold_to",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_name",
+    "dtype": "str"
+   },
+   {
+    "name": "country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "credit_limit_usd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "erp_sold_to",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B02",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:54+00:00",
+  "size_bytes": 651782,
+  "sha256": "f5ab0d4019cb553bc787df790ad5db3aea4ffe08fd0ff5e9d12ba466c44c2289"
+ },
+ "employees": {
+  "name": "employees",
+  "path": "HRMS/employee_master.parquet",
+  "format": "parquet",
+  "rows": 75000,
+  "columns": [
+   {
+    "name": "employee_synthetic_id",
+    "dtype": "str"
+   },
+   {
+    "name": "hr_system_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "department_id",
+    "dtype": "str"
+   },
+   {
+    "name": "job_category",
+    "dtype": "str"
+   },
+   {
+    "name": "employment_type",
+    "dtype": "str"
+   },
+   {
+    "name": "hire_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "termination_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "remote_eligible",
+    "dtype": "bool"
+   },
+   {
+    "name": "fte",
+    "dtype": "float64"
+   },
+   {
+    "name": "grade_band",
+    "dtype": "str"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   },
+   {
+    "name": "employment_status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "employee_synthetic_id",
+  "fks": {
+   "facility_id": "facilities.facility_id",
+   "department_id": "departments.department_id"
+  },
+  "target": 75000,
+  "scaled_target": 7500,
+  "batch_id": "B02",
+  "source_system": "WORKDAY_LIKE",
+  "description": "",
+  "domain": "HRMS",
+  "created": "2026-10-30T14:49:55+00:00",
+  "size_bytes": 1785214,
+  "sha256": "90d35ead524375630443d1f787d286bebddee6ded7d52723e415449d840248c4"
+ },
+ "chart_of_accounts": {
+  "name": "chart_of_accounts",
+  "path": "ERP/Finance/GL/chart_of_accounts.csv",
+  "format": "csv",
+  "rows": 42,
+  "columns": [
+   {
+    "name": "gl_account",
+    "dtype": "str"
+   },
+   {
+    "name": "gl_account_name",
+    "dtype": "str"
+   },
+   {
+    "name": "account_type",
+    "dtype": "str"
+   },
+   {
+    "name": "chart_of_accounts",
+    "dtype": "str"
+   }
+  ],
+  "pk": "gl_account",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B02",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:55+00:00",
+  "size_bytes": 1902,
+  "sha256": "6c4a62566aca8a4fb130c1d978a73aad5eca3fa86279b2ba5795648ebcbabfcd"
+ },
+ "emission_factors": {
+  "name": "emission_factors",
+  "path": "GHG_Accounting/Emission_Factors/emission_factor_database.parquet",
+  "format": "parquet",
+  "rows": 10000,
+  "columns": [
+   {
+    "name": "emission_factor_id",
+    "dtype": "str"
+   },
+   {
+    "name": "activity_type",
+    "dtype": "str"
+   },
+   {
+    "name": "lookup_key",
+    "dtype": "str"
+   },
+   {
+    "name": "fuel_type",
+    "dtype": "object"
+   },
+   {
+    "name": "material_type",
+    "dtype": "str"
+   },
+   {
+    "name": "product_type",
+    "dtype": "object"
+   },
+   {
+    "name": "geography",
+    "dtype": "str"
+   },
+   {
+    "name": "industry_applicability",
+    "dtype": "str"
+   },
+   {
+    "name": "factor_value",
+    "dtype": "float64"
+   },
+   {
+    "name": "factor_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "activity_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "gas_type",
+    "dtype": "str"
+   },
+   {
+    "name": "co2_factor",
+    "dtype": "float64"
+   },
+   {
+    "name": "ch4_factor",
+    "dtype": "float64"
+   },
+   {
+    "name": "n2o_factor",
+    "dtype": "float64"
+   },
+   {
+    "name": "gwp_basis",
+    "dtype": "str"
+   },
+   {
+    "name": "gwp_time_horizon",
+    "dtype": "str"
+   },
+   {
+    "name": "publication_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "effective_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "expiry_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "version",
+    "dtype": "str"
+   },
+   {
+    "name": "source_organisation",
+    "dtype": "str"
+   },
+   {
+    "name": "source_document",
+    "dtype": "str"
+   },
+   {
+    "name": "methodology",
+    "dtype": "str"
+   },
+   {
+    "name": "uncertainty_low_pct",
+    "dtype": "int64"
+   },
+   {
+    "name": "uncertainty_high_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "data_quality_rating",
+    "dtype": "int64"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "emission_factor_id",
+  "fks": {},
+  "target": 10000,
+  "scaled_target": 1000,
+  "batch_id": "B03",
+  "source_system": "EF_LIBRARY",
+  "description": "All factors are SYNTHETIC",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:49:55+00:00",
+  "size_bytes": 396173,
+  "sha256": "72ff329eabbc3c1280c732909eefb93b876e7b8985901dabd6670a34d27dda99"
+ },
+ "supplier_contracts": {
+  "name": "supplier_contracts",
+  "path": "Procurement/Purchase_Orders/supplier_contracts.parquet",
+  "format": "parquet",
+  "rows": 2484,
+  "columns": [
+   {
+    "name": "contract_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "payment_terms",
+    "dtype": "str"
+   },
+   {
+    "name": "valid_from",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "valid_to",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "contract_type",
+    "dtype": "str"
+   },
+   {
+    "name": "committed_value_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "sustainability_clause",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "contract_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B04",
+  "source_system": "SAP_Ariba",
+  "description": "",
+  "domain": "Procurement",
+  "created": "2026-10-30T14:49:55+00:00",
+  "size_bytes": 81465,
+  "sha256": "99c3a01227ef703a340ce1146b896b81276617326a76aea6c6c903692d2047c2"
+ },
+ "po_lines": {
+  "name": "po_lines",
+  "path": "ERP/Procurement/purchase_order_lines.parquet",
+  "format": "parquet",
+  "rows": 150247,
+  "columns": [
+   {
+    "name": "po_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "po_id",
+    "dtype": "str"
+   },
+   {
+    "name": "line_no",
+    "dtype": "int64"
+   },
+   {
+    "name": "material_id",
+    "dtype": "str"
+   },
+   {
+    "name": "service_category",
+    "dtype": "str"
+   },
+   {
+    "name": "order_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "unit_price",
+    "dtype": "float64"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "discount_pct",
+    "dtype": "int64"
+   },
+   {
+    "name": "net_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "tax_rate_pct",
+    "dtype": "int64"
+   },
+   {
+    "name": "requested_delivery_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "gl_account",
+    "dtype": "str"
+   },
+   {
+    "name": "cost_centre_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "po_line_id",
+  "fks": {
+   "po_id": "purchase_orders.po_id",
+   "material_id": "materials.material_id",
+   "cost_centre_id": "cost_centres.cost_centre_id"
+  },
+  "target": 1500000,
+  "scaled_target": 150000,
+  "batch_id": "B04",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:56+00:00",
+  "size_bytes": 5434745,
+  "sha256": "1b9ce5f66f8a9957b82dd7cf9fc4d880ffacdad34d385dcb1b17ab6e177e4add"
+ },
+ "purchase_orders": {
+  "name": "purchase_orders",
+  "path": "ERP/Procurement/purchase_orders.parquet",
+  "format": "parquet",
+  "rows": 50200,
+  "columns": [
+   {
+    "name": "po_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_ebeln",
+    "dtype": "str"
+   },
+   {
+    "name": "po_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "po_type",
+    "dtype": "str"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "payment_terms",
+    "dtype": "str"
+   },
+   {
+    "name": "incoterm",
+    "dtype": "str"
+   },
+   {
+    "name": "plant_id",
+    "dtype": "str"
+   },
+   {
+    "name": "contract_id",
+    "dtype": "str"
+   },
+   {
+    "name": "pr_id",
+    "dtype": "str"
+   },
+   {
+    "name": "approval_status",
+    "dtype": "str"
+   },
+   {
+    "name": "approval_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "approved_by_role",
+    "dtype": "str"
+   },
+   {
+    "name": "delivery_terms_days",
+    "dtype": "int64"
+   },
+   {
+    "name": "total_net_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "po_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id",
+   "facility_id": "facilities.facility_id",
+   "contract_id": "supplier_contracts.contract_id"
+  },
+  "target": 500000,
+  "scaled_target": 50000,
+  "batch_id": "B04",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:56+00:00",
+  "size_bytes": 3562151,
+  "sha256": "b3e93721066c05f4a8e677354c0dbfb61da6a01c5c0df1e747cd2096dca78120"
+ },
+ "goods_receipts": {
+  "name": "goods_receipts",
+  "path": "ERP/Procurement/goods_receipts.parquet",
+  "format": "parquet",
+  "rows": 160158,
+  "columns": [
+   {
+    "name": "grn_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_mblnr",
+    "dtype": "str"
+   },
+   {
+    "name": "po_id",
+    "dtype": "str"
+   },
+   {
+    "name": "po_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "receipt_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "posting_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "material_id",
+    "dtype": "str"
+   },
+   {
+    "name": "received_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "rejected_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "movement_type",
+    "dtype": "str"
+   },
+   {
+    "name": "storage_location",
+    "dtype": "str"
+   },
+   {
+    "name": "batch_no",
+    "dtype": "str"
+   },
+   {
+    "name": "accepted_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "grn_id",
+  "fks": {
+   "po_line_id": "po_lines.po_line_id",
+   "facility_id": "facilities.facility_id",
+   "material_id": "materials.material_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B04",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:56+00:00",
+  "size_bytes": 12115101,
+  "sha256": "58370081472f8ad163843e342043b5cdcb5092ec4e0664186f2b372a4564d62c"
+ },
+ "ap_invoices": {
+  "name": "ap_invoices",
+  "path": "ERP/Finance/AP/supplier_invoices.parquet",
+  "format": "parquet",
+  "rows": 55150,
+  "columns": [
+   {
+    "name": "invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_belnr",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_invoice_no",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "po_id",
+    "dtype": "object"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "payment_terms",
+    "dtype": "str"
+   },
+   {
+    "name": "invoice_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "posting_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "net_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "tax_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "document_type",
+    "dtype": "str"
+   },
+   {
+    "name": "gross_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "invoice_status",
+    "dtype": "str"
+   },
+   {
+    "name": "approval_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "service_category",
+    "dtype": "str"
+   },
+   {
+    "name": "fiscal_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "fiscal_period",
+    "dtype": "int64"
+   },
+   {
+    "name": "company_code",
+    "dtype": "str"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "invoice_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id",
+   "po_id": "purchase_orders.po_id",
+   "facility_id": "facilities.facility_id"
+  },
+  "target": 500000,
+  "scaled_target": 50000,
+  "batch_id": "B04",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:57+00:00",
+  "size_bytes": 5352824,
+  "sha256": "78ab1ad6cb24ccb5c4404f3cc6aa9bb5f6ecfada5653846580aef9f43f9408f5"
+ },
+ "ap_payments": {
+  "name": "ap_payments",
+  "path": "ERP/Finance/AP/ap_payments.parquet",
+  "format": "parquet",
+  "rows": 50593,
+  "columns": [
+   {
+    "name": "payment_id",
+    "dtype": "str"
+   },
+   {
+    "name": "invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "payment_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "payment_method",
+    "dtype": "str"
+   },
+   {
+    "name": "payment_voucher",
+    "dtype": "str"
+   }
+  ],
+  "pk": "payment_id",
+  "fks": {
+   "invoice_id": "ap_invoices.invoice_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B04",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:57+00:00",
+  "size_bytes": 1709180,
+  "sha256": "7e598a44b7afaf02a686aa8f05a99f45ca0e8c4df4ff3f3fa1913cf30bd57454"
+ },
+ "supplier_performance": {
+  "name": "supplier_performance",
+  "path": "Procurement/Supplier_Assessments/supplier_performance_quarterly.parquet",
+  "format": "parquet",
+  "rows": 33167,
+  "columns": [
+   {
+    "name": "performance_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "quarter",
+    "dtype": "str"
+   },
+   {
+    "name": "receipts",
+    "dtype": "int64"
+   },
+   {
+    "name": "late_receipts",
+    "dtype": "int64"
+   },
+   {
+    "name": "rejected_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "received_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "on_time_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "rejection_pct",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "performance_record_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B04",
+  "source_system": "SAP_Ariba",
+  "description": "",
+  "domain": "Procurement",
+  "created": "2026-10-30T14:49:57+00:00",
+  "size_bytes": 677851,
+  "sha256": "427762eb7e0ca1d82bba446928b333a138a9ecbff03601e137ad288fd109f9a4"
+ },
+ "sales_orders": {
+  "name": "sales_orders",
+  "path": "CRM/Orders/sales_orders.parquet",
+  "format": "parquet",
+  "rows": 40000,
+  "columns": [
+   {
+    "name": "sales_order_id",
+    "dtype": "str"
+   },
+   {
+    "name": "crm_order_ref",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_vbeln",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "order_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "sales_territory",
+    "dtype": "str"
+   },
+   {
+    "name": "incoterm",
+    "dtype": "str"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "channel",
+    "dtype": "str"
+   },
+   {
+    "name": "net_value",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "sales_order_id",
+  "fks": {
+   "customer_id": "customers.customer_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 3081173,
+  "sha256": "4baaf111434f97f63059081cfd4e33e9893d6de3b0204bc76054f0d6d6a5ff1d"
+ },
+ "so_lines": {
+  "name": "so_lines",
+  "path": "CRM/Orders/sales_order_lines.parquet",
+  "format": "parquet",
+  "rows": 99718,
+  "columns": [
+   {
+    "name": "so_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sales_order_id",
+    "dtype": "str"
+   },
+   {
+    "name": "line_no",
+    "dtype": "int64"
+   },
+   {
+    "name": "product_id",
+    "dtype": "str"
+   },
+   {
+    "name": "order_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "sales_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "unit_price",
+    "dtype": "float64"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "net_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "ship_from_facility_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "so_line_id",
+  "fks": {
+   "sales_order_id": "sales_orders.sales_order_id",
+   "product_id": "products.product_id",
+   "ship_from_facility_id": "facilities.facility_id"
+  },
+  "target": 1000000,
+  "scaled_target": 100000,
+  "batch_id": "B05",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 3351182,
+  "sha256": "fe0e957f6eda4e2a6ae123e0717e4328ca05983e183d835a11c65ee4230ba861"
+ },
+ "deliveries": {
+  "name": "deliveries",
+  "path": "CRM/Deliveries/deliveries.parquet",
+  "format": "parquet",
+  "rows": 105573,
+  "columns": [
+   {
+    "name": "delivery_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_likp",
+    "dtype": "str"
+   },
+   {
+    "name": "so_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sales_order_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "product_id",
+    "dtype": "str"
+   },
+   {
+    "name": "ship_from_facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "delivery_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "delivered_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "sales_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "gross_weight_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "on_time",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "delivery_id",
+  "fks": {
+   "so_line_id": "so_lines.so_line_id",
+   "customer_id": "customers.customer_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 3845030,
+  "sha256": "fd622539355102bc03950c72d866d6a510d543bae26ee81b72db87a15a9ec88b"
+ },
+ "ar_invoices": {
+  "name": "ar_invoices",
+  "path": "CRM/Invoices/sales_invoices.parquet",
+  "format": "parquet",
+  "rows": 105573,
+  "columns": [
+   {
+    "name": "ar_invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_vbrk",
+    "dtype": "str"
+   },
+   {
+    "name": "delivery_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sales_order_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "invoice_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "net_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "tax_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "gross_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "due_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "ar_invoice_id",
+  "fks": {
+   "delivery_id": "deliveries.delivery_id",
+   "customer_id": "customers.customer_id"
+  },
+  "target": 500000,
+  "scaled_target": 50000,
+  "batch_id": "B05",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 8690155,
+  "sha256": "c159a69095c10e1577f14ee5f9170c53c0cc7a9d5946358d14b7302471c4e9b9"
+ },
+ "ar_receipts": {
+  "name": "ar_receipts",
+  "path": "ERP/Finance/AR/customer_payments.parquet",
+  "format": "parquet",
+  "rows": 99878,
+  "columns": [
+   {
+    "name": "receipt_id",
+    "dtype": "str"
+   },
+   {
+    "name": "ar_invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "receipt_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "allocation_status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "receipt_id",
+  "fks": {
+   "ar_invoice_id": "ar_invoices.ar_invoice_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 2530095,
+  "sha256": "043d39f59e8a07629cdd700568b6f3999bf87be25829ec8b40b9b7373eecc11b"
+ },
+ "open_receivables": {
+  "name": "open_receivables",
+  "path": "ERP/Finance/AR/open_receivables_2026-12-31.csv",
+  "format": "csv",
+  "rows": 5695,
+  "columns": [
+   {
+    "name": "ar_invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "gross_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "due_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "days_overdue",
+    "dtype": "int64"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 313457,
+  "sha256": "3c9aeda21bb6241581892474daec6023187dcdd6707ef086ed89ccacb3859ee7"
+ },
+ "customer_returns": {
+  "name": "customer_returns",
+  "path": "CRM/Sales/customer_returns.parquet",
+  "format": "parquet",
+  "rows": 1900,
+  "columns": [
+   {
+    "name": "return_id",
+    "dtype": "str"
+   },
+   {
+    "name": "delivery_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "product_id",
+    "dtype": "str"
+   },
+   {
+    "name": "return_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "returned_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "reason",
+    "dtype": "str"
+   },
+   {
+    "name": "credit_note_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "return_id",
+  "fks": {
+   "delivery_id": "deliveries.delivery_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 82328,
+  "sha256": "82e0437bd885668668a528de7f21f782bad6357fb9068272fb8c0332bb808923"
+ },
+ "customer_complaints": {
+  "name": "customer_complaints",
+  "path": "CRM/Sales/customer_complaints.csv",
+  "format": "csv",
+  "rows": 1055,
+  "columns": [
+   {
+    "name": "complaint_id",
+    "dtype": "str"
+   },
+   {
+    "name": "delivery_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "opened_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "category",
+    "dtype": "str"
+   },
+   {
+    "name": "status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "complaint_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 69565,
+  "sha256": "de3fe2f232bea4b0225fc4681c944099a121868c22bc6e371791072801b12e61"
+ },
+ "opportunities": {
+  "name": "opportunities",
+  "path": "CRM/Sales/opportunities.parquet",
+  "format": "parquet",
+  "rows": 15000,
+  "columns": [
+   {
+    "name": "opportunity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "created_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "stage",
+    "dtype": "str"
+   },
+   {
+    "name": "amount_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "division_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sustainability_requirement_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "opportunity_id",
+  "fks": {
+   "customer_id": "customers.customer_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 265918,
+  "sha256": "6bd967a0c0188a7671c6f244bf4cb50a987a5969363831521b7abb77bec4d04f"
+ },
+ "sales_forecasts": {
+  "name": "sales_forecasts",
+  "path": "CRM/Sales/sales_forecasts.csv",
+  "format": "csv",
+  "rows": 420,
+  "columns": [
+   {
+    "name": "division_id",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "actual_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "forecast_usd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 18662,
+  "sha256": "4ed8b58a41dc17228db41da08061e1684dac831664339ebe97933d873e880149"
+ },
+ "customer_contracts": {
+  "name": "customer_contracts",
+  "path": "CRM/Sales/customer_contracts.csv",
+  "format": "csv",
+  "rows": 3000,
+  "columns": [
+   {
+    "name": "customer_contract_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "start_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "term_months",
+    "dtype": "int64"
+   },
+   {
+    "name": "pcf_disclosure_required",
+    "dtype": "bool"
+   },
+   {
+    "name": "recycled_content_min_pct",
+    "dtype": "object"
+   }
+  ],
+  "pk": "customer_contract_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B05",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 132442,
+  "sha256": "c804f5b1cc445bf36edb56887e7b71c9add8c856a61764a9e56486f1010f4347"
+ },
+ "production_orders": {
+  "name": "production_orders",
+  "path": "ERP/Inventory/production_orders.parquet",
+  "format": "parquet",
+  "rows": 15000,
+  "columns": [
+   {
+    "name": "production_order_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sap_aufnr",
+    "dtype": "str"
+   },
+   {
+    "name": "mes_order_ref",
+    "dtype": "str"
+   },
+   {
+    "name": "product_id",
+    "dtype": "str"
+   },
+   {
+    "name": "routing_id",
+    "dtype": "str"
+   },
+   {
+    "name": "production_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "plant_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "planned_start",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "planned_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "actual_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "scrap_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "yield_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "run_hours",
+    "dtype": "float64"
+   },
+   {
+    "name": "energy_kwh_standard",
+    "dtype": "float64"
+   },
+   {
+    "name": "actual_finish",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "order_status",
+    "dtype": "str"
+   },
+   {
+    "name": "standard_cost_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "actual_cost_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "cost_variance_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "production_order_id",
+  "fks": {
+   "product_id": "products.product_id",
+   "production_line_id": "production_lines.production_line_id",
+   "facility_id": "facilities.facility_id"
+  },
+  "target": 1000000,
+  "scaled_target": 100000,
+  "batch_id": "B06",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 1622557,
+  "sha256": "16eb17665f268c8fdd1339012623a573f342caf85ccd005aafcd3231dc473ad3"
+ },
+ "production_confirmations": {
+  "name": "production_confirmations",
+  "path": "Manufacturing/Production/production_confirmations.parquet",
+  "format": "parquet",
+  "rows": 15000,
+  "columns": [
+   {
+    "name": "confirmation_id",
+    "dtype": "str"
+   },
+   {
+    "name": "production_order_id",
+    "dtype": "str"
+   },
+   {
+    "name": "actual_finish",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "actual_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "scrap_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "run_hours",
+    "dtype": "float64"
+   },
+   {
+    "name": "confirmed_by_shift",
+    "dtype": "str"
+   }
+  ],
+  "pk": "confirmation_id",
+  "fks": {
+   "production_order_id": "production_orders.production_order_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B06",
+  "source_system": "MES",
+  "description": "",
+  "domain": "Manufacturing",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 376788,
+  "sha256": "2d250a28bf83510c54d796e5ee62f2becd75fb7af238634b4b6e56c4c8d98a3b"
+ },
+ "material_consumption": {
+  "name": "material_consumption",
+  "path": "ERP/Inventory/material_consumption.parquet",
+  "format": "parquet",
+  "rows": 98993,
+  "columns": [
+   {
+    "name": "consumption_id",
+    "dtype": "str"
+   },
+   {
+    "name": "production_order_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "posting_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "material_id",
+    "dtype": "str"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "standard_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "consumed_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "movement_type",
+    "dtype": "str"
+   }
+  ],
+  "pk": "consumption_id",
+  "fks": {
+   "production_order_id": "production_orders.production_order_id",
+   "material_id": "materials.material_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B06",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:49:58+00:00",
+  "size_bytes": 2737082,
+  "sha256": "ea8069eddcc115faee83db0595f8806eae94a97582f8f5b4850025f78fbbe91f"
+ },
+ "mes_line_daily": {
+  "name": "mes_line_daily",
+  "path": "Manufacturing/MES/line_daily_performance.parquet",
+  "format": "parquet",
+  "rows": 502447,
+  "columns": [
+   {
+    "name": "mes_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "production_line_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "production_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "run_hours",
+    "dtype": "float64"
+   },
+   {
+    "name": "downtime_hours",
+    "dtype": "float64"
+   },
+   {
+    "name": "idle_hours",
+    "dtype": "float64"
+   },
+   {
+    "name": "output_units",
+    "dtype": "float64"
+   },
+   {
+    "name": "defect_rate_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "rework_units",
+    "dtype": "float64"
+   },
+   {
+    "name": "energy_kwh",
+    "dtype": "float64"
+   },
+   {
+    "name": "scrap_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "process_water_m3",
+    "dtype": "float64"
+   },
+   {
+    "name": "oee_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "mes_record_id",
+  "fks": {
+   "production_line_id": "production_lines.production_line_id",
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B06",
+  "source_system": "MES",
+  "description": "",
+  "domain": "Manufacturing",
+  "created": "2026-10-30T14:49:59+00:00",
+  "size_bytes": 14037561,
+  "sha256": "f3f7a9442add3f89b7d97a7fdcd08eff690edbbd3c3cfb3e4b1630aa71b0a91f"
+ },
+ "machine_hourly": {
+  "name": "machine_hourly",
+  "path": "Manufacturing/Machines/machine_hourly_2025-03.parquet",
+  "format": "parquet",
+  "rows": 74400,
+  "columns": [
+   {
+    "name": "machine_id",
+    "dtype": "str"
+   },
+   {
+    "name": "asset_id",
+    "dtype": "str"
+   },
+   {
+    "name": "timestamp_utc",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "status",
+    "dtype": "str"
+   },
+   {
+    "name": "load_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "power_kw",
+    "dtype": "float64"
+   },
+   {
+    "name": "temperature_c",
+    "dtype": "float64"
+   },
+   {
+    "name": "pressure_bar",
+    "dtype": "float64"
+   },
+   {
+    "name": "operating_hours_counter",
+    "dtype": "int64"
+   }
+  ],
+  "pk": null,
+  "fks": {
+   "asset_id": "assets.asset_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B06",
+  "source_system": "MES",
+  "description": "",
+  "domain": "Manufacturing",
+  "created": "2026-10-30T14:49:59+00:00",
+  "size_bytes": 454006,
+  "sha256": "d700c19b9fd0ec2cea7d6c06182fecc9d83ddb2c2cf1957bf716f11c43bf89ef"
+ },
+ "maintenance": {
+  "name": "maintenance",
+  "path": "Manufacturing/Maintenance/maintenance_records.parquet",
+  "format": "parquet",
+  "rows": 50000,
+  "columns": [
+   {
+    "name": "maintenance_id",
+    "dtype": "str"
+   },
+   {
+    "name": "cmms_wo",
+    "dtype": "str"
+   },
+   {
+    "name": "asset_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "maintenance_type",
+    "dtype": "str"
+   },
+   {
+    "name": "work_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "downtime_hours",
+    "dtype": "float64"
+   },
+   {
+    "name": "labour_hours",
+    "dtype": "float64"
+   },
+   {
+    "name": "parts_cost_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "refrigerant_type",
+    "dtype": "str"
+   },
+   {
+    "name": "refrigerant_added_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "refrigerant_recovered_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "technician_contractor_id",
+    "dtype": "object"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "maintenance_id",
+  "fks": {
+   "asset_id": "assets.asset_id",
+   "facility_id": "facilities.facility_id"
+  },
+  "target": 500000,
+  "scaled_target": 50000,
+  "batch_id": "B06",
+  "source_system": "CMMS",
+  "description": "",
+  "domain": "Manufacturing",
+  "created": "2026-10-30T14:49:59+00:00",
+  "size_bytes": 3351500,
+  "sha256": "0f863b5133c217de3b0de2df28d2f8b639da34feec5e7292c878cce56b68b3e5"
+ },
+ "quality_inspections": {
+  "name": "quality_inspections",
+  "path": "Manufacturing/Quality/quality_inspections.parquet",
+  "format": "parquet",
+  "rows": 12000,
+  "columns": [
+   {
+    "name": "inspection_id",
+    "dtype": "str"
+   },
+   {
+    "name": "production_order_id",
+    "dtype": "str"
+   },
+   {
+    "name": "inspection_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "sample_size",
+    "dtype": "int64"
+   },
+   {
+    "name": "defects_found",
+    "dtype": "int64"
+   },
+   {
+    "name": "result",
+    "dtype": "str"
+   },
+   {
+    "name": "qms_ref",
+    "dtype": "str"
+   }
+  ],
+  "pk": "inspection_id",
+  "fks": {
+   "production_order_id": "production_orders.production_order_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B06",
+  "source_system": "QMS",
+  "description": "",
+  "domain": "Manufacturing",
+  "created": "2026-10-30T14:49:59+00:00",
+  "size_bytes": 324052,
+  "sha256": "bd8c2da4d185e9c0ed7230dd73791a3c66dc3f0247adb8da373ca2272d30d7be"
+ },
+ "energy_daily": {
+  "name": "energy_daily",
+  "path": "Energy/meter_daily_consumption.parquet",
+  "format": "parquet",
+  "rows": 467282,
+  "columns": [
+   {
+    "name": "reading_id",
+    "dtype": "str"
+   },
+   {
+    "name": "meter_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "utility_type",
+    "dtype": "str"
+   },
+   {
+    "name": "reading_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "consumption",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "reading_quality",
+    "dtype": "str"
+   },
+   {
+    "name": "cumulative_register",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "reading_id",
+  "fks": {
+   "meter_id": "meters.meter_id",
+   "facility_id": "facilities.facility_id"
+  },
+  "target": 5000000,
+  "scaled_target": 500000,
+  "batch_id": "B07",
+  "source_system": "EMS",
+  "description": "",
+  "domain": "Energy",
+  "created": "2026-10-30T14:50:00+00:00",
+  "size_bytes": 20327056,
+  "sha256": "f25ebe1d4aed1406d13348a59b805e9f89601b50c9d30ff0dc4f6a732bf04f58"
+ },
+ "utility_invoices": {
+  "name": "utility_invoices",
+  "path": "ERP/Utilities/utility_invoices.parquet",
+  "format": "parquet",
+  "rows": 24094,
+  "columns": [
+   {
+    "name": "utility_invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "invoice_number",
+    "dtype": "str"
+   },
+   {
+    "name": "utility_supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_account_no",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "meter_id",
+    "dtype": "str"
+   },
+   {
+    "name": "utility_type",
+    "dtype": "str"
+   },
+   {
+    "name": "billing_period_start",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "billing_period_end",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "invoice_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "consumption",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "tariff_per_unit",
+    "dtype": "float64"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "previous_reading",
+    "dtype": "float64"
+   },
+   {
+    "name": "current_reading",
+    "dtype": "float64"
+   },
+   {
+    "name": "energy_charge",
+    "dtype": "float64"
+   },
+   {
+    "name": "network_charge",
+    "dtype": "float64"
+   },
+   {
+    "name": "taxes",
+    "dtype": "float64"
+   },
+   {
+    "name": "total_payable",
+    "dtype": "float64"
+   },
+   {
+    "name": "green_tariff",
+    "dtype": "bool"
+   },
+   {
+    "name": "supplier_disclosed_ef_kg_per_kwh",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "utility_invoice_id",
+  "fks": {
+   "facility_id": "facilities.facility_id",
+   "meter_id": "meters.meter_id",
+   "utility_supplier_id": "suppliers.supplier_id"
+  },
+  "target": 100000,
+  "scaled_target": 10000,
+  "batch_id": "B07",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 2846867,
+  "sha256": "0d5dd5cf79f74c297ac7e7e5a9a00b0339f2f1eea6a2766a0175d79a1b6e5c0b"
+ },
+ "fuel_purchases": {
+  "name": "fuel_purchases",
+  "path": "Energy/fuel_purchases.csv",
+  "format": "csv",
+  "rows": 13560,
+  "columns": [
+   {
+    "name": "fuel_purchase_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "fuel_type",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "quantity",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "delivery_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "amount_usd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "fuel_purchase_id",
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B07",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Energy",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 1033431,
+  "sha256": "ad59b78366475fab2fc0bf8c5167cee1e511ace702cccc3c4f6678444de91295"
+ },
+ "water_daily": {
+  "name": "water_daily",
+  "path": "Water/water_meter_daily.parquet",
+  "format": "parquet",
+  "rows": 71312,
+  "columns": [
+   {
+    "name": "water_reading_id",
+    "dtype": "str"
+   },
+   {
+    "name": "meter_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "reading_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "consumption",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   }
+  ],
+  "pk": "water_reading_id",
+  "fks": {
+   "meter_id": "meters.meter_id"
+  },
+  "target": 500000,
+  "scaled_target": 50000,
+  "batch_id": "B07",
+  "source_system": "EMS",
+  "description": "",
+  "domain": "Water",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 763933,
+  "sha256": "443ce0ec49f3fbc256210bb3352d72090d670335981d52d1d4672d35b8c1c70f"
+ },
+ "water_monthly": {
+  "name": "water_monthly",
+  "path": "Water/water_withdrawal_discharge_monthly.csv",
+  "format": "csv",
+  "rows": 8735,
+  "columns": [
+   {
+    "name": "water_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "withdrawal_source",
+    "dtype": "str"
+   },
+   {
+    "name": "withdrawal_m3",
+    "dtype": "float64"
+   },
+   {
+    "name": "discharge_m3",
+    "dtype": "float64"
+   },
+   {
+    "name": "consumption_m3",
+    "dtype": "float64"
+   },
+   {
+    "name": "discharge_destination",
+    "dtype": "str"
+   },
+   {
+    "name": "cod_mg_l",
+    "dtype": "float64"
+   },
+   {
+    "name": "bod_mg_l",
+    "dtype": "float64"
+   },
+   {
+    "name": "tss_mg_l",
+    "dtype": "float64"
+   },
+   {
+    "name": "ph",
+    "dtype": "float64"
+   },
+   {
+    "name": "water_stress_area",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "water_record_id",
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B07",
+  "source_system": "EHS",
+  "description": "",
+  "domain": "Water",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 1010452,
+  "sha256": "c2c67ecb53bda42215a58bd4088bdf4adf19f66aec49aa8c9797bab302d83769"
+ },
+ "waste_records": {
+  "name": "waste_records",
+  "path": "Waste/waste_records.parquet",
+  "format": "parquet",
+  "rows": 33955,
+  "columns": [
+   {
+    "name": "waste_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "waste_type",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "quantity",
+    "dtype": "float64"
+   },
+   {
+    "name": "disposal_method",
+    "dtype": "str"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "hazardous",
+    "dtype": "bool"
+   },
+   {
+    "name": "waste_contractor_id",
+    "dtype": "str"
+   },
+   {
+    "name": "manifest_no",
+    "dtype": "str"
+   },
+   {
+    "name": "waste_invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "waste_certificate_id",
+    "dtype": "str"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "waste_record_id",
+  "fks": {
+   "facility_id": "facilities.facility_id",
+   "waste_contractor_id": "suppliers.supplier_id"
+  },
+  "target": 250000,
+  "scaled_target": 25000,
+  "batch_id": "B07",
+  "source_system": "EHS",
+  "description": "",
+  "domain": "Waste",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 1235397,
+  "sha256": "24ff016726aaca756b70a950f8d174cfafc97b382f6a981897f66f5ca483db9e"
+ },
+ "waste_invoices": {
+  "name": "waste_invoices",
+  "path": "Waste/waste_invoices.csv",
+  "format": "csv",
+  "rows": 8777,
+  "columns": [
+   {
+    "name": "waste_invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "waste_contractor_id",
+    "dtype": "str"
+   },
+   {
+    "name": "quantity",
+    "dtype": "float64"
+   },
+   {
+    "name": "amount_usd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "waste_invoice_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B07",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Waste",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 589474,
+  "sha256": "8a181226fac338c5b82b622e40519cba4c2145afd39f75f263ee1f1bee8688d8"
+ },
+ "waste_certificates": {
+  "name": "waste_certificates",
+  "path": "Waste/waste_disposal_certificates.csv",
+  "format": "csv",
+  "rows": 16700,
+  "columns": [
+   {
+    "name": "waste_certificate_id",
+    "dtype": "str"
+   },
+   {
+    "name": "waste_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "waste_type",
+    "dtype": "str"
+   },
+   {
+    "name": "quantity",
+    "dtype": "float64"
+   },
+   {
+    "name": "disposal_method",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   }
+  ],
+  "pk": "waste_certificate_id",
+  "fks": {
+   "waste_record_id": "waste_records.waste_record_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B07",
+  "source_system": "EHS",
+  "description": "",
+  "domain": "Waste",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 1243650,
+  "sha256": "bb19d1bee992a54e0538f96dab3d8449381bc58fff4926914dc30a73f9f2e00b"
+ },
+ "iot_telemetry": {
+  "name": "iot_telemetry",
+  "path": "Manufacturing/SCADA/scada_telemetry_15min_2025-11.parquet",
+  "format": "parquet",
+  "rows": 80940,
+  "columns": [
+   {
+    "name": "telemetry_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sensor_id",
+    "dtype": "str"
+   },
+   {
+    "name": "meter_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "timestamp_utc",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "measurement_type",
+    "dtype": "str"
+   },
+   {
+    "name": "value",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   },
+   {
+    "name": "device_status",
+    "dtype": "str"
+   },
+   {
+    "name": "comm_status",
+    "dtype": "str"
+   },
+   {
+    "name": "calibration_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "ingest_timestamp_utc",
+    "dtype": "datetime64[us]"
+   }
+  ],
+  "pk": "telemetry_id",
+  "fks": {
+   "meter_id": "meters.meter_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B07",
+  "source_system": "SCADA",
+  "description": "",
+  "domain": "Manufacturing",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 1421555,
+  "sha256": "4e73c2d9fb4881d8df2ed640ca52342535cd5891f9be8edd6a0fcb154f06b237"
+ },
+ "iot_5min": {
+  "name": "iot_5min",
+  "path": "Manufacturing/IoT/iot_power_5min_2025-11.csv",
+  "format": "csv",
+  "rows": 8640,
+  "columns": [
+   {
+    "name": "sensor_id",
+    "dtype": "str"
+   },
+   {
+    "name": "timestamp_utc",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "value",
+    "dtype": "float64"
+   },
+   {
+    "name": "unit",
+    "dtype": "str"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B07",
+  "source_system": "IOT_PLATFORM",
+  "description": "",
+  "domain": "Manufacturing",
+  "created": "2026-10-30T14:50:01+00:00",
+  "size_bytes": 340389,
+  "sha256": "abbe9ba8cd41eb8478f7289cce7520faa1833a7f6289637c112beb9469e4b2de"
+ },
+ "shipments": {
+  "name": "shipments",
+  "path": "Logistics/shipments.parquet",
+  "format": "parquet",
+  "rows": 235494,
+  "columns": [
+   {
+    "name": "shipment_id",
+    "dtype": "str"
+   },
+   {
+    "name": "direction",
+    "dtype": "str"
+   },
+   {
+    "name": "ref_doc",
+    "dtype": "str"
+   },
+   {
+    "name": "po_id",
+    "dtype": "object"
+   },
+   {
+    "name": "delivery_id",
+    "dtype": "object"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "object"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "object"
+   },
+   {
+    "name": "origin",
+    "dtype": "str"
+   },
+   {
+    "name": "destination",
+    "dtype": "str"
+   },
+   {
+    "name": "ship_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "weight_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "incoterm",
+    "dtype": "str"
+   },
+   {
+    "name": "tms_ref",
+    "dtype": "str"
+   },
+   {
+    "name": "mode",
+    "dtype": "str"
+   },
+   {
+    "name": "distance_km",
+    "dtype": "float64"
+   },
+   {
+    "name": "distance_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "carrier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "load_factor_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "freight_paid_by",
+    "dtype": "str"
+   },
+   {
+    "name": "empty_return_km",
+    "dtype": "float64"
+   },
+   {
+    "name": "consolidation_id",
+    "dtype": "str"
+   },
+   {
+    "name": "tkm",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "ingestion_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "processing_timestamp",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "shipment_id",
+  "fks": {
+   "carrier_id": "suppliers.supplier_id"
+  },
+  "target": 1000000,
+  "scaled_target": 100000,
+  "batch_id": "B08",
+  "source_system": "TMS",
+  "description": "",
+  "domain": "Logistics",
+  "created": "2026-10-30T14:50:02+00:00",
+  "size_bytes": 19889075,
+  "sha256": "e6f8fa8c1c8d1216143daeae75dedee28433dfa8f5e8b2114fe2930a181c49df"
+ },
+ "freight_invoices": {
+  "name": "freight_invoices",
+  "path": "Logistics/freight_invoices.parquet",
+  "format": "parquet",
+  "rows": 130843,
+  "columns": [
+   {
+    "name": "freight_invoice_id",
+    "dtype": "str"
+   },
+   {
+    "name": "shipment_id",
+    "dtype": "str"
+   },
+   {
+    "name": "carrier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "invoice_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "amount_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "billed_distance_km",
+    "dtype": "float64"
+   },
+   {
+    "name": "billed_weight_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "mode",
+    "dtype": "str"
+   }
+  ],
+  "pk": "freight_invoice_id",
+  "fks": {
+   "shipment_id": "shipments.shipment_id",
+   "carrier_id": "suppliers.supplier_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B08",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Logistics",
+  "created": "2026-10-30T14:50:03+00:00",
+  "size_bytes": 3866974,
+  "sha256": "99608b0e21bc33358a07674c1d98167fa1af813a6a4b7078f9af5773f1a61f50"
+ },
+ "fleet_fuel": {
+  "name": "fleet_fuel",
+  "path": "Logistics/fleet_fuel_mileage_monthly.parquet",
+  "format": "parquet",
+  "rows": 137720,
+  "columns": [
+   {
+    "name": "fleet_fuel_id",
+    "dtype": "str"
+   },
+   {
+    "name": "vehicle_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "fuel_type",
+    "dtype": "str"
+   },
+   {
+    "name": "distance_km",
+    "dtype": "float64"
+   },
+   {
+    "name": "fuel_qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "fuel_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "electricity_kwh",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "fleet_fuel_id",
+  "fks": {
+   "vehicle_id": "vehicles.vehicle_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B08",
+  "source_system": "FLEET_MGMT",
+  "description": "",
+  "domain": "Logistics",
+  "created": "2026-10-30T14:50:03+00:00",
+  "size_bytes": 2941557,
+  "sha256": "209c8cbfa5b96b25e50326f6a2e9d855762384cd6033f8362670f6c4f4a123fc"
+ },
+ "business_travel": {
+  "name": "business_travel",
+  "path": "HRMS/business_travel.parquet",
+  "format": "parquet",
+  "rows": 23620,
+  "columns": [
+   {
+    "name": "trip_id",
+    "dtype": "str"
+   },
+   {
+    "name": "expense_report_id",
+    "dtype": "str"
+   },
+   {
+    "name": "employee_synthetic_id",
+    "dtype": "str"
+   },
+   {
+    "name": "origin_facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "destination_city",
+    "dtype": "str"
+   },
+   {
+    "name": "destination_country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "travel_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "travel_mode",
+    "dtype": "str"
+   },
+   {
+    "name": "distance_km",
+    "dtype": "float64"
+   },
+   {
+    "name": "hotel_nights",
+    "dtype": "int64"
+   },
+   {
+    "name": "cost_usd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "trip_id",
+  "fks": {
+   "employee_synthetic_id": "employees.employee_synthetic_id",
+   "origin_facility_id": "facilities.facility_id"
+  },
+  "target": 250000,
+  "scaled_target": 25000,
+  "batch_id": "B08",
+  "source_system": "CONCUR_LIKE",
+  "description": "",
+  "domain": "HRMS",
+  "created": "2026-10-30T14:50:03+00:00",
+  "size_bytes": 893352,
+  "sha256": "4b95db9457addac9e7e646adafd4a5aa320dfd6532af2930b92a5b7976c97f5d"
+ },
+ "commuting_survey": {
+  "name": "commuting_survey",
+  "path": "HRMS/workforce_and_commuting_survey_annual.csv",
+  "format": "csv",
+  "rows": 760,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "headcount",
+    "dtype": "int64"
+   },
+   {
+    "name": "remote_eligible",
+    "dtype": "int64"
+   },
+   {
+    "name": "fte",
+    "dtype": "float64"
+   },
+   {
+    "name": "year",
+    "dtype": "int64"
+   },
+   {
+    "name": "female_share_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "survey_response_rate_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "share_car_petrol",
+    "dtype": "float64"
+   },
+   {
+    "name": "share_car_diesel",
+    "dtype": "float64"
+   },
+   {
+    "name": "share_car_ev",
+    "dtype": "float64"
+   },
+   {
+    "name": "share_bus",
+    "dtype": "float64"
+   },
+   {
+    "name": "share_rail",
+    "dtype": "float64"
+   },
+   {
+    "name": "share_motorbike",
+    "dtype": "float64"
+   },
+   {
+    "name": "share_bike_walk",
+    "dtype": "float64"
+   },
+   {
+    "name": "avg_one_way_km",
+    "dtype": "float64"
+   },
+   {
+    "name": "avg_remote_days_per_week",
+    "dtype": "float64"
+   },
+   {
+    "name": "working_days",
+    "dtype": "int64"
+   }
+  ],
+  "pk": null,
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B08",
+  "source_system": "HRMS",
+  "description": "",
+  "domain": "HRMS",
+  "created": "2026-10-30T14:50:03+00:00",
+  "size_bytes": 72968,
+  "sha256": "09c1ac95d64736c3e036bd68ac3cf60b6176ac157cc0147af97b00ff0e1fe3de"
+ },
+ "office_occupancy": {
+  "name": "office_occupancy",
+  "path": "HRMS/office_occupancy_monthly.csv",
+  "format": "csv",
+  "rows": 2280,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "avg_occupancy_pct",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B08",
+  "source_system": "FACILITIES",
+  "description": "",
+  "domain": "HRMS",
+  "created": "2026-10-30T14:50:03+00:00",
+  "size_bytes": 57035,
+  "sha256": "bafbb3ebfc61b7863396730d646260c96b2964ee830726bd52010e23449bb65e"
+ },
+ "safety_monthly": {
+  "name": "safety_monthly",
+  "path": "HRMS/safety_monthly.csv",
+  "format": "csv",
+  "rows": 9120,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "hours_worked",
+    "dtype": "int64"
+   },
+   {
+    "name": "recordable_incidents",
+    "dtype": "int64"
+   },
+   {
+    "name": "lost_time_injuries",
+    "dtype": "int64"
+   },
+   {
+    "name": "safety_training_hours",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B08",
+  "source_system": "EHS",
+  "description": "",
+  "domain": "HRMS",
+  "created": "2026-10-30T14:50:03+00:00",
+  "size_bytes": 330207,
+  "sha256": "420fcb4aa1a98dddd60c566ba745361168c28a33f4ca153db6eb1d42b5f46969"
+ },
+ "training": {
+  "name": "training",
+  "path": "HRMS/training_programmes.csv",
+  "format": "csv",
+  "rows": 4000,
+  "columns": [
+   {
+    "name": "training_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "programme",
+    "dtype": "str"
+   },
+   {
+    "name": "session_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "participants",
+    "dtype": "int64"
+   },
+   {
+    "name": "hours_per_participant",
+    "dtype": "int64"
+   }
+  ],
+  "pk": "training_record_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B08",
+  "source_system": "LMS",
+  "description": "",
+  "domain": "HRMS",
+  "created": "2026-10-30T14:50:03+00:00",
+  "size_bytes": 227397,
+  "sha256": "9d94de8b51c2a0e98a8b74fece172270e433b39b61be1e5d91c52195c09b4d74"
+ },
+ "gl_transactions": {
+  "name": "gl_transactions",
+  "path": "ERP/Finance/GL/gl_transactions.parquet",
+  "format": "parquet",
+  "rows": 1586506,
+  "columns": [
+   {
+    "name": "gl_txn_id",
+    "dtype": "str"
+   },
+   {
+    "name": "journal_entry_id",
+    "dtype": "str"
+   },
+   {
+    "name": "line_no",
+    "dtype": "int64"
+   },
+   {
+    "name": "gl_account",
+    "dtype": "str"
+   },
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "object"
+   },
+   {
+    "name": "posting_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "document_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "debit_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "credit_amount",
+    "dtype": "float64"
+   },
+   {
+    "name": "currency",
+    "dtype": "str"
+   },
+   {
+    "name": "reference_document",
+    "dtype": "str"
+   },
+   {
+    "name": "transaction_description",
+    "dtype": "str"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "quantity",
+    "dtype": "float64"
+   },
+   {
+    "name": "quantity_unit",
+    "dtype": "object"
+   },
+   {
+    "name": "company_code",
+    "dtype": "str"
+   },
+   {
+    "name": "fiscal_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "fiscal_period",
+    "dtype": "int64"
+   },
+   {
+    "name": "cost_centre_id",
+    "dtype": "str"
+   },
+   {
+    "name": "profit_centre_id",
+    "dtype": "str"
+   },
+   {
+    "name": "business_unit_id",
+    "dtype": "str"
+   },
+   {
+    "name": "amount_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "created_ts",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "modified_ts",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "created_by_role",
+    "dtype": "str"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "gl_txn_id",
+  "fks": {
+   "gl_account": "chart_of_accounts.gl_account",
+   "legal_entity_id": "legal_entities.legal_entity_id",
+   "cost_centre_id": "cost_centres.cost_centre_id"
+  },
+  "target": 2000000,
+  "scaled_target": 200000,
+  "batch_id": "B09",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:50:08+00:00",
+  "size_bytes": 95686704,
+  "sha256": "a5d9e427bd5f2e593193d9bcb102b7f7e211efcc08302c49faef9a7a72797844"
+ },
+ "trial_balance": {
+  "name": "trial_balance",
+  "path": "ERP/Finance/GL/trial_balance.csv",
+  "format": "csv",
+  "rows": 28525,
+  "columns": [
+   {
+    "name": "company_code",
+    "dtype": "str"
+   },
+   {
+    "name": "fiscal_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "fiscal_period",
+    "dtype": "int64"
+   },
+   {
+    "name": "gl_account",
+    "dtype": "str"
+   },
+   {
+    "name": "debit_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "credit_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "balance_usd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B09",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:50:14+00:00",
+  "size_bytes": 1366622,
+  "sha256": "133123ac4ecebe79d0e164da6ceecb5875958823fbf968bfec929da4ac7b780c"
+ },
+ "profit_and_loss": {
+  "name": "profit_and_loss",
+  "path": "Finance/profit_and_loss_by_entity_year.csv",
+  "format": "csv",
+  "rows": 1473,
+  "columns": [
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "year",
+    "dtype": "int32"
+   },
+   {
+    "name": "gl_account",
+    "dtype": "str"
+   },
+   {
+    "name": "gl_account_name",
+    "dtype": "str"
+   },
+   {
+    "name": "line_amount_usd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B09",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Finance",
+  "created": "2026-10-30T14:50:14+00:00",
+  "size_bytes": 72138,
+  "sha256": "a739b63c5f5f0fb33548c26e7a4a808e9f996470e9ee1f0e766b7c619f6b19a5"
+ },
+ "balance_sheet": {
+  "name": "balance_sheet",
+  "path": "Finance/balance_sheet_by_entity_year.csv",
+  "format": "csv",
+  "rows": 1374,
+  "columns": [
+   {
+    "name": "legal_entity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "year",
+    "dtype": "int32"
+   },
+   {
+    "name": "gl_account",
+    "dtype": "str"
+   },
+   {
+    "name": "closing_balance_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "gl_account_name",
+    "dtype": "str"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B09",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Finance",
+  "created": "2026-10-30T14:50:15+00:00",
+  "size_bytes": 70594,
+  "sha256": "19541cada353e6724775bb1e28e53820de4621bcab2a049b74c3f359e3adca46"
+ },
+ "period_closures": {
+  "name": "period_closures",
+  "path": "Finance/financial_period_closures.csv",
+  "format": "csv",
+  "rows": 1560,
+  "columns": [
+   {
+    "name": "company_code",
+    "dtype": "str"
+   },
+   {
+    "name": "fiscal_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "fiscal_period",
+    "dtype": "int64"
+   },
+   {
+    "name": "close_status",
+    "dtype": "str"
+   },
+   {
+    "name": "closed_on",
+    "dtype": "object"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B09",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "Finance",
+  "created": "2026-10-30T14:50:15+00:00",
+  "size_bytes": 47200,
+  "sha256": "85225060982f6d01974ffc61a6d6614a2e215dfff1bc677deb7adf3fd281548c"
+ },
+ "investment_register": {
+  "name": "investment_register",
+  "path": "GHG_Accounting/Scope_3/investment_register.csv",
+  "format": "csv",
+  "rows": 8,
+  "columns": [
+   {
+    "name": "investment_id",
+    "dtype": "str"
+   },
+   {
+    "name": "investee",
+    "dtype": "str"
+   },
+   {
+    "name": "equity_share_pct",
+    "dtype": "int64"
+   },
+   {
+    "name": "investee_scope12_tco2e",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "investment_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B10",
+  "source_system": "TREASURY",
+  "description": "",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:52:02+00:00",
+  "size_bytes": 551,
+  "sha256": "6ce074dbe7fdc264fbbd6aaa9659cb2733b0952ca3bb7635fc8f0a93ae01411f"
+ },
+ "franchise_register": {
+  "name": "franchise_register",
+  "path": "GHG_Accounting/Scope_3/franchise_register.csv",
+  "format": "csv",
+  "rows": 12,
+  "columns": [
+   {
+    "name": "franchise_id",
+    "dtype": "str"
+   },
+   {
+    "name": "country_id",
+    "dtype": "str"
+   },
+   {
+    "name": "name",
+    "dtype": "str"
+   }
+  ],
+  "pk": "franchise_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B10",
+  "source_system": "CRM_PARTNER",
+  "description": "",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:52:02+00:00",
+  "size_bytes": 785,
+  "sha256": "11903ac95157520f3797530303d26c11434f52fb93008cb61258c03f8211f1e0"
+ },
+ "ghg_activities": {
+  "name": "ghg_activities",
+  "path": "GHG_Accounting/Calculation_Results/ghg_activities_all.parquet",
+  "format": "parquet",
+  "rows": 828614,
+  "columns": [
+   {
+    "name": "ghg_activity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "equipment_id",
+    "dtype": "object"
+   },
+   {
+    "name": "activity_type",
+    "dtype": "str"
+   },
+   {
+    "name": "activity_quantity",
+    "dtype": "float64"
+   },
+   {
+    "name": "activity_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "original_quantity",
+    "dtype": "float64"
+   },
+   {
+    "name": "original_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "period_start",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "period_end",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "calculation_method",
+    "dtype": "str"
+   },
+   {
+    "name": "source_dataset",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "scope",
+    "dtype": "str"
+   },
+   {
+    "name": "category_id",
+    "dtype": "str"
+   },
+   {
+    "name": "category_name",
+    "dtype": "str"
+   },
+   {
+    "name": "vehicle_id",
+    "dtype": "str"
+   },
+   {
+    "name": "assumptions",
+    "dtype": "str"
+   },
+   {
+    "name": "scope2_method",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "product_id",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_year",
+    "dtype": "int32"
+   },
+   {
+    "name": "reporting_period",
+    "dtype": "str"
+   },
+   {
+    "name": "emission_factor_id",
+    "dtype": "str"
+   },
+   {
+    "name": "emission_factor_value",
+    "dtype": "float64"
+   },
+   {
+    "name": "emission_factor_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "gwp_basis",
+    "dtype": "str"
+   },
+   {
+    "name": "co2e_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "reporting_boundary",
+    "dtype": "str"
+   },
+   {
+    "name": "included_in_inventory",
+    "dtype": "bool"
+   },
+   {
+    "name": "data_quality_rating",
+    "dtype": "int64"
+   },
+   {
+    "name": "uncertainty_pct",
+    "dtype": "int64"
+   },
+   {
+    "name": "gas_type",
+    "dtype": "str"
+   },
+   {
+    "name": "gwp_time_horizon",
+    "dtype": "str"
+   },
+   {
+    "name": "source_document_id",
+    "dtype": "object"
+   },
+   {
+    "name": "co2e_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "source_application",
+    "dtype": "str"
+   },
+   {
+    "name": "source_database",
+    "dtype": "str"
+   },
+   {
+    "name": "source_table",
+    "dtype": "str"
+   },
+   {
+    "name": "data_owner",
+    "dtype": "str"
+   },
+   {
+    "name": "schema_version",
+    "dtype": "str"
+   },
+   {
+    "name": "transformation_version",
+    "dtype": "str"
+   }
+  ],
+  "pk": "ghg_activity_id",
+  "fks": {
+   "emission_factor_id": "emission_factors.emission_factor_id",
+   "facility_id": "facilities.facility_id"
+  },
+  "target": 3000000,
+  "scaled_target": 300000,
+  "batch_id": "B10",
+  "source_system": "GHG_PLATFORM",
+  "description": "",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:52:07+00:00",
+  "size_bytes": 32512819,
+  "sha256": "70e491d6d0866cfc62ea77d55ff69d1d797460ac1bfba7b27ce9e2966c158fad"
+ },
+ "contractual_instruments": {
+  "name": "contractual_instruments",
+  "path": "GHG_Accounting/Scope_2/contractual_instruments_eac.csv",
+  "format": "csv",
+  "rows": 250,
+  "columns": [
+   {
+    "name": "instrument_id",
+    "dtype": "str"
+   },
+   {
+    "name": "instrument_type",
+    "dtype": "str"
+   },
+   {
+    "name": "registry",
+    "dtype": "str"
+   },
+   {
+    "name": "serial_number",
+    "dtype": "str"
+   },
+   {
+    "name": "vintage_year",
+    "dtype": "int32"
+   },
+   {
+    "name": "technology",
+    "dtype": "str"
+   },
+   {
+    "name": "mwh",
+    "dtype": "float64"
+   },
+   {
+    "name": "market_boundary",
+    "dtype": "str"
+   },
+   {
+    "name": "allocated_facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "allocation_year",
+    "dtype": "int32"
+   },
+   {
+    "name": "retirement_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "retired_on_behalf_of",
+    "dtype": "str"
+   },
+   {
+    "name": "price_usd_per_mwh",
+    "dtype": "float64"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "instrument_id",
+  "fks": {
+   "allocated_facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B10",
+  "source_system": "EAC_REGISTRY",
+  "description": "",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:52:07+00:00",
+  "size_bytes": 45756,
+  "sha256": "23c34c2c8717be8b08825efd2cc455f2ba6f8fbf2012bd6bfc97a805b6d8bc5c"
+ },
+ "scope2_market": {
+  "name": "scope2_market",
+  "path": "GHG_Accounting/Scope_2/scope2_market_based_calculations.parquet",
+  "format": "parquet",
+  "rows": 23715,
+  "columns": [
+   {
+    "name": "market_calc_id",
+    "dtype": "str"
+   },
+   {
+    "name": "ghg_activity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_period",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_year",
+    "dtype": "int32"
+   },
+   {
+    "name": "activity_quantity_kwh",
+    "dtype": "float64"
+   },
+   {
+    "name": "eac_covered_share",
+    "dtype": "float64"
+   },
+   {
+    "name": "instrument_basis",
+    "dtype": "str"
+   },
+   {
+    "name": "uncovered_ef_kg_per_kwh",
+    "dtype": "float64"
+   },
+   {
+    "name": "residual_mix_ef_id",
+    "dtype": "str"
+   },
+   {
+    "name": "location_based_co2e_kg",
+    "dtype": "float64"
+   },
+   {
+    "name": "included_in_inventory",
+    "dtype": "bool"
+   },
+   {
+    "name": "market_based_co2e_kg",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "market_calc_id",
+  "fks": {
+   "ghg_activity_id": "ghg_activities.ghg_activity_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B10",
+  "source_system": "GHG_PLATFORM",
+  "description": "",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:52:07+00:00",
+  "size_bytes": 821118,
+  "sha256": "5b3c0b76dd75d3748847624cbd5e3222c307b941875eb2c3bba9788f886b1189"
+ },
+ "ghg_inventory": {
+  "name": "ghg_inventory",
+  "path": "GHG_Accounting/Calculation_Results/annual_ghg_inventory.csv",
+  "format": "csv",
+  "rows": 115,
+  "columns": [
+   {
+    "name": "reporting_year",
+    "dtype": "int32"
+   },
+   {
+    "name": "scope",
+    "dtype": "str"
+   },
+   {
+    "name": "category_id",
+    "dtype": "str"
+   },
+   {
+    "name": "tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "scope2_method",
+    "dtype": "str"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B10",
+  "source_system": "GHG_PLATFORM",
+  "description": "",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 4307,
+  "sha256": "036c0a609f513f94668155ce1614881d0c3c225f4e6a57ed3b5c74381a98a0e6"
+ },
+ "facility_emissions": {
+  "name": "facility_emissions",
+  "path": "GHG_Accounting/Calculation_Results/facility_year_emissions.csv",
+  "format": "csv",
+  "rows": 2237,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_year",
+    "dtype": "int32"
+   },
+   {
+    "name": "scope",
+    "dtype": "str"
+   },
+   {
+    "name": "tco2e",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B10",
+  "source_system": "GHG_PLATFORM",
+  "description": "",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 74258,
+  "sha256": "29b530c698c607005cee994a77c03a1c235b2001827abf71ddfdf01630d15e9e"
+ },
+ "baseline_recalculations": {
+  "name": "baseline_recalculations",
+  "path": "GHG_Accounting/Calculation_Results/baseline_recalculations.csv",
+  "format": "csv",
+  "rows": 3,
+  "columns": [
+   {
+    "name": "baseline_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "scope",
+    "dtype": "str"
+   },
+   {
+    "name": "original_baseline_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "recalculated_baseline_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "recalculation_trigger",
+    "dtype": "str"
+   },
+   {
+    "name": "approval_status",
+    "dtype": "str"
+   },
+   {
+    "name": "approved_by",
+    "dtype": "str"
+   },
+   {
+    "name": "approval_date",
+    "dtype": "str"
+   }
+  ],
+  "pk": null,
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B10",
+  "source_system": "GHG_PLATFORM",
+  "description": "",
+  "domain": "GHG_Accounting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 741,
+  "sha256": "288e788814646be88443c31a4ad39d8db109ebb70b66033b5eeaaa73cc220333"
+ },
+ "supplier_esg_assessments": {
+  "name": "supplier_esg_assessments",
+  "path": "Procurement/Supplier_Assessments/supplier_esg_assessments.parquet",
+  "format": "parquet",
+  "rows": 10000,
+  "columns": [
+   {
+    "name": "assessment_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "assessment_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "framework",
+    "dtype": "str"
+   },
+   {
+    "name": "overall_score",
+    "dtype": "float64"
+   },
+   {
+    "name": "environment_score",
+    "dtype": "float64"
+   },
+   {
+    "name": "labour_human_rights_score",
+    "dtype": "float64"
+   },
+   {
+    "name": "ethics_score",
+    "dtype": "float64"
+   },
+   {
+    "name": "sustainable_procurement_score",
+    "dtype": "float64"
+   },
+   {
+    "name": "sbti_status",
+    "dtype": "str"
+   },
+   {
+    "name": "has_ghg_inventory",
+    "dtype": "bool"
+   },
+   {
+    "name": "labour_audit_result",
+    "dtype": "str"
+   },
+   {
+    "name": "verification_status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "assessment_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id"
+  },
+  "target": 10000,
+  "scaled_target": 1000,
+  "batch_id": "B11",
+  "source_system": "SAP_Ariba",
+  "description": "",
+  "domain": "Procurement",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 204419,
+  "sha256": "8d56702d03e744c2b333c4c123407ae27d6dc35d7b32206a43a818262fb98925"
+ },
+ "supplier_disclosures": {
+  "name": "supplier_disclosures",
+  "path": "Procurement/Supplier_Disclosures/supplier_emissions_disclosures.parquet",
+  "format": "parquet",
+  "rows": 5330,
+  "columns": [
+   {
+    "name": "disclosure_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "reporting_period",
+    "dtype": "str"
+   },
+   {
+    "name": "methodology",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_boundary",
+    "dtype": "str"
+   },
+   {
+    "name": "scope1_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "scope2_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "scope3_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "revenue_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "energy_mwh",
+    "dtype": "float64"
+   },
+   {
+    "name": "water_m3",
+    "dtype": "float64"
+   },
+   {
+    "name": "waste_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "renewable_electricity_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "emission_factor_source",
+    "dtype": "str"
+   },
+   {
+    "name": "verification_status",
+    "dtype": "str"
+   },
+   {
+    "name": "uncertainty_pct",
+    "dtype": "int64"
+   },
+   {
+    "name": "reported_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "submission_date",
+    "dtype": "datetime64[ns]"
+   },
+   {
+    "name": "evidence_document_id",
+    "dtype": "str"
+   },
+   {
+    "name": "intensity_tco2e_per_musd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "disclosure_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "SUPPLIER_PORTAL",
+  "description": "",
+  "domain": "Procurement",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 428856,
+  "sha256": "f95052ffdd5dd41424bc91746ac7c62934d354601dbeb1a5afd9e73022557d79"
+ },
+ "supplier_pcfs": {
+  "name": "supplier_pcfs",
+  "path": "Supply_Chain/Supplier_Emissions/supplier_product_carbon_footprints.parquet",
+  "format": "parquet",
+  "rows": 4082,
+  "columns": [
+   {
+    "name": "pcf_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "material_family",
+    "dtype": "str"
+   },
+   {
+    "name": "emission_factor_id",
+    "dtype": "str"
+   },
+   {
+    "name": "declared_kgco2e_per_unit",
+    "dtype": "float64"
+   },
+   {
+    "name": "declared_unit",
+    "dtype": "str"
+   },
+   {
+    "name": "system_boundary",
+    "dtype": "str"
+   },
+   {
+    "name": "standard",
+    "dtype": "str"
+   },
+   {
+    "name": "reference_year",
+    "dtype": "int32"
+   },
+   {
+    "name": "valid_until",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "verification",
+    "dtype": "str"
+   },
+   {
+    "name": "primary_data_share_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "pcf_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id",
+   "emission_factor_id": "emission_factors.emission_factor_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "SUPPLIER_PORTAL",
+  "description": "",
+  "domain": "Supply_Chain",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 130711,
+  "sha256": "2947e2b7a95fb7279a401d820285e5a78d72998f6d593e57553dc6b9afb773a1"
+ },
+ "supplier_certifications": {
+  "name": "supplier_certifications",
+  "path": "Procurement/Supplier_Certifications/supplier_certifications.csv",
+  "format": "csv",
+  "rows": 6000,
+  "columns": [
+   {
+    "name": "certificate_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "standard",
+    "dtype": "str"
+   },
+   {
+    "name": "certificate_serial",
+    "dtype": "str"
+   },
+   {
+    "name": "certification_body",
+    "dtype": "str"
+   },
+   {
+    "name": "valid_from",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "valid_to",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "presented_status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "certificate_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "SAP_Ariba",
+  "description": "",
+  "domain": "Procurement",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 686231,
+  "sha256": "5bf56138666d27d66a07b19b2389e2234d0de40def04d7c4e2ee60c9a320e05e"
+ },
+ "supplier_questionnaires": {
+  "name": "supplier_questionnaires",
+  "path": "Procurement/Supplier_Assessments/supplier_esg_questionnaires.csv",
+  "format": "csv",
+  "rows": 3000,
+  "columns": [
+   {
+    "name": "questionnaire_id",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_id",
+    "dtype": "str"
+   },
+   {
+    "name": "sent_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "q_has_climate_policy",
+    "dtype": "str"
+   },
+   {
+    "name": "q_scope1_disclosed",
+    "dtype": "str"
+   },
+   {
+    "name": "q_renewable_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "q_iso14001",
+    "dtype": "str"
+   },
+   {
+    "name": "q_child_labour_policy",
+    "dtype": "str"
+   },
+   {
+    "name": "q_material_origin_country",
+    "dtype": "str"
+   },
+   {
+    "name": "completion_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "questionnaire_id",
+  "fks": {
+   "supplier_id": "suppliers.supplier_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "SUPPLIER_PORTAL",
+  "description": "",
+  "domain": "Procurement",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 195051,
+  "sha256": "fefce2dd36f0f7f348336fc6af210c501d501d7ada3ca7f697efc9fe3a9070a9"
+ },
+ "customer_requirements": {
+  "name": "customer_requirements",
+  "path": "CRM/Sustainability_Requirements/customer_sustainability_requirements.csv",
+  "format": "csv",
+  "rows": 3000,
+  "columns": [
+   {
+    "name": "requirement_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "requirement_type",
+    "dtype": "str"
+   },
+   {
+    "name": "threshold",
+    "dtype": "str"
+   },
+   {
+    "name": "effective_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "compliance_status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "requirement_id",
+  "fks": {
+   "customer_id": "customers.customer_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 273218,
+  "sha256": "ee8016b8f61734aeda97c505bb7c05ae9e005b244efc257e471759c7c60a22df"
+ },
+ "customer_questionnaires": {
+  "name": "customer_questionnaires",
+  "path": "CRM/Sustainability_Requirements/customer_esg_questionnaires.csv",
+  "format": "csv",
+  "rows": 1500,
+  "columns": [
+   {
+    "name": "customer_questionnaire_id",
+    "dtype": "str"
+   },
+   {
+    "name": "customer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "received_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "answered_scope12_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "answered_renewable_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "product_pcf_reference_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "customer_questionnaire_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "SALESFORCE",
+  "description": "",
+  "domain": "CRM",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 86932,
+  "sha256": "a7d4451347a0829b365bdc627ad535e204673f314a42cfc9f3e05f54a107d175"
+ },
+ "air_pollutants": {
+  "name": "air_pollutants",
+  "path": "ESG_Reporting/air_pollutant_emissions.csv",
+  "format": "csv",
+  "rows": 781,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_year",
+    "dtype": "int32"
+   },
+   {
+    "name": "nox_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "sox_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "pm10_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "voc_t",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "EHS",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 31680,
+  "sha256": "cf41d0026c437eed59c8b0b8b78af94b93835ee492be8d9df708a7f94b907305"
+ },
+ "environmental_incidents": {
+  "name": "environmental_incidents",
+  "path": "ESG_Reporting/environmental_incidents.csv",
+  "format": "csv",
+  "rows": 320,
+  "columns": [
+   {
+    "name": "incident_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "incident_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "incident_type",
+    "dtype": "str"
+   },
+   {
+    "name": "severity",
+    "dtype": "str"
+   },
+   {
+    "name": "reported_to_regulator",
+    "dtype": "bool"
+   },
+   {
+    "name": "fine_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "corrective_action_id",
+    "dtype": "str"
+   },
+   {
+    "name": "status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "incident_id",
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "EHS",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 29353,
+  "sha256": "625d5b1b402bcaa0465e19e639b2846e41c128dbbfe428cd8231b89500d02d11"
+ },
+ "environmental_permits": {
+  "name": "environmental_permits",
+  "path": "ESG_Reporting/environmental_permits.csv",
+  "format": "csv",
+  "rows": 141,
+  "columns": [
+   {
+    "name": "permit_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "permit_type",
+    "dtype": "str"
+   },
+   {
+    "name": "issuing_authority",
+    "dtype": "str"
+   },
+   {
+    "name": "issue_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "expiry_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "compliance_status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "permit_id",
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "EHS",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 15976,
+  "sha256": "a1fadc0bba655c1e37a9a028cee7d153a54973a3be2f65d38822d776df4adb11"
+ },
+ "biodiversity": {
+  "name": "biodiversity",
+  "path": "ESG_Reporting/biodiversity_land_use.csv",
+  "format": "csv",
+  "rows": 152,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "floor_area_m2",
+    "dtype": "int64"
+   },
+   {
+    "name": "site_area_ha",
+    "dtype": "float64"
+   },
+   {
+    "name": "distance_to_protected_area_km",
+    "dtype": "float64"
+   },
+   {
+    "name": "impervious_surface_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "biodiversity_action_plan",
+    "dtype": "bool"
+   }
+  ],
+  "pk": null,
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "EHS",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 5902,
+  "sha256": "2797eac29660a59bea975701d63160f8dc2804aa916765fb8e35de5eda32202f"
+ },
+ "social_kpis": {
+  "name": "social_kpis",
+  "path": "ESG_Reporting/social_performance_facility_year.csv",
+  "format": "csv",
+  "rows": 760,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "year",
+    "dtype": "int64"
+   },
+   {
+    "name": "hours_worked",
+    "dtype": "int64"
+   },
+   {
+    "name": "recordable_incidents",
+    "dtype": "int64"
+   },
+   {
+    "name": "lost_time_injuries",
+    "dtype": "int64"
+   },
+   {
+    "name": "safety_training_hours",
+    "dtype": "float64"
+   },
+   {
+    "name": "ltifr",
+    "dtype": "float64"
+   },
+   {
+    "name": "trir",
+    "dtype": "float64"
+   },
+   {
+    "name": "voluntary_turnover_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "engagement_score",
+    "dtype": "float64"
+   },
+   {
+    "name": "training_hours_per_fte",
+    "dtype": "float64"
+   },
+   {
+    "name": "community_investment_usd",
+    "dtype": "float64"
+   }
+  ],
+  "pk": null,
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "HRMS",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 50595,
+  "sha256": "e2416df77f3d0a4e0888d4176ab8fe7b8d6dcae9d5b771962a62ab4500e7ceff"
+ },
+ "risk_register": {
+  "name": "risk_register",
+  "path": "ESG_Reporting/governance_risk_register.csv",
+  "format": "csv",
+  "rows": 260,
+  "columns": [
+   {
+    "name": "risk_id",
+    "dtype": "str"
+   },
+   {
+    "name": "risk_category",
+    "dtype": "str"
+   },
+   {
+    "name": "description",
+    "dtype": "str"
+   },
+   {
+    "name": "owner_department",
+    "dtype": "str"
+   },
+   {
+    "name": "likelihood",
+    "dtype": "int64"
+   },
+   {
+    "name": "impact",
+    "dtype": "int64"
+   },
+   {
+    "name": "mitigation_plan_id",
+    "dtype": "str"
+   },
+   {
+    "name": "review_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "status",
+    "dtype": "str"
+   },
+   {
+    "name": "risk_score",
+    "dtype": "int64"
+   }
+  ],
+  "pk": "risk_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "GRC",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 27151,
+  "sha256": "ce8acec55621e68ebb9d043c27a0896bf65cdab08b8dd70ae7d2c5575929d66b"
+ },
+ "audit_observations": {
+  "name": "audit_observations",
+  "path": "ESG_Reporting/audit_and_compliance_observations.csv",
+  "format": "csv",
+  "rows": 420,
+  "columns": [
+   {
+    "name": "audit_observation_id",
+    "dtype": "str"
+   },
+   {
+    "name": "audit_type",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "observation_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "finding",
+    "dtype": "str"
+   },
+   {
+    "name": "rating",
+    "dtype": "str"
+   },
+   {
+    "name": "responsible_department",
+    "dtype": "str"
+   },
+   {
+    "name": "corrective_action_due",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "closure_status",
+    "dtype": "str"
+   },
+   {
+    "name": "evidence_document_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "audit_observation_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "GRC",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 55754,
+  "sha256": "c577990775fd6acdf3e92aa0575a6053e95e4d041c33ac0182763626b8d13f42"
+ },
+ "board_governance": {
+  "name": "board_governance",
+  "path": "ESG_Reporting/board_governance_records.csv",
+  "format": "csv",
+  "rows": 20,
+  "columns": [
+   {
+    "name": "record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "meeting_date",
+    "dtype": "str"
+   },
+   {
+    "name": "body",
+    "dtype": "str"
+   },
+   {
+    "name": "esg_agenda_items",
+    "dtype": "int64"
+   },
+   {
+    "name": "climate_risk_reviewed",
+    "dtype": "bool"
+   },
+   {
+    "name": "independent_directors_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "women_on_board_pct",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "record_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "GRC",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 1298,
+  "sha256": "754d0f14216b4b45e1c779a5711f5ac75dea2270b0b0bf5d704594ebba21b9d7"
+ },
+ "esg_policies": {
+  "name": "esg_policies",
+  "path": "ESG_Reporting/esg_governance_policies.csv",
+  "format": "csv",
+  "rows": 10,
+  "columns": [
+   {
+    "name": "policy_id",
+    "dtype": "str"
+   },
+   {
+    "name": "title",
+    "dtype": "str"
+   },
+   {
+    "name": "version",
+    "dtype": "str"
+   },
+   {
+    "name": "approved_date",
+    "dtype": "str"
+   },
+   {
+    "name": "owner",
+    "dtype": "str"
+   }
+  ],
+  "pk": "policy_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "DMS",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 860,
+  "sha256": "6a056a55bb7bf5b23d9f8a77bdebd32b21c847cb9f25cf7d1fd9848694b42304"
+ },
+ "decarbonisation": {
+  "name": "decarbonisation",
+  "path": "Decarbonisation/decarbonisation_opportunities.csv",
+  "format": "csv",
+  "rows": 966,
+  "columns": [
+   {
+    "name": "opportunity_id",
+    "dtype": "str"
+   },
+   {
+    "name": "opportunity_group",
+    "dtype": "str"
+   },
+   {
+    "name": "opportunity_name",
+    "dtype": "str"
+   },
+   {
+    "name": "scenario",
+    "dtype": "str"
+   },
+   {
+    "name": "enterprise_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "business_unit_id",
+    "dtype": "str"
+   },
+   {
+    "name": "decarbonisation_hierarchy",
+    "dtype": "str"
+   },
+   {
+    "name": "scope",
+    "dtype": "str"
+   },
+   {
+    "name": "category_id",
+    "dtype": "str"
+   },
+   {
+    "name": "existing_technology",
+    "dtype": "str"
+   },
+   {
+    "name": "proposed_alternative",
+    "dtype": "str"
+   },
+   {
+    "name": "baseline_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "baseline_emissions_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "expected_emissions_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "absolute_reduction_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "percentage_reduction",
+    "dtype": "float64"
+   },
+   {
+    "name": "implementation_cost_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "annual_cost_savings_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "operating_cost_impact_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "payback_years",
+    "dtype": "float64"
+   },
+   {
+    "name": "implementation_timeline_months",
+    "dtype": "int64"
+   },
+   {
+    "name": "technical_feasibility",
+    "dtype": "str"
+   },
+   {
+    "name": "supplier_availability",
+    "dtype": "str"
+   },
+   {
+    "name": "confidence_score",
+    "dtype": "float64"
+   },
+   {
+    "name": "operational_constraints",
+    "dtype": "str"
+   },
+   {
+    "name": "evidence_reference",
+    "dtype": "str"
+   },
+   {
+    "name": "lifecycle_emissions_note",
+    "dtype": "str"
+   },
+   {
+    "name": "interaction_adjusted_reduction_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "overlap_note",
+    "dtype": "str"
+   }
+  ],
+  "pk": "opportunity_id",
+  "fks": {
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "SUSTAINABILITY_PLANNING",
+  "description": "",
+  "domain": "Decarbonisation",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 480950,
+  "sha256": "f34cd6212e065799d93e888ac791058a2741b306f5b1ec324d22e63c5d97bd4a"
+ },
+ "credit_projects": {
+  "name": "credit_projects",
+  "path": "Carbon_Credits/carbon_credit_projects.csv",
+  "format": "csv",
+  "rows": 48,
+  "columns": [
+   {
+    "name": "project_id",
+    "dtype": "str"
+   },
+   {
+    "name": "project_name",
+    "dtype": "str"
+   },
+   {
+    "name": "project_type",
+    "dtype": "str"
+   },
+   {
+    "name": "credit_class",
+    "dtype": "str"
+   },
+   {
+    "name": "project_location",
+    "dtype": "str"
+   },
+   {
+    "name": "registry",
+    "dtype": "str"
+   },
+   {
+    "name": "methodology",
+    "dtype": "str"
+   },
+   {
+    "name": "vintage_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "credits_issued",
+    "dtype": "int64"
+   },
+   {
+    "name": "verification_status",
+    "dtype": "str"
+   },
+   {
+    "name": "additionality_assessment",
+    "dtype": "str"
+   },
+   {
+    "name": "permanence_risk",
+    "dtype": "str"
+   },
+   {
+    "name": "reversal_risk_buffer_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "leakage_risk",
+    "dtype": "str"
+   },
+   {
+    "name": "corresponding_adjustment",
+    "dtype": "str"
+   },
+   {
+    "name": "price_usd_per_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   },
+   {
+    "name": "credits_available",
+    "dtype": "int64"
+   }
+  ],
+  "pk": "project_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "CARBON_REGISTRY",
+  "description": "",
+  "domain": "Carbon_Credits",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 10259,
+  "sha256": "7358960f02e29c3d7d06d5d9120b3575c6ab1d15252bbe652e80150ca46618b3"
+ },
+ "credit_transactions": {
+  "name": "credit_transactions",
+  "path": "Carbon_Credits/carbon_credit_transactions.csv",
+  "format": "csv",
+  "rows": 16,
+  "columns": [
+   {
+    "name": "credit_transaction_id",
+    "dtype": "str"
+   },
+   {
+    "name": "project_id",
+    "dtype": "str"
+   },
+   {
+    "name": "purchase_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "credits_purchased",
+    "dtype": "int64"
+   },
+   {
+    "name": "price_usd_per_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "vintage_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "credit_class",
+    "dtype": "str"
+   },
+   {
+    "name": "serial_number_block",
+    "dtype": "str"
+   },
+   {
+    "name": "credits_retired",
+    "dtype": "int64"
+   },
+   {
+    "name": "retirement_date",
+    "dtype": "datetime64[us]"
+   },
+   {
+    "name": "retirement_certificate_ref",
+    "dtype": "str"
+   },
+   {
+    "name": "retirement_beneficiary",
+    "dtype": "str"
+   },
+   {
+    "name": "evidence_document_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "credit_transaction_id",
+  "fks": {
+   "project_id": "credit_projects.project_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "CARBON_REGISTRY",
+  "description": "",
+  "domain": "Carbon_Credits",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 2920,
+  "sha256": "647b8df14ae0a8d22222a8e1ae07b750303da405fa56c6a29a4d03c4a970c130"
+ },
+ "neutralisation_ledger": {
+  "name": "neutralisation_ledger",
+  "path": "Carbon_Credits/neutralisation_ledger.csv",
+  "format": "csv",
+  "rows": 5,
+  "columns": [
+   {
+    "name": "reporting_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "gross_scope1_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "gross_scope2_market_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "gross_scope3_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "actual_inventory_reduction_vs_2022_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "avoided_emissions_tco2e_not_deducted",
+    "dtype": "float64"
+   },
+   {
+    "name": "residual_scope12_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "credits_purchased_t",
+    "dtype": "int64"
+   },
+   {
+    "name": "credits_retired_t",
+    "dtype": "int64"
+   },
+   {
+    "name": "credits_retired_valid_t",
+    "dtype": "int64"
+   },
+   {
+    "name": "removal_credits_retired_t",
+    "dtype": "int64"
+   },
+   {
+    "name": "avoidance_credits_retired_t",
+    "dtype": "int64"
+   },
+   {
+    "name": "remaining_neutralisation_requirement_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "neutrality_status",
+    "dtype": "str"
+   }
+  ],
+  "pk": "reporting_year",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "SUSTAINABILITY_PLANNING",
+  "description": "",
+  "domain": "Carbon_Credits",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 1256,
+  "sha256": "5545aa743cc312eeb05930b2a00eee1eef4e04cd93da80024ebe11231cf8a5a0"
+ },
+ "environmental_claims": {
+  "name": "environmental_claims",
+  "path": "ESG_Reporting/environmental_claims_register.csv",
+  "format": "csv",
+  "rows": 5,
+  "columns": [
+   {
+    "name": "claim_id",
+    "dtype": "str"
+   },
+   {
+    "name": "channel",
+    "dtype": "str"
+   },
+   {
+    "name": "claim_text",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "approval_status",
+    "dtype": "str"
+   },
+   {
+    "name": "supported",
+    "dtype": "bool"
+   }
+  ],
+  "pk": "claim_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "DMS",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 594,
+  "sha256": "f3ecb549bf8e9aab7014f1c8e61e0e9b9640922434df651f36e6870de1101a26"
+ },
+ "esg_kpis": {
+  "name": "esg_kpis",
+  "path": "ESG_Reporting/esg_kpi_summary.csv",
+  "format": "csv",
+  "rows": 5,
+  "columns": [
+   {
+    "name": "reporting_year",
+    "dtype": "int64"
+   },
+   {
+    "name": "revenue_usd_sample_scale",
+    "dtype": "float64"
+   },
+   {
+    "name": "scope1_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "scope2_market_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "scope2_location_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "scope3_tco2e",
+    "dtype": "float64"
+   },
+   {
+    "name": "intensity_s12_t_per_musd",
+    "dtype": "float64"
+   },
+   {
+    "name": "water_withdrawal_m3",
+    "dtype": "float64"
+   },
+   {
+    "name": "waste_total_t",
+    "dtype": "float64"
+   },
+   {
+    "name": "waste_diversion_pct",
+    "dtype": "float64"
+   },
+   {
+    "name": "eac_mwh_allocated",
+    "dtype": "float64"
+   }
+  ],
+  "pk": "reporting_year",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B11",
+  "source_system": "ESG_REPORTING",
+  "description": "",
+  "domain": "ESG_Reporting",
+  "created": "2026-10-30T14:52:08+00:00",
+  "size_bytes": 579,
+  "sha256": "9f461cf4e101e9c6d6d83085e6638ecd7285176fc800d20a9fee4876027e28d6"
+ },
+ "inventory_balances": {
+  "name": "inventory_balances",
+  "path": "ERP/Inventory/inventory_balances_monthly.parquet",
+  "format": "parquet",
+  "rows": 142617,
+  "columns": [
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "material_id",
+    "dtype": "str"
+   },
+   {
+    "name": "period",
+    "dtype": "str"
+   },
+   {
+    "name": "receipts",
+    "dtype": "float64"
+   },
+   {
+    "name": "issues",
+    "dtype": "float64"
+   },
+   {
+    "name": "opening_stock",
+    "dtype": "float64"
+   },
+   {
+    "name": "closing_stock",
+    "dtype": "float64"
+   },
+   {
+    "name": "valuation_usd",
+    "dtype": "float64"
+   },
+   {
+    "name": "stock_status",
+    "dtype": "str"
+   }
+  ],
+  "pk": null,
+  "fks": {
+   "material_id": "materials.material_id",
+   "facility_id": "facilities.facility_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B12",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:52:09+00:00",
+  "size_bytes": 3315068,
+  "sha256": "38e0e2c8507a357f3e95350bed35a1e2e385f187124cda0b797e01880363f9ef"
+ },
+ "warehouse_transfers": {
+  "name": "warehouse_transfers",
+  "path": "ERP/Inventory/warehouse_transfers.parquet",
+  "format": "parquet",
+  "rows": 6000,
+  "columns": [
+   {
+    "name": "transfer_id",
+    "dtype": "str"
+   },
+   {
+    "name": "from_facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "to_facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "material_id",
+    "dtype": "str"
+   },
+   {
+    "name": "qty",
+    "dtype": "float64"
+   },
+   {
+    "name": "movement_type",
+    "dtype": "str"
+   },
+   {
+    "name": "posting_date",
+    "dtype": "datetime64[us]"
+   }
+  ],
+  "pk": "transfer_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B12",
+  "source_system": "SAP_S4",
+  "description": "",
+  "domain": "ERP",
+  "created": "2026-10-30T14:52:09+00:00",
+  "size_bytes": 139599,
+  "sha256": "059ac9919b7a56c16dec47b16fbc8f3439d1708c91fa60355feacee4a2582de3"
+ },
+ "documents": {
+  "name": "documents",
+  "path": "File_Systems/document_registry.csv",
+  "format": "csv",
+  "rows": 3539,
+  "columns": [
+   {
+    "name": "document_id",
+    "dtype": "str"
+   },
+   {
+    "name": "document_type",
+    "dtype": "str"
+   },
+   {
+    "name": "file_format",
+    "dtype": "str"
+   },
+   {
+    "name": "path",
+    "dtype": "str"
+   },
+   {
+    "name": "filename",
+    "dtype": "str"
+   },
+   {
+    "name": "title",
+    "dtype": "str"
+   },
+   {
+    "name": "related_dataset",
+    "dtype": "str"
+   },
+   {
+    "name": "related_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "facility_id",
+    "dtype": "str"
+   },
+   {
+    "name": "reporting_period",
+    "dtype": "str"
+   },
+   {
+    "name": "owner_department",
+    "dtype": "str"
+   },
+   {
+    "name": "source_system",
+    "dtype": "str"
+   },
+   {
+    "name": "size_bytes",
+    "dtype": "int64"
+   },
+   {
+    "name": "sha256",
+    "dtype": "str"
+   },
+   {
+    "name": "synthetic_flag",
+    "dtype": "bool"
+   },
+   {
+    "name": "created_date",
+    "dtype": "datetime64[us, UTC]"
+   },
+   {
+    "name": "modified_date",
+    "dtype": "datetime64[us, UTC]"
+   }
+  ],
+  "pk": "document_id",
+  "fks": {},
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B13",
+  "source_system": "DMS",
+  "description": "",
+  "domain": "File_Systems",
+  "created": "2026-10-30T14:52:23+00:00",
+  "size_bytes": 1209743,
+  "sha256": "495a0ad7d594440d84ede35d5ad4cc4603434cb63ebebec11e4b73a18f716764"
+ },
+ "document_extractions": {
+  "name": "document_extractions",
+  "path": "Data_Lineage/document_extractions.csv",
+  "format": "csv",
+  "rows": 3940,
+  "columns": [
+   {
+    "name": "document_id",
+    "dtype": "str"
+   },
+   {
+    "name": "field_name",
+    "dtype": "str"
+   },
+   {
+    "name": "extracted_value",
+    "dtype": "str"
+   },
+   {
+    "name": "source_record_id",
+    "dtype": "str"
+   },
+   {
+    "name": "source_dataset",
+    "dtype": "str"
+   },
+   {
+    "name": "extraction_id",
+    "dtype": "str"
+   }
+  ],
+  "pk": "extraction_id",
+  "fks": {
+   "document_id": "documents.document_id"
+  },
+  "target": null,
+  "scaled_target": null,
+  "batch_id": "B13",
+  "source_system": "IDP_ENGINE",
+  "description": "",
+  "domain": "Data_Lineage",
+  "created": "2026-10-30T14:52:23+00:00",
+  "size_bytes": 288447,
+  "sha256": "7c434028524d644a8d40cba134c96c53f64a1fa539b14475655b33e2282cdfc7"
+ }
+}

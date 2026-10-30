@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-962500121 for account UA-44104360
+Date: Thu, 03 Nov 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for October 2022 is attached (PDF). Amount due: 95,498.20 AED.

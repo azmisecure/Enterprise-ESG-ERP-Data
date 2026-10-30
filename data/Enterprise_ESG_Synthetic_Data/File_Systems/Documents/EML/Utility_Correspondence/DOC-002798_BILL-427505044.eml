@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-427505044 for account UA-92735129
+Date: Mon, 08 Apr 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for March 2024 is attached (PDF). Amount due: 27,208.44 EUR.

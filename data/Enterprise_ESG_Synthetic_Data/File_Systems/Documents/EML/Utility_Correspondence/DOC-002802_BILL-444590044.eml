@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-444590044 for account UA-55527658
+Date: Mon, 12 Aug 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for July 2024 is attached (PDF). Amount due: 12,811.82 EUR.

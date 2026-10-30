@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-70293847 for account UA-42259442
+Date: Sun, 03 Mar 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for February 2024 is attached (PDF). Amount due: 10,580.21 AUD.

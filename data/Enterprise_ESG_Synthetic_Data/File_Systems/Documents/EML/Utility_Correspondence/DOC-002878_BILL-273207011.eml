@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-273207011 for account UA-37602856
+Date: Sun, 11 Feb 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for January 2024 is attached (PDF). Amount due: 14,467.06 INR.

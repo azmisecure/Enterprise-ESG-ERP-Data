@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-769208209 for account UA-75376724
+Date: Sat, 07 Feb 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for January 2026 is attached (PDF). Amount due: 533,719.86 SEK.

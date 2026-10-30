@@ -1,0 +1,142 @@
+permit_id,facility_id,permit_type,issuing_authority,issue_date,expiry_date,compliance_status
+PERM-0001,FAC-MAN-001,Hazardous waste storage,AU Environmental Agency (synthetic),2019-03-11,2024-03-11,Compliant
+PERM-0002,FAC-MAN-001,Air emissions,AU Environmental Agency (synthetic),2024-02-16,2029-02-16,Compliant
+PERM-0003,FAC-MAN-001,GHG emissions (ETS-like),AU Environmental Agency (synthetic),2018-08-17,2023-08-17,Minor deviation
+PERM-0004,FAC-MAN-001,Water abstraction,AU Environmental Agency (synthetic),2020-02-03,2025-02-03,Compliant
+PERM-0005,FAC-MAN-001,Wastewater discharge,AU Environmental Agency (synthetic),2022-11-21,2027-11-21,Minor deviation
+PERM-0006,FAC-MAN-002,Wastewater discharge,US Environmental Agency (synthetic),2020-07-09,2025-07-09,Compliant
+PERM-0007,FAC-MAN-002,Water abstraction,US Environmental Agency (synthetic),2019-02-09,2024-02-09,Compliant
+PERM-0008,FAC-MAN-002,Air emissions,US Environmental Agency (synthetic),2017-05-16,2022-05-16,Compliant
+PERM-0009,FAC-MAN-002,Hazardous waste storage,US Environmental Agency (synthetic),2024-05-30,2029-05-30,Minor deviation
+PERM-0010,FAC-MAN-002,Air emissions,US Environmental Agency (synthetic),2020-03-30,2025-03-30,Compliant
+PERM-0011,FAC-MAN-003,GHG emissions (ETS-like),IN Environmental Agency (synthetic),2017-06-05,2022-06-05,Non-compliant
+PERM-0012,FAC-MAN-003,GHG emissions (ETS-like),IN Environmental Agency (synthetic),2018-12-14,2023-12-14,Compliant
+PERM-0013,FAC-MAN-004,Water abstraction,ZA Environmental Agency (synthetic),2025-02-27,2030-02-27,Non-compliant
+PERM-0014,FAC-MAN-004,Air emissions,ZA Environmental Agency (synthetic),2023-01-13,2028-01-13,Non-compliant
+PERM-0015,FAC-MAN-004,Air emissions,ZA Environmental Agency (synthetic),2025-02-02,2030-02-02,Compliant
+PERM-0016,FAC-MAN-005,Hazardous waste storage,DE Environmental Agency (synthetic),2023-03-11,2028-03-11,Minor deviation
+PERM-0017,FAC-MAN-005,Water abstraction,DE Environmental Agency (synthetic),2021-06-26,2026-06-26,Non-compliant
+PERM-0018,FAC-MAN-005,Hazardous waste storage,DE Environmental Agency (synthetic),2019-03-25,2024-03-25,Minor deviation
+PERM-0019,FAC-MAN-005,Hazardous waste storage,DE Environmental Agency (synthetic),2021-12-10,2026-12-10,Non-compliant
+PERM-0020,FAC-MAN-006,GHG emissions (ETS-like),MX Environmental Agency (synthetic),2023-10-19,2028-10-19,Compliant
+PERM-0021,FAC-MAN-006,Wastewater discharge,MX Environmental Agency (synthetic),2020-01-29,2025-01-29,Compliant
+PERM-0022,FAC-MAN-006,Hazardous waste storage,MX Environmental Agency (synthetic),2020-12-27,2025-12-27,Compliant
+PERM-0023,FAC-MAN-007,Wastewater discharge,JP Environmental Agency (synthetic),2020-04-10,2025-04-10,Compliant
+PERM-0024,FAC-MAN-007,Wastewater discharge,JP Environmental Agency (synthetic),2025-02-13,2030-02-13,Non-compliant
+PERM-0025,FAC-MAN-008,Hazardous waste storage,CA Environmental Agency (synthetic),2025-02-27,2030-02-27,Compliant
+PERM-0026,FAC-MAN-008,Water abstraction,CA Environmental Agency (synthetic),2020-04-01,2025-04-01,Compliant
+PERM-0027,FAC-MAN-008,Hazardous waste storage,CA Environmental Agency (synthetic),2018-07-27,2023-07-27,Minor deviation
+PERM-0028,FAC-MAN-008,Hazardous waste storage,CA Environmental Agency (synthetic),2018-11-11,2023-11-11,Compliant
+PERM-0029,FAC-MAN-009,Water abstraction,US Environmental Agency (synthetic),2018-06-06,2023-06-06,Compliant
+PERM-0030,FAC-MAN-009,Air emissions,US Environmental Agency (synthetic),2021-08-01,2026-08-01,Compliant
+PERM-0031,FAC-MAN-009,GHG emissions (ETS-like),US Environmental Agency (synthetic),2018-12-25,2023-12-25,Compliant
+PERM-0032,FAC-MAN-009,Water abstraction,US Environmental Agency (synthetic),2021-02-09,2026-02-09,Compliant
+PERM-0033,FAC-MAN-009,Air emissions,US Environmental Agency (synthetic),2024-03-14,2029-03-14,Non-compliant
+PERM-0034,FAC-MAN-010,GHG emissions (ETS-like),FR Environmental Agency (synthetic),2019-05-22,2024-05-22,Minor deviation
+PERM-0035,FAC-MAN-010,Air emissions,FR Environmental Agency (synthetic),2021-10-31,2026-10-31,Non-compliant
+PERM-0036,FAC-MAN-010,Hazardous waste storage,FR Environmental Agency (synthetic),2021-10-15,2026-10-15,Compliant
+PERM-0037,FAC-MAN-010,GHG emissions (ETS-like),FR Environmental Agency (synthetic),2024-10-27,2029-10-27,Non-compliant
+PERM-0038,FAC-MAN-010,GHG emissions (ETS-like),FR Environmental Agency (synthetic),2023-12-25,2028-12-25,Minor deviation
+PERM-0039,FAC-MAN-011,Air emissions,US Environmental Agency (synthetic),2020-08-05,2025-08-05,Minor deviation
+PERM-0040,FAC-MAN-011,GHG emissions (ETS-like),US Environmental Agency (synthetic),2022-11-11,2027-11-11,Minor deviation
+PERM-0041,FAC-MAN-012,Water abstraction,DE Environmental Agency (synthetic),2022-08-26,2027-08-26,Compliant
+PERM-0042,FAC-MAN-012,Air emissions,DE Environmental Agency (synthetic),2019-03-24,2024-03-24,Compliant
+PERM-0043,FAC-MAN-012,Water abstraction,DE Environmental Agency (synthetic),2018-05-10,2023-05-10,Compliant
+PERM-0044,FAC-MAN-012,GHG emissions (ETS-like),DE Environmental Agency (synthetic),2023-05-02,2028-05-02,Non-compliant
+PERM-0045,FAC-MAN-013,Air emissions,CN Environmental Agency (synthetic),2018-02-20,2023-02-20,Compliant
+PERM-0046,FAC-MAN-013,Wastewater discharge,CN Environmental Agency (synthetic),2024-02-16,2029-02-16,Minor deviation
+PERM-0047,FAC-MAN-013,GHG emissions (ETS-like),CN Environmental Agency (synthetic),2025-01-05,2030-01-05,Non-compliant
+PERM-0048,FAC-MAN-013,Hazardous waste storage,CN Environmental Agency (synthetic),2022-08-02,2027-08-02,Compliant
+PERM-0049,FAC-MAN-013,Air emissions,CN Environmental Agency (synthetic),2022-09-09,2027-09-09,Compliant
+PERM-0050,FAC-MAN-014,Water abstraction,JP Environmental Agency (synthetic),2024-03-19,2029-03-19,Non-compliant
+PERM-0051,FAC-MAN-014,Water abstraction,JP Environmental Agency (synthetic),2017-12-25,2022-12-25,Compliant
+PERM-0052,FAC-MAN-014,Air emissions,JP Environmental Agency (synthetic),2018-01-16,2023-01-16,Compliant
+PERM-0053,FAC-MAN-015,Hazardous waste storage,TH Environmental Agency (synthetic),2024-05-31,2029-05-31,Compliant
+PERM-0054,FAC-MAN-015,Wastewater discharge,TH Environmental Agency (synthetic),2021-09-23,2026-09-23,Compliant
+PERM-0055,FAC-MAN-015,Wastewater discharge,TH Environmental Agency (synthetic),2020-10-28,2025-10-28,Compliant
+PERM-0056,FAC-MAN-016,Water abstraction,FR Environmental Agency (synthetic),2022-07-20,2027-07-20,Compliant
+PERM-0057,FAC-MAN-016,Wastewater discharge,FR Environmental Agency (synthetic),2018-11-21,2023-11-21,Compliant
+PERM-0058,FAC-MAN-016,Wastewater discharge,FR Environmental Agency (synthetic),2019-10-01,2024-10-01,Minor deviation
+PERM-0059,FAC-MAN-017,GHG emissions (ETS-like),ZA Environmental Agency (synthetic),2023-04-04,2028-04-04,Compliant
+PERM-0060,FAC-MAN-017,Air emissions,ZA Environmental Agency (synthetic),2025-05-23,2030-05-23,Compliant
+PERM-0061,FAC-MAN-018,Wastewater discharge,DE Environmental Agency (synthetic),2022-02-26,2027-02-26,Compliant
+PERM-0062,FAC-MAN-018,Air emissions,DE Environmental Agency (synthetic),2024-04-26,2029-04-26,Minor deviation
+PERM-0063,FAC-MAN-019,Water abstraction,GB Environmental Agency (synthetic),2021-10-17,2026-10-17,Minor deviation
+PERM-0064,FAC-MAN-019,Wastewater discharge,GB Environmental Agency (synthetic),2019-08-04,2024-08-04,Compliant
+PERM-0065,FAC-MAN-020,Hazardous waste storage,CN Environmental Agency (synthetic),2023-03-30,2028-03-30,Compliant
+PERM-0066,FAC-MAN-020,Water abstraction,CN Environmental Agency (synthetic),2018-04-10,2023-04-10,Compliant
+PERM-0067,FAC-MAN-020,Wastewater discharge,CN Environmental Agency (synthetic),2017-09-26,2022-09-26,Non-compliant
+PERM-0068,FAC-MAN-021,Wastewater discharge,US Environmental Agency (synthetic),2023-03-11,2028-03-11,Compliant
+PERM-0069,FAC-MAN-021,GHG emissions (ETS-like),US Environmental Agency (synthetic),2024-10-28,2029-10-28,Compliant
+PERM-0070,FAC-MAN-022,Wastewater discharge,DE Environmental Agency (synthetic),2022-09-10,2027-09-10,Compliant
+PERM-0071,FAC-MAN-022,GHG emissions (ETS-like),DE Environmental Agency (synthetic),2019-01-03,2024-01-03,Minor deviation
+PERM-0072,FAC-MAN-022,Air emissions,DE Environmental Agency (synthetic),2023-01-28,2028-01-28,Compliant
+PERM-0073,FAC-MAN-022,Hazardous waste storage,DE Environmental Agency (synthetic),2022-11-05,2027-11-05,Compliant
+PERM-0074,FAC-MAN-022,Hazardous waste storage,DE Environmental Agency (synthetic),2025-04-08,2030-04-08,Compliant
+PERM-0075,FAC-MAN-023,Water abstraction,IT Environmental Agency (synthetic),2022-08-05,2027-08-05,Compliant
+PERM-0076,FAC-MAN-023,Hazardous waste storage,IT Environmental Agency (synthetic),2024-06-18,2029-06-18,Compliant
+PERM-0077,FAC-MAN-024,Water abstraction,CA Environmental Agency (synthetic),2017-07-30,2022-07-30,Compliant
+PERM-0078,FAC-MAN-024,Hazardous waste storage,CA Environmental Agency (synthetic),2020-12-03,2025-12-03,Non-compliant
+PERM-0079,FAC-MAN-025,GHG emissions (ETS-like),SE Environmental Agency (synthetic),2022-06-05,2027-06-05,Non-compliant
+PERM-0080,FAC-MAN-025,Water abstraction,SE Environmental Agency (synthetic),2021-02-20,2026-02-20,Compliant
+PERM-0081,FAC-MAN-025,Hazardous waste storage,SE Environmental Agency (synthetic),2017-08-30,2022-08-30,Compliant
+PERM-0082,FAC-MAN-026,GHG emissions (ETS-like),TR Environmental Agency (synthetic),2023-05-28,2028-05-28,Compliant
+PERM-0083,FAC-MAN-026,Water abstraction,TR Environmental Agency (synthetic),2020-10-12,2025-10-12,Minor deviation
+PERM-0084,FAC-MAN-027,GHG emissions (ETS-like),CN Environmental Agency (synthetic),2019-10-18,2024-10-18,Compliant
+PERM-0085,FAC-MAN-027,GHG emissions (ETS-like),CN Environmental Agency (synthetic),2017-10-10,2022-10-10,Minor deviation
+PERM-0086,FAC-MAN-027,Wastewater discharge,CN Environmental Agency (synthetic),2018-06-25,2023-06-25,Compliant
+PERM-0087,FAC-MAN-027,Air emissions,CN Environmental Agency (synthetic),2019-12-09,2024-12-09,Compliant
+PERM-0088,FAC-MAN-028,Wastewater discharge,GB Environmental Agency (synthetic),2019-04-20,2024-04-20,Minor deviation
+PERM-0089,FAC-MAN-028,Wastewater discharge,GB Environmental Agency (synthetic),2017-08-11,2022-08-11,Compliant
+PERM-0090,FAC-MAN-028,GHG emissions (ETS-like),GB Environmental Agency (synthetic),2019-04-30,2024-04-30,Compliant
+PERM-0091,FAC-MAN-029,Hazardous waste storage,IN Environmental Agency (synthetic),2019-05-12,2024-05-12,Compliant
+PERM-0092,FAC-MAN-029,Air emissions,IN Environmental Agency (synthetic),2023-12-21,2028-12-21,Minor deviation
+PERM-0093,FAC-MAN-029,Water abstraction,IN Environmental Agency (synthetic),2023-09-05,2028-09-05,Non-compliant
+PERM-0094,FAC-MAN-029,Air emissions,IN Environmental Agency (synthetic),2017-03-09,2022-03-09,Minor deviation
+PERM-0095,FAC-MAN-030,Wastewater discharge,PL Environmental Agency (synthetic),2020-12-31,2025-12-31,Minor deviation
+PERM-0096,FAC-MAN-030,Wastewater discharge,PL Environmental Agency (synthetic),2020-07-22,2025-07-22,Non-compliant
+PERM-0097,FAC-MAN-030,Wastewater discharge,PL Environmental Agency (synthetic),2017-11-20,2022-11-20,Minor deviation
+PERM-0098,FAC-MAN-030,Air emissions,PL Environmental Agency (synthetic),2022-07-25,2027-07-25,Compliant
+PERM-0099,FAC-MAN-030,Hazardous waste storage,PL Environmental Agency (synthetic),2022-04-29,2027-04-29,Compliant
+PERM-0100,FAC-MAN-031,Hazardous waste storage,KR Environmental Agency (synthetic),2018-09-22,2023-09-22,Non-compliant
+PERM-0101,FAC-MAN-031,Water abstraction,KR Environmental Agency (synthetic),2017-09-18,2022-09-18,Compliant
+PERM-0102,FAC-MAN-031,Air emissions,KR Environmental Agency (synthetic),2022-02-11,2027-02-11,Compliant
+PERM-0103,FAC-MAN-031,Air emissions,KR Environmental Agency (synthetic),2017-03-21,2022-03-21,Compliant
+PERM-0104,FAC-MAN-032,Wastewater discharge,IN Environmental Agency (synthetic),2018-01-12,2023-01-12,Minor deviation
+PERM-0105,FAC-MAN-032,Wastewater discharge,IN Environmental Agency (synthetic),2017-10-06,2022-10-06,Compliant
+PERM-0106,FAC-MAN-033,Water abstraction,JP Environmental Agency (synthetic),2017-11-10,2022-11-10,Minor deviation
+PERM-0107,FAC-MAN-033,GHG emissions (ETS-like),JP Environmental Agency (synthetic),2018-01-29,2023-01-29,Compliant
+PERM-0108,FAC-MAN-033,GHG emissions (ETS-like),JP Environmental Agency (synthetic),2024-06-26,2029-06-26,Non-compliant
+PERM-0109,FAC-MAN-034,Wastewater discharge,PL Environmental Agency (synthetic),2021-10-19,2026-10-19,Compliant
+PERM-0110,FAC-MAN-034,Water abstraction,PL Environmental Agency (synthetic),2020-04-11,2025-04-11,Compliant
+PERM-0111,FAC-MAN-035,Hazardous waste storage,DE Environmental Agency (synthetic),2025-05-22,2030-05-22,Compliant
+PERM-0112,FAC-MAN-035,Hazardous waste storage,DE Environmental Agency (synthetic),2018-07-25,2023-07-25,Minor deviation
+PERM-0113,FAC-MAN-035,Hazardous waste storage,DE Environmental Agency (synthetic),2019-06-09,2024-06-09,Non-compliant
+PERM-0114,FAC-MAN-035,GHG emissions (ETS-like),DE Environmental Agency (synthetic),2017-12-31,2022-12-31,Compliant
+PERM-0115,FAC-MAN-036,Air emissions,JP Environmental Agency (synthetic),2023-05-01,2028-05-01,Compliant
+PERM-0116,FAC-MAN-036,Hazardous waste storage,JP Environmental Agency (synthetic),2020-04-08,2025-04-08,Non-compliant
+PERM-0117,FAC-MAN-036,GHG emissions (ETS-like),JP Environmental Agency (synthetic),2022-12-26,2027-12-26,Minor deviation
+PERM-0118,FAC-MAN-037,GHG emissions (ETS-like),SG Environmental Agency (synthetic),2017-01-11,2022-01-11,Compliant
+PERM-0119,FAC-MAN-037,Hazardous waste storage,SG Environmental Agency (synthetic),2024-04-30,2029-04-30,Compliant
+PERM-0120,FAC-MAN-037,Hazardous waste storage,SG Environmental Agency (synthetic),2024-06-13,2029-06-13,Non-compliant
+PERM-0121,FAC-MAN-037,Hazardous waste storage,SG Environmental Agency (synthetic),2021-07-15,2026-07-15,Compliant
+PERM-0122,FAC-MAN-037,Water abstraction,SG Environmental Agency (synthetic),2025-02-22,2030-02-22,Minor deviation
+PERM-0123,FAC-MAN-038,Wastewater discharge,US Environmental Agency (synthetic),2017-01-18,2022-01-18,Compliant
+PERM-0124,FAC-MAN-038,Hazardous waste storage,US Environmental Agency (synthetic),2019-10-23,2024-10-23,Minor deviation
+PERM-0125,FAC-MAN-039,Air emissions,DE Environmental Agency (synthetic),2024-10-16,2029-10-16,Compliant
+PERM-0126,FAC-MAN-039,GHG emissions (ETS-like),DE Environmental Agency (synthetic),2021-12-17,2026-12-17,Compliant
+PERM-0127,FAC-MAN-039,Wastewater discharge,DE Environmental Agency (synthetic),2024-07-21,2029-07-21,Compliant
+PERM-0128,FAC-MAN-039,Wastewater discharge,DE Environmental Agency (synthetic),2021-01-19,2026-01-19,Compliant
+PERM-0129,FAC-MAN-039,GHG emissions (ETS-like),DE Environmental Agency (synthetic),2020-05-31,2025-05-31,Compliant
+PERM-0130,FAC-MAN-040,GHG emissions (ETS-like),DE Environmental Agency (synthetic),2022-01-13,2027-01-13,Compliant
+PERM-0131,FAC-MAN-040,Air emissions,DE Environmental Agency (synthetic),2024-06-09,2029-06-09,Minor deviation
+PERM-0132,FAC-MAN-040,GHG emissions (ETS-like),DE Environmental Agency (synthetic),2019-10-11,2024-10-11,Compliant
+PERM-0133,FAC-MAN-040,Air emissions,DE Environmental Agency (synthetic),2017-11-01,2022-11-01,Compliant
+PERM-0134,FAC-MAN-040,Water abstraction,DE Environmental Agency (synthetic),2019-07-05,2024-07-05,Compliant
+PERM-0135,FAC-MAN-041,Wastewater discharge,AU Environmental Agency (synthetic),2024-09-04,2029-09-04,Compliant
+PERM-0136,FAC-MAN-041,GHG emissions (ETS-like),AU Environmental Agency (synthetic),2018-10-02,2023-10-02,Minor deviation
+PERM-0137,FAC-MAN-041,Wastewater discharge,AU Environmental Agency (synthetic),2022-08-25,2027-08-25,Non-compliant
+PERM-0138,FAC-MAN-041,GHG emissions (ETS-like),AU Environmental Agency (synthetic),2017-02-05,2022-02-05,Compliant
+PERM-0139,FAC-MAN-041,Water abstraction,AU Environmental Agency (synthetic),2020-09-16,2025-09-16,Non-compliant
+PERM-0140,FAC-MAN-042,Hazardous waste storage,MX Environmental Agency (synthetic),2021-04-17,2026-04-17,Compliant
+PERM-0141,FAC-MAN-042,Hazardous waste storage,MX Environmental Agency (synthetic),2022-12-20,2027-12-20,Compliant

@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-97676747 for account UA-51222557
+Date: Thu, 03 Sep 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for August 2026 is attached (PDF). Amount due: 1,303,903.60 THB.

@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-262907208 for account UA-59306936
+Date: Tue, 14 Apr 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for March 2026 is attached (PDF). Amount due: 9,233.68 AUD.

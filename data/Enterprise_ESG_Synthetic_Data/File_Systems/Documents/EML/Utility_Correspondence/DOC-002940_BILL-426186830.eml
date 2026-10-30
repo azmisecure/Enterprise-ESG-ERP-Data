@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-426186830 for account UA-57398484
+Date: Sun, 14 Apr 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for March 2024 is attached (PDF). Amount due: 25,647.17 CNY.

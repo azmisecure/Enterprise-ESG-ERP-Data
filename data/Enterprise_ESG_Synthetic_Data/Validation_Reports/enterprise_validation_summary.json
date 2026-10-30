@@ -1,0 +1,42 @@
+{
+ "generated_at": "2026-10-30T14:52:44+00:00",
+ "seed": 42,
+ "scale": 0.1,
+ "datasets": 109,
+ "total_records": 5900448,
+ "invalid_records": 6113,
+ "unexplained_failures": 0,
+ "intentionally_defective": 35288,
+ "ground_truth_anomalies": 37132,
+ "anomaly_checks": {
+  "every_injected_anomaly_has_ground_truth": true,
+  "ground_truth_references_existing_records": true,
+  "ground_truth_missing_reference_count": 0,
+  "expected_and_actual_values_recorded": true,
+  "root_causes_populated": true,
+  "labels_absent_from_raw": true,
+  "evaluation_splits_isolated": true,
+  "holdout_subtypes_only_in_test": [
+   "Celsius versus Fahrenheit",
+   "Certificate outside market boundary",
+   "Double-counted credits (same serial retired in two years)",
+   "Historical data retrospectively modified without audit records",
+   "Incomplete database extract"
+  ]
+ },
+ "overall_status": "VALIDATED",
+ "enterprise_pass_pct": 100.0,
+ "splits": {
+  "train": 20506,
+  "test": 9750,
+  "validation": 6876
+ },
+ "families": {
+  "Data_Inconsistencies": 14817,
+  "Operational_Anomalies": 10316,
+  "Calculation_Errors": 8262,
+  "Unit_Errors": 2184,
+  "Document_Anomalies": 1157,
+  "Governance_Anomalies": 396
+ }
+}

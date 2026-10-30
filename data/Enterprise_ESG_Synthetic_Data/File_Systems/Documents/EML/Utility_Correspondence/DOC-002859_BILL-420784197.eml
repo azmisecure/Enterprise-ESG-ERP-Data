@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-420784197 for account UA-50293089
+Date: Fri, 09 Jan 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for December 2025 is attached (PDF). Amount due: 692,239.90 CNY.

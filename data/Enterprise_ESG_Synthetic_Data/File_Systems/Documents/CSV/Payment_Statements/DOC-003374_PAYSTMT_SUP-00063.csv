@@ -1,0 +1,2 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0001777,APINV-0001913,SUP-00063,2023-06-30,24514.59,AED,Local transfer,PV8001776

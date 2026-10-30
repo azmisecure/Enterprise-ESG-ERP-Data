@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-115198407 for account UA-79452505
+Date: Sat, 12 Jul 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for June 2025 is attached (PDF). Amount due: 3,298,556.25 INR.

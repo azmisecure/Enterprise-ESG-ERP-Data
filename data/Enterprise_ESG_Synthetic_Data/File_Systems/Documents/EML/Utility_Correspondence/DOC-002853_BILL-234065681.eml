@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-234065681 for account UA-24087191
+Date: Fri, 03 Mar 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for February 2023 is attached (PDF). Amount due: 989,534.68 CNY.

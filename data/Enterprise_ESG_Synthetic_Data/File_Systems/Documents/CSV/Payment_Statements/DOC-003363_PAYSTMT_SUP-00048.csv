@@ -1,0 +1,3 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0000985,APINV-0001049,SUP-00048,2025-11-11,3268358.78,INR,ACH,PV8000984
+APPAY-0002249,APINV-0002429,SUP-00048,2025-12-28,9933701.25,INR,SEPA,PV8002248

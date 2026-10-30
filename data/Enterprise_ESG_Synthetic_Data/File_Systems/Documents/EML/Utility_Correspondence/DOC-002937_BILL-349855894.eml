@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-349855894 for account UA-33265148
+Date: Thu, 04 Jun 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for May 2026 is attached (PDF). Amount due: 50,531.89 CAD.

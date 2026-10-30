@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-559996439 for account UA-86817538
+Date: Tue, 14 Jun 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for May 2022 is attached (PDF). Amount due: 106,161,994.09 KRW.

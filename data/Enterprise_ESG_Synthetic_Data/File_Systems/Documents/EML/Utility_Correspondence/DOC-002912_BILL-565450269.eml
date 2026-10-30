@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-565450269 for account UA-40833936
+Date: Fri, 06 Jan 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for December 2022 is attached (PDF). Amount due: 240,891.88 CNY.

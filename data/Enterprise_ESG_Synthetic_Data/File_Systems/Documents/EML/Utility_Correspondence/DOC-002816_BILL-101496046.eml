@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-101496046 for account UA-57994997
+Date: Wed, 06 Dec 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for November 2023 is attached (PDF). Amount due: 1,528,237.65 INR.

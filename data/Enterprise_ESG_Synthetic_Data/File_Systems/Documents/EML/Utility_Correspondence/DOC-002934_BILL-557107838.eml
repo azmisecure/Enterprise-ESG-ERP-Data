@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-557107838 for account UA-84042068
+Date: Fri, 07 Aug 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for July 2026 is attached (PDF). Amount due: 35,352.45 SGD.

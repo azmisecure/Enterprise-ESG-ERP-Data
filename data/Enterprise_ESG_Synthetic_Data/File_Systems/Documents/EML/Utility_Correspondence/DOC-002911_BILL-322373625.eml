@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-322373625 for account nan
+Date: Sun, 08 Sep 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for August 2024 is attached (PDF). Amount due: 38,968.44 USD.

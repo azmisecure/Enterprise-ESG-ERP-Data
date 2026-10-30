@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-305010517 for account UA-50979745
+Date: Sun, 12 Jun 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for May 2022 is attached (PDF). Amount due: 3,255.99 EUR.

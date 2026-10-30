@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-279674186 for account UA-29155816
+Date: Fri, 06 Oct 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for September 2023 is attached (PDF). Amount due: 101,676.68 THB.

@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-52837459 for account UA-90779253
+Date: Fri, 05 Aug 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for July 2022 is attached (PDF). Amount due: 14,560,738.87 JPY.

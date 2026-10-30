@@ -1,0 +1,3 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0003388,APINV-0003661,SUP-00057,2024-02-12,1396127.76,TRY,ACH,PV8003387
+APPAY-0003900,APINV-0004213,SUP-00057,2024-01-02,580522.78,TRY,ACH,PV8003899

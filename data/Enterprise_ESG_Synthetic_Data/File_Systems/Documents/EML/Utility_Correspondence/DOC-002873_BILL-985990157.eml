@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-985990157 for account UA-83786882
+Date: Sat, 08 Mar 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for February 2025 is attached (PDF). Amount due: 6,287,768.08 INR.

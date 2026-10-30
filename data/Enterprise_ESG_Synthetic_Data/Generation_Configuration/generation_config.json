@@ -1,0 +1,21 @@
+{
+ "seed": 42,
+ "scale": 0.1,
+ "n_docs": 3000,
+ "anomaly_distribution_target": {
+  "clean": 0.8,
+  "defective": 0.15,
+  "ambiguous_incomplete": 0.05
+ },
+ "holdout_subtypes": [
+  "Celsius versus Fahrenheit",
+  "Certificate outside market boundary",
+  "Double-counted credits (same serial retired in two years)",
+  "Historical data retrospectively modified without audit records",
+  "Incomplete database extract"
+ ],
+ "reporting_period": "2022-01-01/2026-12-31",
+ "base_year": 2022,
+ "gwp_basis": "AR5 (2022-2023 factor versions) / AR6 (2024+)",
+ "consolidation": "Operational control"
+}

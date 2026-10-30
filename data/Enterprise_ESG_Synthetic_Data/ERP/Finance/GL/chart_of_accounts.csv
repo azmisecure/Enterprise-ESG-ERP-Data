@@ -1,0 +1,43 @@
+gl_account,gl_account_name,account_type,chart_of_accounts
+100100,Cash at bank,Asset,SYN-COA-01
+110000,Trade receivables,Asset,SYN-COA-01
+120000,Raw material inventory,Asset,SYN-COA-01
+121000,WIP inventory,Asset,SYN-COA-01
+122000,Finished goods,Asset,SYN-COA-01
+150000,Plant & machinery,Asset,SYN-COA-01
+159000,Accumulated depreciation,Asset,SYN-COA-01
+165000,Intercompany receivable,Asset,SYN-COA-01
+175000,Input VAT,Asset,SYN-COA-01
+200000,Trade payables,Liability,SYN-COA-01
+205000,GR/IR clearing,Liability,SYN-COA-01
+210000,Accrued expenses,Liability,SYN-COA-01
+215000,Output VAT,Liability,SYN-COA-01
+220000,Payroll liabilities,Liability,SYN-COA-01
+225000,Provisions - environmental,Liability,SYN-COA-01
+265000,Intercompany payable,Liability,SYN-COA-01
+300000,Share capital,Equity,SYN-COA-01
+310000,Retained earnings,Equity,SYN-COA-01
+400000,Product revenue,Revenue,SYN-COA-01
+401000,Service revenue,Revenue,SYN-COA-01
+410000,Sales returns,Revenue,SYN-COA-01
+500000,Cost of materials,Expense,SYN-COA-01
+510000,Production variance,Expense,SYN-COA-01
+520000,Scrap & obsolescence,Expense,SYN-COA-01
+600100,Electricity expense,Expense,SYN-COA-01
+600200,Natural gas expense,Expense,SYN-COA-01
+600300,Fuel - diesel,Expense,SYN-COA-01
+600400,Steam & heat,Expense,SYN-COA-01
+600500,Water & wastewater,Expense,SYN-COA-01
+600600,Waste disposal,Expense,SYN-COA-01
+600700,Refrigerant & gases,Expense,SYN-COA-01
+600800,Coal & solid fuels,Expense,SYN-COA-01
+610000,Freight & logistics,Expense,SYN-COA-01
+620000,Travel & accommodation,Expense,SYN-COA-01
+630000,Salaries & wages,Expense,SYN-COA-01
+640000,Depreciation,Expense,SYN-COA-01
+650000,Maintenance & repairs,Expense,SYN-COA-01
+660000,Professional services,Expense,SYN-COA-01
+670000,IT services,Expense,SYN-COA-01
+680000,Environmental fines,Expense,SYN-COA-01
+690000,Carbon credits & certificates,Expense,SYN-COA-01
+700000,FX gains/losses,Expense,SYN-COA-01

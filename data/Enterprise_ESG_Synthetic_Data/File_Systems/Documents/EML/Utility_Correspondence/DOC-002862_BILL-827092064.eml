@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-827092064 for account UA-57385386
+Date: Sun, 10 Mar 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for February 2024 is attached (PDF). Amount due: 26,584.06 SEK.

@@ -1,0 +1,27 @@
+legal_entity_id,company_code,legal_entity_name,country_id,functional_currency,fiscal_year_start_month,ownership_pct,consolidation_method,enterprise_id,synthetic_flag
+LE-US01,1000,Halvorsen-Kaito United States Manufacturing Inc. (SYNTHETIC),US,USD,1,100.0,Full,ENT-0001,True
+LE-US02,1010,Halvorsen-Kaito United States Trading Inc. (SYNTHETIC),US,USD,1,100.0,Full,ENT-0001,True
+LE-CA01,1020,Halvorsen-Kaito Canada Manufacturing Ltd. (SYNTHETIC),CA,CAD,1,100.0,Full,ENT-0001,True
+LE-MX01,1030,Halvorsen-Kaito Mexico Manufacturing S.A. de C.V. (SYNTHETIC),MX,MXN,1,100.0,Full,ENT-0001,True
+LE-BR01,1040,Halvorsen-Kaito Brazil Manufacturing Ltda. (SYNTHETIC),BR,BRL,1,100.0,Full,ENT-0001,True
+LE-GB01,1050,Halvorsen-Kaito United Kingdom Manufacturing Ltd (SYNTHETIC),GB,GBP,4,100.0,Full,ENT-0001,True
+LE-DE01,1060,Halvorsen-Kaito Germany Manufacturing GmbH (SYNTHETIC),DE,EUR,1,100.0,Full,ENT-0001,True
+LE-DE02,1070,Halvorsen-Kaito Germany Trading GmbH (SYNTHETIC),DE,EUR,1,100.0,Full,ENT-0001,True
+LE-FR01,1080,Halvorsen-Kaito France Manufacturing SAS (SYNTHETIC),FR,EUR,1,100.0,Full,ENT-0001,True
+LE-IT01,1090,Halvorsen-Kaito Italy Manufacturing S.p.A. (SYNTHETIC),IT,EUR,1,100.0,Full,ENT-0001,True
+LE-ES01,1100,Halvorsen-Kaito Spain Manufacturing S.L. (SYNTHETIC),ES,EUR,1,100.0,Full,ENT-0001,True
+LE-PL01,1110,Halvorsen-Kaito Poland Manufacturing Sp. z o.o. (SYNTHETIC),PL,PLN,1,100.0,Full,ENT-0001,True
+LE-NL01,1120,Halvorsen-Kaito Netherlands Manufacturing B.V. (SYNTHETIC),NL,EUR,1,100.0,Full,ENT-0001,True
+LE-SE01,1130,Halvorsen-Kaito Sweden Manufacturing AB (SYNTHETIC),SE,SEK,1,100.0,Full,ENT-0001,True
+LE-TR01,1140,Halvorsen-Kaito Turkiye Manufacturing A.S. (SYNTHETIC),TR,TRY,1,100.0,Full,ENT-0001,True
+LE-ZA01,1150,Halvorsen-Kaito South Africa Manufacturing (Pty) Ltd (SYNTHETIC),ZA,ZAR,3,100.0,Full,ENT-0001,True
+LE-AE01,1160,Halvorsen-Kaito United Arab Emirates Manufacturing FZE (SYNTHETIC),AE,AED,1,100.0,Full,ENT-0001,True
+LE-IN01,1170,Halvorsen-Kaito India Manufacturing Pvt Ltd (SYNTHETIC),IN,INR,4,100.0,Full,ENT-0001,True
+LE-IN02,1180,Halvorsen-Kaito India Trading Pvt Ltd (SYNTHETIC),IN,INR,4,100.0,Full,ENT-0001,True
+LE-CN01,1190,"Halvorsen-Kaito China Manufacturing Co., Ltd. (SYNTHETIC)",CN,CNY,1,100.0,Full,ENT-0001,True
+LE-CN02,1200,"Halvorsen-Kaito China Trading Co., Ltd. (SYNTHETIC)",CN,CNY,1,60.0,JV-equity share,ENT-0001,True
+LE-JP01,1210,Halvorsen-Kaito Japan Manufacturing K.K. (SYNTHETIC),JP,JPY,4,100.0,Full,ENT-0001,True
+LE-KR01,1220,"Halvorsen-Kaito South Korea Manufacturing Co., Ltd. (SYNTHETIC)",KR,KRW,1,100.0,Full,ENT-0001,True
+LE-SG01,1230,Halvorsen-Kaito Singapore Manufacturing Pte Ltd (SYNTHETIC),SG,SGD,4,100.0,Full,ENT-0001,True
+LE-TH01,1240,"Halvorsen-Kaito Thailand Manufacturing Co., Ltd. (SYNTHETIC)",TH,THB,10,100.0,Full,ENT-0001,True
+LE-AU01,1250,Halvorsen-Kaito Australia Manufacturing Pty Ltd (SYNTHETIC),AU,AUD,7,100.0,Full,ENT-0001,True

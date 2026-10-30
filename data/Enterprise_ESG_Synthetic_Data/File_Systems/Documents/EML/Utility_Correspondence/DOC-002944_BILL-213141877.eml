@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-213141877 for account nan
+Date: Thu, 04 Apr 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for March 2024 is attached (PDF). Amount due: 435,249.68 ZAR.

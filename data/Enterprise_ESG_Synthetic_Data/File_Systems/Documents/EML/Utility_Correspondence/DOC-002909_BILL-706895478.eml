@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-706895478 for account UA-40117224
+Date: Wed, 14 Sep 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for August 2022 is attached (PDF). Amount due: 19,239.24 GBP.

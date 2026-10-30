@@ -1,0 +1,110 @@
+dataset,path,batch_id,total_records,invalid_records,valid_records,duplicate_pk_records,missing_values,referential_integrity_failures,fk_detail,business_rule,business_rule_failures,intentionally_defective_records,unexplained_failures,naturally_incomplete_records,label_leakage_columns,validation_pass_pct,status
+enterprise,Enterprise_Master/Enterprise/enterprise.json,B01,1,0,1,0,0,0,{},,0,0,0,0,,100.0,PASS
+countries,Enterprise_Master/Countries/countries.csv,B01,22,0,22,0,0,0,{},,0,0,0,0,,100.0,PASS
+legal_entities,Enterprise_Master/Legal_Entities/legal_entities.csv,B01,26,0,26,0,0,0,"{""country_id"": 0}",,0,0,0,0,,100.0,PASS
+divisions,Enterprise_Master/Business_Units/divisions.csv,B01,7,0,7,0,0,0,{},,0,0,0,0,,100.0,PASS
+business_units,Enterprise_Master/Business_Units/business_units.csv,B01,21,0,21,0,0,0,"{""division_id"": 0}",,0,0,0,0,,100.0,PASS
+facilities,Enterprise_Master/Facilities/facilities.csv,B01,152,0,152,0,446,0,"{""country_id"": 0, ""legal_entity_id"": 0, ""business_unit_id"": 0}",,0,0,0,152,,100.0,PASS
+plants,Enterprise_Master/Plants/plants.csv,B01,59,0,59,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+production_lines,Enterprise_Master/Plants/production_lines.csv,B01,293,0,293,0,0,0,"{""plant_id"": 0}",,0,0,0,0,,100.0,PASS
+departments,Enterprise_Master/Departments/departments.csv,B01,312,0,312,0,0,0,"{""legal_entity_id"": 0}",,0,0,0,0,,100.0,PASS
+cost_centres,Enterprise_Master/Cost_Centres/cost_centres.csv,B01,886,0,886,0,0,0,"{""facility_id"": 0, ""profit_centre_id"": 0}",,0,0,0,0,,100.0,PASS
+profit_centres,Enterprise_Master/Cost_Centres/profit_centres.csv,B01,91,0,91,0,0,0,"{""business_unit_id"": 0}",,0,0,0,0,,100.0,PASS
+fx_rates,Enterprise_Master/Countries/fx_rates_monthly.csv,B01,1080,0,1080,0,0,0,{},,0,0,0,0,,100.0,PASS
+reporting_calendar,Enterprise_Master/Enterprise/reporting_calendar.csv,B01,60,0,60,0,0,0,{},,0,0,0,0,,100.0,PASS
+suppliers,Procurement/Suppliers/supplier_master.parquet,B02,10000,0,10000,0,9409,0,"{""country_id"": 0}",,0,60,0,9294,,100.0,PASS
+supplier_locations,Procurement/Suppliers/supplier_locations.parquet,B02,17478,0,17478,0,0,0,"{""supplier_id"": 0}",,0,0,0,0,,100.0,PASS
+materials,ERP/Materials/material_master.parquet,B02,5000,0,5000,0,2049,0,"{""primary_supplier_id"": 0, ""secondary_supplier_id"": 0}",,0,45,0,2004,,100.0,PASS
+products,ERP/Products/product_master.parquet,B02,2000,0,2000,0,1829,0,"{""division_id"": 0}",,0,0,0,1829,,100.0,PASS
+bom,ERP/Products/bill_of_materials.parquet,B02,13126,0,13126,0,0,0,"{""product_id"": 0, ""material_id"": 0}",,0,0,0,0,,100.0,PASS
+routings,ERP/Products/routings.parquet,B02,4000,0,4000,0,0,0,"{""product_id"": 0, ""production_line_id"": 0}",,0,0,0,0,,100.0,PASS
+assets,ERP/Assets/fixed_asset_register.parquet,B02,20000,0,20000,0,41515,0,"{""facility_id"": 0, ""production_line_id"": 0}",,0,0,0,20000,,100.0,PASS
+meters,Energy/energy_meters.csv,B02,5000,0,5000,0,5042,0,"{""facility_id"": 0}",,0,299,0,4701,,100.0,PASS
+vehicles,Logistics/fleet_master.csv,B02,3000,0,3000,0,2786,0,"{""facility_id"": 0}",,0,0,0,2786,,100.0,PASS
+customers,CRM/Customers/customer_master.parquet,B02,20000,0,20000,0,18426,0,"{""country_id"": 0}",,0,0,0,18426,,100.0,PASS
+erp_customers,ERP/Finance/AR/erp_customer_master.parquet,B02,20000,0,20000,0,0,0,{},,0,115,0,0,,100.0,PASS
+employees,HRMS/employee_master.parquet,B02,75000,0,75000,0,59784,0,"{""facility_id"": 0, ""department_id"": 0}",,0,0,0,59784,,100.0,PASS
+chart_of_accounts,ERP/Finance/GL/chart_of_accounts.csv,B02,42,0,42,0,0,0,{},,0,0,0,0,,100.0,PASS
+emission_factors,GHG_Accounting/Emission_Factors/emission_factor_database.parquet,B03,10000,0,10000,0,22468,0,{},,0,0,0,10000,,100.0,PASS
+supplier_contracts,Procurement/Purchase_Orders/supplier_contracts.parquet,B04,2484,0,2484,0,0,0,"{""supplier_id"": 0}",,0,0,0,0,,100.0,PASS
+po_lines,ERP/Procurement/purchase_order_lines.parquet,B04,150247,0,150247,0,150247,0,"{""po_id"": 0, ""material_id"": 0, ""cost_centre_id"": 0}",,0,0,0,150247,,100.0,PASS
+purchase_orders,ERP/Procurement/purchase_orders.parquet,B04,50200,0,50200,0,48814,0,"{""supplier_id"": 0, ""facility_id"": 0, ""contract_id"": 0}",,0,200,0,42710,,100.0,PASS
+goods_receipts,ERP/Procurement/goods_receipts.parquet,B04,160158,1862,158296,0,26564,0,"{""po_line_id"": 0, ""facility_id"": 0, ""material_id"": 0}",received_qty vs PO line qty within +/-10%,1862,1921,0,24643,,100.0,PASS - all failures are labelled injected defects
+ap_invoices,ERP/Finance/AP/supplier_invoices.parquet,B04,55150,1012,54138,0,55305,0,"{""supplier_id"": 0, ""po_id"": 0, ""facility_id"": 0}",invoice net vs PO net within 2%,1012,3791,0,51359,,100.0,PASS - all failures are labelled injected defects
+ap_payments,ERP/Finance/AP/ap_payments.parquet,B04,50593,0,50593,0,142,0,"{""invoice_id"": 0}",,0,0,0,142,,100.0,PASS
+supplier_performance,Procurement/Supplier_Assessments/supplier_performance_quarterly.parquet,B04,33167,0,33167,0,0,0,"{""supplier_id"": 0}",,0,0,0,0,,100.0,PASS
+sales_orders,CRM/Orders/sales_orders.parquet,B05,40000,0,40000,0,0,0,"{""customer_id"": 0}",,0,0,0,0,,100.0,PASS
+so_lines,CRM/Orders/sales_order_lines.parquet,B05,99718,0,99718,0,0,0,"{""sales_order_id"": 0, ""product_id"": 0, ""ship_from_facility_id"": 0}",,0,0,0,0,,100.0,PASS
+deliveries,CRM/Deliveries/deliveries.parquet,B05,105573,0,105573,0,0,0,"{""so_line_id"": 0, ""customer_id"": 0}",,0,0,0,0,,100.0,PASS
+ar_invoices,CRM/Invoices/sales_invoices.parquet,B05,105573,0,105573,0,0,0,"{""delivery_id"": 0, ""customer_id"": 0}",,0,0,0,0,,100.0,PASS
+ar_receipts,ERP/Finance/AR/customer_payments.parquet,B05,99878,0,99878,0,0,0,"{""ar_invoice_id"": 0}",,0,0,0,0,,100.0,PASS
+open_receivables,ERP/Finance/AR/open_receivables_2026-12-31.csv,B05,5695,0,5695,0,0,0,{},,0,0,0,0,,100.0,PASS
+customer_returns,CRM/Sales/customer_returns.parquet,B05,1900,0,1900,0,0,0,"{""delivery_id"": 0}",,0,0,0,0,,100.0,PASS
+customer_complaints,CRM/Sales/customer_complaints.csv,B05,1055,0,1055,0,0,0,{},,0,0,0,0,,100.0,PASS
+opportunities,CRM/Sales/opportunities.parquet,B05,15000,0,15000,0,0,0,"{""customer_id"": 0}",,0,0,0,0,,100.0,PASS
+sales_forecasts,CRM/Sales/sales_forecasts.csv,B05,420,0,420,0,0,0,{},,0,0,0,0,,100.0,PASS
+customer_contracts,CRM/Sales/customer_contracts.csv,B05,3000,0,3000,0,2390,0,{},,0,0,0,2390,,100.0,PASS
+production_orders,ERP/Inventory/production_orders.parquet,B06,15000,0,15000,0,0,0,"{""product_id"": 0, ""production_line_id"": 0, ""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+production_confirmations,Manufacturing/Production/production_confirmations.parquet,B06,15000,0,15000,0,0,0,"{""production_order_id"": 0}",,0,0,0,0,,100.0,PASS
+material_consumption,ERP/Inventory/material_consumption.parquet,B06,98993,570,98423,0,0,0,"{""production_order_id"": 0, ""material_id"": 0}",consumed_qty <= 1.3 x standard_qty,570,593,0,0,,100.0,PASS - all failures are labelled injected defects
+mes_line_daily,Manufacturing/MES/line_daily_performance.parquet,B06,502447,0,502447,0,0,0,"{""production_line_id"": 0, ""facility_id"": 0}",,0,1599,0,0,,100.0,PASS
+machine_hourly,Manufacturing/Machines/machine_hourly_2025-03.parquet,B06,74400,0,74400,0,0,0,"{""asset_id"": 0}",,0,0,0,0,,100.0,PASS
+maintenance,Manufacturing/Maintenance/maintenance_records.parquet,B06,50000,0,50000,0,97464,0,"{""asset_id"": 0, ""facility_id"": 0}",,0,101,0,49899,,100.0,PASS
+quality_inspections,Manufacturing/Quality/quality_inspections.parquet,B06,12000,0,12000,0,0,0,"{""production_order_id"": 0}",,0,0,0,0,,100.0,PASS
+energy_daily,Energy/meter_daily_consumption.parquet,B07,467282,936,466346,936,0,0,"{""meter_id"": 0, ""facility_id"": 0}",,0,2512,0,0,,100.0,PASS - all failures are labelled injected defects
+utility_invoices,ERP/Utilities/utility_invoices.parquet,B07,24094,192,23902,0,15374,0,"{""facility_id"": 0, ""meter_id"": 0, ""utility_supplier_id"": 0}",current_reading - previous_reading = consumption,192,1246,0,14128,,100.0,PASS - all failures are labelled injected defects
+fuel_purchases,Energy/fuel_purchases.csv,B07,13560,0,13560,0,0,0,"{""facility_id"": 0}",,0,48,0,0,,100.0,PASS
+water_daily,Water/water_meter_daily.parquet,B07,71312,0,71312,0,0,0,"{""meter_id"": 0}",,0,150,0,0,,100.0,PASS
+water_monthly,Water/water_withdrawal_discharge_monthly.csv,B07,8735,0,8735,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+waste_records,Waste/waste_records.parquet,B07,33955,0,33955,0,17255,0,"{""facility_id"": 0, ""waste_contractor_id"": 0}",,0,304,0,16951,,100.0,PASS
+waste_invoices,Waste/waste_invoices.csv,B07,8777,0,8777,0,0,0,{},,0,0,0,0,,100.0,PASS
+waste_certificates,Waste/waste_disposal_certificates.csv,B07,16700,0,16700,0,0,0,"{""waste_record_id"": 0}",,0,100,0,0,,100.0,PASS
+iot_telemetry,Manufacturing/SCADA/scada_telemetry_15min_2025-11.parquet,B07,80940,300,80640,300,902,0,"{""meter_id"": 0}",,0,2367,0,0,,100.0,PASS - all failures are labelled injected defects
+iot_5min,Manufacturing/IoT/iot_power_5min_2025-11.csv,B07,8640,0,8640,0,0,0,{},,0,0,0,0,,100.0,PASS
+shipments,Logistics/shipments.parquet,B08,235494,0,235494,0,678215,0,"{""carrier_id"": 0}",,0,2342,0,233152,,100.0,PASS
+freight_invoices,Logistics/freight_invoices.parquet,B08,130843,0,130843,0,0,0,"{""shipment_id"": 0, ""carrier_id"": 0}",,0,2616,0,0,,100.0,PASS
+fleet_fuel,Logistics/fleet_fuel_mileage_monthly.parquet,B08,137720,0,137720,0,0,0,"{""vehicle_id"": 0}",,0,275,0,0,,100.0,PASS
+business_travel,HRMS/business_travel.parquet,B08,23620,0,23620,0,1181,0,"{""employee_synthetic_id"": 0, ""origin_facility_id"": 0}",,0,0,0,1181,,100.0,PASS
+commuting_survey,HRMS/workforce_and_commuting_survey_annual.csv,B08,760,0,760,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+office_occupancy,HRMS/office_occupancy_monthly.csv,B08,2280,0,2280,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+safety_monthly,HRMS/safety_monthly.csv,B08,9120,0,9120,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+training,HRMS/training_programmes.csv,B08,4000,0,4000,0,0,0,{},,0,0,0,0,,100.0,PASS
+gl_transactions,ERP/Finance/GL/gl_transactions.parquet,B09,1586506,0,1586506,0,5001553,0,"{""gl_account"": 0, ""legal_entity_id"": 0, ""cost_centre_id"": 0}",,0,5058,0,1512866,,100.0,PASS
+trial_balance,ERP/Finance/GL/trial_balance.csv,B09,28525,0,28525,0,0,0,{},,0,0,0,0,,100.0,PASS
+profit_and_loss,Finance/profit_and_loss_by_entity_year.csv,B09,1473,0,1473,0,0,0,{},,0,0,0,0,,100.0,PASS
+balance_sheet,Finance/balance_sheet_by_entity_year.csv,B09,1374,0,1374,0,0,0,{},,0,0,0,0,,100.0,PASS
+period_closures,Finance/financial_period_closures.csv,B09,1560,0,1560,0,0,0,{},,0,0,0,0,,100.0,PASS
+investment_register,GHG_Accounting/Scope_3/investment_register.csv,B10,8,0,8,0,0,0,{},,0,0,0,0,,100.0,PASS
+franchise_register,GHG_Accounting/Scope_3/franchise_register.csv,B10,12,0,12,0,0,0,{},,0,0,0,0,,100.0,PASS
+ghg_activities,GHG_Accounting/Calculation_Results/ghg_activities_all.parquet,B10,828614,1241,827373,0,6354464,0,"{""emission_factor_id"": 0, ""facility_id"": 0}",co2e_kg = activity_quantity x emission_factor_value (+/-0.5%),1241,8061,0,820553,,100.0,PASS - all failures are labelled injected defects
+contractual_instruments,GHG_Accounting/Scope_2/contractual_instruments_eac.csv,B10,250,0,250,0,0,0,"{""allocated_facility_id"": 0}",,0,19,0,0,,100.0,PASS
+scope2_market,GHG_Accounting/Scope_2/scope2_market_based_calculations.parquet,B10,23715,0,23715,0,9,0,"{""ghg_activity_id"": 0}",,0,189,0,0,,100.0,PASS
+ghg_inventory,GHG_Accounting/Calculation_Results/annual_ghg_inventory.csv,B10,115,0,115,0,95,0,{},,0,0,0,95,,100.0,PASS
+facility_emissions,GHG_Accounting/Calculation_Results/facility_year_emissions.csv,B10,2237,0,2237,0,0,0,{},,0,0,0,0,,100.0,PASS
+baseline_recalculations,GHG_Accounting/Calculation_Results/baseline_recalculations.csv,B10,3,0,3,0,0,0,{},,0,0,0,0,,100.0,PASS
+supplier_esg_assessments,Procurement/Supplier_Assessments/supplier_esg_assessments.parquet,B11,10000,0,10000,0,0,0,"{""supplier_id"": 0}",,0,0,0,0,,100.0,PASS
+supplier_disclosures,Procurement/Supplier_Disclosures/supplier_emissions_disclosures.parquet,B11,5330,0,5330,0,4806,0,"{""supplier_id"": 0}",,0,211,0,3636,,100.0,PASS
+supplier_pcfs,Supply_Chain/Supplier_Emissions/supplier_product_carbon_footprints.parquet,B11,4082,0,4082,0,0,0,"{""supplier_id"": 0, ""emission_factor_id"": 0}",,0,122,0,0,,100.0,PASS
+supplier_certifications,Procurement/Supplier_Certifications/supplier_certifications.csv,B11,6000,0,6000,0,0,0,"{""supplier_id"": 0}",,0,105,0,0,,100.0,PASS
+supplier_questionnaires,Procurement/Supplier_Assessments/supplier_esg_questionnaires.csv,B11,3000,0,3000,0,3728,0,"{""supplier_id"": 0}",,0,0,0,2271,,100.0,PASS
+customer_requirements,CRM/Sustainability_Requirements/customer_sustainability_requirements.csv,B11,3000,0,3000,0,375,0,"{""customer_id"": 0}",,0,0,0,375,,100.0,PASS
+customer_questionnaires,CRM/Sustainability_Requirements/customer_esg_questionnaires.csv,B11,1500,0,1500,0,529,0,{},,0,608,0,0,,100.0,PASS
+air_pollutants,ESG_Reporting/air_pollutant_emissions.csv,B11,781,0,781,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+environmental_incidents,ESG_Reporting/environmental_incidents.csv,B11,320,0,320,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+environmental_permits,ESG_Reporting/environmental_permits.csv,B11,141,0,141,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+biodiversity,ESG_Reporting/biodiversity_land_use.csv,B11,152,0,152,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+social_kpis,ESG_Reporting/social_performance_facility_year.csv,B11,760,0,760,0,0,0,"{""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+risk_register,ESG_Reporting/governance_risk_register.csv,B11,260,0,260,0,0,0,{},,0,0,0,0,,100.0,PASS
+audit_observations,ESG_Reporting/audit_and_compliance_observations.csv,B11,420,0,420,0,44,0,{},,0,0,0,44,,100.0,PASS
+board_governance,ESG_Reporting/board_governance_records.csv,B11,20,0,20,0,0,0,{},,0,0,0,0,,100.0,PASS
+esg_policies,ESG_Reporting/esg_governance_policies.csv,B11,10,0,10,0,0,0,{},,0,0,0,0,,100.0,PASS
+decarbonisation,Decarbonisation/decarbonisation_opportunities.csv,B11,966,0,966,0,366,0,"{""facility_id"": 0}",,0,0,0,366,,100.0,PASS
+credit_projects,Carbon_Credits/carbon_credit_projects.csv,B11,48,0,48,0,0,0,{},,0,0,0,0,,100.0,PASS
+credit_transactions,Carbon_Credits/carbon_credit_transactions.csv,B11,16,0,16,0,2,0,"{""project_id"": 0}",,0,11,0,0,,100.0,PASS
+neutralisation_ledger,Carbon_Credits/neutralisation_ledger.csv,B11,5,0,5,0,0,0,{},,0,0,0,0,,100.0,PASS
+environmental_claims,ESG_Reporting/environmental_claims_register.csv,B11,5,0,5,0,0,0,{},,0,4,0,0,,100.0,PASS
+esg_kpis,ESG_Reporting/esg_kpi_summary.csv,B11,5,0,5,0,10,0,{},,0,0,0,5,,100.0,PASS
+inventory_balances,ERP/Inventory/inventory_balances_monthly.parquet,B12,142617,0,142617,0,0,0,"{""material_id"": 0, ""facility_id"": 0}",,0,0,0,0,,100.0,PASS
+warehouse_transfers,ERP/Inventory/warehouse_transfers.parquet,B12,6000,0,6000,0,0,0,{},,0,0,0,0,,100.0,PASS
+documents,File_Systems/document_registry.csv,B13,3539,0,3539,0,2436,0,{},,0,216,0,1670,,100.0,PASS
+document_extractions,Data_Lineage/document_extractions.csv,B13,3940,0,3940,0,0,0,"{""document_id"": 0}",,0,0,0,0,,100.0,PASS

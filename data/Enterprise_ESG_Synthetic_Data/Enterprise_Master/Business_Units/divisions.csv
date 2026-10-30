@@ -1,0 +1,8 @@
+division_id,division_name,enterprise_id
+DIV-IMC,Industrial Machinery,ENT-0001
+DIV-AUT,Automotive Components,ENT-0001
+DIV-MET,Metals & Engineered Materials,ENT-0001
+DIV-CHM,Chemicals & Industrial Materials,ENT-0001
+DIV-ELE,Electrical & Energy Equipment,ENT-0001
+DIV-PKG,Industrial Packaging,ENT-0001
+DIV-CON,Construction Materials,ENT-0001

@@ -1,0 +1,2 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0002541,APINV-0002743,SUP-00064,2025-04-12,17535.75,CNY,SEPA,PV8002540

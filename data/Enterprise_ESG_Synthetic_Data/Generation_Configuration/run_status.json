@@ -1,0 +1,18 @@
+{
+ "state": "completed",
+ "started": "2026-10-30T14:52:00+00:00",
+ "total_batches": 14,
+ "pid": 3614,
+ "updated": "2026-10-30T14:52:45+00:00",
+ "config": {
+  "seed": 42,
+  "scale": 0.1,
+  "n_docs": 3000,
+  "period": "2022-01-01/2026-12-31",
+  "schema_version": "4.2.0"
+ },
+ "current_batch": null,
+ "current_name": "Ground truth, lineage, dictionary, validation & dataset index",
+ "progress": 100.0,
+ "finished": "2026-10-30T14:52:45+00:00"
+}

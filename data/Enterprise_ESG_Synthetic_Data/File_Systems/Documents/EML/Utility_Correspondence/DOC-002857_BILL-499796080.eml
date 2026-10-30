@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-499796080 for account nan
+Date: Sun, 12 Mar 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for February 2023 is attached (PDF). Amount due: 666,650.47 INR.

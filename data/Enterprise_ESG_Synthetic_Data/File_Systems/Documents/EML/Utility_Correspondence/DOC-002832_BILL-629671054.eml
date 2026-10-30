@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-629671054 for account UA-65746134
+Date: Fri, 06 Jan 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for December 2022 is attached (PDF). Amount due: 693,419.45 THB.

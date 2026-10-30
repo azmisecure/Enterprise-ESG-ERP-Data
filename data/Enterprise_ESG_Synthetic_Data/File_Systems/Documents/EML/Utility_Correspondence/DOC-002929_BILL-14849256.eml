@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-14849256 for account UA-24657063
+Date: Thu, 10 Nov 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for October 2022 is attached (PDF). Amount due: 996,807.65 ZAR.

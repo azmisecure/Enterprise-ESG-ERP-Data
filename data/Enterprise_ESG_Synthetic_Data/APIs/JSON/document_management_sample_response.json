@@ -1,0 +1,430 @@
+{
+ "request": {
+  "request_id": "req-document_management-0",
+  "method": "GET",
+  "endpoint": "/dms/v1/documents",
+  "params": {
+   "page": 1,
+   "page_size": 100
+  },
+  "headers": {
+   "Authorization": "Bearer <REDACTED_PLACEHOLDER>",
+   "X-Correlation-Id": "corr-86113925"
+  },
+  "timestamp": "2026-03-01 00:00:00"
+ },
+ "response": {
+  "status": 200,
+  "timestamp": "2026-03-01 00:00:02.076000",
+  "source_system": "DOCUMENT_MANAGEMENT",
+  "pagination": {
+   "page": 1,
+   "page_size": 100,
+   "total_records": 500,
+   "next": true
+  },
+  "data": [
+   {
+    "document_id": "DOC-000001",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000002",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000003",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000004",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000005",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000006",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000007",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000008",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000009",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000010",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000011",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000012",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000013",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000014",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000015",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000016",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000017",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000018",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000019",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000020",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000021",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000022",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000023",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000024",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000025",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000026",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000027",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000028",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000029",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000030",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000031",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000032",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000033",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000034",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000035",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000036",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000037",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000038",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000039",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000040",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000041",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000042",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000043",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000044",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000045",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000046",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000047",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000048",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000049",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000050",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000051",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000052",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000053",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000054",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000055",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000056",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000057",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000058",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000059",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000060",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000061",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000062",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000063",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000064",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000065",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000066",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000067",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000068",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000069",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000070",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000071",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000072",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000073",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000074",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000075",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000076",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000077",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000078",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000079",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000080",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000081",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000082",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000083",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000084",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000085",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000086",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000087",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000088",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000089",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000090",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000091",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000092",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000093",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000094",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000095",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000096",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000097",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000098",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000099",
+    "status": "indexed"
+   },
+   {
+    "document_id": "DOC-000100",
+    "status": "indexed"
+   }
+  ],
+  "error": null
+ }
+}

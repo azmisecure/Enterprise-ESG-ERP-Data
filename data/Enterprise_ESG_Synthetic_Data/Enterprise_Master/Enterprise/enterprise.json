@@ -1,0 +1,17 @@
+[
+ {
+  "enterprise_id":"ENT-0001",
+  "enterprise_name":"Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC)",
+  "legal_form":"plc",
+  "hq_country_id":"GB",
+  "hq_city":"Sheffield",
+  "reporting_currency":"USD",
+  "consolidation_approach":"Operational control",
+  "ghg_base_year":2022,
+  "fiscal_year_convention":"Calendar year (group); local FY varies by legal entity",
+  "employees_target":75000,
+  "annual_revenue_usd_bn":18.6,
+  "industry":"Diversified industrial manufacturing",
+  "synthetic_flag":true
+ }
+]

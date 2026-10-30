@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-366058453 for account UA-54323876
+Date: Mon, 13 Nov 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for October 2023 is attached (PDF). Amount due: 7,833.88 TRY.

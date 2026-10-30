@@ -1,0 +1,2 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0003091,APINV-0003346,SUP-00062,2022-08-09,4790.53,CNY,Local transfer,PV8003090

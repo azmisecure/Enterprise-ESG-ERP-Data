@@ -1,0 +1,499 @@
+{
+ "config": {
+  "seed": 42,
+  "scale": 0.1,
+  "n_docs": 3000,
+  "period": "2022-01-01/2026-12-31",
+  "schema_version": "4.2.0"
+ },
+ "batches": {
+  "B01": {
+   "batch_id": "B01",
+   "objective": "Enterprise master data & organisational hierarchy",
+   "status": "completed",
+   "started": "2026-10-30T14:49:53+00:00",
+   "random_seed": 42,
+   "parent_batches": [],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:49:53+00:00",
+   "duration_s": 0.1,
+   "datasets": [
+    "enterprise",
+    "countries",
+    "legal_entities",
+    "divisions",
+    "business_units",
+    "facilities",
+    "plants",
+    "production_lines",
+    "departments",
+    "cost_centres",
+    "profit_centres",
+    "fx_rates",
+    "reporting_calendar"
+   ],
+   "record_count": 3010,
+   "output_files": [
+    "Enterprise_Master/Enterprise/enterprise.json",
+    "Enterprise_Master/Countries/countries.csv",
+    "Enterprise_Master/Legal_Entities/legal_entities.csv",
+    "Enterprise_Master/Business_Units/divisions.csv",
+    "Enterprise_Master/Business_Units/business_units.csv",
+    "Enterprise_Master/Facilities/facilities.csv",
+    "Enterprise_Master/Plants/plants.csv",
+    "Enterprise_Master/Plants/production_lines.csv",
+    "Enterprise_Master/Departments/departments.csv",
+    "Enterprise_Master/Cost_Centres/cost_centres.csv",
+    "Enterprise_Master/Cost_Centres/profit_centres.csv",
+    "Enterprise_Master/Countries/fx_rates_monthly.csv",
+    "Enterprise_Master/Enterprise/reporting_calendar.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B02": {
+   "batch_id": "B02",
+   "objective": "Source-system master data (suppliers, customers, products, materials, BOM, assets, meters, fleet, employees)",
+   "status": "completed",
+   "started": "2026-10-30T14:49:53+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B01"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:49:55+00:00",
+   "duration_s": 1.8,
+   "datasets": [
+    "suppliers",
+    "supplier_locations",
+    "materials",
+    "products",
+    "bom",
+    "routings",
+    "assets",
+    "meters",
+    "vehicles",
+    "customers",
+    "erp_customers",
+    "employees",
+    "chart_of_accounts"
+   ],
+   "record_count": 194646,
+   "output_files": [
+    "Procurement/Suppliers/supplier_master.parquet",
+    "Procurement/Suppliers/supplier_locations.parquet",
+    "ERP/Materials/material_master.parquet",
+    "ERP/Products/product_master.parquet",
+    "ERP/Products/bill_of_materials.parquet",
+    "ERP/Products/routings.parquet",
+    "ERP/Assets/fixed_asset_register.parquet",
+    "Energy/energy_meters.csv",
+    "Logistics/fleet_master.csv",
+    "CRM/Customers/customer_master.parquet",
+    "ERP/Finance/AR/erp_customer_master.parquet",
+    "HRMS/employee_master.parquet",
+    "ERP/Finance/GL/chart_of_accounts.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B03": {
+   "batch_id": "B03",
+   "objective": "Emission-factor reference database (synthetic)",
+   "status": "completed",
+   "started": "2026-10-30T14:49:55+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B02"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:49:55+00:00",
+   "duration_s": 0.2,
+   "datasets": [
+    "emission_factors"
+   ],
+   "record_count": 10000,
+   "output_files": [
+    "GHG_Accounting/Emission_Factors/emission_factor_database.parquet"
+   ],
+   "validation_status": "PASS"
+  },
+  "B04": {
+   "batch_id": "B04",
+   "objective": "Procurement & accounts payable",
+   "status": "completed",
+   "started": "2026-10-30T14:49:55+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B02"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:49:57+00:00",
+   "duration_s": 2.2,
+   "datasets": [
+    "supplier_contracts",
+    "po_lines",
+    "purchase_orders",
+    "goods_receipts",
+    "ap_invoices",
+    "ap_payments",
+    "supplier_performance"
+   ],
+   "record_count": 501999,
+   "output_files": [
+    "Procurement/Purchase_Orders/supplier_contracts.parquet",
+    "ERP/Procurement/purchase_order_lines.parquet",
+    "ERP/Procurement/purchase_orders.parquet",
+    "ERP/Procurement/goods_receipts.parquet",
+    "ERP/Finance/AP/supplier_invoices.parquet",
+    "ERP/Finance/AP/ap_payments.parquet",
+    "Procurement/Supplier_Assessments/supplier_performance_quarterly.parquet"
+   ],
+   "validation_status": "PASS"
+  },
+  "B05": {
+   "batch_id": "B05",
+   "objective": "CRM, sales & accounts receivable",
+   "status": "completed",
+   "started": "2026-10-30T14:49:57+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B02"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:49:58+00:00",
+   "duration_s": 1.1,
+   "datasets": [
+    "sales_orders",
+    "so_lines",
+    "deliveries",
+    "ar_invoices",
+    "ar_receipts",
+    "open_receivables",
+    "customer_returns",
+    "customer_complaints",
+    "opportunities",
+    "sales_forecasts",
+    "customer_contracts"
+   ],
+   "record_count": 477812,
+   "output_files": [
+    "CRM/Orders/sales_orders.parquet",
+    "CRM/Orders/sales_order_lines.parquet",
+    "CRM/Deliveries/deliveries.parquet",
+    "CRM/Invoices/sales_invoices.parquet",
+    "ERP/Finance/AR/customer_payments.parquet",
+    "ERP/Finance/AR/open_receivables_2026-12-31.csv",
+    "CRM/Sales/customer_returns.parquet",
+    "CRM/Sales/customer_complaints.csv",
+    "CRM/Sales/opportunities.parquet",
+    "CRM/Sales/sales_forecasts.csv",
+    "CRM/Sales/customer_contracts.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B06": {
+   "batch_id": "B06",
+   "objective": "Manufacturing (ERP PP, MES, maintenance, quality)",
+   "status": "completed",
+   "started": "2026-10-30T14:49:58+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B05"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:49:59+00:00",
+   "duration_s": 0.8,
+   "datasets": [
+    "production_orders",
+    "production_confirmations",
+    "material_consumption",
+    "mes_line_daily",
+    "machine_hourly",
+    "maintenance",
+    "quality_inspections"
+   ],
+   "record_count": 767840,
+   "output_files": [
+    "ERP/Inventory/production_orders.parquet",
+    "Manufacturing/Production/production_confirmations.parquet",
+    "ERP/Inventory/material_consumption.parquet",
+    "Manufacturing/MES/line_daily_performance.parquet",
+    "Manufacturing/Machines/machine_hourly_2025-03.parquet",
+    "Manufacturing/Maintenance/maintenance_records.parquet",
+    "Manufacturing/Quality/quality_inspections.parquet"
+   ],
+   "validation_status": "PASS"
+  },
+  "B07": {
+   "batch_id": "B07",
+   "objective": "Energy, utilities, water, waste & IoT telemetry",
+   "status": "completed",
+   "started": "2026-10-30T14:49:59+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B06"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:50:01+00:00",
+   "duration_s": 2.6,
+   "datasets": [
+    "energy_daily",
+    "utility_invoices",
+    "fuel_purchases",
+    "water_daily",
+    "water_monthly",
+    "waste_records",
+    "waste_invoices",
+    "waste_certificates",
+    "iot_telemetry",
+    "iot_5min"
+   ],
+   "record_count": 733995,
+   "output_files": [
+    "Energy/meter_daily_consumption.parquet",
+    "ERP/Utilities/utility_invoices.parquet",
+    "Energy/fuel_purchases.csv",
+    "Water/water_meter_daily.parquet",
+    "Water/water_withdrawal_discharge_monthly.csv",
+    "Waste/waste_records.parquet",
+    "Waste/waste_invoices.csv",
+    "Waste/waste_disposal_certificates.csv",
+    "Manufacturing/SCADA/scada_telemetry_15min_2025-11.parquet",
+    "Manufacturing/IoT/iot_power_5min_2025-11.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B08": {
+   "batch_id": "B08",
+   "objective": "Logistics, fleet, HRMS & business travel",
+   "status": "completed",
+   "started": "2026-10-30T14:50:01+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B04",
+    "B05"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:50:03+00:00",
+   "duration_s": 1.5,
+   "datasets": [
+    "shipments",
+    "freight_invoices",
+    "fleet_fuel",
+    "business_travel",
+    "commuting_survey",
+    "office_occupancy",
+    "safety_monthly",
+    "training"
+   ],
+   "record_count": 543837,
+   "output_files": [
+    "Logistics/shipments.parquet",
+    "Logistics/freight_invoices.parquet",
+    "Logistics/fleet_fuel_mileage_monthly.parquet",
+    "HRMS/business_travel.parquet",
+    "HRMS/workforce_and_commuting_survey_annual.csv",
+    "HRMS/office_occupancy_monthly.csv",
+    "HRMS/safety_monthly.csv",
+    "HRMS/training_programmes.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B09": {
+   "batch_id": "B09",
+   "objective": "Finance general ledger, trial balance & statements",
+   "status": "completed",
+   "started": "2026-10-30T14:50:03+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B04",
+    "B05",
+    "B07",
+    "B08"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:50:15+00:00",
+   "duration_s": 11.8,
+   "datasets": [
+    "gl_transactions",
+    "trial_balance",
+    "profit_and_loss",
+    "balance_sheet",
+    "period_closures"
+   ],
+   "record_count": 1619438,
+   "output_files": [
+    "ERP/Finance/GL/gl_transactions.parquet",
+    "ERP/Finance/GL/trial_balance.csv",
+    "Finance/profit_and_loss_by_entity_year.csv",
+    "Finance/balance_sheet_by_entity_year.csv",
+    "Finance/financial_period_closures.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B10": {
+   "batch_id": "B10",
+   "objective": "GHG accounting Scope 1, 2 & 3 (15 categories)",
+   "status": "completed",
+   "started": "2026-10-30T14:52:00+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B03",
+    "B07",
+    "B08",
+    "B09"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:52:08+00:00",
+   "duration_s": 7.2,
+   "datasets": [
+    "investment_register",
+    "franchise_register",
+    "ghg_activities",
+    "contractual_instruments",
+    "scope2_market",
+    "ghg_inventory",
+    "facility_emissions",
+    "baseline_recalculations"
+   ],
+   "record_count": 854954,
+   "output_files": [
+    "GHG_Accounting/Scope_3/investment_register.csv",
+    "GHG_Accounting/Scope_3/franchise_register.csv",
+    "GHG_Accounting/Calculation_Results/ghg_activities_all.parquet",
+    "GHG_Accounting/Scope_2/contractual_instruments_eac.csv",
+    "GHG_Accounting/Scope_2/scope2_market_based_calculations.parquet",
+    "GHG_Accounting/Calculation_Results/annual_ghg_inventory.csv",
+    "GHG_Accounting/Calculation_Results/facility_year_emissions.csv",
+    "GHG_Accounting/Calculation_Results/baseline_recalculations.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B11": {
+   "batch_id": "B11",
+   "objective": "Supplier ESG, ESG performance, decarbonisation & carbon credits",
+   "status": "completed",
+   "started": "2026-10-30T14:52:08+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B10"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:52:08+00:00",
+   "duration_s": 0.5,
+   "datasets": [
+    "supplier_esg_assessments",
+    "supplier_disclosures",
+    "supplier_pcfs",
+    "supplier_certifications",
+    "supplier_questionnaires",
+    "customer_requirements",
+    "customer_questionnaires",
+    "air_pollutants",
+    "environmental_incidents",
+    "environmental_permits",
+    "biodiversity",
+    "social_kpis",
+    "risk_register",
+    "audit_observations",
+    "board_governance",
+    "esg_policies",
+    "decarbonisation",
+    "credit_projects",
+    "credit_transactions",
+    "neutralisation_ledger",
+    "environmental_claims",
+    "esg_kpis"
+   ],
+   "record_count": 36821,
+   "output_files": [
+    "Procurement/Supplier_Assessments/supplier_esg_assessments.parquet",
+    "Procurement/Supplier_Disclosures/supplier_emissions_disclosures.parquet",
+    "Supply_Chain/Supplier_Emissions/supplier_product_carbon_footprints.parquet",
+    "Procurement/Supplier_Certifications/supplier_certifications.csv",
+    "Procurement/Supplier_Assessments/supplier_esg_questionnaires.csv",
+    "CRM/Sustainability_Requirements/customer_sustainability_requirements.csv",
+    "CRM/Sustainability_Requirements/customer_esg_questionnaires.csv",
+    "ESG_Reporting/air_pollutant_emissions.csv",
+    "ESG_Reporting/environmental_incidents.csv",
+    "ESG_Reporting/environmental_permits.csv",
+    "ESG_Reporting/biodiversity_land_use.csv",
+    "ESG_Reporting/social_performance_facility_year.csv",
+    "ESG_Reporting/governance_risk_register.csv",
+    "ESG_Reporting/audit_and_compliance_observations.csv",
+    "ESG_Reporting/board_governance_records.csv",
+    "ESG_Reporting/esg_governance_policies.csv",
+    "Decarbonisation/decarbonisation_opportunities.csv",
+    "Carbon_Credits/carbon_credit_projects.csv",
+    "Carbon_Credits/carbon_credit_transactions.csv",
+    "Carbon_Credits/neutralisation_ledger.csv",
+    "ESG_Reporting/environmental_claims_register.csv",
+    "ESG_Reporting/esg_kpi_summary.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B12": {
+   "batch_id": "B12",
+   "objective": "Traditional IT, legacy files, databases & APIs",
+   "status": "completed",
+   "started": "2026-10-30T14:52:08+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B09",
+    "B10"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:52:12+00:00",
+   "duration_s": 3.5,
+   "datasets": [
+    "inventory_balances",
+    "warehouse_transfers"
+   ],
+   "record_count": 148617,
+   "output_files": [
+    "ERP/Inventory/inventory_balances_monthly.parquet",
+    "ERP/Inventory/warehouse_transfers.parquet"
+   ],
+   "validation_status": "PASS"
+  },
+  "B13": {
+   "batch_id": "B13",
+   "objective": "Business documents (PDF, DOCX, XLSX, EML, TXT, MD)",
+   "status": "completed",
+   "started": "2026-10-30T14:52:12+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B11"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:52:23+00:00",
+   "duration_s": 11.0,
+   "datasets": [
+    "documents",
+    "document_extractions"
+   ],
+   "record_count": 7479,
+   "output_files": [
+    "File_Systems/document_registry.csv",
+    "Data_Lineage/document_extractions.csv"
+   ],
+   "validation_status": "PASS"
+  },
+  "B14": {
+   "batch_id": "B14",
+   "objective": "Ground truth, lineage, dictionary, validation & dataset index",
+   "status": "completed",
+   "started": "2026-10-30T14:52:23+00:00",
+   "random_seed": 42,
+   "parent_batches": [
+    "B13"
+   ],
+   "schema_version": "4.2.0",
+   "finished": "2026-10-30T14:52:45+00:00",
+   "duration_s": 22.8,
+   "datasets": [],
+   "record_count": 0,
+   "output_files": [],
+   "validation_status": "PASS"
+  }
+ }
+}

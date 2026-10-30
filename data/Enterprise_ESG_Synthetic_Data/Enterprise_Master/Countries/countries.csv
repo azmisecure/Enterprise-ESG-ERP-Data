@@ -1,0 +1,23 @@
+country_id,country_name,region,currency,time_zone,language,measurement_system,local_fiscal_year_start_month,grid_region,regulatory_jurisdiction,reporting_requirements,enterprise_id
+US,United States,North America,USD,America/Chicago,en-US,imperial,1,GRID-US,United States environmental authority (synthetic),SEC/State,ENT-0001
+CA,Canada,North America,CAD,America/Toronto,en-CA,metric,1,GRID-CA,Canada environmental authority (synthetic),ISSB-aligned local,ENT-0001
+MX,Mexico,Latin America,MXN,America/Mexico_City,es-MX,metric,1,GRID-MX,Mexico environmental authority (synthetic),ISSB-aligned local,ENT-0001
+BR,Brazil,Latin America,BRL,America/Sao_Paulo,pt-BR,metric,1,GRID-BR,Brazil environmental authority (synthetic),ISSB-aligned local,ENT-0001
+GB,United Kingdom,Europe,GBP,Europe/London,en-GB,imperial-mixed,4,GRID-GB,United Kingdom environmental authority (synthetic),CSRD/ESRS,ENT-0001
+DE,Germany,Europe,EUR,Europe/Berlin,de-DE,metric,1,GRID-DE,Germany environmental authority (synthetic),CSRD/ESRS,ENT-0001
+FR,France,Europe,EUR,Europe/Paris,fr-FR,metric,1,GRID-FR,France environmental authority (synthetic),CSRD/ESRS,ENT-0001
+IT,Italy,Europe,EUR,Europe/Rome,it-IT,metric,1,GRID-IT,Italy environmental authority (synthetic),CSRD/ESRS,ENT-0001
+ES,Spain,Europe,EUR,Europe/Madrid,es-ES,metric,1,GRID-ES,Spain environmental authority (synthetic),CSRD/ESRS,ENT-0001
+PL,Poland,Europe,PLN,Europe/Warsaw,pl-PL,metric,1,GRID-PL,Poland environmental authority (synthetic),CSRD/ESRS,ENT-0001
+NL,Netherlands,Europe,EUR,Europe/Amsterdam,nl-NL,metric,1,GRID-NL,Netherlands environmental authority (synthetic),CSRD/ESRS,ENT-0001
+SE,Sweden,Europe,SEK,Europe/Stockholm,sv-SE,metric,1,GRID-SE,Sweden environmental authority (synthetic),CSRD/ESRS,ENT-0001
+TR,Turkiye,Middle East & Africa,TRY,Europe/Istanbul,tr-TR,metric,1,GRID-TR,Turkiye environmental authority (synthetic),ISSB-aligned local,ENT-0001
+ZA,South Africa,Middle East & Africa,ZAR,Africa/Johannesburg,en-ZA,metric,3,GRID-ZA,South Africa environmental authority (synthetic),ISSB-aligned local,ENT-0001
+AE,United Arab Emirates,Middle East & Africa,AED,Asia/Dubai,ar-AE,metric,1,GRID-AE,United Arab Emirates environmental authority (synthetic),ISSB-aligned local,ENT-0001
+IN,India,Asia Pacific,INR,Asia/Kolkata,en-IN,metric,4,GRID-IN,India environmental authority (synthetic),BRSR,ENT-0001
+CN,China,Asia Pacific,CNY,Asia/Shanghai,zh-CN,metric,1,GRID-CN,China environmental authority (synthetic),ISSB-aligned local,ENT-0001
+JP,Japan,Asia Pacific,JPY,Asia/Tokyo,ja-JP,metric,4,GRID-JP,Japan environmental authority (synthetic),ISSB-aligned local,ENT-0001
+KR,South Korea,Asia Pacific,KRW,Asia/Seoul,ko-KR,metric,1,GRID-KR,South Korea environmental authority (synthetic),ISSB-aligned local,ENT-0001
+SG,Singapore,Asia Pacific,SGD,Asia/Singapore,en-SG,metric,4,GRID-SG,Singapore environmental authority (synthetic),ISSB-aligned local,ENT-0001
+TH,Thailand,Asia Pacific,THB,Asia/Bangkok,th-TH,metric,10,GRID-TH,Thailand environmental authority (synthetic),ISSB-aligned local,ENT-0001
+AU,Australia,Asia Pacific,AUD,Australia/Sydney,en-AU,metric,7,GRID-AU,Australia environmental authority (synthetic),ISSB-aligned local,ENT-0001

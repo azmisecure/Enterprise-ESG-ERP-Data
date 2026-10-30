@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-690786591 for account UA-40856693
+Date: Sun, 03 Dec 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for November 2023 is attached (PDF). Amount due: 246.60 AUD.

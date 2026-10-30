@@ -1,0 +1,1291 @@
+dataset,column,dtype,is_primary_key,foreign_key_ref,null_pct,example_value,source_system
+enterprise,enterprise_id,str,True,,0.0,ENT-0001,MDG
+enterprise,enterprise_name,str,False,,0.0,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),MDG
+enterprise,legal_form,str,False,,0.0,plc,MDG
+enterprise,hq_country_id,str,False,,0.0,GB,MDG
+enterprise,hq_city,str,False,,0.0,Sheffield,MDG
+enterprise,reporting_currency,str,False,,0.0,USD,MDG
+enterprise,consolidation_approach,str,False,,0.0,Operational control,MDG
+enterprise,ghg_base_year,int64,False,,0.0,2022,MDG
+enterprise,fiscal_year_convention,str,False,,0.0,Calendar year (group); local FY varies by legal entity,MDG
+enterprise,employees_target,int64,False,,0.0,75000,MDG
+enterprise,annual_revenue_usd_bn,float64,False,,0.0,18.6,MDG
+enterprise,industry,str,False,,0.0,Diversified industrial manufacturing,MDG
+enterprise,synthetic_flag,bool,False,,0.0,True,MDG
+countries,country_id,str,True,,0.0,US,MDG
+countries,country_name,str,False,,0.0,United States,MDG
+countries,region,str,False,,0.0,North America,MDG
+countries,currency,str,False,,0.0,USD,MDG
+countries,time_zone,str,False,,0.0,America/Chicago,MDG
+countries,language,str,False,,0.0,en-US,MDG
+countries,measurement_system,str,False,,0.0,imperial,MDG
+countries,local_fiscal_year_start_month,int64,False,,0.0,1,MDG
+countries,grid_region,str,False,,0.0,GRID-US,MDG
+countries,regulatory_jurisdiction,str,False,,0.0,United States environmental authority (synthetic),MDG
+countries,reporting_requirements,str,False,,0.0,SEC/State,MDG
+countries,enterprise_id,str,False,,0.0,ENT-0001,MDG
+legal_entities,legal_entity_id,str,True,,0.0,LE-US01,SAP_S4
+legal_entities,company_code,str,False,,0.0,1000,SAP_S4
+legal_entities,legal_entity_name,str,False,,0.0,Halvorsen-Kaito United States Manufacturing Inc. (SYNTHETIC),SAP_S4
+legal_entities,country_id,str,False,countries.country_id,0.0,US,SAP_S4
+legal_entities,functional_currency,str,False,,0.0,USD,SAP_S4
+legal_entities,fiscal_year_start_month,int64,False,,0.0,1,SAP_S4
+legal_entities,ownership_pct,float64,False,,0.0,100.0,SAP_S4
+legal_entities,consolidation_method,str,False,,0.0,Full,SAP_S4
+legal_entities,enterprise_id,str,False,,0.0,ENT-0001,SAP_S4
+legal_entities,synthetic_flag,bool,False,,0.0,True,SAP_S4
+divisions,division_id,str,True,,0.0,DIV-IMC,MDG
+divisions,division_name,str,False,,0.0,Industrial Machinery,MDG
+divisions,enterprise_id,str,False,,0.0,ENT-0001,MDG
+business_units,business_unit_id,str,True,,0.0,BU-IMC-AM,MDG
+business_units,division_id,str,False,divisions.division_id,0.0,DIV-IMC,MDG
+business_units,business_unit_name,str,False,,0.0,Industrial Machinery - Americas,MDG
+business_units,region,str,False,,0.0,Americas,MDG
+business_units,enterprise_id,str,False,,0.0,ENT-0001,MDG
+facilities,facility_id,str,True,,0.0,FAC-MAN-001,MDG
+facilities,facility_name,str,False,,0.0,Newcastle North Manufacturing (SYNTHETIC),MDG
+facilities,facility_type,str,False,,0.0,Manufacturing,MDG
+facilities,country_id,str,False,countries.country_id,0.0,AU,MDG
+facilities,city,str,False,,0.0,Newcastle,MDG
+facilities,address,str,False,,0.0,"383 Synthetic Industrial Way, Newcastle",MDG
+facilities,latitude,float64,False,,0.0,-32.9781,MDG
+facilities,longitude,float64,False,,0.0,151.8589,MDG
+facilities,division_id,str,False,,0.0,DIV-MET,MDG
+facilities,business_unit_id,str,False,business_units.business_unit_id,0.0,BU-MET-AP,MDG
+facilities,legal_entity_id,str,False,legal_entities.legal_entity_id,0.0,LE-AU01,MDG
+facilities,time_zone,str,False,,0.0,Australia/Sydney,MDG
+facilities,floor_area_m2,int64,False,,0.0,26812,MDG
+facilities,tenure,str,False,,0.0,Owned,MDG
+facilities,leased_out_portion_pct,float64,False,,0.0,0.0,MDG
+facilities,commissioning_date,datetime64[us],False,,0.0,2025-08-01 00:00:00,MDG
+facilities,temporary_shutdown_start,datetime64[s],False,,97.37,2025-07-01 00:00:00,MDG
+facilities,temporary_shutdown_end,datetime64[s],False,,97.37,2025-08-20 00:00:00,MDG
+facilities,divestment_date,datetime64[s],False,,98.68,2024-06-30 00:00:00,MDG
+facilities,energy_intensity_index,float64,False,,0.0,1.078,MDG
+facilities,climate_zone,str,False,,0.0,Temperate,MDG
+facilities,grid_region,str,False,,0.0,GRID-AU,MDG
+facilities,operational_control,bool,False,,0.0,True,MDG
+facilities,enterprise_id,str,False,,0.0,ENT-0001,MDG
+facilities,synthetic_flag,bool,False,,0.0,True,MDG
+plants,plant_id,str,True,,0.0,PLT-001,SAP_S4
+plants,sap_plant_code,str,False,,0.0,AU01,SAP_S4
+plants,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,SAP_S4
+plants,plant_name,str,False,,0.0,Newcastle Plant 1,SAP_S4
+plants,division_id,str,False,,0.0,DIV-MET,SAP_S4
+plants,capacity_index,float64,False,,0.0,1.007,SAP_S4
+production_lines,production_line_id,str,True,,0.0,LIN-0001,MES
+production_lines,plant_id,str,False,plants.plant_id,0.0,PLT-001,MES
+production_lines,facility_id,str,False,,0.0,FAC-MAN-001,MES
+production_lines,division_id,str,False,,0.0,DIV-MET,MES
+production_lines,line_name,str,False,,0.0,Line A,MES
+production_lines,line_type,str,False,,0.0,Assembly,MES
+production_lines,rated_capacity_units_per_hr,float64,False,,0.0,59.6,MES
+production_lines,commissioning_year,int64,False,,0.0,2014,MES
+production_lines,oee_baseline,float64,False,,0.0,0.66,MES
+departments,department_id,str,True,,0.0,DEP-US01-00,HRMS
+departments,legal_entity_id,str,False,legal_entities.legal_entity_id,0.0,LE-US01,HRMS
+departments,department_name,str,False,,0.0,Finance,HRMS
+departments,enterprise_id,str,False,,0.0,ENT-0001,HRMS
+cost_centres,cost_centre_id,str,True,,0.0,CC-MAN-001-00,SAP_S4
+cost_centres,sap_kostl,str,False,,0.0,4000000,SAP_S4
+cost_centres,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,SAP_S4
+cost_centres,department_name,str,False,,0.0,Finance,SAP_S4
+cost_centres,legal_entity_id,str,False,,0.0,LE-AU01,SAP_S4
+cost_centres,profit_centre_id,str,False,profit_centres.profit_centre_id,0.0,PC-MET-AP-AU,SAP_S4
+cost_centres,business_unit_id,str,False,,0.0,BU-MET-AP,SAP_S4
+cost_centres,team_name,str,False,,0.0,Finance Team Newcastle,SAP_S4
+profit_centres,profit_centre_id,str,True,,0.0,PC-MET-AP-AU,SAP_S4
+profit_centres,business_unit_id,str,False,business_units.business_unit_id,0.0,BU-MET-AP,SAP_S4
+profit_centres,profit_centre_name,str,False,,0.0,Profit Centre MET-AP-AU,SAP_S4
+fx_rates,period,str,False,,0.0,2022-01,TREASURY
+fx_rates,currency,str,False,,0.0,USD,TREASURY
+fx_rates,usd_per_unit,float64,False,,0.0,1.0,TREASURY
+reporting_calendar,period,str,True,,0.0,2022-01,MDG
+reporting_calendar,period_start,object,False,,0.0,2022-01-01,MDG
+reporting_calendar,period_end,object,False,,0.0,2022-01-31,MDG
+reporting_calendar,calendar_year,int64,False,,0.0,2022,MDG
+reporting_calendar,quarter,str,False,,0.0,2022-Q1,MDG
+suppliers,supplier_id,str,True,,0.0,SUP-00001,SAP_Ariba
+suppliers,erp_vendor_no,str,False,,0.0,V9522262,SAP_Ariba
+suppliers,srm_supplier_ref,str,False,,0.0,SRM-333762,SAP_Ariba
+suppliers,supplier_name,str,False,,0.0,Ivorfield Industrial Services GmbH #1,SAP_Ariba
+suppliers,country_id,str,False,countries.country_id,0.6,DE,SAP_Ariba
+suppliers,supplier_category,str,False,,0.0,Logistics,SAP_Ariba
+suppliers,tier,int64,False,,0.0,2,SAP_Ariba
+suppliers,onboarding_date,datetime64[us],False,,0.0,2008-02-24 00:00:00,SAP_Ariba
+suppliers,termination_date,datetime64[ns],False,,93.49,2026-08-21 00:00:00,SAP_Ariba
+suppliers,payment_terms,str,False,,0.0,NET30,SAP_Ariba
+suppliers,currency,str,False,,0.0,EUR,SAP_Ariba
+suppliers,risk_rating,str,False,,0.0,Low,SAP_Ariba
+suppliers,data_maturity,str,False,,0.0,Developing,SAP_Ariba
+suppliers,synthetic_id_tax,str,False,,0.0,TAX-SYN-60578866,SAP_Ariba
+suppliers,synthetic_flag,bool,False,,0.0,True,SAP_Ariba
+suppliers,status,str,False,,0.0,Active,SAP_Ariba
+supplier_locations,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-00001,SAP_Ariba
+supplier_locations,country_id,str,False,,0.0,DE,SAP_Ariba
+supplier_locations,supplier_location_id,str,True,,0.0,SLOC-000001,SAP_Ariba
+supplier_locations,city,str,False,,0.0,Duisburg,SAP_Ariba
+supplier_locations,latitude,float64,False,,0.0,50.4172,SAP_Ariba
+supplier_locations,longitude,float64,False,,0.0,6.5701,SAP_Ariba
+supplier_locations,location_type,str,False,,0.0,Manufacturing,SAP_Ariba
+supplier_locations,grid_region,str,False,,0.0,GRID-DE,SAP_Ariba
+materials,material_id,str,True,,0.0,MAT-00001,SAP_S4
+materials,sap_matnr,str,False,,0.0,000000000010000000,SAP_S4
+materials,material_family,str,False,,0.0,aluminium_ingot_primary,SAP_S4
+materials,material_group,str,False,,0.0,Metals,SAP_S4
+materials,base_unit,str,False,,0.0,kg,SAP_S4
+materials,description,str,False,,0.0,Aluminium Ingot Primary grade A-798,SAP_S4
+materials,standard_price_usd,float64,False,,0.0,2.6333,SAP_S4
+materials,recycled_content_pct,float64,False,,0.0,0.2,SAP_S4
+materials,hazardous_flag,bool,False,,0.0,False,SAP_S4
+materials,weight_kg_per_unit,float64,False,,0.0,1.0,SAP_S4
+materials,synthetic_flag,bool,False,,0.0,True,SAP_S4
+materials,primary_supplier_id,str,False,suppliers.supplier_id,0.0,SUP-01294,SAP_S4
+materials,secondary_supplier_id,str,False,suppliers.supplier_id,40.98,SUP-04473,SAP_S4
+products,product_id,str,True,,0.0,PRD-0001,SAP_S4
+products,sku,str,False,,0.0,IMC-58721-A,SAP_S4
+products,division_id,str,False,divisions.division_id,0.0,DIV-IMC,SAP_S4
+products,product_family,str,False,,0.0,Hydraulic Press,SAP_S4
+products,product_name,str,False,,0.0,Hydraulic Press Pro 1,SAP_S4
+products,sales_unit,str,False,,0.0,pcs,SAP_S4
+products,unit_weight_kg,float64,False,,0.0,6136.515,SAP_S4
+products,list_price_usd,float64,False,,0.0,221808.99,SAP_S4
+products,lifetime_years,int64,False,,0.0,20,SAP_S4
+products,use_phase_kwh_per_year,float64,False,,0.0,47880.8,SAP_S4
+products,intermediate_product,bool,False,,0.0,False,SAP_S4
+products,launch_date,datetime64[us],False,,0.0,2012-01-01 00:00:00,SAP_S4
+products,discontinuation_date,datetime64[us],False,,91.45,2024-02-01 00:00:00,SAP_S4
+products,recyclable_share_pct,float64,False,,0.0,57.6,SAP_S4
+products,synthetic_flag,bool,False,,0.0,True,SAP_S4
+bom,bom_id,str,False,,0.0,BOM-0001,SAP_S4
+bom,bom_item_id,str,True,,0.0,BOMI-000001,SAP_S4
+bom,product_id,str,False,products.product_id,0.0,PRD-0001,SAP_S4
+bom,material_id,str,False,materials.material_id,0.0,MAT-02024,SAP_S4
+bom,component_qty_per_unit,float64,False,,0.0,1.0,SAP_S4
+bom,component_unit,str,False,,0.0,pcs,SAP_S4
+bom,scrap_allowance_pct,float64,False,,0.0,2.04,SAP_S4
+bom,valid_from,object,False,,0.0,2022-01-01,SAP_S4
+routings,routing_id,str,True,,0.0,RTG-000001,SAP_S4
+routings,product_id,str,False,products.product_id,0.0,PRD-0761,SAP_S4
+routings,production_line_id,str,False,production_lines.production_line_id,0.0,LIN-0001,SAP_S4
+routings,plant_id,str,False,,0.0,PLT-001,SAP_S4
+routings,facility_id,str,False,,0.0,FAC-MAN-001,SAP_S4
+routings,cycle_time_min,float64,False,,0.0,7.95,SAP_S4
+routings,energy_kwh_per_unit,float64,False,,0.0,11.918,SAP_S4
+assets,asset_id,str,True,,0.0,AST-000001,SAP_S4
+assets,machine_id,str,False,,0.0,MCH-000001,SAP_S4
+assets,sap_anln1,str,False,,0.0,000000100000,SAP_S4
+assets,asset_type,str,False,,0.0,HVAC Unit,SAP_S4
+assets,facility_id,str,False,facilities.facility_id,0.0,FAC-OFF-124,SAP_S4
+assets,production_line_id,str,False,production_lines.production_line_id,23.18,LIN-0202,SAP_S4
+assets,acquisition_date,datetime64[us],False,,0.0,2008-05-07 00:00:00,SAP_S4
+assets,acquisition_cost_usd,float64,False,,0.0,358851.15,SAP_S4
+assets,useful_life_years,int64,False,,0.0,25,SAP_S4
+assets,rated_power_kw,float64,False,,0.0,18.6,SAP_S4
+assets,fuel_type,str,False,,0.0,electricity,SAP_S4
+assets,refrigerant_type,str,False,,88.98,R-1234ze,SAP_S4
+assets,refrigerant_charge_kg,float64,False,,0.0,51.3,SAP_S4
+assets,manufacturer,str,False,,0.0,SynthOEM-75,SAP_S4
+assets,status,str,False,,0.0,In service,SAP_S4
+assets,retirement_date,datetime64[ns],False,,95.42,2024-05-10 00:00:00,SAP_S4
+assets,synthetic_flag,bool,False,,0.0,True,SAP_S4
+meters,meter_id,str,True,,0.0,MTR-00001,EMS
+meters,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EMS
+meters,utility_type,str,False,,0.0,electricity,EMS
+meters,meter_level,str,False,,0.0,main,EMS
+meters,linked_entity_id,str,False,,8.2,LIN-0001,EMS
+meters,unit,str,False,,0.0,kWh,EMS
+meters,serial_no,str,False,,0.0,SN679807654,EMS
+meters,utility_account_no,str,False,,92.64,UA-64050250,EMS
+meters,protocol,str,False,,0.0,BACnet,EMS
+meters,install_date,datetime64[us],False,,0.0,2019-11-11 00:00:00,EMS
+meters,last_calibration_date,datetime64[us],False,,0.0,2025-05-29 00:00:00,EMS
+vehicles,vehicle_id,str,True,,0.0,VEH-0001,FLEET_MGMT
+vehicles,fleet_system_ref,str,False,,0.0,FLT26396,FLEET_MGMT
+vehicles,registration_synthetic,str,False,,0.0,SYN-844329,FLEET_MGMT
+vehicles,vehicle_type,str,False,,0.0,LCV Van,FLEET_MGMT
+vehicles,fuel_type,str,False,,0.0,petrol,FLEET_MGMT
+vehicles,facility_id,str,False,facilities.facility_id,0.0,FAC-WAR-114,FLEET_MGMT
+vehicles,model_year,int64,False,,0.0,2019,FLEET_MGMT
+vehicles,rated_consumption_per_100km,float64,False,,0.0,9.14,FLEET_MGMT
+vehicles,rated_kwh_per_100km,float64,False,,0.0,0.0,FLEET_MGMT
+vehicles,payload_t,float64,False,,0.0,1.2,FLEET_MGMT
+vehicles,in_service_date,datetime64[us],False,,0.0,2018-10-10 00:00:00,FLEET_MGMT
+vehicles,synthetic_flag,bool,False,,0.0,True,FLEET_MGMT
+vehicles,disposal_date,datetime64[ns],False,,92.87,2023-02-20 00:00:00,FLEET_MGMT
+customers,customer_id,str,True,,0.0,CUST-000001,SALESFORCE
+customers,crm_account_id,str,False,,0.0,001SYN909477712356,SALESFORCE
+customers,erp_sold_to,str,False,,0.0,C6297148,SALESFORCE
+customers,customer_name,str,False,,0.0,Kestrelstone Holdings Pvt Ltd #1,SALESFORCE
+customers,country_id,str,False,countries.country_id,0.0,IN,SALESFORCE
+customers,segment,str,False,,0.0,Construction Contractor,SALESFORCE
+customers,sales_territory,str,False,,0.0,TER-IN,SALESFORCE
+customers,credit_limit_usd,float64,False,,0.0,151000.0,SALESFORCE
+customers,acquisition_date,datetime64[us],False,,0.0,2024-01-29 00:00:00,SALESFORCE
+customers,churn_date,datetime64[ns],False,,92.13,2023-02-04 00:00:00,SALESFORCE
+customers,incoterm,str,False,,0.0,DDP,SALESFORCE
+customers,synthetic_flag,bool,False,,0.0,True,SALESFORCE
+customers,latitude,float64,False,,0.0,16.604748926343387,SALESFORCE
+customers,longitude,float64,False,,0.0,73.76741418998053,SALESFORCE
+erp_customers,customer_ref,str,False,,0.0,CUST-000001,SAP_S4
+erp_customers,erp_sold_to,str,True,,0.0,C6297148,SAP_S4
+erp_customers,customer_name,str,False,,0.0,Kestrelstone Holdings Pvt Ltd #1,SAP_S4
+erp_customers,country_id,str,False,,0.0,IN,SAP_S4
+erp_customers,credit_limit_usd,float64,False,,0.0,151000.0,SAP_S4
+employees,employee_synthetic_id,str,True,,0.0,EMP-000001,WORKDAY_LIKE
+employees,hr_system_id,str,False,,0.0,W6231699,WORKDAY_LIKE
+employees,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-036,WORKDAY_LIKE
+employees,legal_entity_id,str,False,,0.0,LE-JP01,WORKDAY_LIKE
+employees,department_id,str,False,departments.department_id,0.0,DEP-JP01-09,WORKDAY_LIKE
+employees,job_category,str,False,,0.0,Production Operator,WORKDAY_LIKE
+employees,employment_type,str,False,,0.0,Full-time,WORKDAY_LIKE
+employees,hire_date,datetime64[us],False,,0.0,2001-02-24 00:00:00,WORKDAY_LIKE
+employees,termination_date,datetime64[ns],False,,79.71,2024-07-16 00:00:00,WORKDAY_LIKE
+employees,remote_eligible,bool,False,,0.0,False,WORKDAY_LIKE
+employees,fte,float64,False,,0.0,1.0,WORKDAY_LIKE
+employees,grade_band,str,False,,0.0,B1,WORKDAY_LIKE
+employees,synthetic_flag,bool,False,,0.0,True,WORKDAY_LIKE
+employees,employment_status,str,False,,0.0,Active,WORKDAY_LIKE
+chart_of_accounts,gl_account,str,True,,0.0,100100,SAP_S4
+chart_of_accounts,gl_account_name,str,False,,0.0,Cash at bank,SAP_S4
+chart_of_accounts,account_type,str,False,,0.0,Asset,SAP_S4
+chart_of_accounts,chart_of_accounts,str,False,,0.0,SYN-COA-01,SAP_S4
+emission_factors,emission_factor_id,str,True,,0.0,EF-00001,EF_LIBRARY
+emission_factors,activity_type,str,False,,0.0,stationary_combustion,EF_LIBRARY
+emission_factors,lookup_key,str,False,,0.0,stationary_combustion|natural_gas|m3|GLOBAL,EF_LIBRARY
+emission_factors,fuel_type,object,False,,77.5,natural_gas,EF_LIBRARY
+emission_factors,material_type,str,False,,47.18,hot_rolled_steel_coil,EF_LIBRARY
+emission_factors,product_type,object,False,,100.0,None,EF_LIBRARY
+emission_factors,geography,str,False,,0.0,GLOBAL,EF_LIBRARY
+emission_factors,industry_applicability,str,False,,0.0,Cross-sector,EF_LIBRARY
+emission_factors,factor_value,float64,False,,0.0,2.010256,EF_LIBRARY
+emission_factors,factor_unit,str,False,,0.0,kgCO2e/m3,EF_LIBRARY
+emission_factors,activity_unit,str,False,,0.0,m3,EF_LIBRARY
+emission_factors,gas_type,str,False,,0.0,CO2e,EF_LIBRARY
+emission_factors,co2_factor,float64,False,,0.0,1.980102,EF_LIBRARY
+emission_factors,ch4_factor,float64,False,,0.0,0.00064615,EF_LIBRARY
+emission_factors,n2o_factor,float64,False,,0.0,4.552e-05,EF_LIBRARY
+emission_factors,gwp_basis,str,False,,0.0,AR5,EF_LIBRARY
+emission_factors,gwp_time_horizon,str,False,,0.0,GWP100,EF_LIBRARY
+emission_factors,publication_year,int64,False,,0.0,2021,EF_LIBRARY
+emission_factors,effective_date,datetime64[us],False,,0.0,2022-01-01 00:00:00,EF_LIBRARY
+emission_factors,expiry_date,datetime64[us],False,,0.0,2022-12-31 00:00:00,EF_LIBRARY
+emission_factors,version,str,False,,0.0,v2022.1,EF_LIBRARY
+emission_factors,source_organisation,str,False,,0.0,Synthetic Emission Factor Authority (SEFA) - FICTIONAL,EF_LIBRARY
+emission_factors,source_document,str,False,,0.0,SEFA Synthetic Factor Compendium 2021 ed.,EF_LIBRARY
+emission_factors,methodology,str,False,,0.0,Fuel-based,EF_LIBRARY
+emission_factors,uncertainty_low_pct,int64,False,,0.0,-4,EF_LIBRARY
+emission_factors,uncertainty_high_pct,float64,False,,0.0,5.2,EF_LIBRARY
+emission_factors,data_quality_rating,int64,False,,0.0,2,EF_LIBRARY
+emission_factors,synthetic_flag,bool,False,,0.0,True,EF_LIBRARY
+supplier_contracts,contract_id,str,True,,0.0,CTR-000001,SAP_Ariba
+supplier_contracts,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-00001,SAP_Ariba
+supplier_contracts,currency,str,False,,0.0,EUR,SAP_Ariba
+supplier_contracts,payment_terms,str,False,,0.0,NET30,SAP_Ariba
+supplier_contracts,valid_from,datetime64[us],False,,0.0,2023-03-26 00:00:00,SAP_Ariba
+supplier_contracts,valid_to,datetime64[us],False,,0.0,2024-03-25 00:00:00,SAP_Ariba
+supplier_contracts,contract_type,str,False,,0.0,Framework agreement,SAP_Ariba
+supplier_contracts,committed_value_usd,float64,False,,0.0,474900.0,SAP_Ariba
+supplier_contracts,sustainability_clause,bool,False,,0.0,True,SAP_Ariba
+po_lines,po_line_id,str,True,,0.0,PO-0000001-001,SAP_S4
+po_lines,po_id,str,False,purchase_orders.po_id,0.0,PO-0000001,SAP_S4
+po_lines,line_no,int64,False,,0.0,10,SAP_S4
+po_lines,material_id,str,False,materials.material_id,17.68,MAT-00664,SAP_S4
+po_lines,service_category,str,False,,82.32,IT Services,SAP_S4
+po_lines,order_qty,float64,False,,0.0,7979.211,SAP_S4
+po_lines,unit,str,False,,0.0,kg,SAP_S4
+po_lines,unit_price,float64,False,,0.0,631.6296,SAP_S4
+po_lines,currency,str,False,,0.0,JPY,SAP_S4
+po_lines,discount_pct,int64,False,,0.0,2,SAP_S4
+po_lines,net_amount,float64,False,,0.0,4939107.74,SAP_S4
+po_lines,tax_rate_pct,int64,False,,0.0,21,SAP_S4
+po_lines,requested_delivery_date,datetime64[us],False,,0.0,2026-09-14 00:00:00,SAP_S4
+po_lines,gl_account,str,False,,0.0,120000,SAP_S4
+po_lines,cost_centre_id,str,False,cost_centres.cost_centre_id,0.0,CC-MAN-022-00,SAP_S4
+purchase_orders,po_id,str,True,,0.0,PO-0000001,SAP_S4
+purchase_orders,sap_ebeln,str,False,,0.0,4500000000,SAP_S4
+purchase_orders,po_date,datetime64[us],False,,0.0,2026-07-16 00:00:00,SAP_S4
+purchase_orders,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-04806,SAP_S4
+purchase_orders,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-022,SAP_S4
+purchase_orders,legal_entity_id,str,False,,0.0,LE-DE01,SAP_S4
+purchase_orders,po_type,str,False,,0.0,Material,SAP_S4
+purchase_orders,currency,str,False,,0.0,JPY,SAP_S4
+purchase_orders,payment_terms,str,False,,0.0,NET60,SAP_S4
+purchase_orders,incoterm,str,False,,0.0,DDP,SAP_S4
+purchase_orders,plant_id,str,False,,12.79,PLT-031,SAP_S4
+purchase_orders,contract_id,str,False,supplier_contracts.contract_id,77.5,CTR-000527,SAP_S4
+purchase_orders,pr_id,str,False,,6.95,PR-0000001,SAP_S4
+purchase_orders,approval_status,str,False,,0.0,Approved,SAP_S4
+purchase_orders,approval_date,datetime64[us],False,,0.0,2026-07-19 00:00:00,SAP_S4
+purchase_orders,approved_by_role,str,False,,0.0,Category Manager,SAP_S4
+purchase_orders,delivery_terms_days,int64,False,,0.0,60,SAP_S4
+purchase_orders,total_net_amount,float64,False,,0.0,6920625.03,SAP_S4
+purchase_orders,source_system,str,False,,0.0,SAP_S4,SAP_S4
+purchase_orders,source_application,str,False,,0.0,MM-PUR,SAP_S4
+purchase_orders,source_database,str,False,,0.0,S4PRD,SAP_S4
+purchase_orders,source_table,str,False,,0.0,EKKO,SAP_S4
+purchase_orders,source_record_id,str,False,,0.0,4500000000,SAP_S4
+purchase_orders,data_owner,str,False,,0.0,Procurement,SAP_S4
+purchase_orders,source_record_timestamp,datetime64[us],False,,0.0,2026-07-16 18:00:00,SAP_S4
+purchase_orders,ingestion_timestamp,datetime64[ns],False,,0.0,2026-07-18 08:34:21,SAP_S4
+purchase_orders,processing_timestamp,datetime64[ns],False,,0.0,2026-07-18 08:42:41,SAP_S4
+purchase_orders,schema_version,str,False,,0.0,4.2.0,SAP_S4
+purchase_orders,transformation_version,str,False,,0.0,tx-1.3.0,SAP_S4
+goods_receipts,grn_id,str,True,,0.0,GRN-0000001,SAP_S4
+goods_receipts,sap_mblnr,str,False,,0.0,5000000000,SAP_S4
+goods_receipts,po_id,str,False,,0.0,PO-0000001,SAP_S4
+goods_receipts,po_line_id,str,False,po_lines.po_line_id,0.0,PO-0000001-001,SAP_S4
+goods_receipts,receipt_date,datetime64[ns],False,,0.0,2026-08-06 00:00:00,SAP_S4
+goods_receipts,posting_date,datetime64[ns],False,,0.0,2026-08-06 00:00:00,SAP_S4
+goods_receipts,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-022,SAP_S4
+goods_receipts,material_id,str,False,materials.material_id,16.59,MAT-00664,SAP_S4
+goods_receipts,received_qty,float64,False,,0.0,7979.211,SAP_S4
+goods_receipts,rejected_qty,float64,False,,0.0,0.0,SAP_S4
+goods_receipts,unit,str,False,,0.0,kg,SAP_S4
+goods_receipts,movement_type,str,False,,0.0,101,SAP_S4
+goods_receipts,storage_location,str,False,,0.0,QI01,SAP_S4
+goods_receipts,batch_no,str,False,,0.0,B3384265,SAP_S4
+goods_receipts,accepted_qty,float64,False,,0.0,7979.211,SAP_S4
+goods_receipts,source_system,str,False,,0.0,SAP_S4,SAP_S4
+goods_receipts,source_application,str,False,,0.0,MM-IM,SAP_S4
+goods_receipts,source_database,str,False,,0.0,S4PRD,SAP_S4
+goods_receipts,source_table,str,False,,0.0,MSEG,SAP_S4
+goods_receipts,source_record_id,str,False,,0.0,5000000000,SAP_S4
+goods_receipts,data_owner,str,False,,0.0,Warehouse Operations,SAP_S4
+goods_receipts,source_record_timestamp,datetime64[ns],False,,0.0,2026-08-06 19:00:00,SAP_S4
+goods_receipts,ingestion_timestamp,datetime64[ns],False,,0.0,2026-08-07 04:12:15,SAP_S4
+goods_receipts,processing_timestamp,datetime64[ns],False,,0.0,2026-08-07 04:17:20,SAP_S4
+goods_receipts,schema_version,str,False,,0.0,4.2.0,SAP_S4
+goods_receipts,transformation_version,str,False,,0.0,tx-1.3.0,SAP_S4
+ap_invoices,invoice_id,str,True,,0.0,APINV-0000001,SAP_S4
+ap_invoices,sap_belnr,str,False,,0.0,5100000000,SAP_S4
+ap_invoices,supplier_invoice_no,str,False,,0.0,SI-25421494,SAP_S4
+ap_invoices,supplier_id,str,False,suppliers.supplier_id,0.28,SUP-04806,SAP_S4
+ap_invoices,po_id,object,False,purchase_orders.po_id,7.25,PO-0000001,SAP_S4
+ap_invoices,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-022,SAP_S4
+ap_invoices,legal_entity_id,str,False,,0.0,LE-DE01,SAP_S4
+ap_invoices,currency,str,False,,0.0,JPY,SAP_S4
+ap_invoices,payment_terms,str,False,,0.0,NET60,SAP_S4
+ap_invoices,invoice_date,datetime64[ns],False,,0.0,2026-08-15 00:00:00,SAP_S4
+ap_invoices,posting_date,datetime64[ns],False,,0.0,2026-08-17 00:00:00,SAP_S4
+ap_invoices,net_amount,float64,False,,0.0,6920625.02,SAP_S4
+ap_invoices,tax_amount,float64,False,,0.0,1453331.25,SAP_S4
+ap_invoices,document_type,str,False,,0.0,KR,SAP_S4
+ap_invoices,gross_amount,float64,False,,0.0,8373956.27,SAP_S4
+ap_invoices,invoice_status,str,False,,0.0,Approved,SAP_S4
+ap_invoices,approval_date,datetime64[ns],False,,0.0,2026-08-18 00:00:00,SAP_S4
+ap_invoices,service_category,str,False,,92.75,Professional Services,SAP_S4
+ap_invoices,fiscal_year,int64,False,,0.0,2026,SAP_S4
+ap_invoices,fiscal_period,int64,False,,0.0,8,SAP_S4
+ap_invoices,company_code,str,False,,0.0,1060,SAP_S4
+ap_invoices,source_system,str,False,,0.0,SAP_S4,SAP_S4
+ap_invoices,source_application,str,False,,0.0,FI-AP,SAP_S4
+ap_invoices,source_database,str,False,,0.0,S4PRD,SAP_S4
+ap_invoices,source_table,str,False,,0.0,BKPF/BSEG,SAP_S4
+ap_invoices,source_record_id,str,False,,0.0,5100000000,SAP_S4
+ap_invoices,data_owner,str,False,,0.0,Finance,SAP_S4
+ap_invoices,source_record_timestamp,datetime64[ns],False,,0.0,2026-08-17 14:00:00,SAP_S4
+ap_invoices,ingestion_timestamp,datetime64[ns],False,,0.0,2026-08-18 12:48:17,SAP_S4
+ap_invoices,processing_timestamp,datetime64[ns],False,,0.0,2026-08-18 12:50:23,SAP_S4
+ap_invoices,schema_version,str,False,,0.0,4.2.0,SAP_S4
+ap_invoices,transformation_version,str,False,,0.0,tx-1.3.0,SAP_S4
+ap_payments,payment_id,str,True,,0.0,APPAY-0000001,SAP_S4
+ap_payments,invoice_id,str,False,ap_invoices.invoice_id,0.0,APINV-0000001,SAP_S4
+ap_payments,supplier_id,str,False,,0.28,SUP-04806,SAP_S4
+ap_payments,payment_date,datetime64[ns],False,,0.0,2026-10-12 00:00:00,SAP_S4
+ap_payments,amount,float64,False,,0.0,8373956.27,SAP_S4
+ap_payments,currency,str,False,,0.0,JPY,SAP_S4
+ap_payments,payment_method,str,False,,0.0,ACH,SAP_S4
+ap_payments,payment_voucher,str,False,,0.0,PV8000000,SAP_S4
+supplier_performance,performance_record_id,str,True,,0.0,SPR-000001,SAP_Ariba
+supplier_performance,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-00001,SAP_Ariba
+supplier_performance,quarter,str,False,,0.0,2022Q1,SAP_Ariba
+supplier_performance,receipts,int64,False,,0.0,48,SAP_Ariba
+supplier_performance,late_receipts,int64,False,,0.0,8,SAP_Ariba
+supplier_performance,rejected_qty,float64,False,,0.0,0.159,SAP_Ariba
+supplier_performance,received_qty,float64,False,,0.0,48.0,SAP_Ariba
+supplier_performance,on_time_pct,float64,False,,0.0,83.3,SAP_Ariba
+supplier_performance,rejection_pct,float64,False,,0.0,0.33,SAP_Ariba
+sales_orders,sales_order_id,str,True,,0.0,SO-0000001,SALESFORCE
+sales_orders,crm_order_ref,str,False,,0.0,8010SYN795435539,SALESFORCE
+sales_orders,sap_vbeln,str,False,,0.0,1000000,SALESFORCE
+sales_orders,customer_id,str,False,customers.customer_id,0.0,CUST-003176,SALESFORCE
+sales_orders,order_date,datetime64[us],False,,0.0,2024-07-13 00:00:00,SALESFORCE
+sales_orders,sales_territory,str,False,,0.0,TER-JP,SALESFORCE
+sales_orders,incoterm,str,False,,0.0,CPT,SALESFORCE
+sales_orders,currency,str,False,,0.0,JPY,SALESFORCE
+sales_orders,channel,str,False,,0.0,Direct,SALESFORCE
+sales_orders,net_value,float64,False,,0.0,12986184.66,SALESFORCE
+sales_orders,source_system,str,False,,0.0,SALESFORCE,SALESFORCE
+sales_orders,source_application,str,False,,0.0,Sales Cloud,SALESFORCE
+sales_orders,source_database,str,False,,0.0,SFDC,SALESFORCE
+sales_orders,source_table,str,False,,0.0,Order,SALESFORCE
+sales_orders,source_record_id,str,False,,0.0,8010SYN795435539,SALESFORCE
+sales_orders,data_owner,str,False,,0.0,Sales,SALESFORCE
+sales_orders,source_record_timestamp,datetime64[us],False,,0.0,2024-07-13 07:00:00,SALESFORCE
+sales_orders,ingestion_timestamp,datetime64[ns],False,,0.0,2024-07-13 12:50:07,SALESFORCE
+sales_orders,processing_timestamp,datetime64[ns],False,,0.0,2024-07-13 12:56:11,SALESFORCE
+sales_orders,schema_version,str,False,,0.0,4.2.0,SALESFORCE
+sales_orders,transformation_version,str,False,,0.0,tx-1.3.0,SALESFORCE
+so_lines,so_line_id,str,True,,0.0,SO-0000001-001,SALESFORCE
+so_lines,sales_order_id,str,False,sales_orders.sales_order_id,0.0,SO-0000001,SALESFORCE
+so_lines,line_no,int64,False,,0.0,10,SALESFORCE
+so_lines,product_id,str,False,products.product_id,0.0,PRD-0628,SALESFORCE
+so_lines,order_qty,float64,False,,0.0,41.0,SALESFORCE
+so_lines,sales_unit,str,False,,0.0,pcs,SALESFORCE
+so_lines,unit_price,float64,False,,0.0,28348.8904,SALESFORCE
+so_lines,currency,str,False,,0.0,JPY,SALESFORCE
+so_lines,net_amount,float64,False,,0.0,1162304.51,SALESFORCE
+so_lines,ship_from_facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-016,SALESFORCE
+deliveries,delivery_id,str,True,,0.0,DLV-0000001,SAP_S4
+deliveries,sap_likp,str,False,,0.0,80000000,SAP_S4
+deliveries,so_line_id,str,False,so_lines.so_line_id,0.0,SO-0000001-001,SAP_S4
+deliveries,sales_order_id,str,False,,0.0,SO-0000001,SAP_S4
+deliveries,customer_id,str,False,customers.customer_id,0.0,CUST-003176,SAP_S4
+deliveries,product_id,str,False,,0.0,PRD-0628,SAP_S4
+deliveries,ship_from_facility_id,str,False,,0.0,FAC-MAN-016,SAP_S4
+deliveries,delivery_date,datetime64[ns],False,,0.0,2024-07-29 00:00:00,SAP_S4
+deliveries,delivered_qty,float64,False,,0.0,41.0,SAP_S4
+deliveries,sales_unit,str,False,,0.0,pcs,SAP_S4
+deliveries,gross_weight_kg,float64,False,,0.0,501.06,SAP_S4
+deliveries,on_time,bool,False,,0.0,True,SAP_S4
+ar_invoices,ar_invoice_id,str,True,,0.0,ARINV-0000001,SAP_S4
+ar_invoices,sap_vbrk,str,False,,0.0,90000000,SAP_S4
+ar_invoices,delivery_id,str,False,deliveries.delivery_id,0.0,DLV-0000001,SAP_S4
+ar_invoices,sales_order_id,str,False,,0.0,SO-0000001,SAP_S4
+ar_invoices,customer_id,str,False,customers.customer_id,0.0,CUST-003176,SAP_S4
+ar_invoices,invoice_date,datetime64[ns],False,,0.0,2024-07-29 00:00:00,SAP_S4
+ar_invoices,net_amount,float64,False,,0.0,1162304.51,SAP_S4
+ar_invoices,currency,str,False,,0.0,JPY,SAP_S4
+ar_invoices,tax_amount,float64,False,,0.0,220837.86,SAP_S4
+ar_invoices,gross_amount,float64,False,,0.0,1383142.37,SAP_S4
+ar_invoices,legal_entity_id,str,False,,0.0,LE-FR01,SAP_S4
+ar_invoices,due_date,datetime64[ns],False,,0.0,2024-09-12 00:00:00,SAP_S4
+ar_invoices,source_system,str,False,,0.0,SAP_S4,SAP_S4
+ar_invoices,source_application,str,False,,0.0,SD-BIL,SAP_S4
+ar_invoices,source_database,str,False,,0.0,S4PRD,SAP_S4
+ar_invoices,source_table,str,False,,0.0,VBRK,SAP_S4
+ar_invoices,source_record_id,str,False,,0.0,90000000,SAP_S4
+ar_invoices,data_owner,str,False,,0.0,Finance,SAP_S4
+ar_invoices,source_record_timestamp,datetime64[ns],False,,0.0,2024-07-29 15:00:00,SAP_S4
+ar_invoices,ingestion_timestamp,datetime64[ns],False,,0.0,2024-07-30 15:18:33,SAP_S4
+ar_invoices,processing_timestamp,datetime64[ns],False,,0.0,2024-07-30 15:19:05,SAP_S4
+ar_invoices,schema_version,str,False,,0.0,4.2.0,SAP_S4
+ar_invoices,transformation_version,str,False,,0.0,tx-1.3.0,SAP_S4
+ar_receipts,receipt_id,str,True,,0.0,ARREC-0000001,SAP_S4
+ar_receipts,ar_invoice_id,str,False,ar_invoices.ar_invoice_id,0.0,ARINV-0000001,SAP_S4
+ar_receipts,customer_id,str,False,,0.0,CUST-003176,SAP_S4
+ar_receipts,receipt_date,datetime64[ns],False,,0.0,2024-09-16 00:00:00,SAP_S4
+ar_receipts,amount,float64,False,,0.0,1383142.37,SAP_S4
+ar_receipts,currency,str,False,,0.0,JPY,SAP_S4
+ar_receipts,allocation_status,str,False,,0.0,Fully allocated,SAP_S4
+open_receivables,ar_invoice_id,str,False,,0.0,ARINV-0000003,SAP_S4
+open_receivables,customer_id,str,False,,0.0,CUST-015443,SAP_S4
+open_receivables,gross_amount,float64,False,,0.0,36965.0,SAP_S4
+open_receivables,currency,str,False,,0.0,USD,SAP_S4
+open_receivables,due_date,datetime64[ns],False,,0.0,2026-12-21 00:00:00,SAP_S4
+open_receivables,days_overdue,int64,False,,0.0,10,SAP_S4
+customer_returns,return_id,str,True,,0.0,RET-000001,SALESFORCE
+customer_returns,delivery_id,str,False,deliveries.delivery_id,0.0,DLV-0097046,SALESFORCE
+customer_returns,customer_id,str,False,,0.0,CUST-002492,SALESFORCE
+customer_returns,product_id,str,False,,0.0,PRD-0002,SALESFORCE
+customer_returns,return_date,datetime64[ns],False,,0.0,2024-09-02 00:00:00,SALESFORCE
+customer_returns,returned_qty,float64,False,,0.0,1.05,SALESFORCE
+customer_returns,reason,str,False,,0.0,Over-delivery,SALESFORCE
+customer_returns,credit_note_id,str,False,,0.0,ARCN-000001,SALESFORCE
+customer_complaints,complaint_id,str,True,,0.0,CMP-000001,SALESFORCE
+customer_complaints,delivery_id,str,False,,0.0,DLV-0034882,SALESFORCE
+customer_complaints,customer_id,str,False,,0.0,CUST-000844,SALESFORCE
+customer_complaints,opened_date,datetime64[ns],False,,0.0,2024-10-05 00:00:00,SALESFORCE
+customer_complaints,category,str,False,,0.0,Carbon data request,SALESFORCE
+customer_complaints,status,str,False,,0.0,Closed,SALESFORCE
+opportunities,opportunity_id,str,True,,0.0,OPP-000001,SALESFORCE
+opportunities,customer_id,str,False,customers.customer_id,0.0,CUST-009031,SALESFORCE
+opportunities,created_date,datetime64[us],False,,0.0,2022-09-09 00:00:00,SALESFORCE
+opportunities,stage,str,False,,0.0,Proposal,SALESFORCE
+opportunities,amount_usd,float64,False,,0.0,475400.0,SALESFORCE
+opportunities,division_id,str,False,,0.0,DIV-ELE,SALESFORCE
+opportunities,sustainability_requirement_flag,bool,False,,0.0,False,SALESFORCE
+sales_forecasts,division_id,str,False,,0.0,DIV-AUT,SALESFORCE
+sales_forecasts,period,str,False,,0.0,2022-01,SALESFORCE
+sales_forecasts,actual_usd,float64,False,,0.0,16222841.81874243,SALESFORCE
+sales_forecasts,forecast_usd,float64,False,,0.0,16342762.0,SALESFORCE
+customer_contracts,customer_contract_id,str,True,,0.0,CCTR-00001,SALESFORCE
+customer_contracts,customer_id,str,False,,0.0,CUST-000001,SALESFORCE
+customer_contracts,start_date,datetime64[us],False,,0.0,2023-03-17 00:00:00,SALESFORCE
+customer_contracts,term_months,int64,False,,0.0,24,SALESFORCE
+customer_contracts,pcf_disclosure_required,bool,False,,0.0,False,SALESFORCE
+customer_contracts,recycled_content_min_pct,object,False,,79.67,20.0,SALESFORCE
+production_orders,production_order_id,str,True,,0.0,PRO-0000001,SAP_S4
+production_orders,sap_aufnr,str,False,,0.0,10000000,SAP_S4
+production_orders,mes_order_ref,str,False,,0.0,MES-WO-91047033,SAP_S4
+production_orders,product_id,str,False,products.product_id,0.0,PRD-0831,SAP_S4
+production_orders,routing_id,str,False,,0.0,RTG-000071,SAP_S4
+production_orders,production_line_id,str,False,production_lines.production_line_id,0.0,LIN-0001,SAP_S4
+production_orders,plant_id,str,False,,0.0,PLT-001,SAP_S4
+production_orders,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,SAP_S4
+production_orders,planned_start,datetime64[us],False,,0.0,2025-08-22 00:00:00,SAP_S4
+production_orders,planned_qty,float64,False,,0.0,47.8,SAP_S4
+production_orders,actual_qty,float64,False,,0.0,46.58,SAP_S4
+production_orders,unit,str,False,,0.0,t,SAP_S4
+production_orders,scrap_qty,float64,False,,0.0,1.22,SAP_S4
+production_orders,yield_pct,float64,False,,0.0,97.45,SAP_S4
+production_orders,run_hours,float64,False,,0.0,9.86,SAP_S4
+production_orders,energy_kwh_standard,float64,False,,0.0,57.01,SAP_S4
+production_orders,actual_finish,datetime64[us],False,,0.0,2025-08-24 00:00:00,SAP_S4
+production_orders,order_status,str,False,,0.0,Technically completed,SAP_S4
+production_orders,standard_cost_usd,float64,False,,0.0,295042.08,SAP_S4
+production_orders,actual_cost_usd,float64,False,,0.0,311255.65,SAP_S4
+production_orders,cost_variance_usd,float64,False,,0.0,16213.570000000007,SAP_S4
+production_orders,source_system,str,False,,0.0,SAP_S4,SAP_S4
+production_orders,source_application,str,False,,0.0,PP,SAP_S4
+production_orders,source_database,str,False,,0.0,S4PRD,SAP_S4
+production_orders,source_table,str,False,,0.0,AUFK,SAP_S4
+production_orders,source_record_id,str,False,,0.0,10000000,SAP_S4
+production_orders,data_owner,str,False,,0.0,Operations,SAP_S4
+production_orders,source_record_timestamp,datetime64[us],False,,0.0,2025-08-22 07:00:00,SAP_S4
+production_orders,ingestion_timestamp,datetime64[ns],False,,0.0,2025-08-22 13:22:27,SAP_S4
+production_orders,processing_timestamp,datetime64[ns],False,,0.0,2025-08-22 13:25:52,SAP_S4
+production_orders,schema_version,str,False,,0.0,4.2.0,SAP_S4
+production_orders,transformation_version,str,False,,0.0,tx-1.3.0,SAP_S4
+production_confirmations,confirmation_id,str,True,,0.0,CNF-0000001,MES
+production_confirmations,production_order_id,str,False,production_orders.production_order_id,0.0,PRO-0000001,MES
+production_confirmations,actual_finish,datetime64[us],False,,0.0,2025-08-24 00:00:00,MES
+production_confirmations,actual_qty,float64,False,,0.0,46.58,MES
+production_confirmations,scrap_qty,float64,False,,0.0,1.22,MES
+production_confirmations,run_hours,float64,False,,0.0,9.86,MES
+production_confirmations,confirmed_by_shift,str,False,,0.0,C,MES
+material_consumption,consumption_id,str,True,,0.0,MCON-00000001,SAP_S4
+material_consumption,production_order_id,str,False,production_orders.production_order_id,0.0,PRO-0000001,SAP_S4
+material_consumption,facility_id,str,False,,0.0,FAC-MAN-001,SAP_S4
+material_consumption,posting_date,datetime64[us],False,,0.0,2025-08-22 00:00:00,SAP_S4
+material_consumption,material_id,str,False,materials.material_id,0.0,MAT-02628,SAP_S4
+material_consumption,unit,str,False,,0.0,kg,SAP_S4
+material_consumption,standard_qty,float64,False,,0.0,13548.0782,SAP_S4
+material_consumption,consumed_qty,float64,False,,0.0,13372.7853,SAP_S4
+material_consumption,movement_type,str,False,,0.0,261,SAP_S4
+mes_line_daily,mes_record_id,str,True,,0.0,MESD-0001309,MES
+mes_line_daily,production_line_id,str,False,production_lines.production_line_id,0.0,LIN-0001,MES
+mes_line_daily,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,MES
+mes_line_daily,production_date,datetime64[us],False,,0.0,2025-08-01 00:00:00,MES
+mes_line_daily,run_hours,float64,False,,0.0,18.06,MES
+mes_line_daily,downtime_hours,float64,False,,0.0,0.2,MES
+mes_line_daily,idle_hours,float64,False,,0.0,5.74,MES
+mes_line_daily,output_units,float64,False,,0.0,742.4,MES
+mes_line_daily,defect_rate_pct,float64,False,,0.0,1.9,MES
+mes_line_daily,rework_units,float64,False,,0.0,10.1,MES
+mes_line_daily,energy_kwh,float64,False,,0.0,7210.7,MES
+mes_line_daily,scrap_kg,float64,False,,0.0,368.2,MES
+mes_line_daily,process_water_m3,float64,False,,0.0,8.77,MES
+mes_line_daily,oee_pct,float64,False,,0.0,65.0,MES
+mes_line_daily,source_system,str,False,,0.0,MES,MES
+mes_line_daily,source_application,str,False,,0.0,SynthMES 7,MES
+mes_line_daily,source_database,str,False,,0.0,MESDB,MES
+mes_line_daily,source_table,str,False,,0.0,LINE_DAILY_KPI,MES
+mes_line_daily,source_record_id,str,False,,0.0,LD0001309,MES
+mes_line_daily,data_owner,str,False,,0.0,Operations,MES
+mes_line_daily,schema_version,str,False,,0.0,4.2.0,MES
+mes_line_daily,transformation_version,str,False,,0.0,tx-1.3.0,MES
+machine_hourly,machine_id,str,False,,0.0,MCH-018029,MES
+machine_hourly,asset_id,str,False,assets.asset_id,0.0,AST-018029,MES
+machine_hourly,timestamp_utc,datetime64[us],False,,0.0,2025-03-01 00:00:00,MES
+machine_hourly,status,str,False,,0.0,IDLE,MES
+machine_hourly,load_pct,float64,False,,0.0,3.0,MES
+machine_hourly,power_kw,float64,False,,0.0,1.6,MES
+machine_hourly,temperature_c,float64,False,,0.0,34.1,MES
+machine_hourly,pressure_bar,float64,False,,0.0,6.24,MES
+machine_hourly,operating_hours_counter,int64,False,,0.0,15000,MES
+maintenance,maintenance_id,str,True,,0.0,MNT-0000001,CMMS
+maintenance,cmms_wo,str,False,,0.0,WO7951642,CMMS
+maintenance,asset_id,str,False,assets.asset_id,0.0,AST-011534,CMMS
+maintenance,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-010,CMMS
+maintenance,maintenance_type,str,False,,0.0,Corrective,CMMS
+maintenance,work_date,datetime64[us],False,,0.0,2022-05-05 00:00:00,CMMS
+maintenance,downtime_hours,float64,False,,0.0,17.38,CMMS
+maintenance,labour_hours,float64,False,,0.0,4.0,CMMS
+maintenance,parts_cost_usd,float64,False,,0.0,473.9,CMMS
+maintenance,refrigerant_type,str,False,,94.93,R-404A,CMMS
+maintenance,refrigerant_added_kg,float64,False,,0.0,0.0,CMMS
+maintenance,refrigerant_recovered_kg,float64,False,,0.0,0.0,CMMS
+maintenance,technician_contractor_id,object,False,,100.0,None,CMMS
+maintenance,source_system,str,False,,0.0,CMMS,CMMS
+maintenance,source_application,str,False,,0.0,SynthMaint,CMMS
+maintenance,source_database,str,False,,0.0,CMMSDB,CMMS
+maintenance,source_table,str,False,,0.0,WORK_ORDERS,CMMS
+maintenance,source_record_id,str,False,,0.0,WO7951642,CMMS
+maintenance,data_owner,str,False,,0.0,Maintenance,CMMS
+maintenance,source_record_timestamp,datetime64[us],False,,0.0,2022-05-05 06:00:00,CMMS
+maintenance,ingestion_timestamp,datetime64[ns],False,,0.0,2022-05-06 00:32:25,CMMS
+maintenance,processing_timestamp,datetime64[ns],False,,0.0,2022-05-06 00:34:32,CMMS
+maintenance,schema_version,str,False,,0.0,4.2.0,CMMS
+maintenance,transformation_version,str,False,,0.0,tx-1.3.0,CMMS
+quality_inspections,inspection_id,str,True,,0.0,QIN-0000001,QMS
+quality_inspections,production_order_id,str,False,production_orders.production_order_id,0.0,PRO-0007593,QMS
+quality_inspections,inspection_date,datetime64[us],False,,0.0,2023-04-18 00:00:00,QMS
+quality_inspections,sample_size,int64,False,,0.0,160,QMS
+quality_inspections,defects_found,int64,False,,0.0,0,QMS
+quality_inspections,result,str,False,,0.0,Pass,QMS
+quality_inspections,qms_ref,str,False,,0.0,QMS-NC-494694,QMS
+energy_daily,reading_id,str,True,,0.0,ENR-00000001,EMS
+energy_daily,meter_id,str,False,meters.meter_id,0.0,MTR-00001,EMS
+energy_daily,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EMS
+energy_daily,utility_type,str,False,,0.0,electricity,EMS
+energy_daily,reading_date,datetime64[us],False,,0.0,2025-08-01 00:00:00,EMS
+energy_daily,consumption,float64,False,,0.0,20236.26,EMS
+energy_daily,unit,str,False,,0.0,kWh,EMS
+energy_daily,reading_quality,str,False,,0.0,A,EMS
+energy_daily,cumulative_register,float64,False,,0.0,120236.26,EMS
+energy_daily,source_system,str,False,,0.0,EMS,EMS
+energy_daily,source_application,str,False,,0.0,SynthEnergy EMS,EMS
+energy_daily,source_database,str,False,,0.0,EMSDB,EMS
+energy_daily,source_table,str,False,,0.0,METER_DAILY,EMS
+energy_daily,source_record_id,str,False,,0.0,R00000001,EMS
+energy_daily,data_owner,str,False,,0.0,Energy Management,EMS
+energy_daily,source_record_timestamp,datetime64[us],False,,0.0,2025-08-01 07:00:00,EMS
+energy_daily,ingestion_timestamp,datetime64[ns],False,,0.0,2025-08-01 08:24:11,EMS
+energy_daily,processing_timestamp,datetime64[ns],False,,0.0,2025-08-01 08:26:55,EMS
+energy_daily,schema_version,str,False,,0.0,4.2.0,EMS
+energy_daily,transformation_version,str,False,,0.0,tx-1.3.0,EMS
+utility_invoices,utility_invoice_id,str,True,,0.0,UINV-0000001,SAP_S4
+utility_invoices,invoice_number,str,False,,0.0,BILL-146117799,SAP_S4
+utility_invoices,utility_supplier_id,str,False,suppliers.supplier_id,0.0,SUP-03921,SAP_S4
+utility_invoices,customer_account_no,str,False,,12.76,UA-64050250,SAP_S4
+utility_invoices,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,SAP_S4
+utility_invoices,meter_id,str,False,meters.meter_id,0.0,MTR-00001,SAP_S4
+utility_invoices,utility_type,str,False,,0.0,electricity,SAP_S4
+utility_invoices,billing_period_start,datetime64[us],False,,0.0,2025-08-01 00:00:00,SAP_S4
+utility_invoices,billing_period_end,datetime64[us],False,,0.0,2025-08-31 00:00:00,SAP_S4
+utility_invoices,invoice_date,datetime64[us],False,,0.0,2025-09-05 00:00:00,SAP_S4
+utility_invoices,consumption,float64,False,,0.0,495955.99,SAP_S4
+utility_invoices,unit,str,False,,0.0,kWh,SAP_S4
+utility_invoices,tariff_per_unit,float64,False,,0.0,0.26472,SAP_S4
+utility_invoices,currency,str,False,,0.0,AUD,SAP_S4
+utility_invoices,previous_reading,float64,False,,0.0,250000.0,SAP_S4
+utility_invoices,current_reading,float64,False,,0.0,745955.99,SAP_S4
+utility_invoices,energy_charge,float64,False,,0.0,131289.47,SAP_S4
+utility_invoices,network_charge,float64,False,,0.0,35108.81,SAP_S4
+utility_invoices,taxes,float64,False,,0.0,33279.66,SAP_S4
+utility_invoices,total_payable,float64,False,,0.0,199677.94,SAP_S4
+utility_invoices,green_tariff,bool,False,,0.0,False,SAP_S4
+utility_invoices,supplier_disclosed_ef_kg_per_kwh,float64,False,,51.05,0.769,SAP_S4
+utility_invoices,source_system,str,False,,0.0,SAP_S4,SAP_S4
+utility_invoices,source_application,str,False,,0.0,IS-U Invoice Capture,SAP_S4
+utility_invoices,source_database,str,False,,0.0,S4PRD,SAP_S4
+utility_invoices,source_table,str,False,,0.0,UTIL_INV,SAP_S4
+utility_invoices,source_record_id,str,False,,0.0,BILL-146117799,SAP_S4
+utility_invoices,data_owner,str,False,,0.0,Energy Management,SAP_S4
+utility_invoices,source_record_timestamp,datetime64[us],False,,0.0,2025-09-05 12:00:00,SAP_S4
+utility_invoices,ingestion_timestamp,datetime64[ns],False,,0.0,2025-09-05 16:15:51,SAP_S4
+utility_invoices,processing_timestamp,datetime64[ns],False,,0.0,2025-09-05 16:20:27,SAP_S4
+utility_invoices,schema_version,str,False,,0.0,4.2.0,SAP_S4
+utility_invoices,transformation_version,str,False,,0.0,tx-1.3.0,SAP_S4
+fuel_purchases,fuel_purchase_id,str,True,,0.0,FUEL-000001,SAP_S4
+fuel_purchases,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,SAP_S4
+fuel_purchases,fuel_type,str,False,,0.0,coal,SAP_S4
+fuel_purchases,period,str,False,,0.0,2022-01,SAP_S4
+fuel_purchases,quantity,float64,False,,0.0,33.318,SAP_S4
+fuel_purchases,unit,str,False,,0.0,t,SAP_S4
+fuel_purchases,delivery_date,datetime64[us],False,,0.0,2022-01-04 00:00:00,SAP_S4
+fuel_purchases,supplier_id,str,False,,0.0,SUP-06955,SAP_S4
+fuel_purchases,amount_usd,float64,False,,0.0,5330.88,SAP_S4
+water_daily,water_reading_id,str,True,,0.0,WTR-0000001,EMS
+water_daily,meter_id,str,False,meters.meter_id,0.0,MTR-00002,EMS
+water_daily,facility_id,str,False,,0.0,FAC-MAN-001,EMS
+water_daily,reading_date,datetime64[us],False,,0.0,2025-08-01 00:00:00,EMS
+water_daily,consumption,float64,False,,0.0,21.54,EMS
+water_daily,unit,str,False,,0.0,m3,EMS
+water_monthly,water_record_id,str,True,,0.0,WREC-000001,EHS
+water_monthly,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EHS
+water_monthly,period,str,False,,0.0,2025-08,EHS
+water_monthly,withdrawal_source,str,False,,0.0,Third-party (municipal),EHS
+water_monthly,withdrawal_m3,float64,False,,0.0,720.07,EHS
+water_monthly,discharge_m3,float64,False,,0.0,567.63,EHS
+water_monthly,consumption_m3,float64,False,,0.0,152.44,EHS
+water_monthly,discharge_destination,str,False,,0.0,On-site treatment,EHS
+water_monthly,cod_mg_l,float64,False,,0.0,130.3,EHS
+water_monthly,bod_mg_l,float64,False,,0.0,58.6,EHS
+water_monthly,tss_mg_l,float64,False,,0.0,24.5,EHS
+water_monthly,ph,float64,False,,0.0,7.43,EHS
+water_monthly,water_stress_area,bool,False,,0.0,True,EHS
+waste_records,waste_record_id,str,True,,0.0,WST-000001,EHS
+waste_records,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EHS
+waste_records,waste_type,str,False,,0.0,general_mixed,EHS
+waste_records,period,str,False,,0.0,2025-08,EHS
+waste_records,quantity,float64,False,,0.0,11.296,EHS
+waste_records,disposal_method,str,False,,0.0,landfill,EHS
+waste_records,unit,str,False,,0.0,t,EHS
+waste_records,hazardous,bool,False,,0.0,False,EHS
+waste_records,waste_contractor_id,str,False,suppliers.supplier_id,0.0,SUP-02797,EHS
+waste_records,manifest_no,str,False,,0.0,MAN-80064648,EHS
+waste_records,waste_invoice_id,str,False,,0.0,WINV-MAN-001-2025-08,EHS
+waste_records,waste_certificate_id,str,False,,50.82,WCERT-1,EHS
+waste_records,source_system,str,False,,0.0,EHS,EHS
+waste_records,source_application,str,False,,0.0,SynthEHS Waste,EHS
+waste_records,source_database,str,False,,0.0,EHSDB,EHS
+waste_records,source_table,str,False,,0.0,WASTE_MANIFEST,EHS
+waste_records,source_record_id,str,False,,0.0,MAN-80064648,EHS
+waste_records,data_owner,str,False,,0.0,EHS & Sustainability,EHS
+waste_records,schema_version,str,False,,0.0,4.2.0,EHS
+waste_records,transformation_version,str,False,,0.0,tx-1.3.0,EHS
+waste_invoices,waste_invoice_id,str,True,,0.0,WINV-MAN-001-2025-08,SAP_S4
+waste_invoices,facility_id,str,False,,0.0,FAC-MAN-001,SAP_S4
+waste_invoices,period,str,False,,0.0,2025-08,SAP_S4
+waste_invoices,waste_contractor_id,str,False,,0.0,SUP-02797,SAP_S4
+waste_invoices,quantity,float64,False,,0.0,61.906,SAP_S4
+waste_invoices,amount_usd,float64,False,,0.0,13288.81,SAP_S4
+waste_certificates,waste_certificate_id,str,True,,0.0,WCERT-1,EHS
+waste_certificates,waste_record_id,str,False,waste_records.waste_record_id,0.0,WST-000002,EHS
+waste_certificates,facility_id,str,False,,0.0,FAC-MAN-001,EHS
+waste_certificates,waste_type,str,False,,0.0,general_mixed,EHS
+waste_certificates,quantity,float64,False,,0.0,11.533,EHS
+waste_certificates,disposal_method,str,False,,0.0,landfill,EHS
+waste_certificates,period,str,False,,0.0,2025-09,EHS
+iot_telemetry,telemetry_id,str,True,,0.0,TEL-00000001,SCADA
+iot_telemetry,sensor_id,str,False,,0.0,SNS-01174,SCADA
+iot_telemetry,meter_id,str,False,meters.meter_id,0.0,MTR-01174,SCADA
+iot_telemetry,facility_id,str,False,,0.0,FAC-MAN-021,SCADA
+iot_telemetry,timestamp_utc,datetime64[us],False,,0.0,2025-11-01 00:00:00,SCADA
+iot_telemetry,measurement_type,str,False,,0.0,temperature,SCADA
+iot_telemetry,value,float64,False,,1.11,34.524,SCADA
+iot_telemetry,unit,str,False,,0.0,degC,SCADA
+iot_telemetry,device_status,str,False,,0.0,OK,SCADA
+iot_telemetry,comm_status,str,False,,0.0,ONLINE,SCADA
+iot_telemetry,calibration_date,datetime64[us],False,,0.0,2026-02-21 00:00:00,SCADA
+iot_telemetry,ingest_timestamp_utc,datetime64[us],False,,0.0,2025-11-01 00:01:26,SCADA
+iot_5min,sensor_id,str,False,,0.0,SNS-01174,IOT_PLATFORM
+iot_5min,timestamp_utc,datetime64[us],False,,0.0,2025-11-03 00:00:00,IOT_PLATFORM
+iot_5min,value,float64,False,,0.0,103.83,IOT_PLATFORM
+iot_5min,unit,str,False,,0.0,kW,IOT_PLATFORM
+shipments,shipment_id,str,True,,0.0,SHP-0000001,TMS
+shipments,direction,str,False,,0.0,Inbound,TMS
+shipments,ref_doc,str,False,,0.0,GRN-0000002,TMS
+shipments,po_id,object,False,,44.83,PO-0000001,TMS
+shipments,delivery_id,object,False,,55.17,DLV-0000001,TMS
+shipments,supplier_id,object,False,,44.83,SUP-04806,TMS
+shipments,customer_id,object,False,,55.17,CUST-003176,TMS
+shipments,origin,str,False,,0.0,SUP-04806,TMS
+shipments,destination,str,False,,0.0,FAC-MAN-022,TMS
+shipments,ship_date,datetime64[ns],False,,0.0,2026-07-20 00:00:00,TMS
+shipments,weight_kg,float64,False,,0.0,2901.217,TMS
+shipments,incoterm,str,False,,0.0,DDP,TMS
+shipments,tms_ref,str,False,,0.0,TMS333977023,TMS
+shipments,mode,str,False,,0.0,Sea,TMS
+shipments,distance_km,float64,False,,0.0,14307.4,TMS
+shipments,distance_unit,str,False,,0.0,km,TMS
+shipments,carrier_id,str,False,suppliers.supplier_id,0.0,SUP-05793,TMS
+shipments,load_factor_pct,float64,False,,0.0,76.7,TMS
+shipments,freight_paid_by,str,False,,0.0,Supplier,TMS
+shipments,empty_return_km,float64,False,,0.0,0.0,TMS
+shipments,consolidation_id,str,False,,88.0,CONS-36139,TMS
+shipments,tkm,float64,False,,0.0,41508.872,TMS
+shipments,source_system,str,False,,0.0,TMS,TMS
+shipments,source_application,str,False,,0.0,SynthTMS,TMS
+shipments,source_database,str,False,,0.0,TMSDB,TMS
+shipments,source_table,str,False,,0.0,SHIPMENT,TMS
+shipments,source_record_id,str,False,,0.0,TMS333977023,TMS
+shipments,data_owner,str,False,,0.0,Logistics,TMS
+shipments,source_record_timestamp,datetime64[ns],False,,0.0,2026-07-20 17:00:00,TMS
+shipments,ingestion_timestamp,datetime64[ns],False,,0.0,2026-07-21 06:40:31,TMS
+shipments,processing_timestamp,datetime64[ns],False,,0.0,2026-07-21 06:44:26,TMS
+shipments,schema_version,str,False,,0.0,4.2.0,TMS
+shipments,transformation_version,str,False,,0.0,tx-1.3.0,TMS
+freight_invoices,freight_invoice_id,str,True,,0.0,FINV-0000001,SAP_S4
+freight_invoices,shipment_id,str,False,shipments.shipment_id,0.0,SHP-0000009,SAP_S4
+freight_invoices,carrier_id,str,False,suppliers.supplier_id,0.0,SUP-08836,SAP_S4
+freight_invoices,invoice_date,datetime64[ns],False,,0.0,2023-11-09 00:00:00,SAP_S4
+freight_invoices,amount_usd,float64,False,,0.0,3574.99,SAP_S4
+freight_invoices,billed_distance_km,float64,False,,0.0,24530.6,SAP_S4
+freight_invoices,billed_weight_kg,float64,False,,0.0,4416.8,SAP_S4
+freight_invoices,mode,str,False,,0.0,Multimodal,SAP_S4
+fleet_fuel,fleet_fuel_id,str,True,,0.0,FF-0000001,FLEET_MGMT
+fleet_fuel,vehicle_id,str,False,vehicles.vehicle_id,0.0,VEH-0001,FLEET_MGMT
+fleet_fuel,facility_id,str,False,,0.0,FAC-WAR-114,FLEET_MGMT
+fleet_fuel,period,str,False,,0.0,2022-01,FLEET_MGMT
+fleet_fuel,fuel_type,str,False,,0.0,petrol,FLEET_MGMT
+fleet_fuel,distance_km,float64,False,,0.0,2210.1,FLEET_MGMT
+fleet_fuel,fuel_qty,float64,False,,0.0,213.56,FLEET_MGMT
+fleet_fuel,fuel_unit,str,False,,0.0,L,FLEET_MGMT
+fleet_fuel,electricity_kwh,float64,False,,0.0,0.0,FLEET_MGMT
+fleet_fuel,source_system,str,False,,0.0,FLEET_MGMT,FLEET_MGMT
+fleet_fuel,source_application,str,False,,0.0,SynthFleet Telematics,FLEET_MGMT
+fleet_fuel,source_database,str,False,,0.0,FLEETDB,FLEET_MGMT
+fleet_fuel,source_table,str,False,,0.0,FUEL_MONTHLY,FLEET_MGMT
+fleet_fuel,source_record_id,str,False,,0.0,TEL0000001,FLEET_MGMT
+fleet_fuel,data_owner,str,False,,0.0,Logistics,FLEET_MGMT
+fleet_fuel,schema_version,str,False,,0.0,4.2.0,FLEET_MGMT
+fleet_fuel,transformation_version,str,False,,0.0,tx-1.3.0,FLEET_MGMT
+business_travel,trip_id,str,True,,0.0,TRP-000001,CONCUR_LIKE
+business_travel,expense_report_id,str,False,,0.0,EXP-9739055,CONCUR_LIKE
+business_travel,employee_synthetic_id,str,False,employees.employee_synthetic_id,0.0,EMP-038894,CONCUR_LIKE
+business_travel,origin_facility_id,str,False,facilities.facility_id,0.0,FAC-WAR-054,CONCUR_LIKE
+business_travel,destination_city,str,False,,0.0,Johannesburg,CONCUR_LIKE
+business_travel,destination_country_id,str,False,,0.0,ZA,CONCUR_LIKE
+business_travel,travel_date,datetime64[us],False,,0.0,2026-08-04 00:00:00,CONCUR_LIKE
+business_travel,travel_mode,str,False,,0.0,air_long_economy,CONCUR_LIKE
+business_travel,distance_km,float64,False,,5.0,19574.7,CONCUR_LIKE
+business_travel,hotel_nights,int64,False,,0.0,1,CONCUR_LIKE
+business_travel,cost_usd,float64,False,,0.0,2509.1,CONCUR_LIKE
+commuting_survey,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,HRMS
+commuting_survey,headcount,int64,False,,0.0,809,HRMS
+commuting_survey,remote_eligible,int64,False,,0.0,157,HRMS
+commuting_survey,fte,float64,False,,0.0,791.4,HRMS
+commuting_survey,year,int64,False,,0.0,2022,HRMS
+commuting_survey,female_share_pct,float64,False,,0.0,22.7,HRMS
+commuting_survey,survey_response_rate_pct,float64,False,,0.0,15.0,HRMS
+commuting_survey,share_car_petrol,float64,False,,0.0,0.306,HRMS
+commuting_survey,share_car_diesel,float64,False,,0.0,0.192,HRMS
+commuting_survey,share_car_ev,float64,False,,0.0,0.067,HRMS
+commuting_survey,share_bus,float64,False,,0.0,0.158,HRMS
+commuting_survey,share_rail,float64,False,,0.0,0.137,HRMS
+commuting_survey,share_motorbike,float64,False,,0.0,0.092,HRMS
+commuting_survey,share_bike_walk,float64,False,,0.0,0.066,HRMS
+commuting_survey,avg_one_way_km,float64,False,,0.0,10.6,HRMS
+commuting_survey,avg_remote_days_per_week,float64,False,,0.0,1.53,HRMS
+commuting_survey,working_days,int64,False,,0.0,225,HRMS
+office_occupancy,facility_id,str,False,facilities.facility_id,0.0,FAC-OFF-115,FACILITIES
+office_occupancy,period,str,False,,0.0,2022-01,FACILITIES
+office_occupancy,avg_occupancy_pct,float64,False,,0.0,46.2,FACILITIES
+safety_monthly,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EHS
+safety_monthly,period,str,False,,0.0,2022-01,EHS
+safety_monthly,hours_worked,int64,False,,0.0,121350,EHS
+safety_monthly,recordable_incidents,int64,False,,0.0,0,EHS
+safety_monthly,lost_time_injuries,int64,False,,0.0,0,EHS
+safety_monthly,safety_training_hours,float64,False,,0.0,1136.0,EHS
+training,training_record_id,str,True,,0.0,TRN-00001,LMS
+training,facility_id,str,False,,0.0,FAC-OFF-138,LMS
+training,programme,str,False,,0.0,Energy Champions,LMS
+training,session_date,datetime64[us],False,,0.0,2024-09-18 00:00:00,LMS
+training,participants,int64,False,,0.0,30,LMS
+training,hours_per_participant,int64,False,,0.0,8,LMS
+gl_transactions,gl_txn_id,str,True,,0.0,GL-00000001,SAP_S4
+gl_transactions,journal_entry_id,str,False,,0.0,JE-AP-0,SAP_S4
+gl_transactions,line_no,int64,False,,0.0,1,SAP_S4
+gl_transactions,gl_account,str,False,chart_of_accounts.gl_account,0.0,205000,SAP_S4
+gl_transactions,legal_entity_id,str,False,legal_entities.legal_entity_id,0.0,LE-DE01,SAP_S4
+gl_transactions,facility_id,object,False,,30.97,FAC-MAN-022,SAP_S4
+gl_transactions,posting_date,datetime64[ns],False,,0.0,2026-08-17 00:00:00,SAP_S4
+gl_transactions,document_date,datetime64[ns],False,,0.0,2026-08-15 00:00:00,SAP_S4
+gl_transactions,debit_amount,float64,False,,0.0,6920625.02,SAP_S4
+gl_transactions,credit_amount,float64,False,,0.0,0.0,SAP_S4
+gl_transactions,currency,str,False,,0.0,JPY,SAP_S4
+gl_transactions,reference_document,str,False,,0.0,APINV-0000001,SAP_S4
+gl_transactions,transaction_description,str,False,,0.0,Supplier invoice SI-25421494,SAP_S4
+gl_transactions,source_system,str,False,,0.0,SAP_S4,SAP_S4
+gl_transactions,quantity,float64,False,,95.68,495955.99,SAP_S4
+gl_transactions,quantity_unit,object,False,,95.68,kWh,SAP_S4
+gl_transactions,company_code,str,False,,0.0,1060,SAP_S4
+gl_transactions,fiscal_year,int64,False,,0.0,2026,SAP_S4
+gl_transactions,fiscal_period,int64,False,,0.0,8,SAP_S4
+gl_transactions,cost_centre_id,str,False,cost_centres.cost_centre_id,30.97,CC-MAN-022-00,SAP_S4
+gl_transactions,profit_centre_id,str,False,,30.97,PC-IMC-EU-DE,SAP_S4
+gl_transactions,business_unit_id,str,False,,30.97,BU-IMC-EU,SAP_S4
+gl_transactions,amount_usd,float64,False,,0.0,39544.45,SAP_S4
+gl_transactions,created_ts,datetime64[ns],False,,0.0,2026-08-17 12:06:54,SAP_S4
+gl_transactions,modified_ts,datetime64[ns],False,,0.0,2026-08-17 12:06:54,SAP_S4
+gl_transactions,created_by_role,str,False,,0.0,AP Clerk,SAP_S4
+gl_transactions,source_application,str,False,,0.0,FI-GL,SAP_S4
+gl_transactions,source_database,str,False,,0.0,S4PRD,SAP_S4
+gl_transactions,source_table,str,False,,0.0,ACDOCA,SAP_S4
+gl_transactions,source_record_id,str,False,,0.0,JE-AP-0,SAP_S4
+gl_transactions,data_owner,str,False,,0.0,Finance,SAP_S4
+gl_transactions,schema_version,str,False,,0.0,4.2.0,SAP_S4
+gl_transactions,transformation_version,str,False,,0.0,tx-1.3.0,SAP_S4
+trial_balance,company_code,str,False,,0.0,1000,SAP_S4
+trial_balance,fiscal_year,int64,False,,0.0,2021,SAP_S4
+trial_balance,fiscal_period,int64,False,,0.0,8,SAP_S4
+trial_balance,gl_account,str,False,,0.0,100100,SAP_S4
+trial_balance,debit_usd,float64,False,,0.0,0.0,SAP_S4
+trial_balance,credit_usd,float64,False,,0.0,0.0,SAP_S4
+trial_balance,balance_usd,float64,False,,0.0,0.0,SAP_S4
+profit_and_loss,legal_entity_id,str,False,,0.0,LE-AE01,SAP_S4
+profit_and_loss,year,int32,False,,0.0,2022,SAP_S4
+profit_and_loss,gl_account,str,False,,0.0,401000,SAP_S4
+profit_and_loss,gl_account_name,str,False,,0.0,Service revenue,SAP_S4
+profit_and_loss,line_amount_usd,float64,False,,0.0,433412.3,SAP_S4
+balance_sheet,legal_entity_id,str,False,,0.0,LE-AE01,SAP_S4
+balance_sheet,year,int32,False,,0.0,2022,SAP_S4
+balance_sheet,gl_account,str,False,,0.0,100100,SAP_S4
+balance_sheet,closing_balance_usd,float64,False,,0.0,-565053.37,SAP_S4
+balance_sheet,gl_account_name,str,False,,0.0,Cash at bank,SAP_S4
+period_closures,company_code,str,False,,0.0,1000,SAP_S4
+period_closures,fiscal_year,int64,False,,0.0,2022,SAP_S4
+period_closures,fiscal_period,int64,False,,0.0,1,SAP_S4
+period_closures,close_status,str,False,,0.0,Closed,SAP_S4
+period_closures,closed_on,object,False,,0.0,2022-02-07,SAP_S4
+investment_register,investment_id,str,True,,0.0,INV-001,TREASURY
+investment_register,investee,str,False,,0.0,Synthetic Investee A Holdings (SYNTHETIC),TREASURY
+investment_register,equity_share_pct,int64,False,,0.0,15,TREASURY
+investment_register,investee_scope12_tco2e,float64,False,,0.0,20640.0,TREASURY
+franchise_register,franchise_id,str,True,,0.0,FRN-001,CRM_PARTNER
+franchise_register,country_id,str,False,,0.0,CA,CRM_PARTNER
+franchise_register,name,str,False,,0.0,Synthetic Franchise Distributor FRN-001 (SYNTHETIC),CRM_PARTNER
+ghg_activities,ghg_activity_id,str,True,,0.0,GHG-00000001,GHG_PLATFORM
+ghg_activities,facility_id,str,False,facilities.facility_id,13.55,FAC-MAN-001,GHG_PLATFORM
+ghg_activities,equipment_id,object,False,,97.29,MTR-00003,GHG_PLATFORM
+ghg_activities,activity_type,str,False,,0.0,natural_gas,GHG_PLATFORM
+ghg_activities,activity_quantity,float64,False,,0.0,61435.22,GHG_PLATFORM
+ghg_activities,activity_unit,str,False,,0.0,m3,GHG_PLATFORM
+ghg_activities,original_quantity,float64,False,,18.66,61435.22,GHG_PLATFORM
+ghg_activities,original_unit,str,False,,18.66,m3,GHG_PLATFORM
+ghg_activities,period_start,datetime64[us],False,,0.0,2025-08-01 00:00:00,GHG_PLATFORM
+ghg_activities,period_end,datetime64[us],False,,0.0,2025-08-31 00:00:00,GHG_PLATFORM
+ghg_activities,calculation_method,str,False,,0.0,Fuel-based,GHG_PLATFORM
+ghg_activities,source_dataset,str,False,,0.0,utility_invoices,GHG_PLATFORM
+ghg_activities,source_record_id,str,False,,0.0,UINV-0000018,GHG_PLATFORM
+ghg_activities,source_system,str,False,,0.0,GHG_PLATFORM,GHG_PLATFORM
+ghg_activities,scope,str,False,,0.0,Scope 1,GHG_PLATFORM
+ghg_activities,category_id,str,False,,0.0,Stationary combustion,GHG_PLATFORM
+ghg_activities,category_name,str,False,,0.0,Stationary combustion,GHG_PLATFORM
+ghg_activities,vehicle_id,str,False,,84.52,VEH-0001,GHG_PLATFORM
+ghg_activities,assumptions,str,False,,92.61,Clinker/feedstock ratio from synthetic product spec,GHG_PLATFORM
+ghg_activities,scope2_method,str,False,,98.42,location-based,GHG_PLATFORM
+ghg_activities,supplier_id,str,False,,69.45,SUP-03921,GHG_PLATFORM
+ghg_activities,customer_id,str,False,,87.26,CUST-003176,GHG_PLATFORM
+ghg_activities,product_id,str,False,,86.46,PRD-0401,GHG_PLATFORM
+ghg_activities,reporting_year,int32,False,,0.0,2025,GHG_PLATFORM
+ghg_activities,reporting_period,str,False,,0.0,2025-08,GHG_PLATFORM
+ghg_activities,emission_factor_id,str,False,emission_factors.emission_factor_id,0.0,EF-00114,GHG_PLATFORM
+ghg_activities,emission_factor_value,float64,False,,0.0,2.048337,GHG_PLATFORM
+ghg_activities,emission_factor_unit,str,False,,0.0,kgCO2e/m3,GHG_PLATFORM
+ghg_activities,gwp_basis,str,False,,0.0,AR6,GHG_PLATFORM
+ghg_activities,co2e_kg,float64,False,,0.0,125840.034,GHG_PLATFORM
+ghg_activities,reporting_boundary,str,False,,0.0,Operational control,GHG_PLATFORM
+ghg_activities,included_in_inventory,bool,False,,0.0,True,GHG_PLATFORM
+ghg_activities,data_quality_rating,int64,False,,0.0,2,GHG_PLATFORM
+ghg_activities,uncertainty_pct,int64,False,,0.0,7,GHG_PLATFORM
+ghg_activities,gas_type,str,False,,0.0,CO2e,GHG_PLATFORM
+ghg_activities,gwp_time_horizon,str,False,,0.0,GWP100,GHG_PLATFORM
+ghg_activities,source_document_id,object,False,,100.0,None,GHG_PLATFORM
+ghg_activities,co2e_t,float64,False,,0.0,125.840034,GHG_PLATFORM
+ghg_activities,source_application,str,False,,0.0,Canonical GHG Engine,GHG_PLATFORM
+ghg_activities,source_database,str,False,,0.0,GHGDB,GHG_PLATFORM
+ghg_activities,source_table,str,False,,0.0,GHG_ACTIVITY,GHG_PLATFORM
+ghg_activities,data_owner,str,False,,0.0,EHS & Sustainability,GHG_PLATFORM
+ghg_activities,schema_version,str,False,,0.0,4.2.0,GHG_PLATFORM
+ghg_activities,transformation_version,str,False,,0.0,tx-1.3.0,GHG_PLATFORM
+contractual_instruments,instrument_id,str,True,,0.0,EAC-00001,EAC_REGISTRY
+contractual_instruments,instrument_type,str,False,,0.0,Physical PPA,EAC_REGISTRY
+contractual_instruments,registry,str,False,,0.0,I-REC-like (synthetic),EAC_REGISTRY
+contractual_instruments,serial_number,str,False,,0.0,SYN-AU-2025-5056795234,EAC_REGISTRY
+contractual_instruments,vintage_year,int32,False,,0.0,2025,EAC_REGISTRY
+contractual_instruments,technology,str,False,,0.0,Solar PV,EAC_REGISTRY
+contractual_instruments,mwh,float64,False,,0.0,8686.13,EAC_REGISTRY
+contractual_instruments,market_boundary,str,False,,0.0,AU,EAC_REGISTRY
+contractual_instruments,allocated_facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EAC_REGISTRY
+contractual_instruments,allocation_year,int32,False,,0.0,2025,EAC_REGISTRY
+contractual_instruments,retirement_date,datetime64[us],False,,0.0,2026-03-15 00:00:00,EAC_REGISTRY
+contractual_instruments,retired_on_behalf_of,str,False,,0.0,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),EAC_REGISTRY
+contractual_instruments,price_usd_per_mwh,float64,False,,0.0,15.3,EAC_REGISTRY
+contractual_instruments,synthetic_flag,bool,False,,0.0,True,EAC_REGISTRY
+scope2_market,market_calc_id,str,True,,0.0,S2MB-0000001,GHG_PLATFORM
+scope2_market,ghg_activity_id,str,False,ghg_activities.ghg_activity_id,0.0,GHG-00142929,GHG_PLATFORM
+scope2_market,facility_id,str,False,,0.0,FAC-MAN-001,GHG_PLATFORM
+scope2_market,reporting_period,str,False,,0.0,2025-08,GHG_PLATFORM
+scope2_market,reporting_year,int32,False,,0.0,2025,GHG_PLATFORM
+scope2_market,activity_quantity_kwh,float64,False,,0.0,495955.99,GHG_PLATFORM
+scope2_market,eac_covered_share,float64,False,,0.0,0.83,GHG_PLATFORM
+scope2_market,instrument_basis,str,False,,0.0,EAC allocation,GHG_PLATFORM
+scope2_market,uncovered_ef_kg_per_kwh,float64,False,,0.0,0.86016,GHG_PLATFORM
+scope2_market,residual_mix_ef_id,str,False,,0.03,EF-03099,GHG_PLATFORM
+scope2_market,location_based_co2e_kg,float64,False,,0.0,303465.055,GHG_PLATFORM
+scope2_market,included_in_inventory,bool,False,,0.0,True,GHG_PLATFORM
+scope2_market,market_based_co2e_kg,float64,False,,0.0,72522.256,GHG_PLATFORM
+ghg_inventory,reporting_year,int32,False,,0.0,2022,GHG_PLATFORM
+ghg_inventory,scope,str,False,,0.0,Scope 1,GHG_PLATFORM
+ghg_inventory,category_id,str,False,,0.0,Fugitive emissions (refrigerants),GHG_PLATFORM
+ghg_inventory,tco2e,float64,False,,0.0,1720.85,GHG_PLATFORM
+ghg_inventory,scope2_method,str,False,,82.61,location-based,GHG_PLATFORM
+facility_emissions,facility_id,str,False,,0.0,FAC-MAN-001,GHG_PLATFORM
+facility_emissions,reporting_year,int32,False,,0.0,2022,GHG_PLATFORM
+facility_emissions,scope,str,False,,0.0,Scope 1,GHG_PLATFORM
+facility_emissions,tco2e,float64,False,,0.0,918.16,GHG_PLATFORM
+baseline_recalculations,baseline_year,int64,False,,0.0,2022,GHG_PLATFORM
+baseline_recalculations,scope,str,False,,0.0,Scope 1,GHG_PLATFORM
+baseline_recalculations,original_baseline_tco2e,float64,False,,0.0,155632.32,GHG_PLATFORM
+baseline_recalculations,recalculated_baseline_tco2e,float64,False,,0.0,160923.82,GHG_PLATFORM
+baseline_recalculations,recalculation_trigger,str,False,,0.0,Structural change: facilities commissioned 2023-2025 exceed ,GHG_PLATFORM
+baseline_recalculations,approval_status,str,False,,0.0,Approved,GHG_PLATFORM
+baseline_recalculations,approved_by,str,False,,0.0,Group Sustainability Committee (synthetic),GHG_PLATFORM
+baseline_recalculations,approval_date,str,False,,0.0,2025-02-18,GHG_PLATFORM
+supplier_esg_assessments,assessment_id,str,True,,0.0,SESG-00001,SAP_Ariba
+supplier_esg_assessments,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-00001,SAP_Ariba
+supplier_esg_assessments,assessment_date,datetime64[us],False,,0.0,2026-10-01 00:00:00,SAP_Ariba
+supplier_esg_assessments,framework,str,False,,0.0,SynthRate ESG v3 (FICTIONAL),SAP_Ariba
+supplier_esg_assessments,overall_score,float64,False,,0.0,39.0,SAP_Ariba
+supplier_esg_assessments,environment_score,float64,False,,0.0,43.0,SAP_Ariba
+supplier_esg_assessments,labour_human_rights_score,float64,False,,0.0,46.0,SAP_Ariba
+supplier_esg_assessments,ethics_score,float64,False,,0.0,36.0,SAP_Ariba
+supplier_esg_assessments,sustainable_procurement_score,float64,False,,0.0,26.0,SAP_Ariba
+supplier_esg_assessments,sbti_status,str,False,,0.0,Committed,SAP_Ariba
+supplier_esg_assessments,has_ghg_inventory,bool,False,,0.0,True,SAP_Ariba
+supplier_esg_assessments,labour_audit_result,str,False,,0.0,Not audited,SAP_Ariba
+supplier_esg_assessments,verification_status,str,False,,0.0,Self-declared,SAP_Ariba
+supplier_disclosures,disclosure_id,str,True,,0.0,SDISC-000001,SUPPLIER_PORTAL
+supplier_disclosures,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-00011,SUPPLIER_PORTAL
+supplier_disclosures,reporting_year,int64,False,,0.0,2022,SUPPLIER_PORTAL
+supplier_disclosures,reporting_period,str,False,,0.0,CY2022,SUPPLIER_PORTAL
+supplier_disclosures,methodology,str,False,,0.0,GHG Protocol Corporate Standard,SUPPLIER_PORTAL
+supplier_disclosures,reporting_boundary,str,False,,0.0,Operational control,SUPPLIER_PORTAL
+supplier_disclosures,scope1_tco2e,float64,False,,0.0,2696.7,SUPPLIER_PORTAL
+supplier_disclosures,scope2_tco2e,float64,False,,0.0,1770.9,SUPPLIER_PORTAL
+supplier_disclosures,scope3_tco2e,float64,False,,60.36,9320.8,SUPPLIER_PORTAL
+supplier_disclosures,revenue_usd,float64,False,,0.0,52008000.0,SUPPLIER_PORTAL
+supplier_disclosures,energy_mwh,float64,False,,0.0,8139.0,SUPPLIER_PORTAL
+supplier_disclosures,water_m3,float64,False,,0.0,61016.0,SUPPLIER_PORTAL
+supplier_disclosures,waste_t,float64,False,,0.0,830.7,SUPPLIER_PORTAL
+supplier_disclosures,renewable_electricity_pct,float64,False,,0.0,53.7,SUPPLIER_PORTAL
+supplier_disclosures,emission_factor_source,str,False,,0.0,Supplier utility,SUPPLIER_PORTAL
+supplier_disclosures,verification_status,str,False,,0.0,Unverified,SUPPLIER_PORTAL
+supplier_disclosures,uncertainty_pct,int64,False,,0.0,40,SUPPLIER_PORTAL
+supplier_disclosures,reported_unit,str,False,,0.0,tCO2e,SUPPLIER_PORTAL
+supplier_disclosures,submission_date,datetime64[ns],False,,0.0,2023-06-06 15:50:31.701201109,SUPPLIER_PORTAL
+supplier_disclosures,evidence_document_id,str,False,,29.81,DOC-SD-1804747,SUPPLIER_PORTAL
+supplier_disclosures,intensity_tco2e_per_musd,float64,False,,0.0,85.902,SUPPLIER_PORTAL
+supplier_pcfs,pcf_id,str,True,,0.0,PCF-00001,SUPPLIER_PORTAL
+supplier_pcfs,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-05882,SUPPLIER_PORTAL
+supplier_pcfs,material_family,str,False,,0.0,polypropylene_resin,SUPPLIER_PORTAL
+supplier_pcfs,emission_factor_id,str,False,emission_factors.emission_factor_id,0.0,EF-05919,SUPPLIER_PORTAL
+supplier_pcfs,declared_kgco2e_per_unit,float64,False,,0.0,1.170355,SUPPLIER_PORTAL
+supplier_pcfs,declared_unit,str,False,,0.0,kg,SUPPLIER_PORTAL
+supplier_pcfs,system_boundary,str,False,,0.0,Cradle-to-gate,SUPPLIER_PORTAL
+supplier_pcfs,standard,str,False,,0.0,Internal LCA,SUPPLIER_PORTAL
+supplier_pcfs,reference_year,int32,False,,0.0,2022,SUPPLIER_PORTAL
+supplier_pcfs,valid_until,datetime64[us],False,,0.0,2024-12-30 00:00:00,SUPPLIER_PORTAL
+supplier_pcfs,verification,str,False,,0.0,Third-party verified,SUPPLIER_PORTAL
+supplier_pcfs,primary_data_share_pct,float64,False,,0.0,47.0,SUPPLIER_PORTAL
+supplier_pcfs,synthetic_flag,bool,False,,0.0,True,SUPPLIER_PORTAL
+supplier_certifications,certificate_id,str,True,,0.0,SCERT-00001,SAP_Ariba
+supplier_certifications,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-08101,SAP_Ariba
+supplier_certifications,standard,str,False,,0.0,SA8000,SAP_Ariba
+supplier_certifications,certificate_serial,str,False,,0.0,CB-SYN-5692134,SAP_Ariba
+supplier_certifications,certification_body,str,False,,0.0,SynthCert Assurance Ltd (FICTIONAL),SAP_Ariba
+supplier_certifications,valid_from,datetime64[us],False,,0.0,2021-05-09 00:00:00,SAP_Ariba
+supplier_certifications,valid_to,datetime64[us],False,,0.0,2024-05-09 00:00:00,SAP_Ariba
+supplier_certifications,presented_status,str,False,,0.0,Expired,SAP_Ariba
+supplier_questionnaires,questionnaire_id,str,True,,0.0,SQ-00001,SUPPLIER_PORTAL
+supplier_questionnaires,supplier_id,str,False,suppliers.supplier_id,0.0,SUP-03093,SUPPLIER_PORTAL
+supplier_questionnaires,sent_date,datetime64[us],False,,0.0,2024-11-21 00:00:00,SUPPLIER_PORTAL
+supplier_questionnaires,q_has_climate_policy,str,False,,21.33,No,SUPPLIER_PORTAL
+supplier_questionnaires,q_scope1_disclosed,str,False,,19.57,No,SUPPLIER_PORTAL
+supplier_questionnaires,q_renewable_pct,float64,False,,24.27,9.0,SUPPLIER_PORTAL
+supplier_questionnaires,q_iso14001,str,False,,14.97,No,SUPPLIER_PORTAL
+supplier_questionnaires,q_child_labour_policy,str,False,,14.93,Yes,SUPPLIER_PORTAL
+supplier_questionnaires,q_material_origin_country,str,False,,29.2,MX,SUPPLIER_PORTAL
+supplier_questionnaires,completion_pct,float64,False,,0.0,88.9,SUPPLIER_PORTAL
+supplier_questionnaires,status,str,False,,0.0,Incomplete,SUPPLIER_PORTAL
+customer_requirements,requirement_id,str,True,,0.0,CREQ-00001,SALESFORCE
+customer_requirements,customer_id,str,False,customers.customer_id,0.0,CUST-000001,SALESFORCE
+customer_requirements,requirement_type,str,False,,0.0,Packaging sustainability,SALESFORCE
+customer_requirements,threshold,str,False,,12.5,ISO 14001 at all sites,SALESFORCE
+customer_requirements,effective_date,datetime64[us],False,,0.0,2023-12-10 00:00:00,SALESFORCE
+customer_requirements,compliance_status,str,False,,0.0,Partially compliant,SALESFORCE
+customer_questionnaires,customer_questionnaire_id,str,True,,0.0,CQ-00001,SALESFORCE
+customer_questionnaires,customer_id,str,False,,0.0,CUST-000895,SALESFORCE
+customer_questionnaires,received_date,datetime64[us],False,,0.0,2022-05-11 00:00:00,SALESFORCE
+customer_questionnaires,answered_scope12_tco2e,float64,False,,19.0,521000.0,SALESFORCE
+customer_questionnaires,answered_renewable_pct,float64,False,,16.27,25.6,SALESFORCE
+customer_questionnaires,product_pcf_reference_year,int64,False,,0.0,2019,SALESFORCE
+customer_questionnaires,status,str,False,,0.0,Submitted,SALESFORCE
+air_pollutants,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EHS
+air_pollutants,reporting_year,int32,False,,0.0,2022,EHS
+air_pollutants,nox_t,float64,False,,0.0,1.702,EHS
+air_pollutants,sox_t,float64,False,,0.0,1.137,EHS
+air_pollutants,pm10_t,float64,False,,0.0,0.243,EHS
+air_pollutants,voc_t,float64,False,,0.0,0.297,EHS
+environmental_incidents,incident_id,str,True,,0.0,ENVINC-0001,EHS
+environmental_incidents,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-027,EHS
+environmental_incidents,incident_date,datetime64[us],False,,0.0,2023-04-18 00:00:00,EHS
+environmental_incidents,incident_type,str,False,,0.0,Hazardous waste mislabelling,EHS
+environmental_incidents,severity,str,False,,0.0,Minor,EHS
+environmental_incidents,reported_to_regulator,bool,False,,0.0,False,EHS
+environmental_incidents,fine_usd,float64,False,,0.0,0.0,EHS
+environmental_incidents,corrective_action_id,str,False,,0.0,CAPA-24614,EHS
+environmental_incidents,status,str,False,,0.0,Closed,EHS
+environmental_permits,permit_id,str,True,,0.0,PERM-0001,EHS
+environmental_permits,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EHS
+environmental_permits,permit_type,str,False,,0.0,Hazardous waste storage,EHS
+environmental_permits,issuing_authority,str,False,,0.0,AU Environmental Agency (synthetic),EHS
+environmental_permits,issue_date,datetime64[us],False,,0.0,2019-03-11 00:00:00,EHS
+environmental_permits,expiry_date,datetime64[us],False,,0.0,2024-03-11 00:00:00,EHS
+environmental_permits,compliance_status,str,False,,0.0,Compliant,EHS
+biodiversity,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,EHS
+biodiversity,floor_area_m2,int64,False,,0.0,26812,EHS
+biodiversity,site_area_ha,float64,False,,0.0,7.29,EHS
+biodiversity,distance_to_protected_area_km,float64,False,,0.0,38.8,EHS
+biodiversity,impervious_surface_pct,float64,False,,0.0,44.1,EHS
+biodiversity,biodiversity_action_plan,bool,False,,0.0,False,EHS
+social_kpis,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,HRMS
+social_kpis,year,int64,False,,0.0,2022,HRMS
+social_kpis,hours_worked,int64,False,,0.0,1456200,HRMS
+social_kpis,recordable_incidents,int64,False,,0.0,4,HRMS
+social_kpis,lost_time_injuries,int64,False,,0.0,0,HRMS
+social_kpis,safety_training_hours,float64,False,,0.0,10831.0,HRMS
+social_kpis,ltifr,float64,False,,0.0,0.0,HRMS
+social_kpis,trir,float64,False,,0.0,0.55,HRMS
+social_kpis,voluntary_turnover_pct,float64,False,,0.0,6.8,HRMS
+social_kpis,engagement_score,float64,False,,0.0,73.0,HRMS
+social_kpis,training_hours_per_fte,float64,False,,0.0,13.8,HRMS
+social_kpis,community_investment_usd,float64,False,,0.0,20700.0,HRMS
+risk_register,risk_id,str,True,,0.0,RSK-0001,GRC
+risk_register,risk_category,str,False,,0.0,Anti-corruption,GRC
+risk_register,description,str,False,,0.0,Synthetic risk statement,GRC
+risk_register,owner_department,str,False,,0.0,Finance,GRC
+risk_register,likelihood,int64,False,,0.0,4,GRC
+risk_register,impact,int64,False,,0.0,4,GRC
+risk_register,mitigation_plan_id,str,False,,0.0,MIT-8041,GRC
+risk_register,review_date,datetime64[us],False,,0.0,2025-05-26 00:00:00,GRC
+risk_register,status,str,False,,0.0,Mitigating,GRC
+risk_register,risk_score,int64,False,,0.0,16,GRC
+audit_observations,audit_observation_id,str,True,,0.0,IAO-0001,GRC
+audit_observations,audit_type,str,False,,0.0,Compliance assessment,GRC
+audit_observations,facility_id,str,False,,0.0,FAC-WAR-068,GRC
+audit_observations,observation_date,datetime64[us],False,,0.0,2024-07-09 00:00:00,GRC
+audit_observations,finding,str,False,,0.0,Waste certificate missing,GRC
+audit_observations,rating,str,False,,0.0,High,GRC
+audit_observations,responsible_department,str,False,,0.0,Operations,GRC
+audit_observations,corrective_action_due,datetime64[us],False,,0.0,2024-12-29 00:00:00,GRC
+audit_observations,closure_status,str,False,,0.0,Closed,GRC
+audit_observations,evidence_document_id,str,False,,10.48,DOC-AUD-0,GRC
+board_governance,record_id,str,True,,0.0,BRD-2022-Q1,GRC
+board_governance,meeting_date,str,False,,0.0,2022-03-20,GRC
+board_governance,body,str,False,,0.0,Board of Directors,GRC
+board_governance,esg_agenda_items,int64,False,,0.0,3,GRC
+board_governance,climate_risk_reviewed,bool,False,,0.0,False,GRC
+board_governance,independent_directors_pct,float64,False,,0.0,63.4,GRC
+board_governance,women_on_board_pct,float64,False,,0.0,31.8,GRC
+esg_policies,policy_id,str,True,,0.0,POL-00,DMS
+esg_policies,title,str,False,,0.0,Climate & Energy Policy,DMS
+esg_policies,version,str,False,,0.0,1.0,DMS
+esg_policies,approved_date,str,False,,0.0,2021-01-15,DMS
+esg_policies,owner,str,False,,0.0,Group Sustainability (synthetic),DMS
+decarbonisation,opportunity_id,str,True,,0.0,OPP-DC-00001,SUSTAINABILITY_PLANNING
+decarbonisation,opportunity_group,str,False,,0.0,Renewable electricity pr|FAC-MAN-004,SUSTAINABILITY_PLANNING
+decarbonisation,opportunity_name,str,False,,0.0,Renewable electricity procurement (PPA),SUSTAINABILITY_PLANNING
+decarbonisation,scenario,str,False,,0.0,Conservative,SUSTAINABILITY_PLANNING
+decarbonisation,enterprise_id,str,False,,0.0,ENT-0001,SUSTAINABILITY_PLANNING
+decarbonisation,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-004,SUSTAINABILITY_PLANNING
+decarbonisation,business_unit_id,str,False,,0.0,BU-CHM-EU,SUSTAINABILITY_PLANNING
+decarbonisation,decarbonisation_hierarchy,str,False,,0.0,Substitute,SUSTAINABILITY_PLANNING
+decarbonisation,scope,str,False,,0.0,Scope 2,SUSTAINABILITY_PLANNING
+decarbonisation,category_id,str,False,,0.0,Purchased electricity,SUSTAINABILITY_PLANNING
+decarbonisation,existing_technology,str,False,,0.0,Grid electricity,SUSTAINABILITY_PLANNING
+decarbonisation,proposed_alternative,str,False,,0.0,Wind/solar PPA,SUSTAINABILITY_PLANNING
+decarbonisation,baseline_year,int64,False,,0.0,2024,SUSTAINABILITY_PLANNING
+decarbonisation,baseline_emissions_tco2e,float64,False,,0.0,19881.52,SUSTAINABILITY_PLANNING
+decarbonisation,expected_emissions_tco2e,float64,False,,0.0,12728.08,SUSTAINABILITY_PLANNING
+decarbonisation,absolute_reduction_tco2e,float64,False,,0.0,7153.44,SUSTAINABILITY_PLANNING
+decarbonisation,percentage_reduction,float64,False,,0.0,35.98,SUSTAINABILITY_PLANNING
+decarbonisation,implementation_cost_usd,float64,False,,0.0,47700.0,SUSTAINABILITY_PLANNING
+decarbonisation,annual_cost_savings_usd,float64,False,,0.0,13460.0,SUSTAINABILITY_PLANNING
+decarbonisation,operating_cost_impact_usd,float64,False,,0.0,-13460.0,SUSTAINABILITY_PLANNING
+decarbonisation,payback_years,float64,False,,37.89,3.5,SUSTAINABILITY_PLANNING
+decarbonisation,implementation_timeline_months,int64,False,,0.0,10,SUSTAINABILITY_PLANNING
+decarbonisation,technical_feasibility,str,False,,0.0,High,SUSTAINABILITY_PLANNING
+decarbonisation,supplier_availability,str,False,,0.0,Available,SUSTAINABILITY_PLANNING
+decarbonisation,confidence_score,float64,False,,0.0,0.83,SUSTAINABILITY_PLANNING
+decarbonisation,operational_constraints,str,False,,0.0,Grid connection upgrade,SUSTAINABILITY_PLANNING
+decarbonisation,evidence_reference,str,False,,0.0,DOC-EA-FAC-MAN-004,SUSTAINABILITY_PLANNING
+decarbonisation,lifecycle_emissions_note,str,False,,0.0,Embodied emissions of equipment excluded (synthetic),SUSTAINABILITY_PLANNING
+decarbonisation,interaction_adjusted_reduction_tco2e,float64,False,,0.0,7153.44,SUSTAINABILITY_PLANNING
+decarbonisation,overlap_note,str,False,,0.0,Adjusted sequentially in hierarchy order within facility/sco,SUSTAINABILITY_PLANNING
+credit_projects,project_id,str,True,,0.0,CCP-001,CARBON_REGISTRY
+credit_projects,project_name,str,False,,0.0,Afforestation Project 1 (SYNTHETIC),CARBON_REGISTRY
+credit_projects,project_type,str,False,,0.0,Afforestation,CARBON_REGISTRY
+credit_projects,credit_class,str,False,,0.0,Removal,CARBON_REGISTRY
+credit_projects,project_location,str,False,,0.0,ID-synthetic,CARBON_REGISTRY
+credit_projects,registry,str,False,,0.0,SynthVerra-like Registry,CARBON_REGISTRY
+credit_projects,methodology,str,False,,0.0,SYN-METH-AFFO-01,CARBON_REGISTRY
+credit_projects,vintage_year,int64,False,,0.0,2022,CARBON_REGISTRY
+credit_projects,credits_issued,int64,False,,0.0,625401,CARBON_REGISTRY
+credit_projects,verification_status,str,False,,0.0,Verification lapsed,CARBON_REGISTRY
+credit_projects,additionality_assessment,str,False,,0.0,Robust,CARBON_REGISTRY
+credit_projects,permanence_risk,str,False,,0.0,Medium-High,CARBON_REGISTRY
+credit_projects,reversal_risk_buffer_pct,float64,False,,0.0,25.0,CARBON_REGISTRY
+credit_projects,leakage_risk,str,False,,0.0,High,CARBON_REGISTRY
+credit_projects,corresponding_adjustment,str,False,,0.0,Not applied,CARBON_REGISTRY
+credit_projects,price_usd_per_t,float64,False,,0.0,25.12,CARBON_REGISTRY
+credit_projects,synthetic_flag,bool,False,,0.0,True,CARBON_REGISTRY
+credit_projects,credits_available,int64,False,,0.0,353341,CARBON_REGISTRY
+credit_transactions,credit_transaction_id,str,True,,0.0,CCT-00001,CARBON_REGISTRY
+credit_transactions,project_id,str,False,credit_projects.project_id,0.0,CCP-011,CARBON_REGISTRY
+credit_transactions,purchase_year,int64,False,,0.0,2023,CARBON_REGISTRY
+credit_transactions,credits_purchased,int64,False,,0.0,10839,CARBON_REGISTRY
+credit_transactions,price_usd_per_t,float64,False,,0.0,17.44,CARBON_REGISTRY
+credit_transactions,vintage_year,int64,False,,0.0,2024,CARBON_REGISTRY
+credit_transactions,credit_class,str,False,,0.0,Removal,CARBON_REGISTRY
+credit_transactions,serial_number_block,str,False,,0.0,SYN-CCP-011-2024-574509202-10839,CARBON_REGISTRY
+credit_transactions,credits_retired,int64,False,,0.0,10839,CARBON_REGISTRY
+credit_transactions,retirement_date,datetime64[us],False,,0.0,2023-12-20 00:00:00,CARBON_REGISTRY
+credit_transactions,retirement_certificate_ref,str,False,,0.0,RETCERT-0,CARBON_REGISTRY
+credit_transactions,retirement_beneficiary,str,False,,0.0,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),CARBON_REGISTRY
+credit_transactions,evidence_document_id,str,False,,12.5,DOC-CC-0,CARBON_REGISTRY
+neutralisation_ledger,reporting_year,int64,True,,0.0,2022,SUSTAINABILITY_PLANNING
+neutralisation_ledger,gross_scope1_tco2e,float64,False,,0.0,155632.3,SUSTAINABILITY_PLANNING
+neutralisation_ledger,gross_scope2_market_tco2e,float64,False,,0.0,413400.4,SUSTAINABILITY_PLANNING
+neutralisation_ledger,gross_scope3_tco2e,float64,False,,0.0,6077816.5,SUSTAINABILITY_PLANNING
+neutralisation_ledger,actual_inventory_reduction_vs_2022_tco2e,float64,False,,0.0,0.0,SUSTAINABILITY_PLANNING
+neutralisation_ledger,avoided_emissions_tco2e_not_deducted,float64,False,,0.0,24311.3,SUSTAINABILITY_PLANNING
+neutralisation_ledger,residual_scope12_tco2e,float64,False,,0.0,569032.8,SUSTAINABILITY_PLANNING
+neutralisation_ledger,credits_purchased_t,int64,False,,0.0,0,SUSTAINABILITY_PLANNING
+neutralisation_ledger,credits_retired_t,int64,False,,0.0,0,SUSTAINABILITY_PLANNING
+neutralisation_ledger,credits_retired_valid_t,int64,False,,0.0,0,SUSTAINABILITY_PLANNING
+neutralisation_ledger,removal_credits_retired_t,int64,False,,0.0,0,SUSTAINABILITY_PLANNING
+neutralisation_ledger,avoidance_credits_retired_t,int64,False,,0.0,0,SUSTAINABILITY_PLANNING
+neutralisation_ledger,remaining_neutralisation_requirement_tco2e,float64,False,,0.0,569032.8,SUSTAINABILITY_PLANNING
+neutralisation_ledger,neutrality_status,str,False,,0.0,Not carbon neutral (credits do not reduce inventory; residua,SUSTAINABILITY_PLANNING
+environmental_claims,claim_id,str,True,,0.0,CLM-001,DMS
+environmental_claims,channel,str,False,,0.0,Corporate ESG report 2025,DMS
+environmental_claims,claim_text,str,False,,0.0,Our operations were carbon neutral in 2025.,DMS
+environmental_claims,reporting_year,int64,False,,0.0,2025,DMS
+environmental_claims,approval_status,str,False,,0.0,Approved by marketing only,DMS
+environmental_claims,supported,bool,False,,0.0,False,DMS
+esg_kpis,reporting_year,int64,True,,0.0,2022,ESG_REPORTING
+esg_kpis,revenue_usd_sample_scale,float64,False,,100.0,None,ESG_REPORTING
+esg_kpis,scope1_tco2e,float64,False,,0.0,155632.3,ESG_REPORTING
+esg_kpis,scope2_market_tco2e,float64,False,,0.0,413400.4,ESG_REPORTING
+esg_kpis,scope2_location_tco2e,float64,False,,0.0,193219.0,ESG_REPORTING
+esg_kpis,scope3_tco2e,float64,False,,0.0,6077816.5,ESG_REPORTING
+esg_kpis,intensity_s12_t_per_musd,float64,False,,100.0,None,ESG_REPORTING
+esg_kpis,water_withdrawal_m3,float64,False,,0.0,541556.0,ESG_REPORTING
+esg_kpis,waste_total_t,float64,False,,0.0,209066.4,ESG_REPORTING
+esg_kpis,waste_diversion_pct,float64,False,,0.0,50.2,ESG_REPORTING
+esg_kpis,eac_mwh_allocated,float64,False,,0.0,0.0,ESG_REPORTING
+inventory_balances,facility_id,str,False,facilities.facility_id,0.0,FAC-MAN-001,SAP_S4
+inventory_balances,material_id,str,False,materials.material_id,0.0,MAT-00001,SAP_S4
+inventory_balances,period,str,False,,0.0,2025-08,SAP_S4
+inventory_balances,receipts,float64,False,,0.0,21004.47,SAP_S4
+inventory_balances,issues,float64,False,,0.0,0.0,SAP_S4
+inventory_balances,opening_stock,float64,False,,0.0,0.0,SAP_S4
+inventory_balances,closing_stock,float64,False,,0.0,21004.47,SAP_S4
+inventory_balances,valuation_usd,float64,False,,0.0,55311.07,SAP_S4
+inventory_balances,stock_status,str,False,,0.0,OK,SAP_S4
+warehouse_transfers,transfer_id,str,True,,0.0,WTR-000001,SAP_S4
+warehouse_transfers,from_facility_id,str,False,,0.0,FAC-WAR-089,SAP_S4
+warehouse_transfers,to_facility_id,str,False,,0.0,FAC-WAR-076,SAP_S4
+warehouse_transfers,material_id,str,False,,0.0,MAT-02617,SAP_S4
+warehouse_transfers,qty,float64,False,,0.0,285.13,SAP_S4
+warehouse_transfers,movement_type,str,False,,0.0,311,SAP_S4
+warehouse_transfers,posting_date,datetime64[us],False,,0.0,2025-07-28 00:00:00,SAP_S4
+documents,document_id,str,True,,0.0,DOC-000001,DMS
+documents,document_type,str,False,,0.0,Utility invoice,DMS
+documents,file_format,str,False,,0.0,pdf,DMS
+documents,path,str,False,,0.0,File_Systems/Documents/PDF/Utility_Invoices/DOC-000001_BILL-,DMS
+documents,filename,str,False,,0.0,DOC-000001_BILL-427505044.pdf,DMS
+documents,title,str,False,,0.0,Electricity Invoice BILL-427505044,DMS
+documents,related_dataset,str,False,,0.0,utility_invoices,DMS
+documents,related_record_id,str,False,,0.03,UINV-0004144,DMS
+documents,facility_id,str,False,,22.77,FAC-MAN-035,DMS
+documents,reporting_period,str,False,,46.03,2024-03,DMS
+documents,owner_department,str,False,,0.0,Energy Management,DMS
+documents,source_system,str,False,,0.0,DMS,DMS
+documents,size_bytes,int64,False,,0.0,2269,DMS
+documents,sha256,str,False,,0.0,15980c12098b5e7f0f2188df6e383549be9a549f49cc6d961c5c28f05e6a,DMS
+documents,synthetic_flag,bool,False,,0.0,True,DMS
+documents,created_date,"datetime64[us, UTC]",False,,0.0,2026-10-30 14:52:23+00:00,DMS
+documents,modified_date,"datetime64[us, UTC]",False,,0.0,2026-10-30 14:52:23+00:00,DMS
+document_extractions,document_id,str,False,documents.document_id,0.0,DOC-000001,IDP_ENGINE
+document_extractions,field_name,str,False,,0.0,invoice_number,IDP_ENGINE
+document_extractions,extracted_value,str,False,,0.0,BILL-427505044,IDP_ENGINE
+document_extractions,source_record_id,str,False,,0.0,UINV-0004144,IDP_ENGINE
+document_extractions,source_dataset,str,False,,0.0,utility_invoices,IDP_ENGINE
+document_extractions,extraction_id,str,True,,0.0,EXT-0000001,IDP_ENGINE

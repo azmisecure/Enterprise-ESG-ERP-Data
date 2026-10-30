@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-677570665 for account UA-80097226
+Date: Tue, 11 Nov 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for October 2025 is attached (PDF). Amount due: 22,831.87 EUR.

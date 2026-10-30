@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-612929698 for account UA-63449488
+Date: Thu, 04 Jan 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for December 2023 is attached (PDF). Amount due: 50,264.11 ZAR.

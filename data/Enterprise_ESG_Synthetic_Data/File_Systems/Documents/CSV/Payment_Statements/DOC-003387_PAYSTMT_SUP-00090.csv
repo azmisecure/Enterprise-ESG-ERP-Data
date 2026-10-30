@@ -1,0 +1,2 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0004826,APINV-0005216,SUP-00090,2023-10-24,2317.5,EUR,SEPA,PV8004825

@@ -1,0 +1,32 @@
+{
+ "request": {
+  "request_id": "req-manufacturing-0",
+  "method": "GET",
+  "endpoint": "/mes/v1/lines/daily-kpi",
+  "params": {
+   "page": 1,
+   "page_size": 100
+  },
+  "headers": {
+   "Authorization": "Bearer <REDACTED_PLACEHOLDER>",
+   "X-Correlation-Id": "corr-820187870"
+  },
+  "timestamp": "2026-03-01 00:00:00"
+ },
+ "response": {
+  "status": 429,
+  "timestamp": "2026-03-01 00:00:00.811000",
+  "source_system": "MANUFACTURING",
+  "pagination": {
+   "page": 1,
+   "page_size": 100,
+   "total_records": 2000,
+   "next": true
+  },
+  "data": null,
+  "error": {
+   "code": "RATE_LIMIT",
+   "retry_after_s": 30
+  }
+ }
+}

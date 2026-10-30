@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-590826673 for account UA-23637624
+Date: Mon, 10 Jul 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for June 2023 is attached (PDF). Amount due: 84,259.50 EUR.

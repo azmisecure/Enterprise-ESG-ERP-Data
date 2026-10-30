@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-507488497 for account nan
+Date: Fri, 03 May 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for April 2024 is attached (PDF). Amount due: 22,913.01 CAD.

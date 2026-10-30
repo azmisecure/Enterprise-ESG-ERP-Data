@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-188956501 for account UA-84592694
+Date: Sat, 08 Jul 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for June 2023 is attached (PDF). Amount due: 271.36 EUR.

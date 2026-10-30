@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-136938303 for account UA-10802473
+Date: Fri, 04 Aug 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for July 2023 is attached (PDF). Amount due: 1,654.88 CNY.
