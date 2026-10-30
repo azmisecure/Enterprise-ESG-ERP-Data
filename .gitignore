@@ -109,3 +109,5 @@ frontend/node_modules/
 .emergent/cron/
 .emergent/markers/
 frontend/node_modules/.cache/default-development/0.pack
+recovery_package/Enterprise_ESG_Synthetic_Data_COMPLETE.zip
+recovery_package/Enterprise_ESG_Synthetic_Data/ERP/Finance/GL/gl_transactions.parquet
