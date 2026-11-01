@@ -111,3 +111,7 @@ frontend/node_modules/
 frontend/node_modules/.cache/default-development/0.pack
 recovery_package/Enterprise_ESG_Synthetic_Data_COMPLETE.zip
 recovery_package/Enterprise_ESG_Synthetic_Data/ERP/Finance/GL/gl_transactions.parquet
+data/exports/Enterprise_ESG_Synthetic_Data_with_ground_truth.zip
+Enterprise_ESG_Exports.zip
+exports.zip
+Enterprise_ESG_Synthetic_Data.zip

@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-204643555 for account UA-95951279
+Date: Mon, 04 Nov 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for October 2024 is attached (PDF). Amount due: 329,594.54 MXN.

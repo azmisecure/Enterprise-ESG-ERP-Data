@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-997394229 for account UA-27287391
+Date: Mon, 07 Feb 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for January 2022 is attached (PDF). Amount due: 3,471.86 GBP.

@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-119210519 for account UA-46772469
+Date: Sat, 03 Sep 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for August 2022 is attached (PDF). Amount due: 1,022,151.42 THB.

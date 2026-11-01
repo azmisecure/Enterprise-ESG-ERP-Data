@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-837441598 for account UA-23277416
+Date: Sat, 08 Jun 2024 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for May 2024 is attached (PDF). Amount due: 9,478.36 THB.

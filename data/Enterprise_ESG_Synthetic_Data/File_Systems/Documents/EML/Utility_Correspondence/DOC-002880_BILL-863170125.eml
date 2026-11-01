@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-863170125 for account UA-33760391
+Date: Sun, 10 Jul 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for June 2022 is attached (PDF). Amount due: 2,053.00 SEK.

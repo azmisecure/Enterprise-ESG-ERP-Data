@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-833770912 for account UA-57321493
+Date: Thu, 08 Dec 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for November 2022 is attached (PDF). Amount due: 7,320.85 EUR.

@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-850939438 for account UA-20405192
+Date: Tue, 13 Jun 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for May 2023 is attached (PDF). Amount due: 23,920,413.55 INR.

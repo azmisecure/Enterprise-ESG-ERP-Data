@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-205070770 for account UA-96613408
+Date: Thu, 12 Jun 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for May 2025 is attached (PDF). Amount due: 4,088.73 MXN.

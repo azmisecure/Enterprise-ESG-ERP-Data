@@ -1,0 +1,2 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0003396,APINV-0003667,SUP-00041,2025-02-05,7254.26,EUR,ACH,PV8003395

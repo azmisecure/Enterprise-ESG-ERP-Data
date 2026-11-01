@@ -1,261 +1,261 @@
 risk_id,risk_category,description,owner_department,likelihood,impact,mitigation_plan_id,review_date,status,risk_score
-RSK-0001,Anti-corruption,Synthetic risk statement,Finance,4,4,MIT-8041,2025-05-26,Mitigating,16
-RSK-0002,Water stress,Synthetic risk statement,Procurement,5,2,MIT-1152,2025-02-25,Open,10
-RSK-0003,Data quality / greenwashing,Synthetic risk statement,Procurement,3,1,MIT-6549,2023-12-18,Open,3
-RSK-0004,Supply chain human rights,Synthetic risk statement,Finance,5,4,MIT-5736,2025-10-30,Mitigating,20
-RSK-0005,Supply chain human rights,Synthetic risk statement,Operations,3,3,MIT-1211,2024-10-23,Closed,9
-RSK-0006,Data quality / greenwashing,Synthetic risk statement,Finance,1,2,MIT-9541,2022-09-01,Open,2
-RSK-0007,Climate transition,Synthetic risk statement,EHS & Sustainability,2,1,MIT-7181,2026-02-13,Closed,2
-RSK-0008,Climate transition,Synthetic risk statement,Procurement,1,5,MIT-6401,2026-03-17,Mitigating,5
-RSK-0009,Anti-corruption,Synthetic risk statement,Procurement,3,1,MIT-4622,2025-07-17,Mitigating,3
-RSK-0010,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,2,2,MIT-2449,2022-12-23,Mitigating,4
-RSK-0011,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,2,3,MIT-4823,2024-04-20,Mitigating,6
-RSK-0012,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,5,1,MIT-4444,2025-08-26,Open,5
-RSK-0013,Anti-corruption,Synthetic risk statement,Legal & Compliance,3,3,MIT-4445,2026-03-02,Open,9
-RSK-0014,Data quality / greenwashing,Synthetic risk statement,Operations,5,5,MIT-3219,2025-12-01,Mitigating,25
-RSK-0015,Climate transition,Synthetic risk statement,Legal & Compliance,1,2,MIT-1707,2023-01-05,Closed,2
-RSK-0016,Supply chain human rights,Synthetic risk statement,Legal & Compliance,4,4,MIT-4547,2024-12-11,Open,16
-RSK-0017,Water stress,Synthetic risk statement,Procurement,3,2,MIT-3613,2026-08-03,Closed,6
-RSK-0018,Climate physical,Synthetic risk statement,Operations,4,4,MIT-7512,2023-01-13,Open,16
-RSK-0019,Water stress,Synthetic risk statement,EHS & Sustainability,2,1,MIT-2793,2023-07-27,Open,2
-RSK-0020,Water stress,Synthetic risk statement,Finance,1,5,MIT-8992,2024-06-24,Mitigating,5
-RSK-0021,Climate physical,Synthetic risk statement,Legal & Compliance,4,5,MIT-1001,2024-09-03,Open,20
-RSK-0022,Climate transition,Synthetic risk statement,EHS & Sustainability,5,5,MIT-2926,2023-06-15,Open,25
-RSK-0023,Supply chain human rights,Synthetic risk statement,Procurement,5,5,MIT-6791,2025-06-23,Closed,25
-RSK-0024,Climate physical,Synthetic risk statement,Procurement,5,4,MIT-6985,2025-12-31,Mitigating,20
-RSK-0025,Supply chain human rights,Synthetic risk statement,Procurement,2,2,MIT-6468,2025-03-15,Closed,4
-RSK-0026,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,5,3,MIT-5600,2026-02-17,Open,15
-RSK-0027,Climate physical,Synthetic risk statement,Finance,5,2,MIT-7172,2026-10-27,Mitigating,10
-RSK-0028,Data quality / greenwashing,Synthetic risk statement,Operations,5,2,MIT-2188,2025-12-19,Mitigating,10
-RSK-0029,Regulatory (ESG reporting),Synthetic risk statement,Procurement,4,2,MIT-9472,2025-07-15,Open,8
-RSK-0030,Supply chain human rights,Synthetic risk statement,Finance,5,5,MIT-3734,2025-04-03,Closed,25
-RSK-0031,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,2,5,MIT-6712,2023-05-24,Mitigating,10
-RSK-0032,Water stress,Synthetic risk statement,Operations,3,4,MIT-2191,2025-11-07,Mitigating,12
-RSK-0033,Data quality / greenwashing,Synthetic risk statement,Procurement,2,2,MIT-4283,2026-08-19,Closed,4
-RSK-0034,Climate transition,Synthetic risk statement,Legal & Compliance,2,5,MIT-8930,2026-04-24,Mitigating,10
-RSK-0035,Anti-corruption,Synthetic risk statement,Operations,2,1,MIT-4788,2023-03-29,Open,2
-RSK-0036,Supply chain human rights,Synthetic risk statement,Finance,1,1,MIT-4386,2023-05-01,Closed,1
-RSK-0037,Supply chain human rights,Synthetic risk statement,Finance,2,4,MIT-4158,2025-07-15,Closed,8
-RSK-0038,Climate physical,Synthetic risk statement,Operations,2,5,MIT-8837,2025-09-18,Mitigating,10
-RSK-0039,Climate physical,Synthetic risk statement,Legal & Compliance,2,1,MIT-2812,2022-02-28,Open,2
-RSK-0040,Climate transition,Synthetic risk statement,EHS & Sustainability,5,4,MIT-1624,2023-01-04,Mitigating,20
-RSK-0041,Supply chain human rights,Synthetic risk statement,Operations,3,3,MIT-2638,2022-11-02,Mitigating,9
-RSK-0042,Climate physical,Synthetic risk statement,Finance,2,5,MIT-3605,2023-08-07,Mitigating,10
-RSK-0043,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,5,3,MIT-5764,2024-03-06,Mitigating,15
-RSK-0044,Climate transition,Synthetic risk statement,Procurement,3,4,MIT-1226,2022-07-12,Open,12
-RSK-0045,Anti-corruption,Synthetic risk statement,Operations,1,1,MIT-2344,2023-04-27,Mitigating,1
-RSK-0046,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,1,1,MIT-5717,2022-12-09,Mitigating,1
-RSK-0047,Data quality / greenwashing,Synthetic risk statement,Operations,2,4,MIT-1336,2022-12-08,Mitigating,8
-RSK-0048,Climate physical,Synthetic risk statement,Finance,5,4,MIT-1023,2025-07-07,Open,20
-RSK-0049,Data quality / greenwashing,Synthetic risk statement,Procurement,2,3,MIT-9218,2024-01-30,Mitigating,6
-RSK-0050,Climate physical,Synthetic risk statement,Finance,2,2,MIT-2856,2022-01-01,Open,4
-RSK-0051,Data quality / greenwashing,Synthetic risk statement,Operations,1,2,MIT-9972,2025-09-04,Closed,2
-RSK-0052,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,5,5,MIT-9819,2026-01-15,Open,25
-RSK-0053,Anti-corruption,Synthetic risk statement,Procurement,2,5,MIT-8662,2024-09-05,Mitigating,10
-RSK-0054,Regulatory (ESG reporting),Synthetic risk statement,Operations,3,1,MIT-4173,2026-03-10,Open,3
-RSK-0055,Climate physical,Synthetic risk statement,Finance,2,2,MIT-1638,2022-03-01,Mitigating,4
-RSK-0056,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,5,3,MIT-1322,2026-08-17,Open,15
-RSK-0057,Climate physical,Synthetic risk statement,Procurement,1,4,MIT-8484,2023-09-07,Open,4
-RSK-0058,Water stress,Synthetic risk statement,Procurement,4,1,MIT-2496,2022-05-13,Closed,4
-RSK-0059,Anti-corruption,Synthetic risk statement,Legal & Compliance,5,2,MIT-1704,2026-01-16,Open,10
-RSK-0060,Climate physical,Synthetic risk statement,EHS & Sustainability,4,2,MIT-8094,2025-11-18,Mitigating,8
-RSK-0061,Water stress,Synthetic risk statement,Operations,2,1,MIT-5467,2022-01-12,Open,2
-RSK-0062,Climate physical,Synthetic risk statement,Procurement,1,2,MIT-6240,2022-11-28,Open,2
-RSK-0063,Climate transition,Synthetic risk statement,Procurement,3,4,MIT-1875,2022-12-06,Mitigating,12
-RSK-0064,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,5,2,MIT-3681,2026-04-23,Open,10
-RSK-0065,Supply chain human rights,Synthetic risk statement,Operations,4,2,MIT-8827,2023-04-11,Open,8
-RSK-0066,Climate physical,Synthetic risk statement,EHS & Sustainability,4,1,MIT-3961,2025-12-15,Mitigating,4
-RSK-0067,Regulatory (ESG reporting),Synthetic risk statement,Procurement,4,5,MIT-7180,2022-02-18,Open,20
-RSK-0068,Climate physical,Synthetic risk statement,Finance,5,3,MIT-6860,2024-09-16,Mitigating,15
-RSK-0069,Data quality / greenwashing,Synthetic risk statement,Operations,3,1,MIT-3236,2022-09-09,Open,3
-RSK-0070,Regulatory (ESG reporting),Synthetic risk statement,Procurement,2,4,MIT-3818,2022-06-27,Closed,8
-RSK-0071,Supply chain human rights,Synthetic risk statement,Finance,2,1,MIT-9612,2026-02-25,Mitigating,2
-RSK-0072,Supply chain human rights,Synthetic risk statement,Finance,3,2,MIT-7434,2023-09-23,Closed,6
-RSK-0073,Anti-corruption,Synthetic risk statement,Legal & Compliance,4,3,MIT-9957,2022-09-08,Mitigating,12
-RSK-0074,Climate transition,Synthetic risk statement,Operations,1,1,MIT-7205,2026-11-27,Mitigating,1
-RSK-0075,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,5,2,MIT-5386,2024-05-04,Closed,10
-RSK-0076,Supply chain human rights,Synthetic risk statement,Operations,4,4,MIT-9929,2026-07-08,Open,16
-RSK-0077,Data quality / greenwashing,Synthetic risk statement,Procurement,2,1,MIT-6515,2023-02-08,Mitigating,2
-RSK-0078,Data quality / greenwashing,Synthetic risk statement,Operations,2,5,MIT-7437,2022-04-26,Open,10
-RSK-0079,Anti-corruption,Synthetic risk statement,Procurement,3,1,MIT-8644,2025-12-24,Mitigating,3
-RSK-0080,Water stress,Synthetic risk statement,Legal & Compliance,5,1,MIT-8006,2022-01-27,Closed,5
-RSK-0081,Anti-corruption,Synthetic risk statement,Procurement,1,1,MIT-7478,2024-02-06,Mitigating,1
-RSK-0082,Regulatory (ESG reporting),Synthetic risk statement,Procurement,2,4,MIT-7879,2022-05-26,Mitigating,8
-RSK-0083,Data quality / greenwashing,Synthetic risk statement,Procurement,1,5,MIT-4798,2024-01-29,Mitigating,5
-RSK-0084,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,5,1,MIT-6753,2025-05-29,Open,5
-RSK-0085,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,4,1,MIT-6989,2026-04-10,Mitigating,4
-RSK-0086,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,1,3,MIT-9460,2023-04-11,Mitigating,3
-RSK-0087,Regulatory (ESG reporting),Synthetic risk statement,Procurement,5,3,MIT-9333,2024-02-28,Open,15
-RSK-0088,Water stress,Synthetic risk statement,Procurement,5,1,MIT-1020,2023-08-15,Open,5
-RSK-0089,Supply chain human rights,Synthetic risk statement,Finance,3,1,MIT-4497,2026-07-09,Closed,3
-RSK-0090,Climate physical,Synthetic risk statement,Operations,1,5,MIT-4219,2026-09-21,Open,5
-RSK-0091,Regulatory (ESG reporting),Synthetic risk statement,Procurement,3,1,MIT-9989,2026-06-30,Closed,3
-RSK-0092,Water stress,Synthetic risk statement,Operations,5,4,MIT-7351,2024-01-26,Mitigating,20
-RSK-0093,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,4,1,MIT-6377,2026-08-11,Mitigating,4
-RSK-0094,Water stress,Synthetic risk statement,Procurement,2,5,MIT-3886,2026-01-31,Mitigating,10
-RSK-0095,Water stress,Synthetic risk statement,Procurement,4,4,MIT-5434,2022-06-20,Mitigating,16
-RSK-0096,Anti-corruption,Synthetic risk statement,Operations,4,3,MIT-5080,2024-09-10,Mitigating,12
-RSK-0097,Water stress,Synthetic risk statement,Finance,3,5,MIT-8539,2023-10-27,Mitigating,15
-RSK-0098,Supply chain human rights,Synthetic risk statement,Operations,3,1,MIT-4875,2025-03-22,Mitigating,3
-RSK-0099,Climate physical,Synthetic risk statement,Legal & Compliance,2,5,MIT-9342,2023-11-07,Mitigating,10
-RSK-0100,Anti-corruption,Synthetic risk statement,Procurement,1,5,MIT-1798,2022-09-28,Mitigating,5
-RSK-0101,Anti-corruption,Synthetic risk statement,Legal & Compliance,1,2,MIT-5681,2023-07-22,Mitigating,2
-RSK-0102,Supply chain human rights,Synthetic risk statement,Procurement,2,4,MIT-9433,2025-02-20,Mitigating,8
-RSK-0103,Regulatory (ESG reporting),Synthetic risk statement,Procurement,3,3,MIT-3532,2026-11-05,Mitigating,9
-RSK-0104,Water stress,Synthetic risk statement,Procurement,4,3,MIT-9865,2023-09-06,Mitigating,12
-RSK-0105,Water stress,Synthetic risk statement,Finance,5,1,MIT-8769,2023-08-14,Closed,5
-RSK-0106,Climate transition,Synthetic risk statement,Operations,1,1,MIT-4954,2024-03-25,Mitigating,1
-RSK-0107,Supply chain human rights,Synthetic risk statement,Finance,1,2,MIT-9934,2023-09-20,Mitigating,2
-RSK-0108,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,2,2,MIT-4973,2026-03-16,Closed,4
-RSK-0109,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,5,3,MIT-3664,2022-11-22,Open,15
-RSK-0110,Anti-corruption,Synthetic risk statement,Finance,2,5,MIT-5221,2026-03-05,Mitigating,10
-RSK-0111,Regulatory (ESG reporting),Synthetic risk statement,Procurement,3,1,MIT-5387,2022-06-23,Open,3
-RSK-0112,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,5,5,MIT-3150,2024-03-25,Open,25
-RSK-0113,Climate transition,Synthetic risk statement,EHS & Sustainability,3,5,MIT-3763,2025-07-18,Open,15
-RSK-0114,Regulatory (ESG reporting),Synthetic risk statement,Finance,1,3,MIT-7137,2026-10-20,Mitigating,3
-RSK-0115,Climate physical,Synthetic risk statement,Finance,3,3,MIT-7801,2026-12-04,Open,9
-RSK-0116,Supply chain human rights,Synthetic risk statement,Procurement,2,2,MIT-1936,2026-08-28,Open,4
-RSK-0117,Regulatory (ESG reporting),Synthetic risk statement,Finance,4,3,MIT-5694,2022-01-27,Closed,12
-RSK-0118,Water stress,Synthetic risk statement,Legal & Compliance,1,1,MIT-3146,2024-11-28,Closed,1
-RSK-0119,Regulatory (ESG reporting),Synthetic risk statement,Finance,4,1,MIT-3146,2026-05-14,Mitigating,4
-RSK-0120,Anti-corruption,Synthetic risk statement,Procurement,1,2,MIT-1760,2023-02-06,Open,2
-RSK-0121,Supply chain human rights,Synthetic risk statement,Procurement,4,1,MIT-3200,2025-10-19,Mitigating,4
-RSK-0122,Climate transition,Synthetic risk statement,Operations,2,3,MIT-7758,2023-07-07,Mitigating,6
-RSK-0123,Climate transition,Synthetic risk statement,Operations,4,4,MIT-3830,2026-02-27,Mitigating,16
-RSK-0124,Supply chain human rights,Synthetic risk statement,Legal & Compliance,5,3,MIT-4273,2026-04-17,Closed,15
-RSK-0125,Climate transition,Synthetic risk statement,Operations,4,1,MIT-7672,2026-05-27,Open,4
-RSK-0126,Supply chain human rights,Synthetic risk statement,Operations,3,2,MIT-2241,2025-10-08,Open,6
-RSK-0127,Anti-corruption,Synthetic risk statement,Legal & Compliance,5,2,MIT-6056,2022-09-02,Open,10
-RSK-0128,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,4,3,MIT-6376,2023-07-10,Closed,12
-RSK-0129,Anti-corruption,Synthetic risk statement,EHS & Sustainability,3,4,MIT-9884,2022-08-04,Mitigating,12
-RSK-0130,Supply chain human rights,Synthetic risk statement,Finance,1,1,MIT-4314,2024-09-03,Closed,1
-RSK-0131,Anti-corruption,Synthetic risk statement,EHS & Sustainability,4,4,MIT-3542,2026-11-11,Mitigating,16
-RSK-0132,Data quality / greenwashing,Synthetic risk statement,Operations,4,3,MIT-3101,2022-05-26,Mitigating,12
-RSK-0133,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,4,4,MIT-2769,2023-07-04,Open,16
-RSK-0134,Supply chain human rights,Synthetic risk statement,Procurement,3,3,MIT-3589,2025-10-15,Mitigating,9
-RSK-0135,Water stress,Synthetic risk statement,Finance,1,4,MIT-2277,2023-07-03,Closed,4
-RSK-0136,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,1,3,MIT-5208,2026-10-09,Open,3
-RSK-0137,Anti-corruption,Synthetic risk statement,Finance,5,5,MIT-4846,2024-06-12,Mitigating,25
-RSK-0138,Data quality / greenwashing,Synthetic risk statement,Operations,2,2,MIT-4568,2024-03-27,Mitigating,4
-RSK-0139,Water stress,Synthetic risk statement,Finance,5,2,MIT-2507,2022-01-28,Mitigating,10
-RSK-0140,Water stress,Synthetic risk statement,EHS & Sustainability,4,1,MIT-5717,2023-12-21,Open,4
-RSK-0141,Water stress,Synthetic risk statement,EHS & Sustainability,3,3,MIT-4564,2024-04-04,Closed,9
-RSK-0142,Anti-corruption,Synthetic risk statement,Operations,5,1,MIT-1964,2025-12-02,Open,5
-RSK-0143,Climate transition,Synthetic risk statement,Procurement,5,1,MIT-8805,2024-10-10,Open,5
-RSK-0144,Anti-corruption,Synthetic risk statement,Operations,5,3,MIT-9715,2026-11-05,Mitigating,15
-RSK-0145,Water stress,Synthetic risk statement,Finance,1,2,MIT-6826,2022-12-05,Mitigating,2
-RSK-0146,Anti-corruption,Synthetic risk statement,Legal & Compliance,4,2,MIT-8673,2026-01-14,Mitigating,8
-RSK-0147,Water stress,Synthetic risk statement,Procurement,5,1,MIT-6234,2023-04-21,Mitigating,5
-RSK-0148,Supply chain human rights,Synthetic risk statement,Finance,1,5,MIT-9770,2025-04-24,Closed,5
-RSK-0149,Water stress,Synthetic risk statement,Legal & Compliance,1,4,MIT-2355,2024-08-21,Open,4
-RSK-0150,Climate physical,Synthetic risk statement,EHS & Sustainability,2,4,MIT-6121,2023-08-02,Mitigating,8
-RSK-0151,Supply chain human rights,Synthetic risk statement,Legal & Compliance,5,3,MIT-7769,2024-07-19,Open,15
-RSK-0152,Climate physical,Synthetic risk statement,Operations,3,3,MIT-2950,2024-11-26,Mitigating,9
-RSK-0153,Climate transition,Synthetic risk statement,Legal & Compliance,1,4,MIT-1613,2023-05-24,Closed,4
-RSK-0154,Climate transition,Synthetic risk statement,Legal & Compliance,4,1,MIT-5367,2024-05-15,Open,4
-RSK-0155,Anti-corruption,Synthetic risk statement,EHS & Sustainability,5,5,MIT-9279,2025-03-04,Open,25
-RSK-0156,Water stress,Synthetic risk statement,EHS & Sustainability,4,2,MIT-8640,2022-06-07,Open,8
-RSK-0157,Data quality / greenwashing,Synthetic risk statement,Operations,5,1,MIT-2808,2026-12-08,Open,5
-RSK-0158,Climate physical,Synthetic risk statement,Operations,4,4,MIT-4713,2024-07-22,Closed,16
-RSK-0159,Climate physical,Synthetic risk statement,Legal & Compliance,1,2,MIT-1496,2024-04-08,Open,2
-RSK-0160,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,5,2,MIT-6090,2023-07-29,Closed,10
-RSK-0161,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,5,4,MIT-4704,2025-09-12,Mitigating,20
-RSK-0162,Regulatory (ESG reporting),Synthetic risk statement,Operations,4,2,MIT-3845,2025-01-15,Closed,8
-RSK-0163,Regulatory (ESG reporting),Synthetic risk statement,Procurement,5,5,MIT-2363,2022-03-03,Open,25
-RSK-0164,Supply chain human rights,Synthetic risk statement,Finance,3,4,MIT-5699,2026-11-13,Mitigating,12
-RSK-0165,Water stress,Synthetic risk statement,Finance,4,1,MIT-8664,2024-01-02,Closed,4
-RSK-0166,Regulatory (ESG reporting),Synthetic risk statement,Finance,5,3,MIT-6542,2023-04-04,Closed,15
-RSK-0167,Water stress,Synthetic risk statement,EHS & Sustainability,2,1,MIT-4019,2025-10-07,Mitigating,2
-RSK-0168,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,1,5,MIT-4497,2025-09-24,Mitigating,5
-RSK-0169,Regulatory (ESG reporting),Synthetic risk statement,Procurement,1,3,MIT-4691,2022-06-09,Open,3
-RSK-0170,Climate transition,Synthetic risk statement,Legal & Compliance,3,1,MIT-8424,2023-04-12,Open,3
-RSK-0171,Anti-corruption,Synthetic risk statement,Procurement,3,5,MIT-8730,2025-04-24,Mitigating,15
-RSK-0172,Anti-corruption,Synthetic risk statement,Operations,4,5,MIT-7130,2025-02-05,Mitigating,20
-RSK-0173,Water stress,Synthetic risk statement,EHS & Sustainability,4,5,MIT-4644,2025-05-22,Closed,20
-RSK-0174,Climate physical,Synthetic risk statement,Legal & Compliance,1,2,MIT-2546,2023-02-04,Open,2
-RSK-0175,Data quality / greenwashing,Synthetic risk statement,Operations,2,5,MIT-2715,2025-06-23,Mitigating,10
-RSK-0176,Data quality / greenwashing,Synthetic risk statement,Operations,5,1,MIT-9769,2023-06-21,Open,5
-RSK-0177,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,3,1,MIT-6741,2026-09-22,Mitigating,3
-RSK-0178,Regulatory (ESG reporting),Synthetic risk statement,Procurement,3,5,MIT-9817,2022-06-25,Mitigating,15
-RSK-0179,Regulatory (ESG reporting),Synthetic risk statement,Procurement,2,5,MIT-3574,2024-08-01,Open,10
-RSK-0180,Climate transition,Synthetic risk statement,Procurement,5,1,MIT-2657,2023-07-25,Mitigating,5
-RSK-0181,Supply chain human rights,Synthetic risk statement,Operations,3,2,MIT-4574,2026-05-20,Open,6
-RSK-0182,Climate physical,Synthetic risk statement,EHS & Sustainability,5,3,MIT-5733,2025-05-20,Mitigating,15
-RSK-0183,Supply chain human rights,Synthetic risk statement,Legal & Compliance,1,4,MIT-6152,2022-09-08,Open,4
-RSK-0184,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,5,3,MIT-5158,2026-04-02,Mitigating,15
-RSK-0185,Water stress,Synthetic risk statement,Finance,2,4,MIT-5345,2026-12-02,Open,8
-RSK-0186,Water stress,Synthetic risk statement,Procurement,2,2,MIT-3170,2024-08-29,Mitigating,4
-RSK-0187,Anti-corruption,Synthetic risk statement,EHS & Sustainability,5,1,MIT-2302,2022-02-25,Mitigating,5
-RSK-0188,Data quality / greenwashing,Synthetic risk statement,Procurement,4,2,MIT-7744,2026-05-04,Mitigating,8
-RSK-0189,Water stress,Synthetic risk statement,Finance,3,3,MIT-5359,2022-09-12,Open,9
-RSK-0190,Water stress,Synthetic risk statement,Finance,2,3,MIT-8203,2026-07-31,Open,6
-RSK-0191,Data quality / greenwashing,Synthetic risk statement,Finance,2,3,MIT-3452,2025-04-08,Closed,6
-RSK-0192,Anti-corruption,Synthetic risk statement,Operations,5,5,MIT-5080,2025-11-27,Mitigating,25
-RSK-0193,Climate transition,Synthetic risk statement,Procurement,4,4,MIT-9481,2024-11-26,Closed,16
-RSK-0194,Climate physical,Synthetic risk statement,EHS & Sustainability,1,3,MIT-2271,2023-09-27,Mitigating,3
-RSK-0195,Anti-corruption,Synthetic risk statement,EHS & Sustainability,1,4,MIT-8100,2025-12-10,Mitigating,4
-RSK-0196,Climate physical,Synthetic risk statement,Procurement,5,2,MIT-6006,2023-07-25,Mitigating,10
-RSK-0197,Water stress,Synthetic risk statement,Operations,4,5,MIT-5885,2022-01-26,Mitigating,20
-RSK-0198,Supply chain human rights,Synthetic risk statement,Finance,5,5,MIT-2978,2023-01-12,Closed,25
-RSK-0199,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,3,5,MIT-2399,2026-05-27,Mitigating,15
-RSK-0200,Climate physical,Synthetic risk statement,Finance,2,5,MIT-9943,2023-03-24,Closed,10
-RSK-0201,Climate physical,Synthetic risk statement,Procurement,4,1,MIT-5015,2024-10-28,Open,4
-RSK-0202,Water stress,Synthetic risk statement,Finance,4,3,MIT-9377,2023-05-22,Mitigating,12
-RSK-0203,Anti-corruption,Synthetic risk statement,Finance,5,3,MIT-8786,2025-08-15,Mitigating,15
-RSK-0204,Supply chain human rights,Synthetic risk statement,Operations,3,2,MIT-7135,2025-05-05,Mitigating,6
-RSK-0205,Water stress,Synthetic risk statement,EHS & Sustainability,1,1,MIT-3090,2022-03-25,Closed,1
-RSK-0206,Supply chain human rights,Synthetic risk statement,Procurement,1,1,MIT-2692,2025-01-24,Open,1
-RSK-0207,Climate physical,Synthetic risk statement,Finance,3,1,MIT-1193,2025-04-29,Open,3
-RSK-0208,Climate transition,Synthetic risk statement,Procurement,3,4,MIT-6164,2022-05-23,Mitigating,12
-RSK-0209,Data quality / greenwashing,Synthetic risk statement,Procurement,1,2,MIT-4062,2022-03-17,Open,2
-RSK-0210,Water stress,Synthetic risk statement,Legal & Compliance,2,3,MIT-3877,2026-10-16,Mitigating,6
-RSK-0211,Regulatory (ESG reporting),Synthetic risk statement,Procurement,5,2,MIT-4033,2024-09-10,Mitigating,10
-RSK-0212,Supply chain human rights,Synthetic risk statement,Legal & Compliance,2,3,MIT-6087,2026-11-02,Mitigating,6
-RSK-0213,Supply chain human rights,Synthetic risk statement,Procurement,4,3,MIT-9129,2023-03-13,Mitigating,12
-RSK-0214,Data quality / greenwashing,Synthetic risk statement,Procurement,2,4,MIT-5997,2023-08-12,Mitigating,8
-RSK-0215,Water stress,Synthetic risk statement,EHS & Sustainability,5,5,MIT-9798,2026-11-10,Closed,25
-RSK-0216,Climate transition,Synthetic risk statement,Legal & Compliance,5,2,MIT-8698,2023-04-25,Mitigating,10
-RSK-0217,Climate physical,Synthetic risk statement,Legal & Compliance,2,2,MIT-1047,2024-06-20,Mitigating,4
-RSK-0218,Anti-corruption,Synthetic risk statement,Procurement,3,5,MIT-1418,2025-04-30,Mitigating,15
-RSK-0219,Regulatory (ESG reporting),Synthetic risk statement,Operations,5,5,MIT-7508,2024-06-25,Mitigating,25
-RSK-0220,Regulatory (ESG reporting),Synthetic risk statement,Operations,1,3,MIT-1325,2023-05-10,Mitigating,3
-RSK-0221,Data quality / greenwashing,Synthetic risk statement,Procurement,3,5,MIT-6912,2025-07-25,Mitigating,15
-RSK-0222,Regulatory (ESG reporting),Synthetic risk statement,Procurement,5,2,MIT-5762,2022-11-18,Closed,10
-RSK-0223,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,3,1,MIT-3404,2023-04-22,Mitigating,3
-RSK-0224,Climate transition,Synthetic risk statement,Finance,1,3,MIT-8477,2025-04-11,Closed,3
-RSK-0225,Anti-corruption,Synthetic risk statement,Procurement,5,2,MIT-9826,2024-01-09,Open,10
-RSK-0226,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,2,5,MIT-5493,2023-08-30,Mitigating,10
-RSK-0227,Anti-corruption,Synthetic risk statement,Legal & Compliance,4,1,MIT-6686,2022-09-21,Mitigating,4
-RSK-0228,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,2,2,MIT-5539,2024-11-27,Mitigating,4
-RSK-0229,Climate transition,Synthetic risk statement,EHS & Sustainability,4,2,MIT-3282,2026-07-08,Open,8
-RSK-0230,Supply chain human rights,Synthetic risk statement,Legal & Compliance,3,2,MIT-6117,2023-01-23,Open,6
-RSK-0231,Regulatory (ESG reporting),Synthetic risk statement,Operations,3,1,MIT-8514,2023-01-10,Closed,3
-RSK-0232,Water stress,Synthetic risk statement,Finance,3,4,MIT-8625,2022-04-21,Open,12
-RSK-0233,Climate transition,Synthetic risk statement,Operations,1,5,MIT-2432,2022-07-25,Open,5
-RSK-0234,Supply chain human rights,Synthetic risk statement,Legal & Compliance,2,2,MIT-8836,2026-11-04,Open,4
-RSK-0235,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,5,3,MIT-4432,2026-07-01,Mitigating,15
-RSK-0236,Data quality / greenwashing,Synthetic risk statement,Operations,3,5,MIT-2489,2025-11-28,Mitigating,15
-RSK-0237,Water stress,Synthetic risk statement,Legal & Compliance,5,3,MIT-1740,2026-12-16,Mitigating,15
-RSK-0238,Climate physical,Synthetic risk statement,EHS & Sustainability,4,2,MIT-3786,2025-02-14,Open,8
-RSK-0239,Climate physical,Synthetic risk statement,EHS & Sustainability,3,1,MIT-6858,2022-02-21,Open,3
-RSK-0240,Climate transition,Synthetic risk statement,Finance,5,3,MIT-7701,2023-11-17,Open,15
-RSK-0241,Anti-corruption,Synthetic risk statement,EHS & Sustainability,1,2,MIT-4640,2023-07-10,Mitigating,2
-RSK-0242,Anti-corruption,Synthetic risk statement,Legal & Compliance,5,5,MIT-5487,2026-03-14,Mitigating,25
-RSK-0243,Anti-corruption,Synthetic risk statement,EHS & Sustainability,4,4,MIT-8425,2025-09-23,Mitigating,16
-RSK-0244,Supply chain human rights,Synthetic risk statement,Procurement,3,3,MIT-1549,2026-09-21,Mitigating,9
-RSK-0245,Climate transition,Synthetic risk statement,Procurement,2,3,MIT-2458,2026-09-01,Mitigating,6
-RSK-0246,Regulatory (ESG reporting),Synthetic risk statement,Operations,3,5,MIT-4284,2026-05-20,Mitigating,15
-RSK-0247,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,1,5,MIT-7853,2025-07-02,Mitigating,5
-RSK-0248,Data quality / greenwashing,Synthetic risk statement,Procurement,2,5,MIT-1826,2022-11-11,Open,10
-RSK-0249,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,2,1,MIT-8660,2022-03-16,Closed,2
-RSK-0250,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,3,1,MIT-3994,2026-08-11,Closed,3
-RSK-0251,Climate physical,Synthetic risk statement,Legal & Compliance,3,3,MIT-2736,2025-10-14,Mitigating,9
-RSK-0252,Supply chain human rights,Synthetic risk statement,Procurement,2,5,MIT-5957,2025-12-24,Open,10
-RSK-0253,Climate physical,Synthetic risk statement,Operations,5,4,MIT-8518,2022-02-07,Open,20
-RSK-0254,Data quality / greenwashing,Synthetic risk statement,Operations,5,1,MIT-3321,2024-06-03,Closed,5
-RSK-0255,Water stress,Synthetic risk statement,EHS & Sustainability,1,5,MIT-8690,2024-05-28,Mitigating,5
-RSK-0256,Data quality / greenwashing,Synthetic risk statement,Procurement,4,5,MIT-9809,2022-05-17,Mitigating,20
-RSK-0257,Climate physical,Synthetic risk statement,EHS & Sustainability,1,2,MIT-8844,2023-06-08,Mitigating,2
-RSK-0258,Climate physical,Synthetic risk statement,Legal & Compliance,5,3,MIT-7853,2024-12-06,Open,15
-RSK-0259,Water stress,Synthetic risk statement,Finance,5,3,MIT-5212,2025-05-26,Mitigating,15
-RSK-0260,Climate transition,Synthetic risk statement,EHS & Sustainability,5,2,MIT-8839,2023-10-17,Open,10
+RSK-0001,Climate physical,Synthetic risk statement,Finance,2,1,MIT-3736,2024-10-30,Closed,2
+RSK-0002,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,4,4,MIT-2728,2025-10-17,Mitigating,16
+RSK-0003,Climate physical,Synthetic risk statement,EHS & Sustainability,3,4,MIT-5424,2022-08-02,Open,12
+RSK-0004,Water stress,Synthetic risk statement,Procurement,4,4,MIT-4572,2026-04-20,Open,16
+RSK-0005,Climate physical,Synthetic risk statement,EHS & Sustainability,2,1,MIT-9217,2023-10-10,Mitigating,2
+RSK-0006,Water stress,Synthetic risk statement,Operations,4,1,MIT-6967,2025-01-27,Open,4
+RSK-0007,Water stress,Synthetic risk statement,Procurement,4,2,MIT-7346,2025-10-24,Open,8
+RSK-0008,Climate transition,Synthetic risk statement,Operations,3,4,MIT-2364,2022-11-19,Mitigating,12
+RSK-0009,Water stress,Synthetic risk statement,Operations,5,3,MIT-9354,2022-01-05,Mitigating,15
+RSK-0010,Regulatory (ESG reporting),Synthetic risk statement,Finance,1,1,MIT-4106,2022-05-10,Open,1
+RSK-0011,Climate physical,Synthetic risk statement,EHS & Sustainability,1,3,MIT-3012,2024-01-11,Open,3
+RSK-0012,Climate physical,Synthetic risk statement,EHS & Sustainability,5,3,MIT-1530,2023-08-22,Open,15
+RSK-0013,Data quality / greenwashing,Synthetic risk statement,Procurement,1,1,MIT-3226,2024-04-22,Mitigating,1
+RSK-0014,Anti-corruption,Synthetic risk statement,Procurement,5,2,MIT-3683,2023-08-18,Open,10
+RSK-0015,Climate physical,Synthetic risk statement,Operations,4,2,MIT-8723,2023-08-10,Open,8
+RSK-0016,Climate transition,Synthetic risk statement,Procurement,5,4,MIT-5586,2024-09-19,Mitigating,20
+RSK-0017,Climate physical,Synthetic risk statement,Legal & Compliance,3,2,MIT-9113,2025-03-07,Mitigating,6
+RSK-0018,Climate transition,Synthetic risk statement,Procurement,3,4,MIT-4628,2025-08-16,Closed,12
+RSK-0019,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,3,1,MIT-8975,2024-04-18,Open,3
+RSK-0020,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,2,4,MIT-6171,2024-12-06,Closed,8
+RSK-0021,Water stress,Synthetic risk statement,Procurement,2,5,MIT-1564,2023-04-27,Closed,10
+RSK-0022,Anti-corruption,Synthetic risk statement,Procurement,3,1,MIT-5279,2025-04-01,Open,3
+RSK-0023,Water stress,Synthetic risk statement,Legal & Compliance,1,3,MIT-1494,2024-10-08,Closed,3
+RSK-0024,Climate transition,Synthetic risk statement,Finance,5,3,MIT-8588,2026-03-11,Closed,15
+RSK-0025,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,2,4,MIT-9079,2025-11-03,Closed,8
+RSK-0026,Climate physical,Synthetic risk statement,Procurement,3,4,MIT-7116,2023-07-06,Mitigating,12
+RSK-0027,Anti-corruption,Synthetic risk statement,Procurement,1,3,MIT-1119,2025-06-03,Closed,3
+RSK-0028,Anti-corruption,Synthetic risk statement,Finance,1,5,MIT-3285,2025-01-06,Mitigating,5
+RSK-0029,Data quality / greenwashing,Synthetic risk statement,Finance,5,5,MIT-5825,2026-12-06,Mitigating,25
+RSK-0030,Anti-corruption,Synthetic risk statement,Procurement,4,1,MIT-2533,2024-02-20,Closed,4
+RSK-0031,Climate physical,Synthetic risk statement,Operations,4,4,MIT-7025,2023-02-15,Mitigating,16
+RSK-0032,Climate physical,Synthetic risk statement,Legal & Compliance,4,2,MIT-3581,2023-03-28,Mitigating,8
+RSK-0033,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,5,5,MIT-7121,2026-11-07,Open,25
+RSK-0034,Climate physical,Synthetic risk statement,Procurement,2,1,MIT-2163,2023-01-27,Mitigating,2
+RSK-0035,Supply chain human rights,Synthetic risk statement,Legal & Compliance,5,1,MIT-3636,2026-08-03,Mitigating,5
+RSK-0036,Supply chain human rights,Synthetic risk statement,Legal & Compliance,3,4,MIT-9946,2023-12-18,Closed,12
+RSK-0037,Data quality / greenwashing,Synthetic risk statement,Procurement,2,4,MIT-2578,2023-09-16,Open,8
+RSK-0038,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,1,4,MIT-7901,2024-01-08,Mitigating,4
+RSK-0039,Supply chain human rights,Synthetic risk statement,Legal & Compliance,5,4,MIT-1380,2025-02-10,Mitigating,20
+RSK-0040,Climate transition,Synthetic risk statement,Finance,2,5,MIT-9922,2023-07-20,Open,10
+RSK-0041,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,3,2,MIT-6181,2022-05-25,Open,6
+RSK-0042,Climate transition,Synthetic risk statement,Finance,3,1,MIT-2034,2024-12-27,Closed,3
+RSK-0043,Climate transition,Synthetic risk statement,Legal & Compliance,4,4,MIT-4172,2022-10-18,Open,16
+RSK-0044,Climate transition,Synthetic risk statement,Operations,1,4,MIT-2227,2022-05-21,Open,4
+RSK-0045,Anti-corruption,Synthetic risk statement,Procurement,3,2,MIT-1994,2023-08-24,Closed,6
+RSK-0046,Climate physical,Synthetic risk statement,Operations,5,1,MIT-7206,2022-12-12,Closed,5
+RSK-0047,Anti-corruption,Synthetic risk statement,Operations,1,2,MIT-7849,2022-05-03,Mitigating,2
+RSK-0048,Anti-corruption,Synthetic risk statement,Finance,3,1,MIT-5407,2022-12-21,Mitigating,3
+RSK-0049,Climate physical,Synthetic risk statement,EHS & Sustainability,2,5,MIT-8906,2023-03-01,Closed,10
+RSK-0050,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,5,1,MIT-6184,2024-11-11,Open,5
+RSK-0051,Climate transition,Synthetic risk statement,EHS & Sustainability,5,5,MIT-9487,2025-01-10,Closed,25
+RSK-0052,Regulatory (ESG reporting),Synthetic risk statement,Operations,3,3,MIT-9545,2023-10-16,Closed,9
+RSK-0053,Water stress,Synthetic risk statement,EHS & Sustainability,2,1,MIT-3685,2023-07-26,Open,2
+RSK-0054,Supply chain human rights,Synthetic risk statement,Procurement,1,3,MIT-3066,2026-04-09,Mitigating,3
+RSK-0055,Climate transition,Synthetic risk statement,Legal & Compliance,2,5,MIT-7852,2026-01-02,Mitigating,10
+RSK-0056,Anti-corruption,Synthetic risk statement,Operations,5,3,MIT-1322,2022-04-09,Mitigating,15
+RSK-0057,Supply chain human rights,Synthetic risk statement,Operations,3,1,MIT-2163,2026-07-29,Open,3
+RSK-0058,Climate transition,Synthetic risk statement,Procurement,1,5,MIT-6666,2025-10-22,Closed,5
+RSK-0059,Data quality / greenwashing,Synthetic risk statement,Procurement,3,5,MIT-9781,2023-03-23,Open,15
+RSK-0060,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,4,1,MIT-1122,2024-10-23,Open,4
+RSK-0061,Climate physical,Synthetic risk statement,Legal & Compliance,1,4,MIT-4105,2024-05-01,Mitigating,4
+RSK-0062,Regulatory (ESG reporting),Synthetic risk statement,Operations,1,1,MIT-1375,2024-09-20,Mitigating,1
+RSK-0063,Anti-corruption,Synthetic risk statement,Procurement,2,1,MIT-9161,2022-10-14,Mitigating,2
+RSK-0064,Anti-corruption,Synthetic risk statement,Operations,5,2,MIT-1920,2025-06-14,Closed,10
+RSK-0065,Water stress,Synthetic risk statement,Legal & Compliance,3,2,MIT-9439,2022-02-07,Closed,6
+RSK-0066,Climate transition,Synthetic risk statement,Operations,3,2,MIT-2221,2026-01-15,Mitigating,6
+RSK-0067,Climate transition,Synthetic risk statement,EHS & Sustainability,2,1,MIT-7079,2025-02-10,Closed,2
+RSK-0068,Climate transition,Synthetic risk statement,Finance,5,2,MIT-9411,2023-07-13,Open,10
+RSK-0069,Climate transition,Synthetic risk statement,EHS & Sustainability,2,1,MIT-2614,2023-02-20,Open,2
+RSK-0070,Water stress,Synthetic risk statement,Finance,1,1,MIT-9123,2025-01-07,Closed,1
+RSK-0071,Water stress,Synthetic risk statement,Legal & Compliance,2,4,MIT-7698,2026-06-11,Closed,8
+RSK-0072,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,1,1,MIT-9993,2025-01-29,Mitigating,1
+RSK-0073,Regulatory (ESG reporting),Synthetic risk statement,Procurement,3,5,MIT-3742,2025-12-05,Closed,15
+RSK-0074,Climate physical,Synthetic risk statement,EHS & Sustainability,1,4,MIT-5704,2025-01-09,Open,4
+RSK-0075,Supply chain human rights,Synthetic risk statement,Operations,1,2,MIT-8576,2022-06-16,Closed,2
+RSK-0076,Water stress,Synthetic risk statement,EHS & Sustainability,4,5,MIT-4706,2026-06-10,Closed,20
+RSK-0077,Anti-corruption,Synthetic risk statement,EHS & Sustainability,5,5,MIT-6401,2023-11-20,Open,25
+RSK-0078,Supply chain human rights,Synthetic risk statement,Legal & Compliance,4,2,MIT-7871,2023-10-16,Closed,8
+RSK-0079,Anti-corruption,Synthetic risk statement,EHS & Sustainability,1,4,MIT-1563,2025-06-08,Mitigating,4
+RSK-0080,Regulatory (ESG reporting),Synthetic risk statement,Operations,5,1,MIT-9691,2024-09-14,Open,5
+RSK-0081,Water stress,Synthetic risk statement,Operations,2,2,MIT-1519,2024-07-28,Mitigating,4
+RSK-0082,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,1,2,MIT-5197,2025-12-05,Mitigating,2
+RSK-0083,Regulatory (ESG reporting),Synthetic risk statement,Finance,4,2,MIT-4660,2024-10-01,Mitigating,8
+RSK-0084,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,5,4,MIT-4848,2024-08-07,Open,20
+RSK-0085,Climate physical,Synthetic risk statement,Finance,3,1,MIT-7099,2026-03-17,Mitigating,3
+RSK-0086,Water stress,Synthetic risk statement,Legal & Compliance,1,4,MIT-5178,2023-01-28,Closed,4
+RSK-0087,Anti-corruption,Synthetic risk statement,Procurement,2,3,MIT-4030,2023-05-23,Open,6
+RSK-0088,Regulatory (ESG reporting),Synthetic risk statement,Procurement,3,4,MIT-8161,2026-05-13,Closed,12
+RSK-0089,Water stress,Synthetic risk statement,Legal & Compliance,2,1,MIT-8479,2022-07-20,Open,2
+RSK-0090,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,4,2,MIT-2112,2024-09-09,Closed,8
+RSK-0091,Climate physical,Synthetic risk statement,Legal & Compliance,5,2,MIT-1087,2024-10-22,Open,10
+RSK-0092,Data quality / greenwashing,Synthetic risk statement,Procurement,5,4,MIT-9595,2026-03-20,Open,20
+RSK-0093,Climate transition,Synthetic risk statement,EHS & Sustainability,2,2,MIT-9698,2022-07-22,Closed,4
+RSK-0094,Data quality / greenwashing,Synthetic risk statement,Procurement,4,2,MIT-1568,2023-10-19,Mitigating,8
+RSK-0095,Climate physical,Synthetic risk statement,Procurement,3,5,MIT-9752,2024-10-07,Mitigating,15
+RSK-0096,Anti-corruption,Synthetic risk statement,Operations,1,1,MIT-3029,2026-12-08,Mitigating,1
+RSK-0097,Climate transition,Synthetic risk statement,Procurement,1,5,MIT-6824,2024-09-27,Mitigating,5
+RSK-0098,Anti-corruption,Synthetic risk statement,Operations,5,1,MIT-8870,2023-08-24,Mitigating,5
+RSK-0099,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,1,4,MIT-2952,2025-06-18,Mitigating,4
+RSK-0100,Regulatory (ESG reporting),Synthetic risk statement,Procurement,4,2,MIT-5410,2026-07-02,Open,8
+RSK-0101,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,1,3,MIT-5627,2024-05-09,Mitigating,3
+RSK-0102,Anti-corruption,Synthetic risk statement,Operations,5,5,MIT-4848,2025-10-09,Mitigating,25
+RSK-0103,Supply chain human rights,Synthetic risk statement,Operations,2,4,MIT-2301,2024-04-05,Closed,8
+RSK-0104,Anti-corruption,Synthetic risk statement,Operations,3,3,MIT-4377,2024-12-02,Mitigating,9
+RSK-0105,Anti-corruption,Synthetic risk statement,Operations,5,4,MIT-5178,2024-04-17,Open,20
+RSK-0106,Supply chain human rights,Synthetic risk statement,Legal & Compliance,2,5,MIT-5735,2026-10-16,Open,10
+RSK-0107,Climate transition,Synthetic risk statement,Legal & Compliance,2,3,MIT-7561,2026-07-28,Open,6
+RSK-0108,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,4,3,MIT-9316,2025-08-07,Open,12
+RSK-0109,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,3,3,MIT-8807,2026-05-08,Mitigating,9
+RSK-0110,Regulatory (ESG reporting),Synthetic risk statement,Operations,5,2,MIT-9227,2022-12-15,Closed,10
+RSK-0111,Anti-corruption,Synthetic risk statement,Operations,1,5,MIT-3598,2022-12-16,Open,5
+RSK-0112,Supply chain human rights,Synthetic risk statement,Procurement,4,2,MIT-6363,2026-04-10,Mitigating,8
+RSK-0113,Water stress,Synthetic risk statement,Operations,4,2,MIT-9741,2025-09-17,Closed,8
+RSK-0114,Climate physical,Synthetic risk statement,EHS & Sustainability,3,4,MIT-6325,2022-06-23,Closed,12
+RSK-0115,Water stress,Synthetic risk statement,Procurement,2,4,MIT-2872,2026-09-29,Mitigating,8
+RSK-0116,Anti-corruption,Synthetic risk statement,Finance,2,2,MIT-2804,2022-10-17,Open,4
+RSK-0117,Water stress,Synthetic risk statement,Procurement,1,2,MIT-7858,2024-11-15,Closed,2
+RSK-0118,Supply chain human rights,Synthetic risk statement,Legal & Compliance,1,2,MIT-4388,2024-06-21,Open,2
+RSK-0119,Climate transition,Synthetic risk statement,Legal & Compliance,5,3,MIT-2207,2024-12-02,Open,15
+RSK-0120,Climate transition,Synthetic risk statement,Procurement,3,4,MIT-6424,2024-09-20,Closed,12
+RSK-0121,Climate transition,Synthetic risk statement,Legal & Compliance,1,5,MIT-4811,2025-10-23,Mitigating,5
+RSK-0122,Climate transition,Synthetic risk statement,Legal & Compliance,5,1,MIT-9884,2023-02-06,Mitigating,5
+RSK-0123,Supply chain human rights,Synthetic risk statement,Procurement,3,1,MIT-9028,2026-05-05,Open,3
+RSK-0124,Climate physical,Synthetic risk statement,Procurement,2,5,MIT-6245,2024-01-31,Open,10
+RSK-0125,Regulatory (ESG reporting),Synthetic risk statement,Procurement,4,2,MIT-6833,2022-07-22,Closed,8
+RSK-0126,Climate transition,Synthetic risk statement,Procurement,4,3,MIT-1592,2025-09-05,Mitigating,12
+RSK-0127,Anti-corruption,Synthetic risk statement,Legal & Compliance,3,3,MIT-2998,2024-09-12,Mitigating,9
+RSK-0128,Water stress,Synthetic risk statement,Operations,3,1,MIT-5691,2023-12-07,Open,3
+RSK-0129,Water stress,Synthetic risk statement,Procurement,2,2,MIT-1360,2025-05-20,Mitigating,4
+RSK-0130,Data quality / greenwashing,Synthetic risk statement,Finance,1,1,MIT-1104,2024-04-03,Closed,1
+RSK-0131,Climate physical,Synthetic risk statement,Finance,2,1,MIT-8502,2026-08-17,Mitigating,2
+RSK-0132,Regulatory (ESG reporting),Synthetic risk statement,Procurement,3,1,MIT-6814,2024-07-19,Open,3
+RSK-0133,Water stress,Synthetic risk statement,Operations,2,1,MIT-9568,2025-09-02,Mitigating,2
+RSK-0134,Anti-corruption,Synthetic risk statement,EHS & Sustainability,1,3,MIT-8360,2025-12-09,Open,3
+RSK-0135,Water stress,Synthetic risk statement,EHS & Sustainability,2,3,MIT-2927,2024-06-04,Open,6
+RSK-0136,Climate transition,Synthetic risk statement,EHS & Sustainability,5,3,MIT-6105,2024-06-19,Mitigating,15
+RSK-0137,Anti-corruption,Synthetic risk statement,Procurement,3,2,MIT-3362,2024-03-05,Closed,6
+RSK-0138,Data quality / greenwashing,Synthetic risk statement,Operations,4,5,MIT-2016,2022-01-27,Mitigating,20
+RSK-0139,Supply chain human rights,Synthetic risk statement,Finance,2,2,MIT-1810,2022-04-06,Mitigating,4
+RSK-0140,Climate physical,Synthetic risk statement,EHS & Sustainability,3,3,MIT-6613,2025-01-09,Mitigating,9
+RSK-0141,Climate transition,Synthetic risk statement,Finance,1,5,MIT-2509,2025-05-13,Closed,5
+RSK-0142,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,2,2,MIT-4771,2024-04-22,Closed,4
+RSK-0143,Water stress,Synthetic risk statement,Finance,2,5,MIT-6496,2024-09-18,Open,10
+RSK-0144,Supply chain human rights,Synthetic risk statement,Operations,1,3,MIT-1421,2023-11-17,Closed,3
+RSK-0145,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,4,1,MIT-3300,2024-12-06,Open,4
+RSK-0146,Data quality / greenwashing,Synthetic risk statement,Procurement,5,2,MIT-1359,2024-10-14,Closed,10
+RSK-0147,Supply chain human rights,Synthetic risk statement,Operations,2,2,MIT-9397,2023-12-26,Open,4
+RSK-0148,Regulatory (ESG reporting),Synthetic risk statement,Procurement,4,3,MIT-7976,2023-04-26,Open,12
+RSK-0149,Climate transition,Synthetic risk statement,Operations,4,2,MIT-6179,2022-07-25,Closed,8
+RSK-0150,Water stress,Synthetic risk statement,Finance,4,2,MIT-3965,2023-04-07,Open,8
+RSK-0151,Climate transition,Synthetic risk statement,Operations,5,4,MIT-8441,2024-01-15,Mitigating,20
+RSK-0152,Climate physical,Synthetic risk statement,EHS & Sustainability,4,5,MIT-2727,2022-06-20,Open,20
+RSK-0153,Anti-corruption,Synthetic risk statement,Procurement,3,3,MIT-3976,2022-10-26,Closed,9
+RSK-0154,Data quality / greenwashing,Synthetic risk statement,Procurement,2,4,MIT-2631,2026-06-22,Mitigating,8
+RSK-0155,Anti-corruption,Synthetic risk statement,Procurement,2,4,MIT-3141,2022-06-06,Mitigating,8
+RSK-0156,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,2,3,MIT-4156,2026-10-16,Open,6
+RSK-0157,Anti-corruption,Synthetic risk statement,Procurement,3,1,MIT-3292,2025-04-15,Mitigating,3
+RSK-0158,Regulatory (ESG reporting),Synthetic risk statement,Operations,2,5,MIT-9018,2024-10-12,Open,10
+RSK-0159,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,5,5,MIT-5339,2025-05-06,Open,25
+RSK-0160,Supply chain human rights,Synthetic risk statement,Operations,4,4,MIT-8635,2026-03-30,Closed,16
+RSK-0161,Supply chain human rights,Synthetic risk statement,Operations,4,2,MIT-1158,2024-06-10,Open,8
+RSK-0162,Water stress,Synthetic risk statement,EHS & Sustainability,1,1,MIT-8997,2026-12-16,Open,1
+RSK-0163,Supply chain human rights,Synthetic risk statement,Finance,4,3,MIT-4009,2026-02-19,Open,12
+RSK-0164,Supply chain human rights,Synthetic risk statement,Operations,5,1,MIT-1148,2026-07-28,Closed,5
+RSK-0165,Supply chain human rights,Synthetic risk statement,Legal & Compliance,4,2,MIT-5758,2025-08-18,Mitigating,8
+RSK-0166,Anti-corruption,Synthetic risk statement,Procurement,2,3,MIT-1841,2025-08-07,Closed,6
+RSK-0167,Climate physical,Synthetic risk statement,Finance,4,1,MIT-9106,2025-02-24,Open,4
+RSK-0168,Climate transition,Synthetic risk statement,EHS & Sustainability,1,3,MIT-1852,2025-02-13,Closed,3
+RSK-0169,Water stress,Synthetic risk statement,EHS & Sustainability,1,3,MIT-3355,2022-12-27,Open,3
+RSK-0170,Water stress,Synthetic risk statement,Operations,4,4,MIT-3790,2023-05-26,Mitigating,16
+RSK-0171,Data quality / greenwashing,Synthetic risk statement,Procurement,5,4,MIT-2912,2023-10-24,Mitigating,20
+RSK-0172,Water stress,Synthetic risk statement,EHS & Sustainability,1,5,MIT-4038,2025-08-13,Mitigating,5
+RSK-0173,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,3,1,MIT-6954,2023-11-27,Closed,3
+RSK-0174,Supply chain human rights,Synthetic risk statement,Legal & Compliance,5,3,MIT-9188,2024-10-02,Closed,15
+RSK-0175,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,2,3,MIT-7494,2022-07-29,Open,6
+RSK-0176,Climate physical,Synthetic risk statement,Legal & Compliance,4,3,MIT-5931,2023-03-13,Closed,12
+RSK-0177,Climate transition,Synthetic risk statement,Procurement,3,2,MIT-2242,2023-06-09,Open,6
+RSK-0178,Data quality / greenwashing,Synthetic risk statement,Procurement,2,2,MIT-3556,2024-05-27,Mitigating,4
+RSK-0179,Data quality / greenwashing,Synthetic risk statement,EHS & Sustainability,3,1,MIT-6188,2023-05-26,Closed,3
+RSK-0180,Climate physical,Synthetic risk statement,Procurement,4,2,MIT-7392,2024-02-08,Open,8
+RSK-0181,Data quality / greenwashing,Synthetic risk statement,Procurement,3,4,MIT-9771,2025-06-10,Open,12
+RSK-0182,Climate physical,Synthetic risk statement,Finance,5,1,MIT-6180,2023-08-23,Closed,5
+RSK-0183,Climate transition,Synthetic risk statement,EHS & Sustainability,1,3,MIT-2009,2024-05-16,Mitigating,3
+RSK-0184,Anti-corruption,Synthetic risk statement,Operations,5,5,MIT-2915,2022-01-11,Open,25
+RSK-0185,Anti-corruption,Synthetic risk statement,Legal & Compliance,4,2,MIT-1286,2025-02-21,Mitigating,8
+RSK-0186,Supply chain human rights,Synthetic risk statement,Finance,3,4,MIT-9174,2022-10-20,Mitigating,12
+RSK-0187,Water stress,Synthetic risk statement,Operations,4,4,MIT-3531,2023-06-01,Closed,16
+RSK-0188,Water stress,Synthetic risk statement,Operations,1,4,MIT-5558,2026-08-04,Mitigating,4
+RSK-0189,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,5,2,MIT-7044,2022-08-24,Mitigating,10
+RSK-0190,Climate physical,Synthetic risk statement,EHS & Sustainability,1,4,MIT-1434,2024-01-08,Mitigating,4
+RSK-0191,Regulatory (ESG reporting),Synthetic risk statement,Finance,3,5,MIT-5534,2024-08-28,Open,15
+RSK-0192,Water stress,Synthetic risk statement,EHS & Sustainability,3,3,MIT-8452,2025-10-28,Open,9
+RSK-0193,Anti-corruption,Synthetic risk statement,Legal & Compliance,4,5,MIT-4887,2023-11-15,Closed,20
+RSK-0194,Climate physical,Synthetic risk statement,Operations,4,5,MIT-7110,2025-05-20,Open,20
+RSK-0195,Anti-corruption,Synthetic risk statement,Finance,3,2,MIT-5242,2022-06-02,Mitigating,6
+RSK-0196,Climate transition,Synthetic risk statement,Finance,1,5,MIT-3113,2024-10-21,Open,5
+RSK-0197,Anti-corruption,Synthetic risk statement,Procurement,1,5,MIT-2420,2022-12-06,Mitigating,5
+RSK-0198,Climate transition,Synthetic risk statement,Operations,3,5,MIT-1730,2026-07-20,Mitigating,15
+RSK-0199,Climate transition,Synthetic risk statement,Finance,3,3,MIT-2169,2026-10-31,Mitigating,9
+RSK-0200,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,5,3,MIT-3975,2024-02-16,Closed,15
+RSK-0201,Anti-corruption,Synthetic risk statement,Finance,4,4,MIT-1606,2025-12-17,Mitigating,16
+RSK-0202,Supply chain human rights,Synthetic risk statement,Procurement,2,3,MIT-6547,2023-11-30,Open,6
+RSK-0203,Supply chain human rights,Synthetic risk statement,Legal & Compliance,5,2,MIT-3942,2026-01-01,Open,10
+RSK-0204,Climate physical,Synthetic risk statement,Procurement,2,5,MIT-1207,2022-07-12,Open,10
+RSK-0205,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,3,5,MIT-3193,2026-04-28,Closed,15
+RSK-0206,Anti-corruption,Synthetic risk statement,EHS & Sustainability,2,3,MIT-3518,2025-10-14,Mitigating,6
+RSK-0207,Supply chain human rights,Synthetic risk statement,Finance,5,3,MIT-4521,2024-05-02,Closed,15
+RSK-0208,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,3,2,MIT-2320,2024-06-03,Mitigating,6
+RSK-0209,Climate transition,Synthetic risk statement,Operations,3,2,MIT-6506,2025-04-14,Open,6
+RSK-0210,Supply chain human rights,Synthetic risk statement,EHS & Sustainability,3,3,MIT-2031,2023-02-18,Open,9
+RSK-0211,Climate transition,Synthetic risk statement,Operations,5,3,MIT-2751,2026-10-28,Mitigating,15
+RSK-0212,Anti-corruption,Synthetic risk statement,Finance,1,3,MIT-1823,2024-10-02,Closed,3
+RSK-0213,Water stress,Synthetic risk statement,Legal & Compliance,1,2,MIT-9577,2024-07-04,Open,2
+RSK-0214,Climate transition,Synthetic risk statement,EHS & Sustainability,4,4,MIT-6305,2024-03-09,Closed,16
+RSK-0215,Data quality / greenwashing,Synthetic risk statement,Legal & Compliance,3,2,MIT-7945,2022-08-02,Open,6
+RSK-0216,Data quality / greenwashing,Synthetic risk statement,Operations,2,4,MIT-9323,2023-12-26,Mitigating,8
+RSK-0217,Climate physical,Synthetic risk statement,Legal & Compliance,3,4,MIT-3558,2026-07-29,Open,12
+RSK-0218,Anti-corruption,Synthetic risk statement,Operations,5,1,MIT-1371,2023-06-27,Open,5
+RSK-0219,Anti-corruption,Synthetic risk statement,Procurement,3,4,MIT-8811,2026-05-26,Closed,12
+RSK-0220,Water stress,Synthetic risk statement,Operations,3,1,MIT-2995,2024-07-30,Mitigating,3
+RSK-0221,Anti-corruption,Synthetic risk statement,Operations,3,2,MIT-5943,2025-11-15,Mitigating,6
+RSK-0222,Water stress,Synthetic risk statement,Finance,4,3,MIT-5621,2023-10-04,Closed,12
+RSK-0223,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,2,3,MIT-6655,2025-10-02,Open,6
+RSK-0224,Climate transition,Synthetic risk statement,Operations,1,4,MIT-8319,2025-12-03,Mitigating,4
+RSK-0225,Climate transition,Synthetic risk statement,Legal & Compliance,4,1,MIT-1769,2024-11-14,Mitigating,4
+RSK-0226,Anti-corruption,Synthetic risk statement,Procurement,1,3,MIT-5525,2023-10-02,Mitigating,3
+RSK-0227,Water stress,Synthetic risk statement,Legal & Compliance,3,3,MIT-7520,2025-08-27,Mitigating,9
+RSK-0228,Climate transition,Synthetic risk statement,Operations,5,1,MIT-7432,2024-10-24,Open,5
+RSK-0229,Anti-corruption,Synthetic risk statement,Legal & Compliance,1,3,MIT-5401,2025-09-02,Open,3
+RSK-0230,Supply chain human rights,Synthetic risk statement,Procurement,3,5,MIT-5212,2024-02-09,Open,15
+RSK-0231,Climate physical,Synthetic risk statement,Operations,4,2,MIT-4715,2026-06-18,Open,8
+RSK-0232,Anti-corruption,Synthetic risk statement,Finance,3,2,MIT-1829,2024-05-31,Mitigating,6
+RSK-0233,Water stress,Synthetic risk statement,Legal & Compliance,4,3,MIT-3297,2025-01-20,Mitigating,12
+RSK-0234,Regulatory (ESG reporting),Synthetic risk statement,Procurement,3,5,MIT-6218,2023-02-21,Mitigating,15
+RSK-0235,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,4,3,MIT-2436,2025-09-18,Mitigating,12
+RSK-0236,Anti-corruption,Synthetic risk statement,EHS & Sustainability,2,1,MIT-3761,2023-03-08,Open,2
+RSK-0237,Supply chain human rights,Synthetic risk statement,Legal & Compliance,5,3,MIT-9569,2025-06-16,Open,15
+RSK-0238,Regulatory (ESG reporting),Synthetic risk statement,Procurement,5,1,MIT-8069,2024-03-20,Closed,5
+RSK-0239,Climate physical,Synthetic risk statement,Operations,1,3,MIT-1584,2023-05-18,Mitigating,3
+RSK-0240,Anti-corruption,Synthetic risk statement,Legal & Compliance,1,3,MIT-6506,2026-05-08,Closed,3
+RSK-0241,Supply chain human rights,Synthetic risk statement,Legal & Compliance,2,2,MIT-8746,2025-02-10,Mitigating,4
+RSK-0242,Climate transition,Synthetic risk statement,EHS & Sustainability,5,4,MIT-7955,2022-06-22,Open,20
+RSK-0243,Supply chain human rights,Synthetic risk statement,Finance,1,5,MIT-8257,2026-05-12,Mitigating,5
+RSK-0244,Climate physical,Synthetic risk statement,Finance,2,2,MIT-7003,2022-06-15,Closed,4
+RSK-0245,Anti-corruption,Synthetic risk statement,Operations,1,2,MIT-4620,2026-04-17,Open,2
+RSK-0246,Supply chain human rights,Synthetic risk statement,Operations,4,5,MIT-4873,2026-07-31,Mitigating,20
+RSK-0247,Climate transition,Synthetic risk statement,Finance,4,2,MIT-9123,2025-04-04,Closed,8
+RSK-0248,Climate physical,Synthetic risk statement,Legal & Compliance,4,2,MIT-9142,2026-01-20,Open,8
+RSK-0249,Anti-corruption,Synthetic risk statement,Finance,2,5,MIT-9568,2023-07-18,Open,10
+RSK-0250,Climate physical,Synthetic risk statement,EHS & Sustainability,5,5,MIT-4240,2025-05-16,Closed,25
+RSK-0251,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,2,1,MIT-6504,2022-02-14,Open,2
+RSK-0252,Data quality / greenwashing,Synthetic risk statement,Finance,4,4,MIT-3145,2022-06-02,Mitigating,16
+RSK-0253,Supply chain human rights,Synthetic risk statement,Legal & Compliance,2,5,MIT-4150,2023-05-26,Mitigating,10
+RSK-0254,Water stress,Synthetic risk statement,Legal & Compliance,3,4,MIT-5288,2023-03-08,Mitigating,12
+RSK-0255,Anti-corruption,Synthetic risk statement,Legal & Compliance,2,5,MIT-1473,2023-07-25,Mitigating,10
+RSK-0256,Regulatory (ESG reporting),Synthetic risk statement,Legal & Compliance,5,3,MIT-3634,2022-12-27,Open,15
+RSK-0257,Regulatory (ESG reporting),Synthetic risk statement,EHS & Sustainability,4,2,MIT-1838,2026-03-04,Open,8
+RSK-0258,Climate transition,Synthetic risk statement,Legal & Compliance,5,5,MIT-6478,2026-07-23,Mitigating,25
+RSK-0259,Climate transition,Synthetic risk statement,Legal & Compliance,1,1,MIT-4945,2025-11-24,Closed,1
+RSK-0260,Data quality / greenwashing,Synthetic risk statement,Finance,2,1,MIT-2870,2025-08-07,Open,2

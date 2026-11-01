@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-425190466 for account UA-11661038
+Date: Tue, 03 Mar 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for February 2026 is attached (PDF). Amount due: 2,086.15 EUR.

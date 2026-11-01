@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-424714979 for account UA-47736659
+Date: Wed, 07 Sep 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for August 2022 is attached (PDF). Amount due: 336.50 AUD.

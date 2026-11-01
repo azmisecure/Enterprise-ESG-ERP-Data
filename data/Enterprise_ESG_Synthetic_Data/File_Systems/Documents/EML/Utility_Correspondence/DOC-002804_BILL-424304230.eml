@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-424304230 for account UA-95951279
+Date: Tue, 09 Aug 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for July 2022 is attached (PDF). Amount due: 694,489.14 MXN.

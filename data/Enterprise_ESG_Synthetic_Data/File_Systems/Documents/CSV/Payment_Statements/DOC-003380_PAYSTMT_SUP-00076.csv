@@ -1,0 +1,2 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0001045,APINV-0001130,SUP-00076,2022-08-04,4535886.69,INR,Local transfer,PV8001044

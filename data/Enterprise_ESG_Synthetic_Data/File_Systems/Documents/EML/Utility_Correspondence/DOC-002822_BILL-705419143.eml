@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-705419143 for account UA-72565527
+Date: Fri, 08 Dec 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for November 2023 is attached (PDF). Amount due: 2,588,511.04 KRW.

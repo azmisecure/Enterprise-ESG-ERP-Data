@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-41803071 for account UA-15039557
+Date: Thu, 08 Jun 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for May 2023 is attached (PDF). Amount due: 70,779.70 PLN.

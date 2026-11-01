@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-30T14:52:44+00:00",
- "seed": 42,
- "scale": 0.1,
+ "generated_at": "2026-11-01T11:18:06+00:00",
+ "seed": 43,
+ "scale": 0.31,
  "datasets": 109,
- "total_records": 5900448,
- "invalid_records": 6113,
+ "total_records": 13080359,
+ "invalid_records": 14627,
  "unexplained_failures": 0,
- "intentionally_defective": 35288,
- "ground_truth_anomalies": 37132,
+ "intentionally_defective": 67172,
+ "ground_truth_anomalies": 69094,
  "anomaly_checks": {
   "every_injected_anomaly_has_ground_truth": true,
   "ground_truth_references_existing_records": true,
@@ -27,16 +27,16 @@
  "overall_status": "VALIDATED",
  "enterprise_pass_pct": 100.0,
  "splits": {
-  "train": 20506,
-  "test": 9750,
-  "validation": 6876
+  "train": 39690,
+  "test": 16057,
+  "validation": 13347
  },
  "families": {
-  "Data_Inconsistencies": 14817,
-  "Operational_Anomalies": 10316,
-  "Calculation_Errors": 8262,
-  "Unit_Errors": 2184,
-  "Document_Anomalies": 1157,
-  "Governance_Anomalies": 396
+  "Data_Inconsistencies": 34039,
+  "Calculation_Errors": 14774,
+  "Operational_Anomalies": 14662,
+  "Unit_Errors": 4180,
+  "Document_Anomalies": 1126,
+  "Governance_Anomalies": 313
  }
 }

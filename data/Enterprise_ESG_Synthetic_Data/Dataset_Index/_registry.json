@@ -66,7 +66,7 @@
   "source_system": "MDG",
   "description": "Fictional enterprise identity",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
+  "created": "2026-11-01T11:15:54+00:00",
   "size_bytes": 511,
   "sha256": "10d999618a95d967193c054583187938351bda16293f3bc89638d27772aae44a"
  },
@@ -133,7 +133,7 @@
   "source_system": "MDG",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
+  "created": "2026-11-01T11:15:54+00:00",
   "size_bytes": 3165,
   "sha256": "900f97c9ef54fbd33880dd9a1a9fef6ff4090b8d43e45afeb1334e07cf992ee2"
  },
@@ -194,7 +194,7 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
+  "created": "2026-11-01T11:15:54+00:00",
   "size_bytes": 2892,
   "sha256": "ddf7214000c727c0ef20e1c59ec2e2cd59f7ecda9ca6075630eded245088a2ca"
  },
@@ -225,7 +225,7 @@
   "source_system": "MDG",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
+  "created": "2026-11-01T11:15:54+00:00",
   "size_bytes": 339,
   "sha256": "70336eff808cad5bc5cc36bdcde66fc55f06e673c30fcb15421dc9eff2e25169"
  },
@@ -266,7 +266,7 @@
   "source_system": "MDG",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
+  "created": "2026-11-01T11:15:54+00:00",
   "size_bytes": 1708,
   "sha256": "3d6526884076a81956b75e75b0e2d0a068123dd7805c551db51e10cabbb91c6a"
  },
@@ -389,15 +389,15 @@
   "source_system": "MDG",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 36986,
-  "sha256": "c9455d2af9e2de8f0b51eac90f11fa876517a4b1b7bc0d754f0ef9198c670d7c"
+  "created": "2026-11-01T11:15:54+00:00",
+  "size_bytes": 36958,
+  "sha256": "96f6cbae69dab572a1bb3debca3f940901a00be5fc00e58e65062c8bd994990e"
  },
  "plants": {
   "name": "plants",
   "path": "Enterprise_Master/Plants/plants.csv",
   "format": "csv",
-  "rows": 59,
+  "rows": 56,
   "columns": [
    {
     "name": "plant_id",
@@ -434,15 +434,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 3349,
-  "sha256": "3b9ecde0f056348f9acea21424615d9338a3acf35d1f6d7b8eca0e31bd2f6a50"
+  "created": "2026-11-01T11:15:54+00:00",
+  "size_bytes": 3155,
+  "sha256": "bd62cf4c1eac9b88e7a36b7e4f982131bc3a28f079cfad278e4529902af9534a"
  },
  "production_lines": {
   "name": "production_lines",
   "path": "Enterprise_Master/Plants/production_lines.csv",
   "format": "csv",
-  "rows": 293,
+  "rows": 282,
   "columns": [
    {
     "name": "production_line_id",
@@ -491,9 +491,9 @@
   "source_system": "MES",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 20029,
-  "sha256": "6d5530e49d16b107adeaf78c863ae3ea965677c367b1d747071e89ed8fad755a"
+  "created": "2026-11-01T11:15:54+00:00",
+  "size_bytes": 19264,
+  "sha256": "82590964c050880fbcbb9e1c681e7acda2e4d73b09ddf376cbace162ce5ebb1d"
  },
  "departments": {
   "name": "departments",
@@ -528,7 +528,7 @@
   "source_system": "HRMS",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
+  "created": "2026-11-01T11:15:54+00:00",
   "size_bytes": 12696,
   "sha256": "4f429333f8b83f92cd99f64bb413eaad9c03c2f00e87de27dd267c6a966896d4"
  },
@@ -582,15 +582,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 91783,
-  "sha256": "9e721650435cb2430dcdee6d122ca8a740ec881d4f091869de6a94edf729544f"
+  "created": "2026-11-01T11:15:54+00:00",
+  "size_bytes": 91767,
+  "sha256": "b98bf835da90eddb5485911d0c8c67ffee1863fc677a7604017bd61eed03c603"
  },
  "profit_centres": {
   "name": "profit_centres",
   "path": "Enterprise_Master/Cost_Centres/profit_centres.csv",
   "format": "csv",
-  "rows": 91,
+  "rows": 94,
   "columns": [
    {
     "name": "profit_centre_id",
@@ -615,9 +615,9 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 4330,
-  "sha256": "3be8215fb04693f18324c8b7d1524f1821edaf78e1cf39bbffe31d3271c34e76"
+  "created": "2026-11-01T11:15:54+00:00",
+  "size_bytes": 4471,
+  "sha256": "f247e318d726f1c94aa632733c240e7c1eb81d1e1dca898170b2b84cc7e4dad5"
  },
  "fx_rates": {
   "name": "fx_rates",
@@ -646,9 +646,9 @@
   "source_system": "TREASURY",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 22295,
-  "sha256": "c55f126412246729b44bc4b629974b1274d2796cbdc9346948ccf8f2c2de2a14"
+  "created": "2026-11-01T11:15:54+00:00",
+  "size_bytes": 22300,
+  "sha256": "edb614b4d93e63a424fad8987901c85f258c631c1712a05085e17500ce6c4c38"
  },
  "reporting_calendar": {
   "name": "reporting_calendar",
@@ -685,7 +685,7 @@
   "source_system": "MDG",
   "description": "",
   "domain": "Enterprise_Master",
-  "created": "2026-10-30T14:49:53+00:00",
+  "created": "2026-11-01T11:15:54+00:00",
   "size_bytes": 2633,
   "sha256": "2edc178978c6d452bfee595a8281642506b9d18f924983379b8444d52b869f5b"
  },
@@ -765,20 +765,20 @@
    "country_id": "countries.country_id"
   },
   "target": 10000,
-  "scaled_target": 1000,
+  "scaled_target": 3100,
   "batch_id": "B02",
   "source_system": "SAP_Ariba",
   "description": "",
   "domain": "Procurement",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 588977,
-  "sha256": "071ab1175c4c053a2cf5dcba829af9424ef9798e02f956472a280c315b373df1"
+  "created": "2026-11-01T11:15:54+00:00",
+  "size_bytes": 589823,
+  "sha256": "345c91a05812eae7c4f8c91524470b8f0971b4a78a1f14ff33c590e72129bb9a"
  },
  "supplier_locations": {
   "name": "supplier_locations",
   "path": "Procurement/Suppliers/supplier_locations.parquet",
   "format": "parquet",
-  "rows": 17478,
+  "rows": 17493,
   "columns": [
    {
     "name": "supplier_id",
@@ -823,9 +823,9 @@
   "source_system": "SAP_Ariba",
   "description": "",
   "domain": "Procurement",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 510513,
-  "sha256": "291b4fb2e2ddedf30c54b88db02d521c62a8a1c165ede07bbc88c1f8acf873c5"
+  "created": "2026-11-01T11:15:55+00:00",
+  "size_bytes": 510242,
+  "sha256": "dad3db3f2c048f38584a35fcdfc53fa70b951d2439bf58b4b7ec5f2028db7193"
  },
  "materials": {
   "name": "materials",
@@ -892,14 +892,14 @@
    "secondary_supplier_id": "suppliers.supplier_id"
   },
   "target": 5000,
-  "scaled_target": 500,
+  "scaled_target": 1550,
   "batch_id": "B02",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:53+00:00",
-  "size_bytes": 224595,
-  "sha256": "a40e7aae4456fb89dd5b941e8c0a0f2294a1badc72e88347ea5c9e3e0da70873"
+  "created": "2026-11-01T11:15:55+00:00",
+  "size_bytes": 225216,
+  "sha256": "4a14b2474dfddd1d491bc8e79e21d8577dad26598bfca0591f31272911943bce"
  },
  "products": {
   "name": "products",
@@ -973,20 +973,20 @@
    "division_id": "divisions.division_id"
   },
   "target": 2000,
-  "scaled_target": 200,
+  "scaled_target": 620,
   "batch_id": "B02",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:54+00:00",
-  "size_bytes": 86907,
-  "sha256": "b4621ff5fbfd5ab259f27bf35ea869e356069f31e502a6010ca0b9841115eea5"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 86881,
+  "sha256": "a3d211bcdb32ee24fb839797c26f21da1926619da0108fadccbde86f54b8228e"
  },
  "bom": {
   "name": "bom",
   "path": "ERP/Products/bill_of_materials.parquet",
   "format": "parquet",
-  "rows": 13126,
+  "rows": 13033,
   "columns": [
    {
     "name": "bom_id",
@@ -1032,9 +1032,9 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:54+00:00",
-  "size_bytes": 311817,
-  "sha256": "a89701f73feeed00173a4bc699bc1ed68b996c9d6734033e317daedbe2ea96e2"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 309573,
+  "sha256": "d2cca07ed91149de857ddc7f20b89ba738c3278eaa989b75397484184013e2fe"
  },
  "routings": {
   "name": "routings",
@@ -1082,9 +1082,9 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:54+00:00",
-  "size_bytes": 83261,
-  "sha256": "86ed7fb0fe98351fa0296cffddcfd3928ee7a39dbed1835024f7c89c60700f4d"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 84082,
+  "sha256": "61bff5c639fe6d7e847fd7bde016715fc0f8f7e93e19a4366d024810f82a7485"
  },
  "assets": {
   "name": "assets",
@@ -1167,14 +1167,14 @@
    "production_line_id": "production_lines.production_line_id"
   },
   "target": 20000,
-  "scaled_target": 2000,
+  "scaled_target": 6200,
   "batch_id": "B02",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:54+00:00",
-  "size_bytes": 815268,
-  "sha256": "29491e2c93944fc0b54bde1e532a6288238ac7b264218b7f57f22de23b2f7ebf"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 814550,
+  "sha256": "c65dde692a2ea8a4c8d95c067a5c0a734368c0838109f7ce96eec813053b6b8f"
  },
  "meters": {
   "name": "meters",
@@ -1232,14 +1232,14 @@
    "facility_id": "facilities.facility_id"
   },
   "target": 5000,
-  "scaled_target": 500,
+  "scaled_target": 1550,
   "batch_id": "B02",
   "source_system": "EMS",
   "description": "",
   "domain": "Energy",
-  "created": "2026-10-30T14:49:54+00:00",
-  "size_bytes": 482753,
-  "sha256": "82f64d92c5f22f868f7c554425c358e2207c144534a2a96de66e60b8420d8453"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 482736,
+  "sha256": "67ab4e2c7ff71c001c3c2e1ff85ef6c93638c916cc3325bbdd187663a55da11b"
  },
  "vehicles": {
   "name": "vehicles",
@@ -1305,14 +1305,14 @@
    "facility_id": "facilities.facility_id"
   },
   "target": 3000,
-  "scaled_target": 300,
+  "scaled_target": 930,
   "batch_id": "B02",
   "source_system": "FLEET_MGMT",
   "description": "",
   "domain": "Logistics",
-  "created": "2026-10-30T14:49:54+00:00",
-  "size_bytes": 286769,
-  "sha256": "18377ccac20aced24cd0d5c54a311543a8b7be02a5f9ea35b8f99e44bbbdd46b"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 286979,
+  "sha256": "32a910ac72d026301dc24a1550e54e1d89759055f3cba7a35043237725079e7b"
  },
  "customers": {
   "name": "customers",
@@ -1382,14 +1382,14 @@
    "country_id": "countries.country_id"
   },
   "target": 20000,
-  "scaled_target": 2000,
+  "scaled_target": 6200,
   "batch_id": "B02",
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:54+00:00",
-  "size_bytes": 1449684,
-  "sha256": "1c767f67d821b0095e2175a6268c8d632fd6805eb7f96e0c0b1bf6fea755daca"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 1449474,
+  "sha256": "f0b9b272def70257fb179ef8c8be7e5d59942f1584a2e59f9311c5d58f55b400"
  },
  "erp_customers": {
   "name": "erp_customers",
@@ -1426,9 +1426,9 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:54+00:00",
-  "size_bytes": 651782,
-  "sha256": "f5ab0d4019cb553bc787df790ad5db3aea4ffe08fd0ff5e9d12ba466c44c2289"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 652039,
+  "sha256": "a733bcd4b95bd356640256c66ef59798d3d1a17cb4ad06cbaa59b1a3f4eaa527"
  },
  "employees": {
   "name": "employees",
@@ -1499,14 +1499,14 @@
    "department_id": "departments.department_id"
   },
   "target": 75000,
-  "scaled_target": 7500,
+  "scaled_target": 23250,
   "batch_id": "B02",
   "source_system": "WORKDAY_LIKE",
   "description": "",
   "domain": "HRMS",
-  "created": "2026-10-30T14:49:55+00:00",
-  "size_bytes": 1785214,
-  "sha256": "90d35ead524375630443d1f787d286bebddee6ded7d52723e415449d840248c4"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 1784827,
+  "sha256": "926feb0502f99ae110146e774f9aa95984e79901c520d6a638c77f4394a95640"
  },
  "chart_of_accounts": {
   "name": "chart_of_accounts",
@@ -1539,7 +1539,7 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:55+00:00",
+  "created": "2026-11-01T11:15:56+00:00",
   "size_bytes": 1902,
   "sha256": "6c4a62566aca8a4fb130c1d978a73aad5eca3fa86279b2ba5795648ebcbabfcd"
  },
@@ -1665,20 +1665,20 @@
   "pk": "emission_factor_id",
   "fks": {},
   "target": 10000,
-  "scaled_target": 1000,
+  "scaled_target": 3100,
   "batch_id": "B03",
   "source_system": "EF_LIBRARY",
   "description": "All factors are SYNTHETIC",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:49:55+00:00",
-  "size_bytes": 396173,
-  "sha256": "72ff329eabbc3c1280c732909eefb93b876e7b8985901dabd6670a34d27dda99"
+  "created": "2026-11-01T11:15:56+00:00",
+  "size_bytes": 396948,
+  "sha256": "0f401d4903a920bcddb185ec37c419db499285550459d167d0220ab01f42a4a5"
  },
  "supplier_contracts": {
   "name": "supplier_contracts",
   "path": "Procurement/Purchase_Orders/supplier_contracts.parquet",
   "format": "parquet",
-  "rows": 2484,
+  "rows": 2482,
   "columns": [
    {
     "name": "contract_id",
@@ -1727,15 +1727,15 @@
   "source_system": "SAP_Ariba",
   "description": "",
   "domain": "Procurement",
-  "created": "2026-10-30T14:49:55+00:00",
-  "size_bytes": 81465,
-  "sha256": "99c3a01227ef703a340ce1146b896b81276617326a76aea6c6c903692d2047c2"
+  "created": "2026-11-01T11:15:57+00:00",
+  "size_bytes": 81037,
+  "sha256": "0d43a5b7976caed0d5519d5deeb8738d80de29fce2b7b3ec706e0220141f6eea"
  },
  "po_lines": {
   "name": "po_lines",
   "path": "ERP/Procurement/purchase_order_lines.parquet",
   "format": "parquet",
-  "rows": 150247,
+  "rows": 464773,
   "columns": [
    {
     "name": "po_line_id",
@@ -1805,20 +1805,20 @@
    "cost_centre_id": "cost_centres.cost_centre_id"
   },
   "target": 1500000,
-  "scaled_target": 150000,
+  "scaled_target": 465000,
   "batch_id": "B04",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:56+00:00",
-  "size_bytes": 5434745,
-  "sha256": "1b9ce5f66f8a9957b82dd7cf9fc4d880ffacdad34d385dcb1b17ab6e177e4add"
+  "created": "2026-11-01T11:15:59+00:00",
+  "size_bytes": 15076552,
+  "sha256": "17e8b7de4a2306e5aec748a83e42b67733d0779aaf7157591a2849420f9b0fb2"
  },
  "purchase_orders": {
   "name": "purchase_orders",
   "path": "ERP/Procurement/purchase_orders.parquet",
   "format": "parquet",
-  "rows": 50200,
+  "rows": 155620,
   "columns": [
    {
     "name": "po_id",
@@ -1944,20 +1944,20 @@
    "contract_id": "supplier_contracts.contract_id"
   },
   "target": 500000,
-  "scaled_target": 50000,
+  "scaled_target": 155000,
   "batch_id": "B04",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:56+00:00",
-  "size_bytes": 3562151,
-  "sha256": "b3e93721066c05f4a8e677354c0dbfb61da6a01c5c0df1e747cd2096dca78120"
+  "created": "2026-11-01T11:16:00+00:00",
+  "size_bytes": 9944590,
+  "sha256": "e23fdee8405a60d3d0f656a07518af115b3812e747cd4807e36509b29559acf4"
  },
  "goods_receipts": {
   "name": "goods_receipts",
   "path": "ERP/Procurement/goods_receipts.parquet",
   "format": "parquet",
-  "rows": 160158,
+  "rows": 495098,
   "columns": [
    {
     "name": "grn_id",
@@ -2076,15 +2076,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:56+00:00",
-  "size_bytes": 12115101,
-  "sha256": "58370081472f8ad163843e342043b5cdcb5092ec4e0664186f2b372a4564d62c"
+  "created": "2026-11-01T11:16:01+00:00",
+  "size_bytes": 33332434,
+  "sha256": "26545d5b64a25f76b642e067133501b7382b9c18dfc340788d4ded3ef8382fe0"
  },
  "ap_invoices": {
   "name": "ap_invoices",
   "path": "ERP/Finance/AP/supplier_invoices.parquet",
   "format": "parquet",
-  "rows": 55150,
+  "rows": 170965,
   "columns": [
    {
     "name": "invoice_id",
@@ -2222,20 +2222,20 @@
    "facility_id": "facilities.facility_id"
   },
   "target": 500000,
-  "scaled_target": 50000,
+  "scaled_target": 155000,
   "batch_id": "B04",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:57+00:00",
-  "size_bytes": 5352824,
-  "sha256": "78ab1ad6cb24ccb5c4404f3cc6aa9bb5f6ecfada5653846580aef9f43f9408f5"
+  "created": "2026-11-01T11:16:02+00:00",
+  "size_bytes": 14917227,
+  "sha256": "88b55263b6ce2fc661770c968b0c0e8c284b632a34c89b8d1fe2cb30363519fd"
  },
  "ap_payments": {
   "name": "ap_payments",
   "path": "ERP/Finance/AP/ap_payments.parquet",
   "format": "parquet",
-  "rows": 50593,
+  "rows": 156874,
   "columns": [
    {
     "name": "payment_id",
@@ -2280,15 +2280,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:57+00:00",
-  "size_bytes": 1709180,
-  "sha256": "7e598a44b7afaf02a686aa8f05a99f45ca0e8c4df4ff3f3fa1913cf30bd57454"
+  "created": "2026-11-01T11:16:03+00:00",
+  "size_bytes": 4645525,
+  "sha256": "3e9d8b466458011b32f75d5c96d45171b210290a64fdd7601fea6d78c229a148"
  },
  "supplier_performance": {
   "name": "supplier_performance",
   "path": "Procurement/Supplier_Assessments/supplier_performance_quarterly.parquet",
   "format": "parquet",
-  "rows": 33167,
+  "rows": 62700,
   "columns": [
    {
     "name": "performance_record_id",
@@ -2337,15 +2337,15 @@
   "source_system": "SAP_Ariba",
   "description": "",
   "domain": "Procurement",
-  "created": "2026-10-30T14:49:57+00:00",
-  "size_bytes": 677851,
-  "sha256": "427762eb7e0ca1d82bba446928b333a138a9ecbff03601e137ad288fd109f9a4"
+  "created": "2026-11-01T11:16:03+00:00",
+  "size_bytes": 1256366,
+  "sha256": "eb5e8ec6506cb65ebb9e80f962d858cc03c9c27db504f5b9a24958e63019c18a"
  },
  "sales_orders": {
   "name": "sales_orders",
   "path": "CRM/Orders/sales_orders.parquet",
   "format": "parquet",
-  "rows": 40000,
+  "rows": 124000,
   "columns": [
    {
     "name": "sales_order_id",
@@ -2442,15 +2442,15 @@
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 3081173,
-  "sha256": "4baaf111434f97f63059081cfd4e33e9893d6de3b0204bc76054f0d6d6a5ff1d"
+  "created": "2026-11-01T11:16:05+00:00",
+  "size_bytes": 8812850,
+  "sha256": "0244ee7c60db4c4c0c3d29297d86ece81765b1cbe3f25cd63ce36cfc2df94b38"
  },
  "so_lines": {
   "name": "so_lines",
   "path": "CRM/Orders/sales_order_lines.parquet",
   "format": "parquet",
-  "rows": 99718,
+  "rows": 309912,
   "columns": [
    {
     "name": "so_line_id",
@@ -2500,20 +2500,20 @@
    "ship_from_facility_id": "facilities.facility_id"
   },
   "target": 1000000,
-  "scaled_target": 100000,
+  "scaled_target": 310000,
   "batch_id": "B05",
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 3351182,
-  "sha256": "fe0e957f6eda4e2a6ae123e0717e4328ca05983e183d835a11c65ee4230ba861"
+  "created": "2026-11-01T11:16:05+00:00",
+  "size_bytes": 9149770,
+  "sha256": "9406581a3859e5254cb8ee0c991d5e3d86efd98591c28eaff7a5f5d0d68c74c6"
  },
  "deliveries": {
   "name": "deliveries",
   "path": "CRM/Deliveries/deliveries.parquet",
   "format": "parquet",
-  "rows": 105573,
+  "rows": 328485,
   "columns": [
    {
     "name": "delivery_id",
@@ -2575,15 +2575,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 3845030,
-  "sha256": "fd622539355102bc03950c72d866d6a510d543bae26ee81b72db87a15a9ec88b"
+  "created": "2026-11-01T11:16:05+00:00",
+  "size_bytes": 10586675,
+  "sha256": "3466b2df4c4ae4bf26a5ee75feaabc051e76e244dddf83db7d23128967fbe8cf"
  },
  "ar_invoices": {
   "name": "ar_invoices",
   "path": "CRM/Invoices/sales_invoices.parquet",
   "format": "parquet",
-  "rows": 105573,
+  "rows": 328485,
   "columns": [
    {
     "name": "ar_invoice_id",
@@ -2684,20 +2684,20 @@
    "customer_id": "customers.customer_id"
   },
   "target": 500000,
-  "scaled_target": 50000,
+  "scaled_target": 155000,
   "batch_id": "B05",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 8690155,
-  "sha256": "c159a69095c10e1577f14ee5f9170c53c0cc7a9d5946358d14b7302471c4e9b9"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 23177459,
+  "sha256": "defeb1a3a0f03d8c248790bc342a4b018e08820cea96c0ee58cc84a3cc7fc02c"
  },
  "ar_receipts": {
   "name": "ar_receipts",
   "path": "ERP/Finance/AR/customer_payments.parquet",
   "format": "parquet",
-  "rows": 99878,
+  "rows": 310725,
   "columns": [
    {
     "name": "receipt_id",
@@ -2738,15 +2738,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 2530095,
-  "sha256": "043d39f59e8a07629cdd700568b6f3999bf87be25829ec8b40b9b7373eecc11b"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 6862333,
+  "sha256": "ea02fa65dc1d65f0e8b1b094c962cdbea685858d0d1aa6ba6caa7288f4c3e867"
  },
  "open_receivables": {
   "name": "open_receivables",
   "path": "ERP/Finance/AR/open_receivables_2026-12-31.csv",
   "format": "csv",
-  "rows": 5695,
+  "rows": 17760,
   "columns": [
    {
     "name": "ar_invoice_id",
@@ -2781,15 +2781,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 313457,
-  "sha256": "3c9aeda21bb6241581892474daec6023187dcdd6707ef086ed89ccacb3859ee7"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 975827,
+  "sha256": "ae74c64ac6680d30f97ca3f12f425e05784f7dad3e256424bdcb1cd0a81fefb0"
  },
  "customer_returns": {
   "name": "customer_returns",
   "path": "CRM/Sales/customer_returns.parquet",
   "format": "parquet",
-  "rows": 1900,
+  "rows": 5912,
   "columns": [
    {
     "name": "return_id",
@@ -2834,15 +2834,15 @@
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 82328,
-  "sha256": "82e0437bd885668668a528de7f21f782bad6357fb9068272fb8c0332bb808923"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 218243,
+  "sha256": "414632b3121e8896f530ecf6f71b2f76f660f51e28c9c5a1d11cdc8384d25e04"
  },
  "customer_complaints": {
   "name": "customer_complaints",
   "path": "CRM/Sales/customer_complaints.csv",
   "format": "csv",
-  "rows": 1055,
+  "rows": 3284,
   "columns": [
    {
     "name": "complaint_id",
@@ -2877,15 +2877,15 @@
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 69565,
-  "sha256": "de3fe2f232bea4b0225fc4681c944099a121868c22bc6e371791072801b12e61"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 216984,
+  "sha256": "06143b6dc5a176e1a9771b9e01a7fb8702aba9411c9a8611e656f4de02ff8ce3"
  },
  "opportunities": {
   "name": "opportunities",
   "path": "CRM/Sales/opportunities.parquet",
   "format": "parquet",
-  "rows": 15000,
+  "rows": 46500,
   "columns": [
    {
     "name": "opportunity_id",
@@ -2926,9 +2926,9 @@
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 265918,
-  "sha256": "6bd967a0c0188a7671c6f244bf4cb50a987a5969363831521b7abb77bec4d04f"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 714796,
+  "sha256": "22fea58f50b324e6301b64a766f432ad53116b6067561a72322d8e1a1948c123"
  },
  "sales_forecasts": {
   "name": "sales_forecasts",
@@ -2961,9 +2961,9 @@
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 18662,
-  "sha256": "4ed8b58a41dc17228db41da08061e1684dac831664339ebe97933d873e880149"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 18848,
+  "sha256": "af9c04f28e06785eefe45bfc53be4c54d93ca10bd740bf2f890e43bbfcbd43d2"
  },
  "customer_contracts": {
   "name": "customer_contracts",
@@ -3004,15 +3004,15 @@
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 132442,
-  "sha256": "c804f5b1cc445bf36edb56887e7b71c9add8c856a61764a9e56486f1010f4347"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 132361,
+  "sha256": "f2e8490941cd1c5f7b5746c37e8179be103fd9264c399ba46e663d7c3d1c929e"
  },
  "production_orders": {
   "name": "production_orders",
   "path": "ERP/Inventory/production_orders.parquet",
   "format": "parquet",
-  "rows": 15000,
+  "rows": 46500,
   "columns": [
    {
     "name": "production_order_id",
@@ -3150,20 +3150,20 @@
    "facility_id": "facilities.facility_id"
   },
   "target": 1000000,
-  "scaled_target": 100000,
+  "scaled_target": 310000,
   "batch_id": "B06",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 1622557,
-  "sha256": "16eb17665f268c8fdd1339012623a573f342caf85ccd005aafcd3231dc473ad3"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 4755214,
+  "sha256": "1f8601902e80add69153090c3166ef11cad1cdf4827bf24e2d391f653d6ddb2a"
  },
  "production_confirmations": {
   "name": "production_confirmations",
   "path": "Manufacturing/Production/production_confirmations.parquet",
   "format": "parquet",
-  "rows": 15000,
+  "rows": 46500,
   "columns": [
    {
     "name": "confirmation_id",
@@ -3204,15 +3204,15 @@
   "source_system": "MES",
   "description": "",
   "domain": "Manufacturing",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 376788,
-  "sha256": "2d250a28bf83510c54d796e5ee62f2becd75fb7af238634b4b6e56c4c8d98a3b"
+  "created": "2026-11-01T11:16:06+00:00",
+  "size_bytes": 1087141,
+  "sha256": "70803065ae674e3d2ffe8dd55170c92a99e904f5a09a2a2885686690b86fe37b"
  },
  "material_consumption": {
   "name": "material_consumption",
   "path": "ERP/Inventory/material_consumption.parquet",
   "format": "parquet",
-  "rows": 98993,
+  "rows": 299850,
   "columns": [
    {
     "name": "consumption_id",
@@ -3262,15 +3262,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:49:58+00:00",
-  "size_bytes": 2737082,
-  "sha256": "ea8069eddcc115faee83db0595f8806eae94a97582f8f5b4850025f78fbbe91f"
+  "created": "2026-11-01T11:16:07+00:00",
+  "size_bytes": 7524360,
+  "sha256": "fdc95919bab8bf0b45a4369695e5598cad46ff5d0148aeef2c043b7f5bfd2930"
  },
  "mes_line_daily": {
   "name": "mes_line_daily",
   "path": "Manufacturing/MES/line_daily_performance.parquet",
   "format": "parquet",
-  "rows": 502447,
+  "rows": 478698,
   "columns": [
    {
     "name": "mes_record_id",
@@ -3372,9 +3372,9 @@
   "source_system": "MES",
   "description": "",
   "domain": "Manufacturing",
-  "created": "2026-10-30T14:49:59+00:00",
-  "size_bytes": 14037561,
-  "sha256": "f3f7a9442add3f89b7d97a7fdcd08eff690edbbd3c3cfb3e4b1630aa71b0a91f"
+  "created": "2026-11-01T11:16:07+00:00",
+  "size_bytes": 13351667,
+  "sha256": "0646df68be598b24aa773226ac748697ecc5d690323d9e57fd19d9705d72f994"
  },
  "machine_hourly": {
   "name": "machine_hourly",
@@ -3429,15 +3429,15 @@
   "source_system": "MES",
   "description": "",
   "domain": "Manufacturing",
-  "created": "2026-10-30T14:49:59+00:00",
-  "size_bytes": 454006,
-  "sha256": "d700c19b9fd0ec2cea7d6c06182fecc9d83ddb2c2cf1957bf716f11c43bf89ef"
+  "created": "2026-11-01T11:16:07+00:00",
+  "size_bytes": 449467,
+  "sha256": "0ee22ea71f78b858cf6f0bf5032541894b5f9d88a07e45a14dda65d8020febd1"
  },
  "maintenance": {
   "name": "maintenance",
   "path": "Manufacturing/Maintenance/maintenance_records.parquet",
   "format": "parquet",
-  "rows": 50000,
+  "rows": 155000,
   "columns": [
    {
     "name": "maintenance_id",
@@ -3542,20 +3542,20 @@
    "facility_id": "facilities.facility_id"
   },
   "target": 500000,
-  "scaled_target": 50000,
+  "scaled_target": 155000,
   "batch_id": "B06",
   "source_system": "CMMS",
   "description": "",
   "domain": "Manufacturing",
-  "created": "2026-10-30T14:49:59+00:00",
-  "size_bytes": 3351500,
-  "sha256": "0f863b5133c217de3b0de2df28d2f8b639da34feec5e7292c878cce56b68b3e5"
+  "created": "2026-11-01T11:16:07+00:00",
+  "size_bytes": 9212805,
+  "sha256": "c9650dec70f305a91c9c400f53c6db9f11a702a3200037554d9554e6f1002d0c"
  },
  "quality_inspections": {
   "name": "quality_inspections",
   "path": "Manufacturing/Quality/quality_inspections.parquet",
   "format": "parquet",
-  "rows": 12000,
+  "rows": 37200,
   "columns": [
    {
     "name": "inspection_id",
@@ -3596,15 +3596,15 @@
   "source_system": "QMS",
   "description": "",
   "domain": "Manufacturing",
-  "created": "2026-10-30T14:49:59+00:00",
-  "size_bytes": 324052,
-  "sha256": "bd8c2da4d185e9c0ed7230dd73791a3c66dc3f0247adb8da373ca2272d30d7be"
+  "created": "2026-11-01T11:16:07+00:00",
+  "size_bytes": 1000421,
+  "sha256": "403200a67d59ff2f57089565e3fc1067701515561648f781c55d4266274126cb"
  },
  "energy_daily": {
   "name": "energy_daily",
   "path": "Energy/meter_daily_consumption.parquet",
   "format": "parquet",
-  "rows": 467282,
+  "rows": 473221,
   "columns": [
    {
     "name": "reading_id",
@@ -3693,20 +3693,20 @@
    "facility_id": "facilities.facility_id"
   },
   "target": 5000000,
-  "scaled_target": 500000,
+  "scaled_target": 1550000,
   "batch_id": "B07",
   "source_system": "EMS",
   "description": "",
   "domain": "Energy",
-  "created": "2026-10-30T14:50:00+00:00",
-  "size_bytes": 20327056,
-  "sha256": "f25ebe1d4aed1406d13348a59b805e9f89601b50c9d30ff0dc4f6a732bf04f58"
+  "created": "2026-11-01T11:16:09+00:00",
+  "size_bytes": 20537333,
+  "sha256": "848f878d81194b97d57e9726e4caa39375d7c24a2a74327642544181e29b073b"
  },
  "utility_invoices": {
   "name": "utility_invoices",
   "path": "ERP/Utilities/utility_invoices.parquet",
   "format": "parquet",
-  "rows": 24094,
+  "rows": 24182,
   "columns": [
    {
     "name": "utility_invoice_id",
@@ -3848,20 +3848,20 @@
    "utility_supplier_id": "suppliers.supplier_id"
   },
   "target": 100000,
-  "scaled_target": 10000,
+  "scaled_target": 31000,
   "batch_id": "B07",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 2846867,
-  "sha256": "0d5dd5cf79f74c297ac7e7e5a9a00b0339f2f1eea6a2766a0175d79a1b6e5c0b"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 2858777,
+  "sha256": "e013a65c80a6dfc2303e49e45121f22b115da0b9983c72b8197bc8dd0368c410"
  },
  "fuel_purchases": {
   "name": "fuel_purchases",
   "path": "Energy/fuel_purchases.csv",
   "format": "csv",
-  "rows": 13560,
+  "rows": 13680,
   "columns": [
    {
     "name": "fuel_purchase_id",
@@ -3910,15 +3910,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Energy",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 1033431,
-  "sha256": "ad59b78366475fab2fc0bf8c5167cee1e511ace702cccc3c4f6678444de91295"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 1043408,
+  "sha256": "c5ec4a78f3aa9621f90b5e28e2fdbae49f6262e5d93f5a09158e31c634c5fe21"
  },
  "water_daily": {
   "name": "water_daily",
   "path": "Water/water_meter_daily.parquet",
   "format": "parquet",
-  "rows": 71312,
+  "rows": 71641,
   "columns": [
    {
     "name": "water_reading_id",
@@ -3950,20 +3950,20 @@
    "meter_id": "meters.meter_id"
   },
   "target": 500000,
-  "scaled_target": 50000,
+  "scaled_target": 155000,
   "batch_id": "B07",
   "source_system": "EMS",
   "description": "",
   "domain": "Water",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 763933,
-  "sha256": "443ce0ec49f3fbc256210bb3352d72090d670335981d52d1d4672d35b8c1c70f"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 758410,
+  "sha256": "c742999f15e1cc7df2f67db51ef06b73bc56547388cf55c1aa003807a5578e10"
  },
  "water_monthly": {
   "name": "water_monthly",
   "path": "Water/water_withdrawal_discharge_monthly.csv",
   "format": "csv",
-  "rows": 8735,
+  "rows": 8627,
   "columns": [
    {
     "name": "water_record_id",
@@ -4028,15 +4028,15 @@
   "source_system": "EHS",
   "description": "",
   "domain": "Water",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 1010452,
-  "sha256": "c2c67ecb53bda42215a58bd4088bdf4adf19f66aec49aa8c9797bab302d83769"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 998454,
+  "sha256": "58f978a225c4697ce467b118428a3dcecf6f819bd52fe5823665cbca279b64f5"
  },
  "waste_records": {
   "name": "waste_records",
   "path": "Waste/waste_records.parquet",
   "format": "parquet",
-  "rows": 33955,
+  "rows": 33816,
   "columns": [
    {
     "name": "waste_record_id",
@@ -4125,20 +4125,20 @@
    "waste_contractor_id": "suppliers.supplier_id"
   },
   "target": 250000,
-  "scaled_target": 25000,
+  "scaled_target": 77500,
   "batch_id": "B07",
   "source_system": "EHS",
   "description": "",
   "domain": "Waste",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 1235397,
-  "sha256": "24ff016726aaca756b70a950f8d174cfafc97b382f6a981897f66f5ca483db9e"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 1235551,
+  "sha256": "bb433abd5c138fc8ef9dfe71e1468efbcb632181a1df7a1445f241692814cedc"
  },
  "waste_invoices": {
   "name": "waste_invoices",
   "path": "Waste/waste_invoices.csv",
   "format": "csv",
-  "rows": 8777,
+  "rows": 8669,
   "columns": [
    {
     "name": "waste_invoice_id",
@@ -4173,15 +4173,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Waste",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 589474,
-  "sha256": "8a181226fac338c5b82b622e40519cba4c2145afd39f75f263ee1f1bee8688d8"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 583093,
+  "sha256": "8801c355a31e46692558cb5c6e099b08dfc2de2776ff2fdb65905e2a692120a1"
  },
  "waste_certificates": {
   "name": "waste_certificates",
   "path": "Waste/waste_disposal_certificates.csv",
   "format": "csv",
-  "rows": 16700,
+  "rows": 16765,
   "columns": [
    {
     "name": "waste_certificate_id",
@@ -4222,9 +4222,9 @@
   "source_system": "EHS",
   "description": "",
   "domain": "Waste",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 1243650,
-  "sha256": "bb19d1bee992a54e0538f96dab3d8449381bc58fff4926914dc30a73f9f2e00b"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 1249142,
+  "sha256": "ab35effbfaf577503373554b9dd3c00eb6c7ce3269e837b3b7b08bce0653b2d2"
  },
  "iot_telemetry": {
   "name": "iot_telemetry",
@@ -4291,9 +4291,9 @@
   "source_system": "SCADA",
   "description": "",
   "domain": "Manufacturing",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 1421555,
-  "sha256": "4e73c2d9fb4881d8df2ed640ca52342535cd5891f9be8edd6a0fcb154f06b237"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 1420028,
+  "sha256": "2b9d54a334968d764d397eeceb49e21f8e4dc4fd89500d0f1416b8b77874cace"
  },
  "iot_5min": {
   "name": "iot_5min",
@@ -4326,15 +4326,15 @@
   "source_system": "IOT_PLATFORM",
   "description": "",
   "domain": "Manufacturing",
-  "created": "2026-10-30T14:50:01+00:00",
-  "size_bytes": 340389,
-  "sha256": "abbe9ba8cd41eb8478f7289cce7520faa1833a7f6289637c112beb9469e4b2de"
+  "created": "2026-11-01T11:16:10+00:00",
+  "size_bytes": 340414,
+  "sha256": "3f7e5616fa514ad9ea99326d6c52cf52c16cf7456e112703ae631455fa9be2c3"
  },
  "shipments": {
   "name": "shipments",
   "path": "Logistics/shipments.parquet",
   "format": "parquet",
-  "rows": 235494,
+  "rows": 728234,
   "columns": [
    {
     "name": "shipment_id",
@@ -4474,20 +4474,20 @@
    "carrier_id": "suppliers.supplier_id"
   },
   "target": 1000000,
-  "scaled_target": 100000,
+  "scaled_target": 310000,
   "batch_id": "B08",
   "source_system": "TMS",
   "description": "",
   "domain": "Logistics",
-  "created": "2026-10-30T14:50:02+00:00",
-  "size_bytes": 19889075,
-  "sha256": "e6f8fa8c1c8d1216143daeae75dedee28433dfa8f5e8b2114fe2930a181c49df"
+  "created": "2026-11-01T11:16:13+00:00",
+  "size_bytes": 56441240,
+  "sha256": "3e3ff602f4b51ae22add53f36c187040c63c4896457e03c9a38fa829acd2fbe7"
  },
  "freight_invoices": {
   "name": "freight_invoices",
   "path": "Logistics/freight_invoices.parquet",
   "format": "parquet",
-  "rows": 130843,
+  "rows": 396858,
   "columns": [
    {
     "name": "freight_invoice_id",
@@ -4533,15 +4533,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Logistics",
-  "created": "2026-10-30T14:50:03+00:00",
-  "size_bytes": 3866974,
-  "sha256": "99608b0e21bc33358a07674c1d98167fa1af813a6a4b7078f9af5773f1a61f50"
+  "created": "2026-11-01T11:16:14+00:00",
+  "size_bytes": 10262180,
+  "sha256": "3e8ba143665a2752fe8b8fc3c93d3f0eae608e79242f2879649f4e7a8c60af5a"
  },
  "fleet_fuel": {
   "name": "fleet_fuel",
   "path": "Logistics/fleet_fuel_mileage_monthly.parquet",
   "format": "parquet",
-  "rows": 137720,
+  "rows": 138979,
   "columns": [
    {
     "name": "fleet_fuel_id",
@@ -4622,15 +4622,15 @@
   "source_system": "FLEET_MGMT",
   "description": "",
   "domain": "Logistics",
-  "created": "2026-10-30T14:50:03+00:00",
-  "size_bytes": 2941557,
-  "sha256": "209c8cbfa5b96b25e50326f6a2e9d855762384cd6033f8362670f6c4f4a123fc"
+  "created": "2026-11-01T11:16:14+00:00",
+  "size_bytes": 2983260,
+  "sha256": "935b00787ea2cd18cdfc36a61c4340f798162339a15497ba9ed038219a589306"
  },
  "business_travel": {
   "name": "business_travel",
   "path": "HRMS/business_travel.parquet",
   "format": "parquet",
-  "rows": 23620,
+  "rows": 73204,
   "columns": [
    {
     "name": "trip_id",
@@ -4683,14 +4683,14 @@
    "origin_facility_id": "facilities.facility_id"
   },
   "target": 250000,
-  "scaled_target": 25000,
+  "scaled_target": 77500,
   "batch_id": "B08",
   "source_system": "CONCUR_LIKE",
   "description": "",
   "domain": "HRMS",
-  "created": "2026-10-30T14:50:03+00:00",
-  "size_bytes": 893352,
-  "sha256": "4b95db9457addac9e7e646adafd4a5aa320dfd6532af2930b92a5b7976c97f5d"
+  "created": "2026-11-01T11:16:14+00:00",
+  "size_bytes": 2502057,
+  "sha256": "4617b9946a1ad7ce7d77b1bf8fd4cfda85d963914d1a23fec0acf9dfac5e92a9"
  },
  "commuting_survey": {
   "name": "commuting_survey",
@@ -4777,9 +4777,9 @@
   "source_system": "HRMS",
   "description": "",
   "domain": "HRMS",
-  "created": "2026-10-30T14:50:03+00:00",
-  "size_bytes": 72968,
-  "sha256": "09c1ac95d64736c3e036bd68ac3cf60b6176ac157cc0147af97b00ff0e1fe3de"
+  "created": "2026-11-01T11:16:14+00:00",
+  "size_bytes": 73074,
+  "sha256": "f850f652250f57cb5b3b10d44fd6373b419a0101ade91067c759684b7a5985c8"
  },
  "office_occupancy": {
   "name": "office_occupancy",
@@ -4810,9 +4810,9 @@
   "source_system": "FACILITIES",
   "description": "",
   "domain": "HRMS",
-  "created": "2026-10-30T14:50:03+00:00",
-  "size_bytes": 57035,
-  "sha256": "bafbb3ebfc61b7863396730d646260c96b2964ee830726bd52010e23449bb65e"
+  "created": "2026-11-01T11:16:14+00:00",
+  "size_bytes": 57033,
+  "sha256": "b501f00a6cb0c68e5be93084c4a014b497d3025a359e1fbec8f5a7d93e2e5a77"
  },
  "safety_monthly": {
   "name": "safety_monthly",
@@ -4855,9 +4855,9 @@
   "source_system": "EHS",
   "description": "",
   "domain": "HRMS",
-  "created": "2026-10-30T14:50:03+00:00",
-  "size_bytes": 330207,
-  "sha256": "420fcb4aa1a98dddd60c566ba745361168c28a33f4ca153db6eb1d42b5f46969"
+  "created": "2026-11-01T11:16:14+00:00",
+  "size_bytes": 330093,
+  "sha256": "f4ba46c13cf7ec237a5ff7a6de358e371768b447e45949b65855e965af54b02a"
  },
  "training": {
   "name": "training",
@@ -4898,15 +4898,15 @@
   "source_system": "LMS",
   "description": "",
   "domain": "HRMS",
-  "created": "2026-10-30T14:50:03+00:00",
-  "size_bytes": 227397,
-  "sha256": "9d94de8b51c2a0e98a8b74fece172270e433b39b61be1e5d91c52195c09b4d74"
+  "created": "2026-11-01T11:16:14+00:00",
+  "size_bytes": 227477,
+  "sha256": "ed1e753450263ed86bcb43fb0efa69536be2896e0addf093676ddb463943617f"
  },
  "gl_transactions": {
   "name": "gl_transactions",
   "path": "ERP/Finance/GL/gl_transactions.parquet",
   "format": "parquet",
-  "rows": 1586506,
+  "rows": 4480144,
   "columns": [
    {
     "name": "gl_txn_id",
@@ -5048,20 +5048,20 @@
    "cost_centre_id": "cost_centres.cost_centre_id"
   },
   "target": 2000000,
-  "scaled_target": 200000,
+  "scaled_target": 620000,
   "batch_id": "B09",
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:50:08+00:00",
-  "size_bytes": 95686704,
-  "sha256": "a5d9e427bd5f2e593193d9bcb102b7f7e211efcc08302c49faef9a7a72797844"
+  "created": "2026-11-01T11:16:31+00:00",
+  "size_bytes": 275244710,
+  "sha256": "ea044551561aed42f7e34c5ba0b2aaf86527a71523de8da590b8128d7ca36ee2"
  },
  "trial_balance": {
   "name": "trial_balance",
   "path": "ERP/Finance/GL/trial_balance.csv",
   "format": "csv",
-  "rows": 28525,
+  "rows": 29294,
   "columns": [
    {
     "name": "company_code",
@@ -5100,15 +5100,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:50:14+00:00",
-  "size_bytes": 1366622,
-  "sha256": "133123ac4ecebe79d0e164da6ceecb5875958823fbf968bfec929da4ac7b780c"
+  "created": "2026-11-01T11:16:38+00:00",
+  "size_bytes": 1405383,
+  "sha256": "7e45b67644bca20cade51cf0d1ebe48a54d751361c49684a26a1f1a552ebb41d"
  },
  "profit_and_loss": {
   "name": "profit_and_loss",
   "path": "Finance/profit_and_loss_by_entity_year.csv",
   "format": "csv",
-  "rows": 1473,
+  "rows": 1499,
   "columns": [
    {
     "name": "legal_entity_id",
@@ -5139,15 +5139,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Finance",
-  "created": "2026-10-30T14:50:14+00:00",
-  "size_bytes": 72138,
-  "sha256": "a739b63c5f5f0fb33548c26e7a4a808e9f996470e9ee1f0e766b7c619f6b19a5"
+  "created": "2026-11-01T11:16:39+00:00",
+  "size_bytes": 73388,
+  "sha256": "e9bbdcc8ea01c1129d809457133c4195cde8e12311f6b9b05ec959e72b1ee957"
  },
  "balance_sheet": {
   "name": "balance_sheet",
   "path": "Finance/balance_sheet_by_entity_year.csv",
   "format": "csv",
-  "rows": 1374,
+  "rows": 1373,
   "columns": [
    {
     "name": "legal_entity_id",
@@ -5178,9 +5178,9 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Finance",
-  "created": "2026-10-30T14:50:15+00:00",
-  "size_bytes": 70594,
-  "sha256": "19541cada353e6724775bb1e28e53820de4621bcab2a049b74c3f359e3adca46"
+  "created": "2026-11-01T11:16:41+00:00",
+  "size_bytes": 70235,
+  "sha256": "e2bcd843fb6ff60ca3e2d67f2b0b09249cef6f6790d80cf140c0e53f4177f948"
  },
  "period_closures": {
   "name": "period_closures",
@@ -5217,7 +5217,7 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "Finance",
-  "created": "2026-10-30T14:50:15+00:00",
+  "created": "2026-11-01T11:16:41+00:00",
   "size_bytes": 47200,
   "sha256": "85225060982f6d01974ffc61a6d6614a2e215dfff1bc677deb7adf3fd281548c"
  },
@@ -5252,9 +5252,9 @@
   "source_system": "TREASURY",
   "description": "",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:52:02+00:00",
+  "created": "2026-11-01T11:16:44+00:00",
   "size_bytes": 551,
-  "sha256": "6ce074dbe7fdc264fbbd6aaa9659cb2733b0952ca3bb7635fc8f0a93ae01411f"
+  "sha256": "951f9ad3f4070f9c4120d0639f97f47059566aa6f21bdc468b90b1508515a4fa"
  },
  "franchise_register": {
   "name": "franchise_register",
@@ -5283,7 +5283,7 @@
   "source_system": "CRM_PARTNER",
   "description": "",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:52:02+00:00",
+  "created": "2026-11-01T11:16:44+00:00",
   "size_bytes": 785,
   "sha256": "11903ac95157520f3797530303d26c11434f52fb93008cb61258c03f8211f1e0"
  },
@@ -5291,7 +5291,7 @@
   "name": "ghg_activities",
   "path": "GHG_Accounting/Calculation_Results/ghg_activities_all.parquet",
   "format": "parquet",
-  "rows": 828614,
+  "rows": 1693619,
   "columns": [
    {
     "name": "ghg_activity_id",
@@ -5375,7 +5375,7 @@
    },
    {
     "name": "supplier_id",
-    "dtype": "str"
+    "dtype": "object"
    },
    {
     "name": "customer_id",
@@ -5476,20 +5476,20 @@
    "facility_id": "facilities.facility_id"
   },
   "target": 3000000,
-  "scaled_target": 300000,
+  "scaled_target": 930000,
   "batch_id": "B10",
   "source_system": "GHG_PLATFORM",
   "description": "",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:52:07+00:00",
-  "size_bytes": 32512819,
-  "sha256": "70e491d6d0866cfc62ea77d55ff69d1d797460ac1bfba7b27ce9e2966c158fad"
+  "created": "2026-11-01T11:16:56+00:00",
+  "size_bytes": 69576266,
+  "sha256": "a3873fd991e85858a6d4a3b9dc1fa12dc1d72f1ae9109629631839eff8a9a610"
  },
  "contractual_instruments": {
   "name": "contractual_instruments",
   "path": "GHG_Accounting/Scope_2/contractual_instruments_eac.csv",
   "format": "csv",
-  "rows": 250,
+  "rows": 254,
   "columns": [
    {
     "name": "instrument_id",
@@ -5558,15 +5558,15 @@
   "source_system": "EAC_REGISTRY",
   "description": "",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:52:07+00:00",
-  "size_bytes": 45756,
-  "sha256": "23c34c2c8717be8b08825efd2cc455f2ba6f8fbf2012bd6bfc97a805b6d8bc5c"
+  "created": "2026-11-01T11:16:56+00:00",
+  "size_bytes": 46617,
+  "sha256": "9ae9ff97da56638b1a999550371c690a1d91356b53cd222b7e8ce8c150fd9b39"
  },
  "scope2_market": {
   "name": "scope2_market",
   "path": "GHG_Accounting/Scope_2/scope2_market_based_calculations.parquet",
   "format": "parquet",
-  "rows": 23715,
+  "rows": 23620,
   "columns": [
    {
     "name": "market_calc_id",
@@ -5631,9 +5631,9 @@
   "source_system": "GHG_PLATFORM",
   "description": "",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:52:07+00:00",
-  "size_bytes": 821118,
-  "sha256": "5b3c0b76dd75d3748847624cbd5e3222c307b941875eb2c3bba9788f886b1189"
+  "created": "2026-11-01T11:16:56+00:00",
+  "size_bytes": 807729,
+  "sha256": "7cb7c7afa98caecbfd094622a6ac5cd74fd267f78113514c152c0b270174c77f"
  },
  "ghg_inventory": {
   "name": "ghg_inventory",
@@ -5670,15 +5670,15 @@
   "source_system": "GHG_PLATFORM",
   "description": "",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 4307,
-  "sha256": "036c0a609f513f94668155ce1614881d0c3c225f4e6a57ed3b5c74381a98a0e6"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 4338,
+  "sha256": "2bd55a7d15f3dc183466dcbf9736d2e6e5b6841e41e7ea68e849cef8f7b06177"
  },
  "facility_emissions": {
   "name": "facility_emissions",
   "path": "GHG_Accounting/Calculation_Results/facility_year_emissions.csv",
   "format": "csv",
-  "rows": 2237,
+  "rows": 2238,
   "columns": [
    {
     "name": "facility_id",
@@ -5705,9 +5705,9 @@
   "source_system": "GHG_PLATFORM",
   "description": "",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 74258,
-  "sha256": "29b530c698c607005cee994a77c03a1c235b2001827abf71ddfdf01630d15e9e"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 74827,
+  "sha256": "044bb57575a67df3e9febfc9aacd9e5d9d19ba5ed914da1b36298be163dc1ee2"
  },
  "baseline_recalculations": {
   "name": "baseline_recalculations",
@@ -5756,9 +5756,9 @@
   "source_system": "GHG_PLATFORM",
   "description": "",
   "domain": "GHG_Accounting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 741,
-  "sha256": "288e788814646be88443c31a4ad39d8db109ebb70b66033b5eeaaa73cc220333"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 742,
+  "sha256": "566cc945de2289bdc1cc9075f428c2ec36747361ecb931793f1a8fc801b0a39e"
  },
  "supplier_esg_assessments": {
   "name": "supplier_esg_assessments",
@@ -5824,20 +5824,20 @@
    "supplier_id": "suppliers.supplier_id"
   },
   "target": 10000,
-  "scaled_target": 1000,
+  "scaled_target": 3100,
   "batch_id": "B11",
   "source_system": "SAP_Ariba",
   "description": "",
   "domain": "Procurement",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 204419,
-  "sha256": "8d56702d03e744c2b333c4c123407ae27d6dc35d7b32206a43a818262fb98925"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 204444,
+  "sha256": "7c6501b6ba5070ed80193af17b8920aeecf34b8957f2394e913d8a4ce9c86bb3"
  },
  "supplier_disclosures": {
   "name": "supplier_disclosures",
   "path": "Procurement/Supplier_Disclosures/supplier_emissions_disclosures.parquet",
   "format": "parquet",
-  "rows": 5330,
+  "rows": 5301,
   "columns": [
    {
     "name": "disclosure_id",
@@ -5934,9 +5934,9 @@
   "source_system": "SUPPLIER_PORTAL",
   "description": "",
   "domain": "Procurement",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 428856,
-  "sha256": "f95052ffdd5dd41424bc91746ac7c62934d354601dbeb1a5afd9e73022557d79"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 427640,
+  "sha256": "b3745232f8e2a1edc6ad1f27eac547eb977610828a2e7646981d2e377447e255"
  },
  "supplier_pcfs": {
   "name": "supplier_pcfs",
@@ -6008,9 +6008,9 @@
   "source_system": "SUPPLIER_PORTAL",
   "description": "",
   "domain": "Supply_Chain",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 130711,
-  "sha256": "2947e2b7a95fb7279a401d820285e5a78d72998f6d593e57553dc6b9afb773a1"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 130927,
+  "sha256": "f50630369d10e80a790c116e8446302de82766725c350e3b97cf1ca2478ffc0b"
  },
  "supplier_certifications": {
   "name": "supplier_certifications",
@@ -6061,9 +6061,9 @@
   "source_system": "SAP_Ariba",
   "description": "",
   "domain": "Procurement",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 686231,
-  "sha256": "5bf56138666d27d66a07b19b2389e2234d0de40def04d7c4e2ee60c9a320e05e"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 686940,
+  "sha256": "6741d16f0aaaf554323b29a74e19743bbb6b567d1b56b1c8bbe4a7125806e825"
  },
  "supplier_questionnaires": {
   "name": "supplier_questionnaires",
@@ -6126,9 +6126,9 @@
   "source_system": "SUPPLIER_PORTAL",
   "description": "",
   "domain": "Procurement",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 195051,
-  "sha256": "fefce2dd36f0f7f348336fc6af210c501d501d7ada3ca7f697efc9fe3a9070a9"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 194908,
+  "sha256": "ad9a88db8b78cd72e3477f4fe40b973ac9382aa32d8fe5294f8c7930f9c1b3d6"
  },
  "customer_requirements": {
   "name": "customer_requirements",
@@ -6171,9 +6171,9 @@
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 273218,
-  "sha256": "ee8016b8f61734aeda97c505bb7c05ae9e005b244efc257e471759c7c60a22df"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 272764,
+  "sha256": "d4d4451150991f74cdce182c6fd2f1a8c73a6dac6951aef6ea69a9aa78e68abc"
  },
  "customer_questionnaires": {
   "name": "customer_questionnaires",
@@ -6218,15 +6218,15 @@
   "source_system": "SALESFORCE",
   "description": "",
   "domain": "CRM",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 86932,
-  "sha256": "a7d4451347a0829b365bdc627ad535e204673f314a42cfc9f3e05f54a107d175"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 86918,
+  "sha256": "0067c25c06bdcd5c041001be7937c13783c7199a5337cf9976c5c49d5dced9e3"
  },
  "air_pollutants": {
   "name": "air_pollutants",
   "path": "ESG_Reporting/air_pollutant_emissions.csv",
   "format": "csv",
-  "rows": 781,
+  "rows": 784,
   "columns": [
    {
     "name": "facility_id",
@@ -6263,9 +6263,9 @@
   "source_system": "EHS",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 31680,
-  "sha256": "cf41d0026c437eed59c8b0b8b78af94b93835ee492be8d9df708a7f94b907305"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 31811,
+  "sha256": "00ac470476d4ae88ebb6e13b038c15e325b351a28370bbdb2d29b1a8471ba6c5"
  },
  "environmental_incidents": {
   "name": "environmental_incidents",
@@ -6320,15 +6320,15 @@
   "source_system": "EHS",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 29353,
-  "sha256": "625d5b1b402bcaa0465e19e639b2846e41c128dbbfe428cd8231b89500d02d11"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 29388,
+  "sha256": "8b3488a0ad027aa0904297e095fbcb49605777509baffd6c941bb1f350280d39"
  },
  "environmental_permits": {
   "name": "environmental_permits",
   "path": "ESG_Reporting/environmental_permits.csv",
   "format": "csv",
-  "rows": 141,
+  "rows": 147,
   "columns": [
    {
     "name": "permit_id",
@@ -6369,9 +6369,9 @@
   "source_system": "EHS",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 15976,
-  "sha256": "a1fadc0bba655c1e37a9a028cee7d153a54973a3be2f65d38822d776df4adb11"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 16612,
+  "sha256": "f80c10428ae173ed915d6018c85a5d85ae62a6708ef5fb6dceff09085478beed"
  },
  "biodiversity": {
   "name": "biodiversity",
@@ -6414,9 +6414,9 @@
   "source_system": "EHS",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 5902,
-  "sha256": "2797eac29660a59bea975701d63160f8dc2804aa916765fb8e35de5eda32202f"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 5909,
+  "sha256": "24232fd5ea53d3e78a8ef07e0077de4279ef9ed2256cee06e99a87023db37385"
  },
  "social_kpis": {
   "name": "social_kpis",
@@ -6483,9 +6483,9 @@
   "source_system": "HRMS",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 50595,
-  "sha256": "e2416df77f3d0a4e0888d4176ab8fe7b8d6dcae9d5b771962a62ab4500e7ceff"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 50660,
+  "sha256": "cf37e39d0c38b969caec2f16559ea80fc273c24ef547afb56fc7117ccb21a08a"
  },
  "risk_register": {
   "name": "risk_register",
@@ -6542,9 +6542,9 @@
   "source_system": "GRC",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 27151,
-  "sha256": "ce8acec55621e68ebb9d043c27a0896bf65cdab08b8dd70ae7d2c5575929d66b"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 26903,
+  "sha256": "ea80f86c8ff21c9decca9aa21195fdf574bcee374245548d2a8d3dcd698f0f94"
  },
  "audit_observations": {
   "name": "audit_observations",
@@ -6601,9 +6601,9 @@
   "source_system": "GRC",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 55754,
-  "sha256": "c577990775fd6acdf3e92aa0575a6053e95e4d041c33ac0182763626b8d13f42"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 55386,
+  "sha256": "2c43b08bc5fa85d5b0b77dfbb664a8f8411164a4c20bf2646c01f4593764fd1d"
  },
  "board_governance": {
   "name": "board_governance",
@@ -6648,9 +6648,9 @@
   "source_system": "GRC",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 1298,
-  "sha256": "754d0f14216b4b45e1c779a5711f5ac75dea2270b0b0bf5d704594ebba21b9d7"
+  "created": "2026-11-01T11:16:57+00:00",
+  "size_bytes": 1297,
+  "sha256": "26ac18265d4bae8fc4777fc647e44fa84bbeba7117fbd4c24bb5b3cfaecc0a2a"
  },
  "esg_policies": {
   "name": "esg_policies",
@@ -6687,7 +6687,7 @@
   "source_system": "DMS",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
+  "created": "2026-11-01T11:16:57+00:00",
   "size_bytes": 860,
   "sha256": "6a056a55bb7bf5b23d9f8a77bdebd32b21c847cb9f25cf7d1fd9848694b42304"
  },
@@ -6695,7 +6695,7 @@
   "name": "decarbonisation",
   "path": "Decarbonisation/decarbonisation_opportunities.csv",
   "format": "csv",
-  "rows": 966,
+  "rows": 951,
   "columns": [
    {
     "name": "opportunity_id",
@@ -6828,9 +6828,9 @@
   "source_system": "SUSTAINABILITY_PLANNING",
   "description": "",
   "domain": "Decarbonisation",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 480950,
-  "sha256": "f34cd6212e065799d93e888ac791058a2741b306f5b1ec324d22e63c5d97bd4a"
+  "created": "2026-11-01T11:16:58+00:00",
+  "size_bytes": 474518,
+  "sha256": "7b459e14ecdf536340c281db348daca9d39cd61289a4e923ff1d91853c2df84b"
  },
  "credit_projects": {
   "name": "credit_projects",
@@ -6919,15 +6919,15 @@
   "source_system": "CARBON_REGISTRY",
   "description": "",
   "domain": "Carbon_Credits",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 10259,
-  "sha256": "7358960f02e29c3d7d06d5d9120b3575c6ab1d15252bbe652e80150ca46618b3"
+  "created": "2026-11-01T11:16:58+00:00",
+  "size_bytes": 10213,
+  "sha256": "b294cda0c1d53f2e1ef565ec29a0b9e1786e7d49c8314de93e63f81c1a50c428"
  },
  "credit_transactions": {
   "name": "credit_transactions",
   "path": "Carbon_Credits/carbon_credit_transactions.csv",
   "format": "csv",
-  "rows": 16,
+  "rows": 14,
   "columns": [
    {
     "name": "credit_transaction_id",
@@ -6992,9 +6992,9 @@
   "source_system": "CARBON_REGISTRY",
   "description": "",
   "domain": "Carbon_Credits",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 2920,
-  "sha256": "647b8df14ae0a8d22222a8e1ae07b750303da405fa56c6a29a4d03c4a970c130"
+  "created": "2026-11-01T11:16:58+00:00",
+  "size_bytes": 2628,
+  "sha256": "945d3b05b45e29d07894e15f345b986ddc25a56affdc372d79d9dce2b470789d"
  },
  "neutralisation_ledger": {
   "name": "neutralisation_ledger",
@@ -7067,9 +7067,9 @@
   "source_system": "SUSTAINABILITY_PLANNING",
   "description": "",
   "domain": "Carbon_Credits",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 1256,
-  "sha256": "5545aa743cc312eeb05930b2a00eee1eef4e04cd93da80024ebe11231cf8a5a0"
+  "created": "2026-11-01T11:16:58+00:00",
+  "size_bytes": 1251,
+  "sha256": "77239e95d84d267354943dda5b64fea6550501ec8c7aaf3a5901947d259d9aea"
  },
  "environmental_claims": {
   "name": "environmental_claims",
@@ -7110,7 +7110,7 @@
   "source_system": "DMS",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
+  "created": "2026-11-01T11:16:58+00:00",
   "size_bytes": 594,
   "sha256": "f3ecb549bf8e9aab7014f1c8e61e0e9b9640922434df651f36e6870de1101a26"
  },
@@ -7173,15 +7173,15 @@
   "source_system": "ESG_REPORTING",
   "description": "",
   "domain": "ESG_Reporting",
-  "created": "2026-10-30T14:52:08+00:00",
-  "size_bytes": 579,
-  "sha256": "9f461cf4e101e9c6d6d83085e6638ecd7285176fc800d20a9fee4876027e28d6"
+  "created": "2026-11-01T11:16:58+00:00",
+  "size_bytes": 684,
+  "sha256": "d7e722bf294a9766a2659fb5b7f21be6761ae05b459ae3a5268452b9c5598287"
  },
  "inventory_balances": {
   "name": "inventory_balances",
   "path": "ERP/Inventory/inventory_balances_monthly.parquet",
   "format": "parquet",
-  "rows": 142617,
+  "rows": 370033,
   "columns": [
    {
     "name": "facility_id",
@@ -7231,9 +7231,9 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:52:09+00:00",
-  "size_bytes": 3315068,
-  "sha256": "38e0e2c8507a357f3e95350bed35a1e2e385f187124cda0b797e01880363f9ef"
+  "created": "2026-11-01T11:16:59+00:00",
+  "size_bytes": 7879134,
+  "sha256": "0872c20e04c11df400022ea5f4eeec69bb5a65d667bce7ca45e1cde1e10a7dbc"
  },
  "warehouse_transfers": {
   "name": "warehouse_transfers",
@@ -7278,15 +7278,15 @@
   "source_system": "SAP_S4",
   "description": "",
   "domain": "ERP",
-  "created": "2026-10-30T14:52:09+00:00",
-  "size_bytes": 139599,
-  "sha256": "059ac9919b7a56c16dec47b16fbc8f3439d1708c91fa60355feacee4a2582de3"
+  "created": "2026-11-01T11:16:59+00:00",
+  "size_bytes": 139602,
+  "sha256": "171326836746efc70471ce7eda682a8356cfe3bb0a35b15a9fe41bffda01c6c3"
  },
  "documents": {
   "name": "documents",
   "path": "File_Systems/document_registry.csv",
   "format": "csv",
-  "rows": 3539,
+  "rows": 3537,
   "columns": [
    {
     "name": "document_id",
@@ -7365,9 +7365,9 @@
   "source_system": "DMS",
   "description": "",
   "domain": "File_Systems",
-  "created": "2026-10-30T14:52:23+00:00",
-  "size_bytes": 1209743,
-  "sha256": "495a0ad7d594440d84ede35d5ad4cc4603434cb63ebebec11e4b73a18f716764"
+  "created": "2026-11-01T11:17:14+00:00",
+  "size_bytes": 1209180,
+  "sha256": "11aa64d67dd615e617e22ff21a850bd7f4e45fc04227566aa4a25811173d643c"
  },
  "document_extractions": {
   "name": "document_extractions",
@@ -7410,8 +7410,8 @@
   "source_system": "IDP_ENGINE",
   "description": "",
   "domain": "Data_Lineage",
-  "created": "2026-10-30T14:52:23+00:00",
-  "size_bytes": 288447,
-  "sha256": "7c434028524d644a8d40cba134c96c53f64a1fa539b14475655b33e2282cdfc7"
+  "created": "2026-11-01T11:17:14+00:00",
+  "size_bytes": 288448,
+  "sha256": "fc99e4749474631fcc8e3ec662791355c67b8969773f24e459bb605a834632f8"
  }
 }

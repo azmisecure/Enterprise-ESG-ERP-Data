@@ -1,232 +1,140 @@
-2026-10-30T14:49:53+00:00 [INFO] === B01: Enterprise master data & organisational hierarchy (seed=42, scale=0.1) ===
-2026-10-30T14:49:53+00:00 [GENERATING] enterprise: 1 rows -> Enterprise_Master/Enterprise/enterprise.json
-2026-10-30T14:49:53+00:00 [GENERATING] countries: 22 rows -> Enterprise_Master/Countries/countries.csv
-2026-10-30T14:49:53+00:00 [GENERATING] legal_entities: 26 rows -> Enterprise_Master/Legal_Entities/legal_entities.csv
-2026-10-30T14:49:53+00:00 [GENERATING] divisions: 7 rows -> Enterprise_Master/Business_Units/divisions.csv
-2026-10-30T14:49:53+00:00 [GENERATING] business_units: 21 rows -> Enterprise_Master/Business_Units/business_units.csv
-2026-10-30T14:49:53+00:00 [GENERATING] facilities: 152 rows -> Enterprise_Master/Facilities/facilities.csv
-2026-10-30T14:49:53+00:00 [GENERATING] plants: 59 rows -> Enterprise_Master/Plants/plants.csv
-2026-10-30T14:49:53+00:00 [GENERATING] production_lines: 293 rows -> Enterprise_Master/Plants/production_lines.csv
-2026-10-30T14:49:53+00:00 [GENERATING] departments: 312 rows -> Enterprise_Master/Departments/departments.csv
-2026-10-30T14:49:53+00:00 [GENERATING] cost_centres: 886 rows -> Enterprise_Master/Cost_Centres/cost_centres.csv
-2026-10-30T14:49:53+00:00 [GENERATING] profit_centres: 91 rows -> Enterprise_Master/Cost_Centres/profit_centres.csv
-2026-10-30T14:49:53+00:00 [GENERATING] fx_rates: 1,080 rows -> Enterprise_Master/Countries/fx_rates_monthly.csv
-2026-10-30T14:49:53+00:00 [GENERATING] reporting_calendar: 60 rows -> Enterprise_Master/Enterprise/reporting_calendar.csv
-2026-10-30T14:49:53+00:00 [INFO] B01 completed in 0.1s: 13 datasets, 3,010 records
-2026-10-30T14:49:53+00:00 [INFO] === B02: Source-system master data (suppliers, customers, products, materials, BOM, assets, meters, fleet, employees) (seed=42, scale=0.1) ===
-2026-10-30T14:49:53+00:00 [GENERATING] suppliers: 10,000 rows -> Procurement/Suppliers/supplier_master.parquet
-2026-10-30T14:49:53+00:00 [GENERATING] supplier_locations: 17,478 rows -> Procurement/Suppliers/supplier_locations.parquet
-2026-10-30T14:49:53+00:00 [GENERATING] materials: 5,000 rows -> ERP/Materials/material_master.parquet
-2026-10-30T14:49:54+00:00 [GENERATING] products: 2,000 rows -> ERP/Products/product_master.parquet
-2026-10-30T14:49:54+00:00 [GENERATING] bom: 13,126 rows -> ERP/Products/bill_of_materials.parquet
-2026-10-30T14:49:54+00:00 [GENERATING] routings: 4,000 rows -> ERP/Products/routings.parquet
-2026-10-30T14:49:54+00:00 [GENERATING] assets: 20,000 rows -> ERP/Assets/fixed_asset_register.parquet
-2026-10-30T14:49:54+00:00 [GENERATING] meters: 5,000 rows -> Energy/energy_meters.csv
-2026-10-30T14:49:54+00:00 [GENERATING] vehicles: 3,000 rows -> Logistics/fleet_master.csv
-2026-10-30T14:49:54+00:00 [GENERATING] customers: 20,000 rows -> CRM/Customers/customer_master.parquet
-2026-10-30T14:49:54+00:00 [GENERATING] erp_customers: 20,000 rows -> ERP/Finance/AR/erp_customer_master.parquet
-2026-10-30T14:49:55+00:00 [GENERATING] employees: 75,000 rows -> HRMS/employee_master.parquet
-2026-10-30T14:49:55+00:00 [GENERATING] chart_of_accounts: 42 rows -> ERP/Finance/GL/chart_of_accounts.csv
-2026-10-30T14:49:55+00:00 [INFO] B02 completed in 1.8s: 13 datasets, 194,646 records
-2026-10-30T14:49:55+00:00 [INFO] === B03: Emission-factor reference database (synthetic) (seed=42, scale=0.1) ===
-2026-10-30T14:49:55+00:00 [GENERATING] emission_factors: 10,000 rows -> GHG_Accounting/Emission_Factors/emission_factor_database.parquet
-2026-10-30T14:49:55+00:00 [INFO] B03 completed in 0.2s: 1 datasets, 10,000 records
-2026-10-30T14:49:55+00:00 [INFO] === B04: Procurement & accounts payable (seed=42, scale=0.1) ===
-2026-10-30T14:49:55+00:00 [GENERATING] supplier_contracts: 2,484 rows -> Procurement/Purchase_Orders/supplier_contracts.parquet
-2026-10-30T14:49:56+00:00 [GENERATING] po_lines: 150,247 rows -> ERP/Procurement/purchase_order_lines.parquet
-2026-10-30T14:49:56+00:00 [GENERATING] purchase_orders: 50,200 rows -> ERP/Procurement/purchase_orders.parquet
-2026-10-30T14:49:56+00:00 [GENERATING] goods_receipts: 160,158 rows -> ERP/Procurement/goods_receipts.parquet
-2026-10-30T14:49:57+00:00 [GENERATING] ap_invoices: 55,150 rows -> ERP/Finance/AP/supplier_invoices.parquet
-2026-10-30T14:49:57+00:00 [GENERATING] ap_payments: 50,593 rows -> ERP/Finance/AP/ap_payments.parquet
-2026-10-30T14:49:57+00:00 [GENERATING] supplier_performance: 33,167 rows -> Procurement/Supplier_Assessments/supplier_performance_quarterly.parquet
-2026-10-30T14:49:57+00:00 [INFO] B04 completed in 2.2s: 7 datasets, 501,999 records
-2026-10-30T14:49:57+00:00 [INFO] === B05: CRM, sales & accounts receivable (seed=42, scale=0.1) ===
-2026-10-30T14:49:58+00:00 [GENERATING] sales_orders: 40,000 rows -> CRM/Orders/sales_orders.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] so_lines: 99,718 rows -> CRM/Orders/sales_order_lines.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] deliveries: 105,573 rows -> CRM/Deliveries/deliveries.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] ar_invoices: 105,573 rows -> CRM/Invoices/sales_invoices.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] ar_receipts: 99,878 rows -> ERP/Finance/AR/customer_payments.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] open_receivables: 5,695 rows -> ERP/Finance/AR/open_receivables_2026-12-31.csv
-2026-10-30T14:49:58+00:00 [GENERATING] customer_returns: 1,900 rows -> CRM/Sales/customer_returns.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] customer_complaints: 1,055 rows -> CRM/Sales/customer_complaints.csv
-2026-10-30T14:49:58+00:00 [GENERATING] opportunities: 15,000 rows -> CRM/Sales/opportunities.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] sales_forecasts: 420 rows -> CRM/Sales/sales_forecasts.csv
-2026-10-30T14:49:58+00:00 [GENERATING] customer_contracts: 3,000 rows -> CRM/Sales/customer_contracts.csv
-2026-10-30T14:49:58+00:00 [INFO] B05 completed in 1.1s: 11 datasets, 477,812 records
-2026-10-30T14:49:58+00:00 [INFO] === B06: Manufacturing (ERP PP, MES, maintenance, quality) (seed=42, scale=0.1) ===
-2026-10-30T14:49:58+00:00 [GENERATING] production_orders: 15,000 rows -> ERP/Inventory/production_orders.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] production_confirmations: 15,000 rows -> Manufacturing/Production/production_confirmations.parquet
-2026-10-30T14:49:58+00:00 [GENERATING] material_consumption: 98,993 rows -> ERP/Inventory/material_consumption.parquet
-2026-10-30T14:49:59+00:00 [GENERATING] mes_line_daily: 502,447 rows -> Manufacturing/MES/line_daily_performance.parquet
-2026-10-30T14:49:59+00:00 [GENERATING] machine_hourly: 74,400 rows -> Manufacturing/Machines/machine_hourly_2025-03.parquet
-2026-10-30T14:49:59+00:00 [GENERATING] maintenance: 50,000 rows -> Manufacturing/Maintenance/maintenance_records.parquet
-2026-10-30T14:49:59+00:00 [GENERATING] quality_inspections: 12,000 rows -> Manufacturing/Quality/quality_inspections.parquet
-2026-10-30T14:49:59+00:00 [INFO] B06 completed in 0.8s: 7 datasets, 767,840 records
-2026-10-30T14:49:59+00:00 [INFO] === B07: Energy, utilities, water, waste & IoT telemetry (seed=42, scale=0.1) ===
-2026-10-30T14:50:00+00:00 [GENERATING] energy_daily: 467,282 rows -> Energy/meter_daily_consumption.parquet
-2026-10-30T14:50:01+00:00 [GENERATING] utility_invoices: 24,094 rows -> ERP/Utilities/utility_invoices.parquet
-2026-10-30T14:50:01+00:00 [GENERATING] fuel_purchases: 13,560 rows -> Energy/fuel_purchases.csv
-2026-10-30T14:50:01+00:00 [GENERATING] water_daily: 71,312 rows -> Water/water_meter_daily.parquet
-2026-10-30T14:50:01+00:00 [GENERATING] water_monthly: 8,735 rows -> Water/water_withdrawal_discharge_monthly.csv
-2026-10-30T14:50:01+00:00 [GENERATING] waste_records: 33,955 rows -> Waste/waste_records.parquet
-2026-10-30T14:50:01+00:00 [GENERATING] waste_invoices: 8,777 rows -> Waste/waste_invoices.csv
-2026-10-30T14:50:01+00:00 [GENERATING] waste_certificates: 16,700 rows -> Waste/waste_disposal_certificates.csv
-2026-10-30T14:50:01+00:00 [GENERATING] iot_telemetry: 80,940 rows -> Manufacturing/SCADA/scada_telemetry_15min_2025-11.parquet
-2026-10-30T14:50:01+00:00 [GENERATING] iot_5min: 8,640 rows -> Manufacturing/IoT/iot_power_5min_2025-11.csv
-2026-10-30T14:50:01+00:00 [INFO] B07 completed in 2.6s: 10 datasets, 733,995 records
-2026-10-30T14:50:01+00:00 [INFO] === B08: Logistics, fleet, HRMS & business travel (seed=42, scale=0.1) ===
-2026-10-30T14:50:02+00:00 [GENERATING] shipments: 235,494 rows -> Logistics/shipments.parquet
-2026-10-30T14:50:03+00:00 [GENERATING] freight_invoices: 130,843 rows -> Logistics/freight_invoices.parquet
-2026-10-30T14:50:03+00:00 [GENERATING] fleet_fuel: 137,720 rows -> Logistics/fleet_fuel_mileage_monthly.parquet
-2026-10-30T14:50:03+00:00 [GENERATING] business_travel: 23,620 rows -> HRMS/business_travel.parquet
-2026-10-30T14:50:03+00:00 [GENERATING] commuting_survey: 760 rows -> HRMS/workforce_and_commuting_survey_annual.csv
-2026-10-30T14:50:03+00:00 [GENERATING] office_occupancy: 2,280 rows -> HRMS/office_occupancy_monthly.csv
-2026-10-30T14:50:03+00:00 [GENERATING] safety_monthly: 9,120 rows -> HRMS/safety_monthly.csv
-2026-10-30T14:50:03+00:00 [GENERATING] training: 4,000 rows -> HRMS/training_programmes.csv
-2026-10-30T14:50:03+00:00 [INFO] B08 completed in 1.5s: 8 datasets, 543,837 records
-2026-10-30T14:50:03+00:00 [INFO] === B09: Finance general ledger, trial balance & statements (seed=42, scale=0.1) ===
-2026-10-30T14:50:08+00:00 [GENERATING] gl_transactions: 1,586,506 rows -> ERP/Finance/GL/gl_transactions.parquet
-2026-10-30T14:50:14+00:00 [GENERATING] trial_balance: 28,525 rows -> ERP/Finance/GL/trial_balance.csv
-2026-10-30T14:50:14+00:00 [GENERATING] profit_and_loss: 1,473 rows -> Finance/profit_and_loss_by_entity_year.csv
-2026-10-30T14:50:15+00:00 [GENERATING] balance_sheet: 1,374 rows -> Finance/balance_sheet_by_entity_year.csv
-2026-10-30T14:50:15+00:00 [GENERATING] period_closures: 1,560 rows -> Finance/financial_period_closures.csv
-2026-10-30T14:50:15+00:00 [INFO] B09 completed in 11.8s: 5 datasets, 1,619,438 records
-2026-10-30T14:50:15+00:00 [INFO] === B10: GHG accounting Scope 1, 2 & 3 (15 categories) (seed=42, scale=0.1) ===
-2026-10-30T14:50:16+00:00 [GENERATING] investment_register: 8 rows -> GHG_Accounting/Scope_3/investment_register.csv
-2026-10-30T14:50:16+00:00 [GENERATING] franchise_register: 12 rows -> GHG_Accounting/Scope_3/franchise_register.csv
-2026-10-30T14:50:21+00:00 [GENERATING] ghg_activities: 828,614 rows -> GHG_Accounting/Calculation_Results/ghg_activities_all.parquet
-2026-10-30T14:50:21+00:00 [GENERATING] contractual_instruments: 250 rows -> GHG_Accounting/Scope_2/contractual_instruments_eac.csv
-2026-10-30T14:50:21+00:00 [GENERATING] scope2_market: 23,715 rows -> GHG_Accounting/Scope_2/scope2_market_based_calculations.parquet
-2026-10-30T14:50:21+00:00 [GENERATING] ghg_inventory: 115 rows -> GHG_Accounting/Calculation_Results/annual_ghg_inventory.csv
-2026-10-30T14:50:21+00:00 [GENERATING] facility_emissions: 2,237 rows -> GHG_Accounting/Calculation_Results/facility_year_emissions.csv
-2026-10-30T14:50:21+00:00 [GENERATING] baseline_recalculations: 3 rows -> GHG_Accounting/Calculation_Results/baseline_recalculations.csv
-2026-10-30T14:50:21+00:00 [INFO] B10 completed in 6.7s: 8 datasets, 854,954 records
-2026-10-30T14:50:21+00:00 [INFO] === B11: Supplier ESG, ESG performance, decarbonisation & carbon credits (seed=42, scale=0.1) ===
-2026-10-30T14:50:21+00:00 [GENERATING] supplier_esg_assessments: 10,000 rows -> Procurement/Supplier_Assessments/supplier_esg_assessments.parquet
-2026-10-30T14:50:22+00:00 [GENERATING] supplier_disclosures: 5,330 rows -> Procurement/Supplier_Disclosures/supplier_emissions_disclosures.parquet
-2026-10-30T14:50:22+00:00 [GENERATING] supplier_pcfs: 4,082 rows -> Supply_Chain/Supplier_Emissions/supplier_product_carbon_footprints.parquet
-2026-10-30T14:50:22+00:00 [GENERATING] supplier_certifications: 6,000 rows -> Procurement/Supplier_Certifications/supplier_certifications.csv
-2026-10-30T14:50:22+00:00 [GENERATING] supplier_questionnaires: 3,000 rows -> Procurement/Supplier_Assessments/supplier_esg_questionnaires.csv
-2026-10-30T14:50:22+00:00 [GENERATING] customer_requirements: 3,000 rows -> CRM/Sustainability_Requirements/customer_sustainability_requirements.csv
-2026-10-30T14:50:22+00:00 [GENERATING] customer_questionnaires: 1,500 rows -> CRM/Sustainability_Requirements/customer_esg_questionnaires.csv
-2026-10-30T14:50:22+00:00 [GENERATING] air_pollutants: 781 rows -> ESG_Reporting/air_pollutant_emissions.csv
-2026-10-30T14:50:22+00:00 [GENERATING] environmental_incidents: 320 rows -> ESG_Reporting/environmental_incidents.csv
-2026-10-30T14:50:22+00:00 [GENERATING] environmental_permits: 141 rows -> ESG_Reporting/environmental_permits.csv
-2026-10-30T14:50:22+00:00 [GENERATING] biodiversity: 152 rows -> ESG_Reporting/biodiversity_land_use.csv
-2026-10-30T14:50:22+00:00 [GENERATING] social_kpis: 760 rows -> ESG_Reporting/social_performance_facility_year.csv
-2026-10-30T14:50:22+00:00 [GENERATING] risk_register: 260 rows -> ESG_Reporting/governance_risk_register.csv
-2026-10-30T14:50:22+00:00 [GENERATING] audit_observations: 420 rows -> ESG_Reporting/audit_and_compliance_observations.csv
-2026-10-30T14:50:22+00:00 [GENERATING] board_governance: 20 rows -> ESG_Reporting/board_governance_records.csv
-2026-10-30T14:50:22+00:00 [GENERATING] esg_policies: 10 rows -> ESG_Reporting/esg_governance_policies.csv
-2026-10-30T14:50:22+00:00 [GENERATING] decarbonisation: 966 rows -> Decarbonisation/decarbonisation_opportunities.csv
-2026-10-30T14:50:22+00:00 [GENERATING] credit_projects: 48 rows -> Carbon_Credits/carbon_credit_projects.csv
-2026-10-30T14:50:22+00:00 [GENERATING] credit_transactions: 19 rows -> Carbon_Credits/carbon_credit_transactions.csv
-2026-10-30T14:50:22+00:00 [GENERATING] neutralisation_ledger: 5 rows -> Carbon_Credits/neutralisation_ledger.csv
-2026-10-30T14:50:22+00:00 [GENERATING] environmental_claims: 5 rows -> ESG_Reporting/environmental_claims_register.csv
-2026-10-30T14:50:22+00:00 [GENERATING] esg_kpis: 5 rows -> ESG_Reporting/esg_kpi_summary.csv
-2026-10-30T14:50:22+00:00 [INFO] B11 completed in 0.6s: 22 datasets, 36,824 records
-2026-10-30T14:50:22+00:00 [INFO] === B12: Traditional IT, legacy files, databases & APIs (seed=42, scale=0.1) ===
-2026-10-30T14:50:22+00:00 [GENERATING] inventory_balances: 142,617 rows -> ERP/Inventory/inventory_balances_monthly.parquet
-2026-10-30T14:50:22+00:00 [GENERATING] warehouse_transfers: 6,000 rows -> ERP/Inventory/warehouse_transfers.parquet
-2026-10-30T14:50:25+00:00 [INFO] B12 completed in 3.3s: 2 datasets, 148,617 records
-2026-10-30T14:50:25+00:00 [INFO] === B13: Business documents (PDF, DOCX, XLSX, EML, TXT, MD) (seed=42, scale=0.1) ===
-2026-10-30T14:50:36+00:00 [GENERATING] documents: 3,542 rows -> File_Systems/document_registry.csv
-2026-10-30T14:50:36+00:00 [GENERATING] document_extractions: 3,940 rows -> Data_Lineage/document_extractions.csv
-2026-10-30T14:50:36+00:00 [INFO] B13 completed in 10.4s: 2 datasets, 7,482 records
-2026-10-30T14:50:36+00:00 [INFO] === B14: Ground truth, lineage, dictionary, validation & dataset index (seed=42, scale=0.1) ===
-2026-10-30T14:50:36+00:00 [GENERATING] ground truth: 37,134 labelled anomalies
-2026-10-30T14:50:59+00:00 [FK_CHECK] validation complete: VALIDATED (100.0% pass, 0 unexplained)
-2026-10-30T14:50:59+00:00 [INFO] B14 completed in 23.3s: 0 datasets, 0 records
-2026-10-30T14:50:59+00:00 [INFO] Generation run completed
-2026-10-30T14:52:00+00:00 [INFO] === B10: GHG accounting Scope 1, 2 & 3 (15 categories) (seed=42, scale=0.1) ===
-2026-10-30T14:52:02+00:00 [GENERATING] investment_register: 8 rows -> GHG_Accounting/Scope_3/investment_register.csv
-2026-10-30T14:52:02+00:00 [GENERATING] franchise_register: 12 rows -> GHG_Accounting/Scope_3/franchise_register.csv
-2026-10-30T14:52:07+00:00 [GENERATING] ghg_activities: 828,614 rows -> GHG_Accounting/Calculation_Results/ghg_activities_all.parquet
-2026-10-30T14:52:07+00:00 [GENERATING] contractual_instruments: 250 rows -> GHG_Accounting/Scope_2/contractual_instruments_eac.csv
-2026-10-30T14:52:07+00:00 [GENERATING] scope2_market: 23,715 rows -> GHG_Accounting/Scope_2/scope2_market_based_calculations.parquet
-2026-10-30T14:52:08+00:00 [GENERATING] ghg_inventory: 115 rows -> GHG_Accounting/Calculation_Results/annual_ghg_inventory.csv
-2026-10-30T14:52:08+00:00 [GENERATING] facility_emissions: 2,237 rows -> GHG_Accounting/Calculation_Results/facility_year_emissions.csv
-2026-10-30T14:52:08+00:00 [GENERATING] baseline_recalculations: 3 rows -> GHG_Accounting/Calculation_Results/baseline_recalculations.csv
-2026-10-30T14:52:08+00:00 [INFO] B10 completed in 7.2s: 8 datasets, 854,954 records
-2026-10-30T14:52:08+00:00 [INFO] === B11: Supplier ESG, ESG performance, decarbonisation & carbon credits (seed=42, scale=0.1) ===
-2026-10-30T14:52:08+00:00 [GENERATING] supplier_esg_assessments: 10,000 rows -> Procurement/Supplier_Assessments/supplier_esg_assessments.parquet
-2026-10-30T14:52:08+00:00 [GENERATING] supplier_disclosures: 5,330 rows -> Procurement/Supplier_Disclosures/supplier_emissions_disclosures.parquet
-2026-10-30T14:52:08+00:00 [GENERATING] supplier_pcfs: 4,082 rows -> Supply_Chain/Supplier_Emissions/supplier_product_carbon_footprints.parquet
-2026-10-30T14:52:08+00:00 [GENERATING] supplier_certifications: 6,000 rows -> Procurement/Supplier_Certifications/supplier_certifications.csv
-2026-10-30T14:52:08+00:00 [GENERATING] supplier_questionnaires: 3,000 rows -> Procurement/Supplier_Assessments/supplier_esg_questionnaires.csv
-2026-10-30T14:52:08+00:00 [GENERATING] customer_requirements: 3,000 rows -> CRM/Sustainability_Requirements/customer_sustainability_requirements.csv
-2026-10-30T14:52:08+00:00 [GENERATING] customer_questionnaires: 1,500 rows -> CRM/Sustainability_Requirements/customer_esg_questionnaires.csv
-2026-10-30T14:52:08+00:00 [GENERATING] air_pollutants: 781 rows -> ESG_Reporting/air_pollutant_emissions.csv
-2026-10-30T14:52:08+00:00 [GENERATING] environmental_incidents: 320 rows -> ESG_Reporting/environmental_incidents.csv
-2026-10-30T14:52:08+00:00 [GENERATING] environmental_permits: 141 rows -> ESG_Reporting/environmental_permits.csv
-2026-10-30T14:52:08+00:00 [GENERATING] biodiversity: 152 rows -> ESG_Reporting/biodiversity_land_use.csv
-2026-10-30T14:52:08+00:00 [GENERATING] social_kpis: 760 rows -> ESG_Reporting/social_performance_facility_year.csv
-2026-10-30T14:52:08+00:00 [GENERATING] risk_register: 260 rows -> ESG_Reporting/governance_risk_register.csv
-2026-10-30T14:52:08+00:00 [GENERATING] audit_observations: 420 rows -> ESG_Reporting/audit_and_compliance_observations.csv
-2026-10-30T14:52:08+00:00 [GENERATING] board_governance: 20 rows -> ESG_Reporting/board_governance_records.csv
-2026-10-30T14:52:08+00:00 [GENERATING] esg_policies: 10 rows -> ESG_Reporting/esg_governance_policies.csv
-2026-10-30T14:52:08+00:00 [GENERATING] decarbonisation: 966 rows -> Decarbonisation/decarbonisation_opportunities.csv
-2026-10-30T14:52:08+00:00 [GENERATING] credit_projects: 48 rows -> Carbon_Credits/carbon_credit_projects.csv
-2026-10-30T14:52:08+00:00 [GENERATING] credit_transactions: 16 rows -> Carbon_Credits/carbon_credit_transactions.csv
-2026-10-30T14:52:08+00:00 [GENERATING] neutralisation_ledger: 5 rows -> Carbon_Credits/neutralisation_ledger.csv
-2026-10-30T14:52:08+00:00 [GENERATING] environmental_claims: 5 rows -> ESG_Reporting/environmental_claims_register.csv
-2026-10-30T14:52:08+00:00 [GENERATING] esg_kpis: 5 rows -> ESG_Reporting/esg_kpi_summary.csv
-2026-10-30T14:52:08+00:00 [INFO] B11 completed in 0.5s: 22 datasets, 36,821 records
-2026-10-30T14:52:08+00:00 [INFO] === B12: Traditional IT, legacy files, databases & APIs (seed=42, scale=0.1) ===
-2026-10-30T14:52:09+00:00 [GENERATING] inventory_balances: 142,617 rows -> ERP/Inventory/inventory_balances_monthly.parquet
-2026-10-30T14:52:09+00:00 [GENERATING] warehouse_transfers: 6,000 rows -> ERP/Inventory/warehouse_transfers.parquet
-2026-10-30T14:52:12+00:00 [INFO] B12 completed in 3.5s: 2 datasets, 148,617 records
-2026-10-30T14:52:12+00:00 [INFO] === B13: Business documents (PDF, DOCX, XLSX, EML, TXT, MD) (seed=42, scale=0.1) ===
-2026-10-30T14:52:23+00:00 [GENERATING] documents: 3,539 rows -> File_Systems/document_registry.csv
-2026-10-30T14:52:23+00:00 [GENERATING] document_extractions: 3,940 rows -> Data_Lineage/document_extractions.csv
-2026-10-30T14:52:23+00:00 [INFO] B13 completed in 11.0s: 2 datasets, 7,479 records
-2026-10-30T14:52:23+00:00 [INFO] === B14: Ground truth, lineage, dictionary, validation & dataset index (seed=42, scale=0.1) ===
-2026-10-30T14:52:23+00:00 [GENERATING] ground truth: 37,132 labelled anomalies
-2026-10-30T14:52:45+00:00 [FK_CHECK] validation complete: VALIDATED (100.0% pass, 0 unexplained)
-2026-10-30T14:52:45+00:00 [INFO] B14 completed in 22.8s: 0 datasets, 0 records
-2026-10-30T14:52:45+00:00 [INFO] Generation run completed
-2026-10-30T14:53:57+00:00 [INFO] B01 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B02 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B03 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B04 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B05 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B06 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B07 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B08 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B09 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B10 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B11 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B12 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B13 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] B14 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:57+00:00 [INFO] Generation run completed
-2026-10-30T14:53:58+00:00 [INFO] B01 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B02 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B03 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B04 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B05 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B06 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B07 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B08 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B09 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B10 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B11 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B12 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B13 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] B14 already completed at checkpoint - skipping (resume)
-2026-10-30T14:53:58+00:00 [INFO] Generation run completed
-2026-10-30T19:24:42+00:00 [INFO] B01 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B02 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B03 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B04 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B05 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B06 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B07 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B08 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B09 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B10 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B11 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B12 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B13 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] B14 already completed at checkpoint - skipping (resume)
-2026-10-30T19:24:42+00:00 [INFO] Generation run completed
+2026-11-01T11:15:54+00:00 [INFO] === B01: Enterprise master data & organisational hierarchy (seed=43, scale=0.31) ===
+2026-11-01T11:15:54+00:00 [GENERATING] enterprise: 1 rows -> Enterprise_Master/Enterprise/enterprise.json
+2026-11-01T11:15:54+00:00 [GENERATING] countries: 22 rows -> Enterprise_Master/Countries/countries.csv
+2026-11-01T11:15:54+00:00 [GENERATING] legal_entities: 26 rows -> Enterprise_Master/Legal_Entities/legal_entities.csv
+2026-11-01T11:15:54+00:00 [GENERATING] divisions: 7 rows -> Enterprise_Master/Business_Units/divisions.csv
+2026-11-01T11:15:54+00:00 [GENERATING] business_units: 21 rows -> Enterprise_Master/Business_Units/business_units.csv
+2026-11-01T11:15:54+00:00 [GENERATING] facilities: 152 rows -> Enterprise_Master/Facilities/facilities.csv
+2026-11-01T11:15:54+00:00 [GENERATING] plants: 56 rows -> Enterprise_Master/Plants/plants.csv
+2026-11-01T11:15:54+00:00 [GENERATING] production_lines: 282 rows -> Enterprise_Master/Plants/production_lines.csv
+2026-11-01T11:15:54+00:00 [GENERATING] departments: 312 rows -> Enterprise_Master/Departments/departments.csv
+2026-11-01T11:15:54+00:00 [GENERATING] cost_centres: 886 rows -> Enterprise_Master/Cost_Centres/cost_centres.csv
+2026-11-01T11:15:54+00:00 [GENERATING] profit_centres: 94 rows -> Enterprise_Master/Cost_Centres/profit_centres.csv
+2026-11-01T11:15:54+00:00 [GENERATING] fx_rates: 1,080 rows -> Enterprise_Master/Countries/fx_rates_monthly.csv
+2026-11-01T11:15:54+00:00 [GENERATING] reporting_calendar: 60 rows -> Enterprise_Master/Enterprise/reporting_calendar.csv
+2026-11-01T11:15:54+00:00 [INFO] B01 completed in 0.1s: 13 datasets, 2,999 records
+2026-11-01T11:15:54+00:00 [INFO] === B02: Source-system master data (suppliers, customers, products, materials, BOM, assets, meters, fleet, employees) (seed=43, scale=0.31) ===
+2026-11-01T11:15:54+00:00 [GENERATING] suppliers: 10,000 rows -> Procurement/Suppliers/supplier_master.parquet
+2026-11-01T11:15:55+00:00 [GENERATING] supplier_locations: 17,493 rows -> Procurement/Suppliers/supplier_locations.parquet
+2026-11-01T11:15:55+00:00 [GENERATING] materials: 5,000 rows -> ERP/Materials/material_master.parquet
+2026-11-01T11:15:56+00:00 [GENERATING] products: 2,000 rows -> ERP/Products/product_master.parquet
+2026-11-01T11:15:56+00:00 [GENERATING] bom: 13,033 rows -> ERP/Products/bill_of_materials.parquet
+2026-11-01T11:15:56+00:00 [GENERATING] routings: 4,000 rows -> ERP/Products/routings.parquet
+2026-11-01T11:15:56+00:00 [GENERATING] assets: 20,000 rows -> ERP/Assets/fixed_asset_register.parquet
+2026-11-01T11:15:56+00:00 [GENERATING] meters: 5,000 rows -> Energy/energy_meters.csv
+2026-11-01T11:15:56+00:00 [GENERATING] vehicles: 3,000 rows -> Logistics/fleet_master.csv
+2026-11-01T11:15:56+00:00 [GENERATING] customers: 20,000 rows -> CRM/Customers/customer_master.parquet
+2026-11-01T11:15:56+00:00 [GENERATING] erp_customers: 20,000 rows -> ERP/Finance/AR/erp_customer_master.parquet
+2026-11-01T11:15:56+00:00 [GENERATING] employees: 75,000 rows -> HRMS/employee_master.parquet
+2026-11-01T11:15:56+00:00 [GENERATING] chart_of_accounts: 42 rows -> ERP/Finance/GL/chart_of_accounts.csv
+2026-11-01T11:15:56+00:00 [INFO] B02 completed in 1.9s: 13 datasets, 194,568 records
+2026-11-01T11:15:56+00:00 [INFO] === B03: Emission-factor reference database (synthetic) (seed=43, scale=0.31) ===
+2026-11-01T11:15:56+00:00 [GENERATING] emission_factors: 10,000 rows -> GHG_Accounting/Emission_Factors/emission_factor_database.parquet
+2026-11-01T11:15:57+00:00 [INFO] B03 completed in 0.2s: 1 datasets, 10,000 records
+2026-11-01T11:15:57+00:00 [INFO] === B04: Procurement & accounts payable (seed=43, scale=0.31) ===
+2026-11-01T11:15:57+00:00 [GENERATING] supplier_contracts: 2,482 rows -> Procurement/Purchase_Orders/supplier_contracts.parquet
+2026-11-01T11:15:59+00:00 [GENERATING] po_lines: 464,773 rows -> ERP/Procurement/purchase_order_lines.parquet
+2026-11-01T11:16:00+00:00 [GENERATING] purchase_orders: 155,620 rows -> ERP/Procurement/purchase_orders.parquet
+2026-11-01T11:16:01+00:00 [GENERATING] goods_receipts: 495,098 rows -> ERP/Procurement/goods_receipts.parquet
+2026-11-01T11:16:02+00:00 [GENERATING] ap_invoices: 170,965 rows -> ERP/Finance/AP/supplier_invoices.parquet
+2026-11-01T11:16:03+00:00 [GENERATING] ap_payments: 156,874 rows -> ERP/Finance/AP/ap_payments.parquet
+2026-11-01T11:16:03+00:00 [GENERATING] supplier_performance: 62,700 rows -> Procurement/Supplier_Assessments/supplier_performance_quarterly.parquet
+2026-11-01T11:16:03+00:00 [INFO] B04 completed in 6.6s: 7 datasets, 1,508,512 records
+2026-11-01T11:16:03+00:00 [INFO] === B05: CRM, sales & accounts receivable (seed=43, scale=0.31) ===
+2026-11-01T11:16:05+00:00 [GENERATING] sales_orders: 124,000 rows -> CRM/Orders/sales_orders.parquet
+2026-11-01T11:16:05+00:00 [GENERATING] so_lines: 309,912 rows -> CRM/Orders/sales_order_lines.parquet
+2026-11-01T11:16:05+00:00 [GENERATING] deliveries: 328,485 rows -> CRM/Deliveries/deliveries.parquet
+2026-11-01T11:16:06+00:00 [GENERATING] ar_invoices: 328,485 rows -> CRM/Invoices/sales_invoices.parquet
+2026-11-01T11:16:06+00:00 [GENERATING] ar_receipts: 310,725 rows -> ERP/Finance/AR/customer_payments.parquet
+2026-11-01T11:16:06+00:00 [GENERATING] open_receivables: 17,760 rows -> ERP/Finance/AR/open_receivables_2026-12-31.csv
+2026-11-01T11:16:06+00:00 [GENERATING] customer_returns: 5,912 rows -> CRM/Sales/customer_returns.parquet
+2026-11-01T11:16:06+00:00 [GENERATING] customer_complaints: 3,284 rows -> CRM/Sales/customer_complaints.csv
+2026-11-01T11:16:06+00:00 [GENERATING] opportunities: 46,500 rows -> CRM/Sales/opportunities.parquet
+2026-11-01T11:16:06+00:00 [GENERATING] sales_forecasts: 420 rows -> CRM/Sales/sales_forecasts.csv
+2026-11-01T11:16:06+00:00 [GENERATING] customer_contracts: 3,000 rows -> CRM/Sales/customer_contracts.csv
+2026-11-01T11:16:06+00:00 [INFO] B05 completed in 3.0s: 11 datasets, 1,478,483 records
+2026-11-01T11:16:06+00:00 [INFO] === B06: Manufacturing (ERP PP, MES, maintenance, quality) (seed=43, scale=0.31) ===
+2026-11-01T11:16:06+00:00 [GENERATING] production_orders: 46,500 rows -> ERP/Inventory/production_orders.parquet
+2026-11-01T11:16:06+00:00 [GENERATING] production_confirmations: 46,500 rows -> Manufacturing/Production/production_confirmations.parquet
+2026-11-01T11:16:07+00:00 [GENERATING] material_consumption: 299,850 rows -> ERP/Inventory/material_consumption.parquet
+2026-11-01T11:16:07+00:00 [GENERATING] mes_line_daily: 478,698 rows -> Manufacturing/MES/line_daily_performance.parquet
+2026-11-01T11:16:07+00:00 [GENERATING] machine_hourly: 74,400 rows -> Manufacturing/Machines/machine_hourly_2025-03.parquet
+2026-11-01T11:16:07+00:00 [GENERATING] maintenance: 155,000 rows -> Manufacturing/Maintenance/maintenance_records.parquet
+2026-11-01T11:16:07+00:00 [GENERATING] quality_inspections: 37,200 rows -> Manufacturing/Quality/quality_inspections.parquet
+2026-11-01T11:16:07+00:00 [INFO] B06 completed in 1.3s: 7 datasets, 1,138,148 records
+2026-11-01T11:16:07+00:00 [INFO] === B07: Energy, utilities, water, waste & IoT telemetry (seed=43, scale=0.31) ===
+2026-11-01T11:16:09+00:00 [GENERATING] energy_daily: 473,221 rows -> Energy/meter_daily_consumption.parquet
+2026-11-01T11:16:10+00:00 [GENERATING] utility_invoices: 24,182 rows -> ERP/Utilities/utility_invoices.parquet
+2026-11-01T11:16:10+00:00 [GENERATING] fuel_purchases: 13,680 rows -> Energy/fuel_purchases.csv
+2026-11-01T11:16:10+00:00 [GENERATING] water_daily: 71,641 rows -> Water/water_meter_daily.parquet
+2026-11-01T11:16:10+00:00 [GENERATING] water_monthly: 8,627 rows -> Water/water_withdrawal_discharge_monthly.csv
+2026-11-01T11:16:10+00:00 [GENERATING] waste_records: 33,816 rows -> Waste/waste_records.parquet
+2026-11-01T11:16:10+00:00 [GENERATING] waste_invoices: 8,669 rows -> Waste/waste_invoices.csv
+2026-11-01T11:16:10+00:00 [GENERATING] waste_certificates: 16,765 rows -> Waste/waste_disposal_certificates.csv
+2026-11-01T11:16:10+00:00 [GENERATING] iot_telemetry: 80,940 rows -> Manufacturing/SCADA/scada_telemetry_15min_2025-11.parquet
+2026-11-01T11:16:10+00:00 [GENERATING] iot_5min: 8,640 rows -> Manufacturing/IoT/iot_power_5min_2025-11.csv
+2026-11-01T11:16:10+00:00 [INFO] B07 completed in 2.9s: 10 datasets, 740,181 records
+2026-11-01T11:16:10+00:00 [INFO] === B08: Logistics, fleet, HRMS & business travel (seed=43, scale=0.31) ===
+2026-11-01T11:16:13+00:00 [GENERATING] shipments: 728,234 rows -> Logistics/shipments.parquet
+2026-11-01T11:16:14+00:00 [GENERATING] freight_invoices: 396,858 rows -> Logistics/freight_invoices.parquet
+2026-11-01T11:16:14+00:00 [GENERATING] fleet_fuel: 138,979 rows -> Logistics/fleet_fuel_mileage_monthly.parquet
+2026-11-01T11:16:14+00:00 [GENERATING] business_travel: 73,204 rows -> HRMS/business_travel.parquet
+2026-11-01T11:16:14+00:00 [GENERATING] commuting_survey: 760 rows -> HRMS/workforce_and_commuting_survey_annual.csv
+2026-11-01T11:16:14+00:00 [GENERATING] office_occupancy: 2,280 rows -> HRMS/office_occupancy_monthly.csv
+2026-11-01T11:16:14+00:00 [GENERATING] safety_monthly: 9,120 rows -> HRMS/safety_monthly.csv
+2026-11-01T11:16:14+00:00 [GENERATING] training: 4,000 rows -> HRMS/training_programmes.csv
+2026-11-01T11:16:15+00:00 [INFO] B08 completed in 4.1s: 8 datasets, 1,353,435 records
+2026-11-01T11:16:15+00:00 [INFO] === B09: Finance general ledger, trial balance & statements (seed=43, scale=0.31) ===
+2026-11-01T11:16:31+00:00 [GENERATING] gl_transactions: 4,480,144 rows -> ERP/Finance/GL/gl_transactions.parquet
+2026-11-01T11:16:38+00:00 [GENERATING] trial_balance: 29,294 rows -> ERP/Finance/GL/trial_balance.csv
+2026-11-01T11:16:39+00:00 [GENERATING] profit_and_loss: 1,499 rows -> Finance/profit_and_loss_by_entity_year.csv
+2026-11-01T11:16:41+00:00 [GENERATING] balance_sheet: 1,373 rows -> Finance/balance_sheet_by_entity_year.csv
+2026-11-01T11:16:41+00:00 [GENERATING] period_closures: 1,560 rows -> Finance/financial_period_closures.csv
+2026-11-01T11:16:41+00:00 [INFO] B09 completed in 26.7s: 5 datasets, 4,513,870 records
+2026-11-01T11:16:41+00:00 [INFO] === B10: GHG accounting Scope 1, 2 & 3 (15 categories) (seed=43, scale=0.31) ===
+2026-11-01T11:16:44+00:00 [GENERATING] investment_register: 8 rows -> GHG_Accounting/Scope_3/investment_register.csv
+2026-11-01T11:16:44+00:00 [GENERATING] franchise_register: 12 rows -> GHG_Accounting/Scope_3/franchise_register.csv
+2026-11-01T11:16:56+00:00 [GENERATING] ghg_activities: 1,693,619 rows -> GHG_Accounting/Calculation_Results/ghg_activities_all.parquet
+2026-11-01T11:16:56+00:00 [GENERATING] contractual_instruments: 254 rows -> GHG_Accounting/Scope_2/contractual_instruments_eac.csv
+2026-11-01T11:16:56+00:00 [GENERATING] scope2_market: 23,620 rows -> GHG_Accounting/Scope_2/scope2_market_based_calculations.parquet
+2026-11-01T11:16:57+00:00 [GENERATING] ghg_inventory: 115 rows -> GHG_Accounting/Calculation_Results/annual_ghg_inventory.csv
+2026-11-01T11:16:57+00:00 [GENERATING] facility_emissions: 2,238 rows -> GHG_Accounting/Calculation_Results/facility_year_emissions.csv
+2026-11-01T11:16:57+00:00 [GENERATING] baseline_recalculations: 3 rows -> GHG_Accounting/Calculation_Results/baseline_recalculations.csv
+2026-11-01T11:16:57+00:00 [INFO] B10 completed in 16.0s: 8 datasets, 1,719,869 records
+2026-11-01T11:16:57+00:00 [INFO] === B11: Supplier ESG, ESG performance, decarbonisation & carbon credits (seed=43, scale=0.31) ===
+2026-11-01T11:16:57+00:00 [GENERATING] supplier_esg_assessments: 10,000 rows -> Procurement/Supplier_Assessments/supplier_esg_assessments.parquet
+2026-11-01T11:16:57+00:00 [GENERATING] supplier_disclosures: 5,301 rows -> Procurement/Supplier_Disclosures/supplier_emissions_disclosures.parquet
+2026-11-01T11:16:57+00:00 [GENERATING] supplier_pcfs: 4,082 rows -> Supply_Chain/Supplier_Emissions/supplier_product_carbon_footprints.parquet
+2026-11-01T11:16:57+00:00 [GENERATING] supplier_certifications: 6,000 rows -> Procurement/Supplier_Certifications/supplier_certifications.csv
+2026-11-01T11:16:57+00:00 [GENERATING] supplier_questionnaires: 3,000 rows -> Procurement/Supplier_Assessments/supplier_esg_questionnaires.csv
+2026-11-01T11:16:57+00:00 [GENERATING] customer_requirements: 3,000 rows -> CRM/Sustainability_Requirements/customer_sustainability_requirements.csv
+2026-11-01T11:16:57+00:00 [GENERATING] customer_questionnaires: 1,500 rows -> CRM/Sustainability_Requirements/customer_esg_questionnaires.csv
+2026-11-01T11:16:57+00:00 [GENERATING] air_pollutants: 784 rows -> ESG_Reporting/air_pollutant_emissions.csv
+2026-11-01T11:16:57+00:00 [GENERATING] environmental_incidents: 320 rows -> ESG_Reporting/environmental_incidents.csv
+2026-11-01T11:16:57+00:00 [GENERATING] environmental_permits: 147 rows -> ESG_Reporting/environmental_permits.csv
+2026-11-01T11:16:57+00:00 [GENERATING] biodiversity: 152 rows -> ESG_Reporting/biodiversity_land_use.csv
+2026-11-01T11:16:57+00:00 [GENERATING] social_kpis: 760 rows -> ESG_Reporting/social_performance_facility_year.csv
+2026-11-01T11:16:57+00:00 [GENERATING] risk_register: 260 rows -> ESG_Reporting/governance_risk_register.csv
+2026-11-01T11:16:57+00:00 [GENERATING] audit_observations: 420 rows -> ESG_Reporting/audit_and_compliance_observations.csv
+2026-11-01T11:16:57+00:00 [GENERATING] board_governance: 20 rows -> ESG_Reporting/board_governance_records.csv
+2026-11-01T11:16:57+00:00 [GENERATING] esg_policies: 10 rows -> ESG_Reporting/esg_governance_policies.csv
+2026-11-01T11:16:58+00:00 [GENERATING] decarbonisation: 951 rows -> Decarbonisation/decarbonisation_opportunities.csv
+2026-11-01T11:16:58+00:00 [GENERATING] credit_projects: 48 rows -> Carbon_Credits/carbon_credit_projects.csv
+2026-11-01T11:16:58+00:00 [GENERATING] credit_transactions: 14 rows -> Carbon_Credits/carbon_credit_transactions.csv
+2026-11-01T11:16:58+00:00 [GENERATING] neutralisation_ledger: 5 rows -> Carbon_Credits/neutralisation_ledger.csv
+2026-11-01T11:16:58+00:00 [GENERATING] environmental_claims: 5 rows -> ESG_Reporting/environmental_claims_register.csv
+2026-11-01T11:16:58+00:00 [GENERATING] esg_kpis: 5 rows -> ESG_Reporting/esg_kpi_summary.csv
+2026-11-01T11:16:58+00:00 [INFO] B11 completed in 0.8s: 22 datasets, 36,784 records
+2026-11-01T11:16:58+00:00 [INFO] === B12: Traditional IT, legacy files, databases & APIs (seed=43, scale=0.31) ===
+2026-11-01T11:16:59+00:00 [GENERATING] inventory_balances: 370,033 rows -> ERP/Inventory/inventory_balances_monthly.parquet
+2026-11-01T11:16:59+00:00 [GENERATING] warehouse_transfers: 6,000 rows -> ERP/Inventory/warehouse_transfers.parquet
+2026-11-01T11:17:03+00:00 [INFO] B12 completed in 4.6s: 2 datasets, 376,033 records
+2026-11-01T11:17:03+00:00 [INFO] === B13: Business documents (PDF, DOCX, XLSX, EML, TXT, MD) (seed=43, scale=0.31) ===
+2026-11-01T11:17:14+00:00 [GENERATING] documents: 3,537 rows -> File_Systems/document_registry.csv
+2026-11-01T11:17:14+00:00 [GENERATING] document_extractions: 3,940 rows -> Data_Lineage/document_extractions.csv
+2026-11-01T11:17:14+00:00 [INFO] B13 completed in 11.3s: 2 datasets, 7,477 records
+2026-11-01T11:17:14+00:00 [INFO] === B14: Ground truth, lineage, dictionary, validation & dataset index (seed=43, scale=0.31) ===
+2026-11-01T11:17:15+00:00 [GENERATING] ground truth: 69,094 labelled anomalies
+2026-11-01T11:18:09+00:00 [FK_CHECK] validation complete: VALIDATED (100.0% pass, 0 unexplained)
+2026-11-01T11:18:09+00:00 [INFO] B14 completed in 55.1s: 0 datasets, 0 records
+2026-11-01T11:18:09+00:00 [INFO] Generation run completed

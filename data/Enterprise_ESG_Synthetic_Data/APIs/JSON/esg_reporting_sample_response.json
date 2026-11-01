@@ -9,13 +9,13 @@
   },
   "headers": {
    "Authorization": "Bearer <REDACTED_PLACEHOLDER>",
-   "X-Correlation-Id": "corr-386483138"
+   "X-Correlation-Id": "corr-333925455"
   },
   "timestamp": "2026-03-01 00:00:00"
  },
  "response": {
   "status": 200,
-  "timestamp": "2026-03-01 00:00:00.507000",
+  "timestamp": "2026-03-01 00:00:02.611000",
   "source_system": "ESG_REPORTING",
   "pagination": {
    "page": 1,
@@ -28,700 +28,700 @@
     "reporting_year": 2022,
     "scope": "Scope 1",
     "category_id": "Fugitive emissions (refrigerants)",
-    "tco2e": 1720.85,
+    "tco2e": 5869.87,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 1",
     "category_id": "Mobile combustion",
-    "tco2e": 54765.18,
+    "tco2e": 61062.97,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 1",
     "category_id": "Process emissions",
-    "tco2e": 210.27,
+    "tco2e": 10804.06,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 1",
     "category_id": "Stationary combustion",
-    "tco2e": 98936.02,
+    "tco2e": 93160.92,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 2",
     "category_id": "Purchased cooling",
-    "tco2e": 310.01,
+    "tco2e": 183.23,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 2",
     "category_id": "Purchased electricity",
-    "tco2e": 192901.81,
+    "tco2e": 154777.47,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 2",
     "category_id": "Purchased steam",
-    "tco2e": 7.19,
+    "tco2e": 11.38,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C01",
-    "tco2e": 174492.66,
+    "tco2e": 548934.17,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C02",
-    "tco2e": 55034.33,
+    "tco2e": 56057.38,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C03",
-    "tco2e": 53683.35,
+    "tco2e": 47988.08,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C04",
-    "tco2e": 124649.67,
+    "tco2e": 372565.15,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C05",
-    "tco2e": 30198.08,
+    "tco2e": 25698.04,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C06",
-    "tco2e": 11635.93,
+    "tco2e": 32765.61,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C07",
-    "tco2e": 31931.12,
+    "tco2e": 31056.2,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C08",
-    "tco2e": 758.91,
+    "tco2e": 1097.51,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C09",
-    "tco2e": 48681.42,
+    "tco2e": 148741.87,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C10",
-    "tco2e": 57112.68,
+    "tco2e": 195122.98,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C11",
-    "tco2e": 5250360.37,
+    "tco2e": 16420680.13,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C12",
-    "tco2e": 15795.77,
+    "tco2e": 51716.57,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C13",
-    "tco2e": 82.81,
+    "tco2e": 186.25,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C14",
-    "tco2e": 41352.94,
+    "tco2e": 43989.46,
     "scope2_method": null
    },
    {
     "reporting_year": 2022,
     "scope": "Scope 3",
     "category_id": "S3-C15",
-    "tco2e": 182046.49,
+    "tco2e": 119445.81,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 1",
     "category_id": "Fugitive emissions (refrigerants)",
-    "tco2e": 2228.51,
+    "tco2e": 7529.76,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 1",
     "category_id": "Mobile combustion",
-    "tco2e": 62833.21,
+    "tco2e": 69315.23,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 1",
     "category_id": "Process emissions",
-    "tco2e": 247.28,
+    "tco2e": 12574.21,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 1",
     "category_id": "Stationary combustion",
-    "tco2e": 102426.45,
+    "tco2e": 92369.71,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 2",
     "category_id": "Purchased cooling",
-    "tco2e": 311.26,
+    "tco2e": 190.07,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 2",
     "category_id": "Purchased electricity",
-    "tco2e": 196510.04,
+    "tco2e": 153986.7,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 2",
     "category_id": "Purchased steam",
-    "tco2e": 7.39,
+    "tco2e": 9.57,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C01",
-    "tco2e": 219916.76,
+    "tco2e": 703047.75,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C02",
-    "tco2e": 50104.94,
+    "tco2e": 52537.88,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C03",
-    "tco2e": 56490.18,
+    "tco2e": 49391.11,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C04",
-    "tco2e": 141807.13,
+    "tco2e": 463562.7,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C05",
-    "tco2e": 27766.05,
+    "tco2e": 32715.4,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C06",
-    "tco2e": 17262.46,
+    "tco2e": 49613.39,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C07",
-    "tco2e": 30472.4,
+    "tco2e": 33141.79,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C08",
-    "tco2e": 710.76,
+    "tco2e": 1067.69,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C09",
-    "tco2e": 55084.96,
+    "tco2e": 203059.6,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C10",
-    "tco2e": 72055.59,
+    "tco2e": 243746.33,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C11",
-    "tco2e": 6893750.59,
+    "tco2e": 19058306.21,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C12",
-    "tco2e": 19231.49,
+    "tco2e": 63528.06,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C13",
-    "tco2e": 116.11,
+    "tco2e": 179.71,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C14",
-    "tco2e": 44414.72,
+    "tco2e": 36682.38,
     "scope2_method": null
    },
    {
     "reporting_year": 2023,
     "scope": "Scope 3",
     "category_id": "S3-C15",
-    "tco2e": 176585.1,
+    "tco2e": 115862.44,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 1",
     "category_id": "Fugitive emissions (refrigerants)",
-    "tco2e": 1889.35,
+    "tco2e": 7224.36,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 1",
     "category_id": "Mobile combustion",
-    "tco2e": 70407.61,
+    "tco2e": 76182.61,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 1",
     "category_id": "Process emissions",
-    "tco2e": 202.37,
+    "tco2e": 13547.8,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 1",
     "category_id": "Stationary combustion",
-    "tco2e": 105433.15,
+    "tco2e": 98017.91,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 2",
     "category_id": "Purchased cooling",
-    "tco2e": 309.92,
+    "tco2e": 212.16,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 2",
     "category_id": "Purchased electricity",
-    "tco2e": 198320.46,
+    "tco2e": 154109.63,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 2",
     "category_id": "Purchased steam",
-    "tco2e": 7.84,
+    "tco2e": 9.47,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C01",
-    "tco2e": 249171.41,
+    "tco2e": 892184.93,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C02",
-    "tco2e": 52815.01,
+    "tco2e": 63504.83,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C03",
-    "tco2e": 59016.56,
+    "tco2e": 51681.15,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C04",
-    "tco2e": 265155.0,
+    "tco2e": 427636.16,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C05",
-    "tco2e": 49471.32,
+    "tco2e": 33344.09,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C06",
-    "tco2e": 16293.92,
+    "tco2e": 48953.87,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C07",
-    "tco2e": 28681.13,
+    "tco2e": 28903.84,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C08",
-    "tco2e": 693.72,
+    "tco2e": 1010.22,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C09",
-    "tco2e": 65469.52,
+    "tco2e": 196721.24,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C10",
-    "tco2e": 86991.41,
+    "tco2e": 236378.63,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C11",
-    "tco2e": 5968780.78,
+    "tco2e": 18196480.57,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C12",
-    "tco2e": 27425.47,
+    "tco2e": 62677.23,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C13",
-    "tco2e": 128.2,
+    "tco2e": 177.01,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C14",
-    "tco2e": 36483.1,
+    "tco2e": 43310.04,
     "scope2_method": null
    },
    {
     "reporting_year": 2024,
     "scope": "Scope 3",
     "category_id": "S3-C15",
-    "tco2e": 171123.7,
+    "tco2e": 112279.06,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 1",
     "category_id": "Fugitive emissions (refrigerants)",
-    "tco2e": 2692.57,
+    "tco2e": 8460.79,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 1",
     "category_id": "Mobile combustion",
-    "tco2e": 77250.68,
+    "tco2e": 82183.93,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 1",
     "category_id": "Process emissions",
-    "tco2e": 63601.6,
+    "tco2e": 14013.95,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 1",
     "category_id": "Stationary combustion",
-    "tco2e": 112650.11,
+    "tco2e": 105429.98,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 2",
     "category_id": "Purchased cooling",
-    "tco2e": 290.43,
+    "tco2e": 198.44,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 2",
     "category_id": "Purchased electricity",
-    "tco2e": 203344.06,
+    "tco2e": 160535.76,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 2",
     "category_id": "Purchased steam",
-    "tco2e": 9.32,
+    "tco2e": 10.17,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C01",
-    "tco2e": 358287.1,
+    "tco2e": 1001050.8,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C02",
-    "tco2e": 50309.46,
+    "tco2e": 61713.01,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C03",
-    "tco2e": 61219.57,
+    "tco2e": 54526.11,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C04",
-    "tco2e": 207099.01,
+    "tco2e": 525953.69,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C05",
-    "tco2e": 34211.2,
+    "tco2e": 26758.48,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C06",
-    "tco2e": 17099.8,
+    "tco2e": 51366.02,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C07",
-    "tco2e": 29535.94,
+    "tco2e": 26245.87,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C08",
-    "tco2e": 682.64,
+    "tco2e": 1047.19,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C09",
-    "tco2e": 68941.21,
+    "tco2e": 237986.2,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C10",
-    "tco2e": 90501.99,
+    "tco2e": 255079.47,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C11",
-    "tco2e": 6387048.46,
+    "tco2e": 25398405.88,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C12",
-    "tco2e": 24120.07,
+    "tco2e": 78324.14,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C13",
-    "tco2e": 128.29,
+    "tco2e": 185.05,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C14",
-    "tco2e": 34442.35,
+    "tco2e": 37371.17,
     "scope2_method": null
    },
    {
     "reporting_year": 2025,
     "scope": "Scope 3",
     "category_id": "S3-C15",
-    "tco2e": 165662.31,
+    "tco2e": 108695.69,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 1",
     "category_id": "Fugitive emissions (refrigerants)",
-    "tco2e": 3033.4,
+    "tco2e": 8635.75,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 1",
     "category_id": "Mobile combustion",
-    "tco2e": 78769.8,
+    "tco2e": 84142.04,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 1",
     "category_id": "Process emissions",
-    "tco2e": 18442.09,
+    "tco2e": 14658.76,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 1",
     "category_id": "Stationary combustion",
-    "tco2e": 108022.34,
+    "tco2e": 108290.1,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 2",
     "category_id": "Purchased cooling",
-    "tco2e": 276.76,
+    "tco2e": 188.28,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 2",
     "category_id": "Purchased electricity",
-    "tco2e": 197153.95,
+    "tco2e": 153871.11,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 2",
     "category_id": "Purchased steam",
-    "tco2e": 8.61,
+    "tco2e": 9.28,
     "scope2_method": "location-based"
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 3",
     "category_id": "S3-C01",
-    "tco2e": 301338.13,
+    "tco2e": 883730.32,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 3",
     "category_id": "S3-C02",
-    "tco2e": 24403.93,
+    "tco2e": 29683.44,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 3",
     "category_id": "S3-C03",
-    "tco2e": 61486.62,
+    "tco2e": 54672.12,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 3",
     "category_id": "S3-C04",
-    "tco2e": 191737.01,
+    "tco2e": 502470.29,
     "scope2_method": null
    },
    {
     "reporting_year": 2026,
     "scope": "Scope 3",
     "category_id": "S3-C05",
-    "tco2e": 28674.69,
+    "tco2e": 23105.76,
     "scope2_method": null
    }
   ],

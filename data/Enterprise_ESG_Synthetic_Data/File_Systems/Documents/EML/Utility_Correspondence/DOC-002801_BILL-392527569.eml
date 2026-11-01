@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-392527569 for account UA-99410330
+Date: Tue, 11 Apr 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for March 2023 is attached (PDF). Amount due: 499,226.62 INR.

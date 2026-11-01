@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-701992617 for account UA-27514501
+Date: Wed, 14 Oct 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for September 2026 is attached (PDF). Amount due: 39,639.98 TRY.

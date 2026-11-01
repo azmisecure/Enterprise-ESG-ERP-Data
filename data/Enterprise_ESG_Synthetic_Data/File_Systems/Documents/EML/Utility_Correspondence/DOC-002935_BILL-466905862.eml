@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-466905862 for account UA-83037253
+Date: Mon, 03 Jul 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for June 2023 is attached (PDF). Amount due: 80,340.12 PLN.

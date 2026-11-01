@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-107821067 for account UA-98852427
+Date: Thu, 09 Apr 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for March 2026 is attached (PDF). Amount due: 13,299.71 SGD.

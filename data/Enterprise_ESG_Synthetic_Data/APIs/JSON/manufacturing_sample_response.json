@@ -9,13 +9,13 @@
   },
   "headers": {
    "Authorization": "Bearer <REDACTED_PLACEHOLDER>",
-   "X-Correlation-Id": "corr-820187870"
+   "X-Correlation-Id": "corr-988363498"
   },
   "timestamp": "2026-03-01 00:00:00"
  },
  "response": {
   "status": 429,
-  "timestamp": "2026-03-01 00:00:00.811000",
+  "timestamp": "2026-03-01 00:00:00.752000",
   "source_system": "MANUFACTURING",
   "pagination": {
    "page": 1,

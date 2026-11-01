@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-371261691 for account UA-71081596
+Date: Sat, 13 May 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for April 2023 is attached (PDF). Amount due: 768,715.59 INR.

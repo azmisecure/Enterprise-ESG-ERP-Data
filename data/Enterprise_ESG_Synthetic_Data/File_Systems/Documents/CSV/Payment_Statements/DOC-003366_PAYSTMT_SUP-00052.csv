@@ -1,0 +1,2 @@
+payment_id,invoice_id,supplier_id,payment_date,amount,currency,payment_method,payment_voucher
+APPAY-0001603,APINV-0001724,SUP-00052,2022-10-20,2551.35,AUD,ACH,PV8001602

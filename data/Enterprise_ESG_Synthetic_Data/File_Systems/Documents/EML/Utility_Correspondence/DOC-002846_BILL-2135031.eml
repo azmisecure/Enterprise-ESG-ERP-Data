@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-2135031 for account UA-13159471
+Date: Sun, 12 Jan 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for December 2024 is attached (PDF). Amount due: 240.32 EUR.

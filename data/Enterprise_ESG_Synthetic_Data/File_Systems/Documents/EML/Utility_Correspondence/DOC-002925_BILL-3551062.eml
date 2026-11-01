@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-3551062 for account UA-78471344
+Date: Thu, 10 Apr 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your natural_gas bill for March 2025 is attached (PDF). Amount due: 17,259,921.05 JPY.

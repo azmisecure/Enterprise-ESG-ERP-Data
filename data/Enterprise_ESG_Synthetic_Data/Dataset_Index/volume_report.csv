@@ -1,27 +1,27 @@
 dataset_group,datasets,full_target,run_target,generated,outstanding_vs_full_target,outstanding_vs_run_target,status,reason
-GL transactions,gl_transactions,2000000,200000,1586506,413494,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-AP transactions,"ap_invoices,ap_payments",500000,50000,105743,394257,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-AR transactions,"ar_invoices,ar_receipts",500000,50000,205451,294549,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-Purchase orders,purchase_orders,500000,50000,50200,449800,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-Purchase order lines,po_lines,1500000,150000,150247,1349753,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
+GL transactions,gl_transactions,2000000,620000,4480144,0,0,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+AP transactions,"ap_invoices,ap_payments",500000,155000,327839,172161,0,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+AR transactions,"ar_invoices,ar_receipts",500000,155000,639210,0,0,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+Purchase orders,purchase_orders,500000,155000,155620,344380,0,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+Purchase order lines,po_lines,1500000,465000,464773,1035227,227,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
 Supplier records,suppliers,10000,10000,10000,0,0,Complete,Master data generated at full target
 Customer records,customers,20000,20000,20000,0,0,Complete,Master data generated at full target
 Product records,products,2000,2000,2000,0,0,Complete,Master data generated at full target
 Material records,materials,5000,5000,5000,0,0,Complete,Master data generated at full target
-Production transactions,"production_orders,production_confirmations,material_consumption",1000000,100000,128993,871007,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-Energy consumption records,"energy_daily,iot_telemetry,iot_5min,machine_hourly",5000000,500000,631262,4368738,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-Logistics transactions,"shipments,freight_invoices,fleet_fuel",1000000,100000,504057,495943,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
+Production transactions,"production_orders,production_confirmations,material_consumption",1000000,310000,392850,607150,0,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+Energy consumption records,"energy_daily,iot_telemetry,iot_5min,machine_hourly",5000000,1550000,637201,4362799,912799,Partial,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+Logistics transactions,"shipments,freight_invoices,fleet_fuel",1000000,310000,1264071,0,0,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
 Employee records,employees,75000,75000,75000,0,0,Complete,Master data generated at full target
-Waste records,waste_records,250000,25000,33955,216045,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-Utility invoices,utility_invoices,100000,10000,24094,75906,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-GHG activity records,ghg_activities,3000000,300000,828614,2171386,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
+Waste records,waste_records,250000,77500,33816,216184,43684,Partial,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+Utility invoices,utility_invoices,100000,31000,24182,75818,6818,Partial,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+GHG activity records,ghg_activities,3000000,930000,1693619,1306381,0,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
 Emission factors,emission_factors,10000,10000,10000,0,0,Complete,Master data generated at full target
-Sustainability documents,documents,50000,5000,3539,46461,1461,Partial,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
+Sustainability documents,documents,50000,15500,3537,46463,11963,Partial,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
 Supplier ESG assessments,supplier_esg_assessments,10000,10000,10000,0,0,Complete,Master data generated at full target
 Fleet records,vehicles,3000,3000,3000,0,0,Complete,Master data generated at full target
 Manufacturing assets,assets,20000,20000,20000,0,0,Complete,Master data generated at full target
 Energy meters,meters,5000,5000,5000,0,0,Complete,Master data generated at full target
-Customer sales transactions,so_lines,1000000,100000,99718,900282,282,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-Maintenance records,maintenance,500000,50000,50000,450000,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-Water consumption records,"water_daily,water_monthly",500000,50000,80047,419953,0,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
-Business travel records,business_travel,250000,25000,23620,226380,1380,Complete,Medium-scale run (scale=0.1); increase scale via a resumable new run to reach full target
+Customer sales transactions,so_lines,1000000,310000,309912,690088,88,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+Maintenance records,maintenance,500000,155000,155000,345000,0,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+Water consumption records,"water_daily,water_monthly",500000,155000,80268,419732,74732,Partial,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target
+Business travel records,business_travel,250000,77500,73204,176796,4296,Complete,Medium-scale run (scale=0.31); increase scale via a resumable new run to reach full target

@@ -1,6 +1,6 @@
 {
- "seed": 42,
- "scale": 0.1,
+ "seed": 43,
+ "scale": 0.31,
  "n_docs": 3000,
  "anomaly_distribution_target": {
   "clean": 0.8,

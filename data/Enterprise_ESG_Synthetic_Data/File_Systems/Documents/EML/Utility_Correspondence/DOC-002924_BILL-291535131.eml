@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-291535131 for account UA-90399884
+Date: Sun, 10 Apr 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for March 2022 is attached (PDF). Amount due: 38,682.07 INR.

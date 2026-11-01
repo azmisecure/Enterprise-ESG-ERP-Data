@@ -1,10 +1,10 @@
 # Enterprise_ESG_Synthetic_Data (SYNTHETIC)
 
-Seed 42, scale 0.1, period 2022-01-01 to 2026-12-31.
+Seed 43, scale 0.31, period 2022-01-01 to 2026-12-31.
 
 - Datasets: 109
-- Files: 5572 ({'DAT': 3, 'cpy': 1, 'csv': 185, 'dat': 40, 'docx': 572, 'edi': 2, 'eml': 600, 'json': 118, 'jsonl': 11, 'log': 72, 'md': 326, 'parquet': 56, 'pdf': 2069, 'psv': 1, 'sql': 20, 'tsv': 1, 'txt': 403, 'xlsx': 990, 'xml': 102})
-- Labelled anomalies: 37,132 (restricted folder Anomaly_Ground_Truth/)
+- Files: 3770 ({'DAT': 3, 'cpy': 1, 'csv': 133, 'dat': 20, 'docx': 286, 'edi': 2, 'eml': 300, 'json': 67, 'jsonl': 11, 'log': 42, 'md': 163, 'parquet': 56, 'pdf': 1904, 'psv': 1, 'sql': 20, 'tsv': 1, 'txt': 203, 'xlsx': 505, 'xml': 52})
+- Labelled anomalies: 69,094 (restricted folder Anomaly_Ground_Truth/)
 - Overall validation: VALIDATED
 
 All organisations, records, emission factors, documents and certificates are SYNTHETIC.

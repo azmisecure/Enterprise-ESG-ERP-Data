@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-209141592 for account UA-60339967
+Date: Wed, 14 May 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for April 2025 is attached (PDF). Amount due: 1,065,453.19 MXN.

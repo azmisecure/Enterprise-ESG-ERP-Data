@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-971103223 for account UA-99410330
+Date: Mon, 09 Oct 2023 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for September 2023 is attached (PDF). Amount due: 432,757.05 INR.

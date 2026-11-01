@@ -1,421 +1,421 @@
 audit_observation_id,audit_type,facility_id,observation_date,finding,rating,responsible_department,corrective_action_due,closure_status,evidence_document_id
-IAO-0001,Compliance assessment,FAC-WAR-068,2024-07-09,Waste certificate missing,High,Operations,2024-12-29,Closed,DOC-AUD-0
-IAO-0002,Internal audit,FAC-WAR-080,2022-10-17,Utility invoices not reconciled to meter data,Medium,Procurement,2023-01-13,Closed,DOC-AUD-1
-IAO-0003,External assurance (ESG),FAC-OFF-147,2023-06-28,Anti-corruption training overdue,Medium,Finance,2023-11-14,Overdue,DOC-AUD-2
-IAO-0004,External audit (financial),FAC-OFF-124,2024-01-08,Anti-corruption training overdue,Medium,EHS & Sustainability,2024-06-19,Open,DOC-AUD-3
-IAO-0005,External assurance (ESG),FAC-WAR-073,2024-11-12,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2025-04-06,Closed,DOC-AUD-4
-IAO-0006,External audit (financial),FAC-MAN-028,2025-07-07,Manual spreadsheet without review,Low,Procurement,2025-08-11,Closed,DOC-AUD-5
-IAO-0007,Business ethics review,FAC-WAR-100,2025-10-06,Supplier certificate expired,High,Finance,2025-11-25,Closed,DOC-AUD-6
-IAO-0008,Internal audit,FAC-WAR-081,2026-09-28,Waste certificate missing,Low,Procurement,2026-11-16,Closed,DOC-AUD-7
-IAO-0009,Compliance assessment,FAC-MAN-041,2023-11-21,Emission factor library outdated,Low,Operations,2024-03-19,Open,DOC-AUD-8
-IAO-0010,Compliance assessment,FAC-WAR-102,2023-08-31,Waste certificate missing,Low,Procurement,2024-02-11,Closed,DOC-AUD-9
-IAO-0011,Internal audit,FAC-WAR-088,2022-02-08,Manual spreadsheet without review,Low,EHS & Sustainability,2022-04-10,Open,DOC-AUD-10
-IAO-0012,Internal audit,FAC-WAR-085,2025-07-23,Segregation of duties in AP,Low,Finance,2025-10-18,Closed,DOC-AUD-11
-IAO-0013,Internal audit,FAC-WAR-089,2026-10-22,Manual spreadsheet without review,Low,Operations,2026-12-20,Closed,DOC-AUD-12
-IAO-0014,Internal audit,FAC-WAR-080,2026-04-10,Segregation of duties in AP,Low,Procurement,2026-09-26,Open,DOC-AUD-13
-IAO-0015,Internal audit,FAC-OFF-120,2022-02-15,Missing evidence for refrigerant top-ups,Medium,Finance,2022-06-28,Closed,DOC-AUD-14
-IAO-0016,External audit (financial),FAC-MAN-032,2023-09-06,Waste certificate missing,High,Procurement,2023-12-16,Closed,DOC-AUD-15
-IAO-0017,External assurance (ESG),FAC-MAN-021,2024-07-30,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2024-11-26,Closed,DOC-AUD-16
-IAO-0018,Internal audit,FAC-WAR-103,2026-11-16,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2027-02-02,Closed,DOC-AUD-17
-IAO-0019,Internal audit,FAC-WAR-092,2024-09-09,Utility invoices not reconciled to meter data,Medium,Procurement,2024-10-17,Closed,DOC-AUD-18
-IAO-0020,External assurance (ESG),FAC-MAN-001,2024-08-18,Anti-corruption training overdue,Medium,EHS & Sustainability,2024-10-16,Closed,DOC-AUD-19
-IAO-0021,Compliance assessment,FAC-WAR-095,2026-10-16,Emission factor library outdated,Low,Procurement,2026-12-20,Open,DOC-AUD-20
-IAO-0022,Internal audit,FAC-OFF-122,2022-03-30,Waste certificate missing,Medium,Procurement,2022-08-13,Closed,DOC-AUD-21
-IAO-0023,External assurance (ESG),FAC-WAR-093,2025-04-30,Anti-corruption training overdue,Medium,Procurement,2025-08-07,Overdue,DOC-AUD-22
-IAO-0024,Compliance assessment,FAC-MAN-008,2024-05-08,Segregation of duties in AP,Medium,Procurement,2024-10-01,Closed,DOC-AUD-23
-IAO-0025,Internal audit,FAC-WAR-069,2024-01-03,Manual spreadsheet without review,Medium,Finance,2024-06-11,Open,
-IAO-0026,Internal audit,FAC-WAR-093,2024-01-28,Waste certificate missing,Medium,Operations,2024-06-26,Closed,DOC-AUD-25
-IAO-0027,External assurance (ESG),FAC-OFF-131,2026-09-10,Manual spreadsheet without review,High,Finance,2026-10-14,Open,DOC-AUD-26
-IAO-0028,Compliance assessment,FAC-WAR-055,2024-02-08,Manual spreadsheet without review,High,Finance,2024-03-25,Closed,DOC-AUD-27
-IAO-0029,Internal audit,FAC-WAR-055,2024-03-28,Emission factor library outdated,Medium,Finance,2024-06-09,Open,DOC-AUD-28
-IAO-0030,Compliance assessment,FAC-MAN-003,2023-04-10,Anti-corruption training overdue,Low,Operations,2023-09-11,Overdue,DOC-AUD-29
-IAO-0031,Compliance assessment,FAC-OFF-118,2026-10-23,Segregation of duties in AP,High,Procurement,2027-02-07,Open,DOC-AUD-30
-IAO-0032,External assurance (ESG),FAC-MAN-035,2026-03-13,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2026-06-19,Open,DOC-AUD-31
-IAO-0033,Internal audit,FAC-MAN-029,2025-05-27,Segregation of duties in AP,Low,Procurement,2025-10-07,Overdue,DOC-AUD-32
-IAO-0034,Internal audit,FAC-WAR-055,2025-06-04,Segregation of duties in AP,Medium,Operations,2025-10-01,Closed,
-IAO-0035,Internal audit,FAC-MAN-041,2024-10-23,Manual spreadsheet without review,Low,EHS & Sustainability,2025-02-18,Closed,DOC-AUD-34
-IAO-0036,Compliance assessment,FAC-WAR-061,2025-09-22,Anti-corruption training overdue,Low,Procurement,2026-03-13,Closed,DOC-AUD-35
-IAO-0037,Internal audit,FAC-WAR-046,2025-01-06,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2025-03-18,Open,DOC-AUD-36
-IAO-0038,Internal audit,FAC-OFF-134,2026-02-11,Anti-corruption training overdue,Medium,Procurement,2026-05-19,Closed,DOC-AUD-37
-IAO-0039,External assurance (ESG),FAC-MAN-040,2024-04-09,Supplier certificate expired,Medium,Operations,2024-06-17,Open,DOC-AUD-38
-IAO-0040,Internal audit,FAC-OFF-145,2022-10-05,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2023-02-20,Open,DOC-AUD-39
-IAO-0041,Internal audit,FAC-OFF-133,2022-07-25,Emission factor library outdated,Medium,EHS & Sustainability,2022-09-06,Closed,DOC-AUD-40
-IAO-0042,Internal audit,FAC-MAN-017,2022-11-14,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2022-12-24,Open,DOC-AUD-41
-IAO-0043,Compliance assessment,FAC-OFF-141,2026-04-17,Anti-corruption training overdue,Low,Procurement,2026-05-19,Open,DOC-AUD-42
-IAO-0044,Internal audit,FAC-WAR-082,2023-10-04,Segregation of duties in AP,Low,Operations,2023-11-25,Closed,DOC-AUD-43
-IAO-0045,External assurance (ESG),FAC-WAR-114,2025-06-10,Supplier certificate expired,High,Finance,2025-10-09,Closed,DOC-AUD-44
-IAO-0046,Internal audit,FAC-MAN-023,2022-08-26,Manual spreadsheet without review,Medium,Operations,2022-10-21,Open,DOC-AUD-45
-IAO-0047,Internal audit,FAC-WAR-044,2026-01-20,Manual spreadsheet without review,High,EHS & Sustainability,2026-02-26,Overdue,DOC-AUD-46
-IAO-0048,External audit (financial),FAC-OFF-138,2024-12-02,Supplier certificate expired,Low,EHS & Sustainability,2025-02-16,Closed,DOC-AUD-47
-IAO-0049,Internal audit,FAC-MAN-026,2024-12-12,Anti-corruption training overdue,High,Operations,2025-01-23,Closed,DOC-AUD-48
-IAO-0050,Compliance assessment,FAC-WAR-053,2025-04-29,Segregation of duties in AP,Medium,Finance,2025-08-02,Closed,DOC-AUD-49
-IAO-0051,External audit (financial),FAC-WAR-114,2024-01-19,Segregation of duties in AP,Medium,Operations,2024-02-18,Overdue,DOC-AUD-50
-IAO-0052,External audit (financial),FAC-WAR-075,2024-04-01,Manual spreadsheet without review,Medium,Operations,2024-09-23,Closed,DOC-AUD-51
-IAO-0053,Compliance assessment,FAC-MAN-021,2022-03-11,Anti-corruption training overdue,Low,Operations,2022-08-12,Overdue,DOC-AUD-52
-IAO-0054,External assurance (ESG),FAC-WAR-090,2026-12-07,Emission factor library outdated,Medium,Operations,2027-04-11,Closed,DOC-AUD-53
-IAO-0055,Internal audit,FAC-WAR-104,2025-05-22,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2025-08-17,Open,DOC-AUD-54
-IAO-0056,External assurance (ESG),FAC-OFF-146,2023-09-09,Segregation of duties in AP,Low,Finance,2023-12-16,Closed,
-IAO-0057,Internal audit,FAC-WAR-096,2025-09-10,Waste certificate missing,High,EHS & Sustainability,2025-11-27,Closed,DOC-AUD-56
-IAO-0058,Internal audit,FAC-MAN-035,2026-11-02,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2027-04-10,Open,
-IAO-0059,External assurance (ESG),FAC-WAR-087,2026-07-09,Anti-corruption training overdue,Medium,EHS & Sustainability,2026-11-29,Overdue,DOC-AUD-58
-IAO-0060,Internal audit,FAC-MAN-017,2024-10-21,Supplier certificate expired,High,Procurement,2024-12-01,Closed,
-IAO-0061,Internal audit,FAC-MAN-001,2022-05-24,Waste certificate missing,Medium,Operations,2022-10-25,Open,DOC-AUD-60
-IAO-0062,External audit (financial),FAC-MAN-028,2026-06-09,Manual spreadsheet without review,Low,Procurement,2026-07-10,Closed,DOC-AUD-61
-IAO-0063,Compliance assessment,FAC-OFF-120,2025-11-19,Manual spreadsheet without review,Low,Finance,2026-01-04,Open,DOC-AUD-62
-IAO-0064,Internal audit,FAC-OFF-146,2023-01-31,Utility invoices not reconciled to meter data,Medium,Procurement,2023-07-08,Closed,DOC-AUD-63
-IAO-0065,External audit (financial),FAC-WAR-050,2022-09-24,Segregation of duties in AP,Medium,Operations,2023-03-04,Closed,DOC-AUD-64
-IAO-0066,Internal audit,FAC-WAR-048,2024-05-10,Emission factor library outdated,Medium,Operations,2024-08-09,Closed,DOC-AUD-65
-IAO-0067,Internal audit,FAC-MAN-025,2025-05-21,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2025-07-23,Closed,DOC-AUD-66
-IAO-0068,Internal audit,FAC-WAR-081,2025-04-14,Anti-corruption training overdue,Low,Procurement,2025-06-20,Open,DOC-AUD-67
-IAO-0069,Internal audit,FAC-WAR-090,2026-05-26,Anti-corruption training overdue,Low,EHS & Sustainability,2026-10-08,Open,DOC-AUD-68
-IAO-0070,Internal audit,FAC-OFF-144,2022-07-04,Supplier certificate expired,Low,EHS & Sustainability,2022-12-15,Closed,DOC-AUD-69
-IAO-0071,Internal audit,FAC-WAR-108,2023-07-27,Manual spreadsheet without review,Medium,EHS & Sustainability,2023-11-20,Closed,DOC-AUD-70
-IAO-0072,Internal audit,FAC-OFF-131,2022-01-04,Utility invoices not reconciled to meter data,Medium,Procurement,2022-06-06,Closed,DOC-AUD-71
-IAO-0073,Internal audit,FAC-MAN-018,2023-10-25,Supplier certificate expired,Low,EHS & Sustainability,2024-01-10,Closed,
-IAO-0074,External audit (financial),FAC-WAR-093,2023-11-15,Manual spreadsheet without review,Low,EHS & Sustainability,2024-05-05,Closed,DOC-AUD-73
-IAO-0075,External assurance (ESG),FAC-WAR-094,2026-02-18,Missing evidence for refrigerant top-ups,Medium,Procurement,2026-05-25,Closed,DOC-AUD-74
-IAO-0076,External assurance (ESG),FAC-WAR-076,2026-11-05,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2027-03-08,Closed,
-IAO-0077,External audit (financial),FAC-OFF-128,2023-04-28,Utility invoices not reconciled to meter data,High,Finance,2023-08-01,Open,DOC-AUD-76
-IAO-0078,External audit (financial),FAC-WAR-075,2022-09-08,Supplier certificate expired,Medium,EHS & Sustainability,2022-12-24,Open,DOC-AUD-77
-IAO-0079,Internal audit,FAC-MAN-021,2026-02-25,Missing evidence for refrigerant top-ups,Low,Finance,2026-07-20,Closed,DOC-AUD-78
-IAO-0080,Compliance assessment,FAC-MAN-009,2025-05-12,Anti-corruption training overdue,Medium,EHS & Sustainability,2025-11-05,Closed,DOC-AUD-79
-IAO-0081,Internal audit,FAC-MAN-029,2026-03-31,Missing evidence for refrigerant top-ups,Medium,Finance,2026-05-15,Closed,DOC-AUD-80
-IAO-0082,Internal audit,FAC-OFF-136,2025-03-10,Segregation of duties in AP,Medium,Finance,2025-05-07,Closed,DOC-AUD-81
-IAO-0083,External assurance (ESG),FAC-WAR-082,2026-01-02,Manual spreadsheet without review,Low,Operations,2026-03-31,Closed,DOC-AUD-82
-IAO-0084,External audit (financial),FAC-OFF-138,2023-04-08,Supplier certificate expired,Medium,Procurement,2023-07-10,Overdue,DOC-AUD-83
-IAO-0085,Internal audit,FAC-OFF-135,2023-04-11,Emission factor library outdated,Medium,EHS & Sustainability,2023-08-11,Open,DOC-AUD-84
-IAO-0086,External assurance (ESG),FAC-OFF-140,2024-01-29,Utility invoices not reconciled to meter data,Medium,Operations,2024-04-27,Open,DOC-AUD-85
-IAO-0087,Compliance assessment,FAC-MAN-023,2026-12-28,Supplier certificate expired,Medium,Finance,2027-02-04,Closed,DOC-AUD-86
-IAO-0088,Internal audit,FAC-WAR-080,2026-01-31,Emission factor library outdated,Low,Procurement,2026-03-05,Closed,DOC-AUD-87
-IAO-0089,Internal audit,FAC-WAR-076,2025-08-16,Emission factor library outdated,Low,EHS & Sustainability,2026-01-30,Open,DOC-AUD-88
-IAO-0090,Internal audit,FAC-WAR-112,2026-01-05,Manual spreadsheet without review,Medium,Finance,2026-05-04,Open,
-IAO-0091,Internal audit,FAC-MAN-035,2026-06-08,Waste certificate missing,Medium,Operations,2026-07-10,Open,DOC-AUD-90
-IAO-0092,Internal audit,FAC-WAR-062,2026-01-12,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2026-05-31,Open,DOC-AUD-91
-IAO-0093,Internal audit,FAC-WAR-049,2025-09-12,Anti-corruption training overdue,Medium,Operations,2025-12-30,Closed,DOC-AUD-92
-IAO-0094,Business ethics review,FAC-OFF-152,2024-11-12,Utility invoices not reconciled to meter data,Low,Operations,2025-05-01,Open,DOC-AUD-93
-IAO-0095,Internal audit,FAC-WAR-052,2023-03-31,Waste certificate missing,Medium,Operations,2023-07-07,Open,DOC-AUD-94
-IAO-0096,External audit (financial),FAC-MAN-014,2025-04-23,Utility invoices not reconciled to meter data,Medium,Operations,2025-09-19,Closed,DOC-AUD-95
-IAO-0097,Internal audit,FAC-WAR-088,2024-05-31,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2024-11-24,Closed,DOC-AUD-96
-IAO-0098,External assurance (ESG),FAC-WAR-099,2022-01-09,Utility invoices not reconciled to meter data,Low,Procurement,2022-06-09,Closed,DOC-AUD-97
-IAO-0099,Business ethics review,FAC-WAR-092,2025-02-11,Emission factor library outdated,Medium,Operations,2025-07-23,Overdue,DOC-AUD-98
-IAO-0100,Internal audit,FAC-OFF-148,2023-03-29,Emission factor library outdated,High,EHS & Sustainability,2023-08-16,Closed,DOC-AUD-99
-IAO-0101,Compliance assessment,FAC-WAR-046,2025-08-14,Supplier certificate expired,Low,Finance,2025-12-05,Closed,DOC-AUD-100
-IAO-0102,Internal audit,FAC-OFF-135,2026-03-27,Segregation of duties in AP,Low,EHS & Sustainability,2026-06-22,Open,DOC-AUD-101
-IAO-0103,External assurance (ESG),FAC-WAR-076,2026-07-01,Manual spreadsheet without review,Low,Procurement,2026-11-28,Closed,DOC-AUD-102
-IAO-0104,Internal audit,FAC-WAR-048,2023-04-06,Supplier certificate expired,Low,Procurement,2023-08-23,Closed,DOC-AUD-103
-IAO-0105,Internal audit,FAC-MAN-016,2022-07-13,Waste certificate missing,Low,Procurement,2022-10-07,Closed,DOC-AUD-104
-IAO-0106,Business ethics review,FAC-WAR-049,2025-06-13,Supplier certificate expired,Low,Operations,2025-07-30,Closed,DOC-AUD-105
-IAO-0107,Business ethics review,FAC-WAR-093,2023-03-11,Emission factor library outdated,Medium,EHS & Sustainability,2023-06-08,Overdue,DOC-AUD-106
-IAO-0108,Internal audit,FAC-WAR-059,2022-09-21,Missing evidence for refrigerant top-ups,Medium,Finance,2022-11-23,Overdue,DOC-AUD-107
-IAO-0109,Business ethics review,FAC-WAR-047,2025-05-15,Supplier certificate expired,High,Procurement,2025-08-19,Closed,DOC-AUD-108
-IAO-0110,External assurance (ESG),FAC-OFF-136,2025-11-10,Waste certificate missing,Low,EHS & Sustainability,2026-01-15,Closed,
-IAO-0111,Compliance assessment,FAC-WAR-072,2022-01-04,Waste certificate missing,Medium,EHS & Sustainability,2022-03-16,Closed,DOC-AUD-110
-IAO-0112,Compliance assessment,FAC-WAR-063,2023-10-14,Segregation of duties in AP,Low,Procurement,2024-03-13,Closed,DOC-AUD-111
-IAO-0113,Business ethics review,FAC-MAN-037,2024-11-01,Segregation of duties in AP,High,Procurement,2024-12-10,Open,DOC-AUD-112
-IAO-0114,Internal audit,FAC-OFF-134,2024-10-15,Supplier certificate expired,High,EHS & Sustainability,2025-01-31,Overdue,DOC-AUD-113
-IAO-0115,External audit (financial),FAC-WAR-092,2024-09-19,Anti-corruption training overdue,Medium,Procurement,2024-12-07,Open,DOC-AUD-114
-IAO-0116,Internal audit,FAC-MAN-026,2026-07-08,Manual spreadsheet without review,High,Procurement,2026-12-12,Closed,DOC-AUD-115
-IAO-0117,Internal audit,FAC-MAN-042,2023-07-02,Utility invoices not reconciled to meter data,Medium,Procurement,2023-09-28,Closed,DOC-AUD-116
-IAO-0118,Internal audit,FAC-MAN-031,2024-07-03,Emission factor library outdated,High,Operations,2024-12-02,Closed,
-IAO-0119,Internal audit,FAC-WAR-064,2023-12-12,Waste certificate missing,Low,Finance,2024-05-18,Closed,DOC-AUD-118
-IAO-0120,External assurance (ESG),FAC-WAR-090,2023-06-01,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2023-10-20,Closed,DOC-AUD-119
-IAO-0121,Compliance assessment,FAC-OFF-122,2022-08-22,Manual spreadsheet without review,Medium,Procurement,2022-11-10,Closed,DOC-AUD-120
-IAO-0122,External audit (financial),FAC-MAN-039,2026-09-23,Waste certificate missing,Low,Operations,2026-12-18,Open,DOC-AUD-121
-IAO-0123,Internal audit,FAC-WAR-058,2023-05-16,Utility invoices not reconciled to meter data,Low,Finance,2023-09-30,Open,DOC-AUD-122
-IAO-0124,Internal audit,FAC-WAR-067,2024-06-10,Utility invoices not reconciled to meter data,Low,Operations,2024-07-31,Open,DOC-AUD-123
-IAO-0125,External audit (financial),FAC-WAR-065,2025-01-28,Emission factor library outdated,Low,Procurement,2025-07-18,Open,DOC-AUD-124
-IAO-0126,External audit (financial),FAC-WAR-051,2025-08-29,Emission factor library outdated,Low,Procurement,2025-12-13,Overdue,DOC-AUD-125
-IAO-0127,External assurance (ESG),FAC-MAN-028,2023-03-07,Missing evidence for refrigerant top-ups,Low,Procurement,2023-08-30,Open,DOC-AUD-126
-IAO-0128,Business ethics review,FAC-MAN-024,2022-11-30,Segregation of duties in AP,Low,EHS & Sustainability,2023-05-21,Open,DOC-AUD-127
-IAO-0129,Internal audit,FAC-MAN-020,2025-06-03,Waste certificate missing,Medium,Finance,2025-09-16,Closed,DOC-AUD-128
-IAO-0130,External audit (financial),FAC-OFF-135,2022-01-20,Manual spreadsheet without review,Medium,Finance,2022-03-01,Closed,
-IAO-0131,Compliance assessment,FAC-WAR-044,2022-11-25,Supplier certificate expired,Low,Operations,2023-02-25,Closed,DOC-AUD-130
-IAO-0132,Internal audit,FAC-WAR-048,2024-07-03,Supplier certificate expired,Medium,Finance,2024-09-22,Closed,DOC-AUD-131
-IAO-0133,External assurance (ESG),FAC-OFF-124,2023-11-20,Supplier certificate expired,Medium,Operations,2024-02-28,Closed,DOC-AUD-132
-IAO-0134,External audit (financial),FAC-WAR-048,2022-06-22,Utility invoices not reconciled to meter data,Low,Finance,2022-07-23,Closed,DOC-AUD-133
-IAO-0135,Internal audit,FAC-OFF-131,2023-03-13,Waste certificate missing,Low,Operations,2023-04-14,Closed,DOC-AUD-134
-IAO-0136,Internal audit,FAC-OFF-135,2025-03-08,Waste certificate missing,Medium,Operations,2025-05-21,Closed,
-IAO-0137,Internal audit,FAC-WAR-113,2024-03-02,Anti-corruption training overdue,Low,Finance,2024-04-12,Closed,DOC-AUD-136
-IAO-0138,External assurance (ESG),FAC-MAN-013,2026-07-10,Waste certificate missing,Medium,Finance,2026-09-22,Open,DOC-AUD-137
-IAO-0139,Compliance assessment,FAC-MAN-035,2022-09-22,Missing evidence for refrigerant top-ups,Low,Operations,2023-01-10,Closed,DOC-AUD-138
-IAO-0140,Internal audit,FAC-WAR-089,2023-11-11,Supplier certificate expired,Low,Finance,2024-02-15,Open,DOC-AUD-139
-IAO-0141,External audit (financial),FAC-MAN-012,2025-11-07,Waste certificate missing,Low,Operations,2026-05-04,Open,DOC-AUD-140
-IAO-0142,Internal audit,FAC-OFF-119,2024-12-02,Segregation of duties in AP,Medium,Finance,2025-01-29,Closed,DOC-AUD-141
-IAO-0143,Internal audit,FAC-WAR-044,2022-12-05,Segregation of duties in AP,High,EHS & Sustainability,2023-02-24,Open,
-IAO-0144,External assurance (ESG),FAC-WAR-061,2026-09-21,Supplier certificate expired,Low,Finance,2027-03-08,Open,DOC-AUD-143
-IAO-0145,External assurance (ESG),FAC-WAR-109,2026-08-24,Utility invoices not reconciled to meter data,Low,Operations,2026-11-16,Closed,DOC-AUD-144
-IAO-0146,External audit (financial),FAC-WAR-070,2024-02-02,Emission factor library outdated,High,Procurement,2024-04-01,Closed,DOC-AUD-145
-IAO-0147,Business ethics review,FAC-WAR-114,2025-11-13,Emission factor library outdated,Medium,Finance,2026-01-22,Overdue,DOC-AUD-146
-IAO-0148,Compliance assessment,FAC-OFF-139,2023-04-13,Anti-corruption training overdue,Low,Procurement,2023-08-23,Closed,DOC-AUD-147
-IAO-0149,Internal audit,FAC-WAR-055,2025-11-07,Manual spreadsheet without review,Low,Operations,2025-12-09,Closed,DOC-AUD-148
-IAO-0150,Internal audit,FAC-WAR-112,2024-07-18,Segregation of duties in AP,Low,EHS & Sustainability,2024-09-13,Open,DOC-AUD-149
-IAO-0151,Compliance assessment,FAC-MAN-025,2023-12-05,Segregation of duties in AP,Low,Finance,2024-05-31,Closed,DOC-AUD-150
-IAO-0152,Internal audit,FAC-OFF-147,2026-03-13,Supplier certificate expired,Low,Operations,2026-05-07,Open,DOC-AUD-151
-IAO-0153,Internal audit,FAC-WAR-079,2025-05-14,Missing evidence for refrigerant top-ups,High,EHS & Sustainability,2025-10-25,Open,DOC-AUD-152
-IAO-0154,Internal audit,FAC-WAR-100,2024-02-14,Emission factor library outdated,Medium,Procurement,2024-03-25,Closed,DOC-AUD-153
-IAO-0155,Internal audit,FAC-MAN-006,2026-03-16,Missing evidence for refrigerant top-ups,Medium,Finance,2026-05-25,Closed,DOC-AUD-154
-IAO-0156,External assurance (ESG),FAC-WAR-097,2024-12-13,Missing evidence for refrigerant top-ups,Low,Procurement,2025-03-18,Closed,DOC-AUD-155
-IAO-0157,External assurance (ESG),FAC-OFF-144,2023-05-13,Segregation of duties in AP,Low,Operations,2023-10-29,Closed,DOC-AUD-156
-IAO-0158,Business ethics review,FAC-WAR-060,2025-12-30,Segregation of duties in AP,Medium,Procurement,2026-03-26,Closed,
-IAO-0159,Business ethics review,FAC-OFF-118,2024-10-22,Segregation of duties in AP,Low,EHS & Sustainability,2024-12-08,Closed,DOC-AUD-158
-IAO-0160,Internal audit,FAC-WAR-053,2023-07-11,Supplier certificate expired,Low,Finance,2023-08-17,Closed,DOC-AUD-159
-IAO-0161,Internal audit,FAC-MAN-042,2023-04-03,Manual spreadsheet without review,Low,Procurement,2023-09-05,Closed,
-IAO-0162,Business ethics review,FAC-WAR-111,2023-12-22,Utility invoices not reconciled to meter data,Medium,Procurement,2024-03-28,Closed,DOC-AUD-161
-IAO-0163,Internal audit,FAC-OFF-146,2024-04-09,Anti-corruption training overdue,High,EHS & Sustainability,2024-05-09,Open,DOC-AUD-162
-IAO-0164,External audit (financial),FAC-WAR-047,2025-11-10,Waste certificate missing,Medium,Finance,2026-02-21,Closed,DOC-AUD-163
-IAO-0165,External audit (financial),FAC-MAN-009,2026-07-31,Waste certificate missing,Low,Procurement,2026-10-01,Closed,DOC-AUD-164
-IAO-0166,Internal audit,FAC-WAR-093,2025-05-06,Anti-corruption training overdue,High,EHS & Sustainability,2025-09-06,Closed,DOC-AUD-165
-IAO-0167,Compliance assessment,FAC-OFF-133,2026-02-03,Segregation of duties in AP,Low,EHS & Sustainability,2026-06-19,Open,
-IAO-0168,Internal audit,FAC-OFF-150,2024-04-11,Emission factor library outdated,Medium,EHS & Sustainability,2024-05-24,Closed,DOC-AUD-167
-IAO-0169,Internal audit,FAC-WAR-077,2025-12-03,Utility invoices not reconciled to meter data,Low,Procurement,2026-05-12,Closed,DOC-AUD-168
-IAO-0170,Compliance assessment,FAC-MAN-003,2024-06-19,Segregation of duties in AP,High,Procurement,2024-08-03,Closed,DOC-AUD-169
-IAO-0171,Internal audit,FAC-OFF-123,2022-10-17,Segregation of duties in AP,Low,EHS & Sustainability,2023-04-09,Open,DOC-AUD-170
-IAO-0172,Internal audit,FAC-OFF-116,2026-08-28,Segregation of duties in AP,Medium,Procurement,2027-02-14,Closed,
-IAO-0173,Internal audit,FAC-MAN-003,2022-11-14,Supplier certificate expired,Low,EHS & Sustainability,2023-03-08,Open,DOC-AUD-172
-IAO-0174,Compliance assessment,FAC-OFF-148,2026-03-06,Anti-corruption training overdue,Low,EHS & Sustainability,2026-07-05,Closed,DOC-AUD-173
-IAO-0175,Business ethics review,FAC-OFF-127,2022-11-17,Waste certificate missing,Low,Operations,2023-01-27,Closed,DOC-AUD-174
-IAO-0176,Internal audit,FAC-WAR-101,2023-01-02,Utility invoices not reconciled to meter data,Low,Operations,2023-04-05,Closed,
-IAO-0177,Internal audit,FAC-OFF-121,2025-07-25,Anti-corruption training overdue,Medium,EHS & Sustainability,2025-12-20,Open,DOC-AUD-176
-IAO-0178,Internal audit,FAC-WAR-051,2026-01-06,Utility invoices not reconciled to meter data,Medium,Operations,2026-06-13,Closed,DOC-AUD-177
-IAO-0179,Internal audit,FAC-OFF-133,2024-08-30,Missing evidence for refrigerant top-ups,Low,Operations,2025-02-01,Closed,DOC-AUD-178
-IAO-0180,Compliance assessment,FAC-OFF-129,2023-12-21,Emission factor library outdated,Low,EHS & Sustainability,2024-05-15,Closed,DOC-AUD-179
-IAO-0181,External assurance (ESG),FAC-WAR-089,2026-02-11,Waste certificate missing,Medium,Procurement,2026-03-15,Closed,DOC-AUD-180
-IAO-0182,Internal audit,FAC-WAR-058,2026-11-02,Emission factor library outdated,Low,EHS & Sustainability,2026-12-02,Open,DOC-AUD-181
-IAO-0183,External assurance (ESG),FAC-MAN-037,2025-06-27,Manual spreadsheet without review,Low,Finance,2025-09-09,Closed,DOC-AUD-182
-IAO-0184,Business ethics review,FAC-MAN-014,2023-03-02,Supplier certificate expired,Low,EHS & Sustainability,2023-05-02,Closed,DOC-AUD-183
-IAO-0185,Compliance assessment,FAC-WAR-066,2022-03-13,Utility invoices not reconciled to meter data,Low,Finance,2022-06-09,Open,DOC-AUD-184
-IAO-0186,Internal audit,FAC-MAN-004,2025-02-06,Manual spreadsheet without review,Low,Operations,2025-05-31,Closed,DOC-AUD-185
-IAO-0187,Internal audit,FAC-MAN-027,2025-04-16,Waste certificate missing,Medium,EHS & Sustainability,2025-07-16,Overdue,DOC-AUD-186
-IAO-0188,Internal audit,FAC-OFF-131,2022-08-15,Anti-corruption training overdue,Low,Operations,2023-02-02,Closed,DOC-AUD-187
-IAO-0189,Internal audit,FAC-WAR-057,2024-01-18,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2024-04-24,Closed,DOC-AUD-188
-IAO-0190,External audit (financial),FAC-WAR-078,2025-04-04,Segregation of duties in AP,Low,Procurement,2025-08-05,Closed,DOC-AUD-189
-IAO-0191,Internal audit,FAC-OFF-126,2024-09-04,Anti-corruption training overdue,High,EHS & Sustainability,2025-01-05,Open,DOC-AUD-190
-IAO-0192,Internal audit,FAC-OFF-140,2023-07-21,Segregation of duties in AP,Low,Finance,2023-09-28,Closed,DOC-AUD-191
-IAO-0193,Internal audit,FAC-OFF-122,2026-03-09,Segregation of duties in AP,High,Finance,2026-07-26,Open,DOC-AUD-192
-IAO-0194,External assurance (ESG),FAC-WAR-089,2024-11-15,Emission factor library outdated,Low,EHS & Sustainability,2025-01-22,Open,DOC-AUD-193
-IAO-0195,External assurance (ESG),FAC-OFF-148,2024-12-27,Segregation of duties in AP,Medium,Operations,2025-04-04,Closed,DOC-AUD-194
-IAO-0196,Compliance assessment,FAC-WAR-061,2026-02-19,Emission factor library outdated,High,Procurement,2026-04-24,Open,DOC-AUD-195
-IAO-0197,Internal audit,FAC-WAR-076,2025-09-08,Emission factor library outdated,Medium,Operations,2025-12-03,Closed,
-IAO-0198,Internal audit,FAC-WAR-114,2023-09-04,Missing evidence for refrigerant top-ups,Medium,Procurement,2023-11-17,Closed,DOC-AUD-197
-IAO-0199,External audit (financial),FAC-OFF-131,2025-09-08,Segregation of duties in AP,Low,Procurement,2025-12-30,Closed,DOC-AUD-198
-IAO-0200,Internal audit,FAC-WAR-044,2022-04-05,Segregation of duties in AP,High,EHS & Sustainability,2022-08-05,Overdue,DOC-AUD-199
-IAO-0201,Internal audit,FAC-WAR-047,2024-05-31,Waste certificate missing,Medium,EHS & Sustainability,2024-09-20,Closed,DOC-AUD-200
-IAO-0202,External assurance (ESG),FAC-WAR-100,2026-11-23,Utility invoices not reconciled to meter data,Medium,Operations,2027-01-18,Open,
-IAO-0203,External audit (financial),FAC-WAR-076,2023-12-21,Waste certificate missing,Medium,Finance,2024-05-06,Closed,DOC-AUD-202
-IAO-0204,Compliance assessment,FAC-MAN-039,2026-07-02,Anti-corruption training overdue,Low,Finance,2026-08-06,Closed,DOC-AUD-203
-IAO-0205,External assurance (ESG),FAC-MAN-018,2023-10-31,Manual spreadsheet without review,Medium,EHS & Sustainability,2024-03-08,Closed,DOC-AUD-204
-IAO-0206,Internal audit,FAC-MAN-038,2024-11-29,Supplier certificate expired,Low,Procurement,2025-03-12,Closed,DOC-AUD-205
-IAO-0207,Compliance assessment,FAC-WAR-091,2022-07-25,Segregation of duties in AP,High,EHS & Sustainability,2022-12-13,Open,DOC-AUD-206
-IAO-0208,Internal audit,FAC-MAN-002,2026-03-10,Waste certificate missing,Medium,Finance,2026-08-17,Closed,
-IAO-0209,Internal audit,FAC-OFF-148,2022-11-26,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2023-01-06,Open,DOC-AUD-208
-IAO-0210,External assurance (ESG),FAC-WAR-098,2022-05-05,Waste certificate missing,High,Procurement,2022-07-04,Closed,
-IAO-0211,Internal audit,FAC-MAN-023,2022-09-06,Manual spreadsheet without review,Medium,Procurement,2023-02-27,Open,DOC-AUD-210
-IAO-0212,Internal audit,FAC-WAR-077,2026-01-26,Segregation of duties in AP,Low,Procurement,2026-05-08,Closed,DOC-AUD-211
-IAO-0213,Business ethics review,FAC-MAN-017,2023-11-24,Utility invoices not reconciled to meter data,Medium,Procurement,2023-12-29,Closed,DOC-AUD-212
-IAO-0214,External assurance (ESG),FAC-WAR-089,2022-04-23,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2022-06-10,Closed,
-IAO-0215,Internal audit,FAC-WAR-075,2026-03-16,Anti-corruption training overdue,Low,Operations,2026-07-04,Closed,DOC-AUD-214
-IAO-0216,Business ethics review,FAC-WAR-069,2022-05-12,Missing evidence for refrigerant top-ups,Medium,Operations,2022-07-16,Overdue,DOC-AUD-215
-IAO-0217,External assurance (ESG),FAC-WAR-070,2022-09-09,Missing evidence for refrigerant top-ups,Low,Operations,2022-11-21,Overdue,
-IAO-0218,External audit (financial),FAC-WAR-105,2023-11-29,Supplier certificate expired,Low,Procurement,2024-03-06,Closed,DOC-AUD-217
-IAO-0219,Internal audit,FAC-WAR-048,2023-11-01,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2023-12-15,Closed,DOC-AUD-218
-IAO-0220,Internal audit,FAC-WAR-080,2026-10-07,Anti-corruption training overdue,Medium,Operations,2027-01-18,Open,
-IAO-0221,External assurance (ESG),FAC-WAR-100,2026-03-20,Supplier certificate expired,Medium,EHS & Sustainability,2026-09-15,Closed,DOC-AUD-220
-IAO-0222,External audit (financial),FAC-WAR-045,2022-04-14,Utility invoices not reconciled to meter data,High,Procurement,2022-07-15,Overdue,DOC-AUD-221
-IAO-0223,Internal audit,FAC-MAN-029,2023-03-07,Emission factor library outdated,Low,Finance,2023-06-06,Open,DOC-AUD-222
-IAO-0224,External assurance (ESG),FAC-WAR-079,2026-11-09,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2027-01-06,Closed,DOC-AUD-223
-IAO-0225,Internal audit,FAC-WAR-072,2026-11-01,Emission factor library outdated,High,Finance,2027-01-10,Closed,DOC-AUD-224
-IAO-0226,Business ethics review,FAC-WAR-102,2022-10-12,Emission factor library outdated,Medium,Operations,2023-02-28,Closed,DOC-AUD-225
-IAO-0227,Internal audit,FAC-WAR-078,2024-11-12,Segregation of duties in AP,Low,Finance,2025-02-04,Open,DOC-AUD-226
-IAO-0228,Internal audit,FAC-OFF-150,2025-06-30,Manual spreadsheet without review,Low,Finance,2025-08-24,Open,DOC-AUD-227
-IAO-0229,External assurance (ESG),FAC-WAR-074,2022-12-02,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2023-02-09,Closed,DOC-AUD-228
-IAO-0230,Internal audit,FAC-WAR-114,2026-11-04,Emission factor library outdated,Medium,Operations,2027-04-19,Overdue,DOC-AUD-229
-IAO-0231,Internal audit,FAC-WAR-070,2025-12-19,Waste certificate missing,Low,Operations,2026-01-31,Open,DOC-AUD-230
-IAO-0232,Internal audit,FAC-OFF-147,2022-08-29,Anti-corruption training overdue,Medium,EHS & Sustainability,2023-01-14,Closed,DOC-AUD-231
-IAO-0233,Business ethics review,FAC-OFF-135,2026-01-09,Anti-corruption training overdue,High,Operations,2026-07-03,Closed,DOC-AUD-232
-IAO-0234,Internal audit,FAC-MAN-040,2022-12-07,Anti-corruption training overdue,Low,Procurement,2023-04-27,Closed,DOC-AUD-233
-IAO-0235,External audit (financial),FAC-WAR-097,2023-04-09,Waste certificate missing,Medium,Operations,2023-07-07,Overdue,DOC-AUD-234
-IAO-0236,Internal audit,FAC-OFF-123,2025-11-17,Waste certificate missing,Low,Finance,2026-02-02,Closed,
-IAO-0237,Business ethics review,FAC-WAR-078,2026-02-17,Manual spreadsheet without review,Low,Operations,2026-07-08,Closed,DOC-AUD-236
-IAO-0238,Internal audit,FAC-MAN-026,2025-02-27,Manual spreadsheet without review,Low,Procurement,2025-06-14,Open,DOC-AUD-237
-IAO-0239,Business ethics review,FAC-OFF-140,2026-02-03,Waste certificate missing,Low,Procurement,2026-03-12,Open,DOC-AUD-238
-IAO-0240,Internal audit,FAC-OFF-148,2025-04-02,Segregation of duties in AP,Low,Finance,2025-07-29,Open,DOC-AUD-239
-IAO-0241,External assurance (ESG),FAC-WAR-062,2022-09-06,Utility invoices not reconciled to meter data,High,Procurement,2023-01-27,Closed,DOC-AUD-240
-IAO-0242,Internal audit,FAC-WAR-059,2025-12-09,Emission factor library outdated,Medium,Finance,2026-02-24,Closed,DOC-AUD-241
-IAO-0243,External assurance (ESG),FAC-WAR-060,2025-10-12,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2025-12-20,Open,DOC-AUD-242
-IAO-0244,Internal audit,FAC-MAN-041,2025-07-21,Utility invoices not reconciled to meter data,Medium,Finance,2025-11-15,Closed,DOC-AUD-243
-IAO-0245,Internal audit,FAC-OFF-115,2023-05-17,Waste certificate missing,Low,Operations,2023-10-10,Overdue,DOC-AUD-244
-IAO-0246,External audit (financial),FAC-WAR-109,2026-09-22,Segregation of duties in AP,Medium,Procurement,2027-03-17,Closed,DOC-AUD-245
-IAO-0247,External assurance (ESG),FAC-WAR-104,2025-12-12,Emission factor library outdated,Medium,Procurement,2026-04-16,Closed,DOC-AUD-246
-IAO-0248,External audit (financial),FAC-WAR-053,2025-06-26,Supplier certificate expired,Low,Procurement,2025-10-23,Closed,DOC-AUD-247
-IAO-0249,Internal audit,FAC-MAN-024,2023-02-28,Anti-corruption training overdue,Low,Finance,2023-06-30,Closed,DOC-AUD-248
-IAO-0250,Business ethics review,FAC-WAR-072,2023-03-28,Manual spreadsheet without review,High,EHS & Sustainability,2023-05-17,Closed,
-IAO-0251,Internal audit,FAC-WAR-063,2022-06-22,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2022-12-07,Open,DOC-AUD-250
-IAO-0252,Business ethics review,FAC-OFF-115,2024-10-01,Supplier certificate expired,Low,Procurement,2024-12-27,Closed,
-IAO-0253,Compliance assessment,FAC-OFF-140,2026-05-19,Anti-corruption training overdue,Low,EHS & Sustainability,2026-09-06,Closed,DOC-AUD-252
-IAO-0254,Internal audit,FAC-WAR-072,2024-07-17,Anti-corruption training overdue,Low,Finance,2024-09-30,Open,DOC-AUD-253
-IAO-0255,Internal audit,FAC-WAR-048,2025-12-16,Manual spreadsheet without review,Medium,EHS & Sustainability,2026-05-02,Overdue,DOC-AUD-254
-IAO-0256,External audit (financial),FAC-MAN-018,2023-04-13,Utility invoices not reconciled to meter data,Medium,Procurement,2023-08-16,Open,DOC-AUD-255
-IAO-0257,Internal audit,FAC-OFF-124,2022-01-05,Anti-corruption training overdue,Medium,Operations,2022-05-25,Open,DOC-AUD-256
-IAO-0258,External audit (financial),FAC-MAN-023,2024-03-06,Manual spreadsheet without review,Low,Procurement,2024-04-21,Open,DOC-AUD-257
-IAO-0259,Business ethics review,FAC-WAR-078,2024-03-27,Anti-corruption training overdue,High,EHS & Sustainability,2024-08-08,Closed,DOC-AUD-258
-IAO-0260,External audit (financial),FAC-WAR-047,2025-01-06,Manual spreadsheet without review,Low,Finance,2025-07-01,Open,
-IAO-0261,External assurance (ESG),FAC-OFF-143,2022-12-26,Utility invoices not reconciled to meter data,Low,Finance,2023-04-10,Closed,DOC-AUD-260
-IAO-0262,External assurance (ESG),FAC-WAR-101,2024-03-25,Anti-corruption training overdue,High,Finance,2024-06-20,Closed,
-IAO-0263,External assurance (ESG),FAC-MAN-025,2026-09-09,Waste certificate missing,Medium,Finance,2026-10-28,Open,DOC-AUD-262
-IAO-0264,Internal audit,FAC-MAN-022,2026-11-16,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2027-04-09,Closed,DOC-AUD-263
-IAO-0265,External audit (financial),FAC-MAN-005,2026-03-25,Missing evidence for refrigerant top-ups,Low,Finance,2026-05-06,Closed,
-IAO-0266,Internal audit,FAC-OFF-147,2022-12-08,Anti-corruption training overdue,Low,Finance,2023-03-10,Open,DOC-AUD-265
-IAO-0267,Internal audit,FAC-MAN-023,2025-10-22,Anti-corruption training overdue,Low,Procurement,2026-04-03,Closed,DOC-AUD-266
-IAO-0268,Compliance assessment,FAC-WAR-106,2026-12-25,Waste certificate missing,Low,EHS & Sustainability,2027-06-02,Closed,DOC-AUD-267
-IAO-0269,Internal audit,FAC-WAR-060,2022-03-25,Segregation of duties in AP,Medium,EHS & Sustainability,2022-07-12,Closed,DOC-AUD-268
-IAO-0270,External assurance (ESG),FAC-OFF-137,2025-03-27,Waste certificate missing,Low,Finance,2025-05-21,Closed,DOC-AUD-269
-IAO-0271,Internal audit,FAC-OFF-150,2023-10-30,Segregation of duties in AP,Low,Procurement,2024-02-13,Closed,DOC-AUD-270
-IAO-0272,Internal audit,FAC-MAN-012,2026-03-25,Missing evidence for refrigerant top-ups,High,Operations,2026-08-19,Overdue,DOC-AUD-271
-IAO-0273,External assurance (ESG),FAC-WAR-112,2023-03-29,Segregation of duties in AP,Medium,Procurement,2023-07-12,Open,DOC-AUD-272
-IAO-0274,Internal audit,FAC-OFF-124,2025-05-12,Manual spreadsheet without review,Medium,Operations,2025-10-14,Open,DOC-AUD-273
-IAO-0275,External assurance (ESG),FAC-WAR-045,2026-07-30,Waste certificate missing,Low,Finance,2026-11-30,Closed,DOC-AUD-274
-IAO-0276,Internal audit,FAC-WAR-097,2023-05-05,Supplier certificate expired,Low,EHS & Sustainability,2023-06-24,Open,DOC-AUD-275
-IAO-0277,Internal audit,FAC-WAR-047,2026-10-16,Missing evidence for refrigerant top-ups,Medium,Finance,2026-12-09,Open,DOC-AUD-276
-IAO-0278,Business ethics review,FAC-MAN-029,2026-04-04,Anti-corruption training overdue,Medium,Finance,2026-06-17,Open,DOC-AUD-277
-IAO-0279,Internal audit,FAC-WAR-056,2024-05-17,Anti-corruption training overdue,Medium,EHS & Sustainability,2024-07-09,Closed,DOC-AUD-278
-IAO-0280,Internal audit,FAC-OFF-146,2022-05-27,Waste certificate missing,Low,Finance,2022-08-31,Closed,DOC-AUD-279
-IAO-0281,Internal audit,FAC-OFF-133,2026-02-17,Anti-corruption training overdue,Medium,Procurement,2026-07-19,Closed,DOC-AUD-280
-IAO-0282,Compliance assessment,FAC-WAR-053,2024-10-03,Waste certificate missing,Medium,Procurement,2025-01-21,Open,DOC-AUD-281
-IAO-0283,External audit (financial),FAC-OFF-116,2025-02-11,Segregation of duties in AP,Medium,Operations,2025-04-03,Closed,DOC-AUD-282
-IAO-0284,External assurance (ESG),FAC-WAR-105,2026-03-27,Utility invoices not reconciled to meter data,Medium,Finance,2026-05-31,Closed,
-IAO-0285,Internal audit,FAC-MAN-018,2025-03-20,Waste certificate missing,Medium,Operations,2025-06-26,Closed,DOC-AUD-284
-IAO-0286,Compliance assessment,FAC-WAR-050,2025-09-06,Emission factor library outdated,Low,Operations,2026-02-28,Closed,DOC-AUD-285
-IAO-0287,External audit (financial),FAC-OFF-141,2022-11-08,Manual spreadsheet without review,Medium,Finance,2022-12-27,Closed,DOC-AUD-286
-IAO-0288,Internal audit,FAC-MAN-010,2024-06-14,Segregation of duties in AP,Medium,Procurement,2024-12-02,Closed,DOC-AUD-287
-IAO-0289,Internal audit,FAC-MAN-040,2024-11-22,Supplier certificate expired,Medium,Operations,2025-01-26,Closed,DOC-AUD-288
-IAO-0290,External assurance (ESG),FAC-MAN-027,2023-03-30,Manual spreadsheet without review,Medium,Finance,2023-09-12,Closed,
-IAO-0291,Internal audit,FAC-MAN-032,2023-04-10,Utility invoices not reconciled to meter data,Medium,Procurement,2023-06-03,Overdue,DOC-AUD-290
-IAO-0292,Internal audit,FAC-WAR-060,2026-01-09,Manual spreadsheet without review,High,Procurement,2026-06-12,Closed,DOC-AUD-291
-IAO-0293,External audit (financial),FAC-OFF-152,2022-08-31,Waste certificate missing,Medium,EHS & Sustainability,2022-11-01,Closed,DOC-AUD-292
-IAO-0294,Internal audit,FAC-WAR-109,2026-04-14,Emission factor library outdated,High,Operations,2026-09-13,Open,DOC-AUD-293
-IAO-0295,Compliance assessment,FAC-MAN-020,2023-09-29,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2023-11-21,Open,DOC-AUD-294
-IAO-0296,Business ethics review,FAC-WAR-067,2025-06-14,Supplier certificate expired,Medium,Operations,2025-10-26,Closed,DOC-AUD-295
-IAO-0297,Business ethics review,FAC-WAR-051,2026-06-30,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2026-09-14,Open,DOC-AUD-296
-IAO-0298,Business ethics review,FAC-WAR-053,2023-11-17,Anti-corruption training overdue,Low,Finance,2024-05-14,Overdue,DOC-AUD-297
-IAO-0299,Internal audit,FAC-WAR-055,2022-08-17,Anti-corruption training overdue,Medium,EHS & Sustainability,2022-10-21,Closed,DOC-AUD-298
-IAO-0300,Internal audit,FAC-WAR-089,2024-03-07,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2024-05-15,Closed,DOC-AUD-299
-IAO-0301,Compliance assessment,FAC-WAR-062,2025-10-27,Anti-corruption training overdue,Low,EHS & Sustainability,2025-12-17,Closed,DOC-AUD-300
-IAO-0302,External assurance (ESG),FAC-OFF-122,2025-05-03,Waste certificate missing,Low,Finance,2025-07-14,Closed,DOC-AUD-301
-IAO-0303,External assurance (ESG),FAC-WAR-085,2024-12-20,Missing evidence for refrigerant top-ups,Medium,Finance,2025-02-08,Closed,DOC-AUD-302
-IAO-0304,Internal audit,FAC-WAR-099,2022-03-17,Waste certificate missing,Medium,Finance,2022-06-04,Closed,DOC-AUD-303
-IAO-0305,Business ethics review,FAC-MAN-026,2025-04-11,Segregation of duties in AP,Medium,Procurement,2025-08-09,Closed,DOC-AUD-304
-IAO-0306,External audit (financial),FAC-OFF-145,2023-06-07,Segregation of duties in AP,Low,Finance,2023-07-22,Closed,DOC-AUD-305
-IAO-0307,Internal audit,FAC-OFF-135,2025-12-15,Manual spreadsheet without review,High,EHS & Sustainability,2026-04-14,Closed,DOC-AUD-306
-IAO-0308,Internal audit,FAC-WAR-106,2026-05-26,Emission factor library outdated,Medium,EHS & Sustainability,2026-09-13,Closed,DOC-AUD-307
-IAO-0309,External audit (financial),FAC-WAR-065,2024-05-09,Manual spreadsheet without review,Medium,Procurement,2024-08-02,Closed,DOC-AUD-308
-IAO-0310,Business ethics review,FAC-WAR-072,2025-12-05,Missing evidence for refrigerant top-ups,High,Finance,2026-01-10,Closed,DOC-AUD-309
-IAO-0311,Internal audit,FAC-OFF-144,2023-02-16,Anti-corruption training overdue,Low,Finance,2023-04-10,Closed,DOC-AUD-310
-IAO-0312,Compliance assessment,FAC-OFF-125,2026-06-12,Segregation of duties in AP,Low,Procurement,2026-07-23,Closed,DOC-AUD-311
-IAO-0313,Internal audit,FAC-MAN-002,2023-10-06,Segregation of duties in AP,Low,Finance,2024-03-12,Closed,
-IAO-0314,External assurance (ESG),FAC-OFF-134,2026-07-02,Segregation of duties in AP,Medium,Operations,2026-10-02,Open,DOC-AUD-313
-IAO-0315,Compliance assessment,FAC-MAN-037,2022-02-14,Waste certificate missing,Medium,Operations,2022-05-09,Closed,DOC-AUD-314
-IAO-0316,External assurance (ESG),FAC-WAR-050,2024-06-18,Waste certificate missing,Medium,Procurement,2024-08-03,Open,DOC-AUD-315
-IAO-0317,Compliance assessment,FAC-WAR-108,2022-08-18,Segregation of duties in AP,High,EHS & Sustainability,2022-10-18,Open,DOC-AUD-316
-IAO-0318,Internal audit,FAC-WAR-055,2026-01-29,Segregation of duties in AP,High,Procurement,2026-03-19,Closed,DOC-AUD-317
-IAO-0319,Compliance assessment,FAC-MAN-036,2022-10-31,Waste certificate missing,Low,Operations,2023-03-13,Open,DOC-AUD-318
-IAO-0320,Internal audit,FAC-WAR-092,2023-10-24,Emission factor library outdated,Medium,EHS & Sustainability,2024-03-07,Open,DOC-AUD-319
-IAO-0321,Internal audit,FAC-MAN-011,2024-05-08,Emission factor library outdated,Low,EHS & Sustainability,2024-09-13,Closed,DOC-AUD-320
-IAO-0322,Internal audit,FAC-MAN-009,2026-03-17,Segregation of duties in AP,High,Operations,2026-06-04,Open,
-IAO-0323,External assurance (ESG),FAC-MAN-008,2026-06-02,Supplier certificate expired,Medium,EHS & Sustainability,2026-10-01,Open,DOC-AUD-322
-IAO-0324,Internal audit,FAC-WAR-068,2024-05-16,Emission factor library outdated,Medium,Finance,2024-11-04,Closed,DOC-AUD-323
-IAO-0325,Compliance assessment,FAC-WAR-100,2022-06-13,Utility invoices not reconciled to meter data,Low,Procurement,2022-08-13,Closed,DOC-AUD-324
-IAO-0326,Compliance assessment,FAC-WAR-044,2026-11-03,Utility invoices not reconciled to meter data,Medium,Finance,2027-03-08,Open,DOC-AUD-325
-IAO-0327,Business ethics review,FAC-MAN-030,2022-01-29,Manual spreadsheet without review,Medium,Operations,2022-04-14,Closed,DOC-AUD-326
-IAO-0328,Internal audit,FAC-MAN-026,2023-08-24,Waste certificate missing,Low,EHS & Sustainability,2023-10-21,Overdue,DOC-AUD-327
-IAO-0329,Compliance assessment,FAC-OFF-118,2026-08-04,Supplier certificate expired,Low,Procurement,2026-09-06,Open,DOC-AUD-328
-IAO-0330,External assurance (ESG),FAC-WAR-106,2026-06-04,Waste certificate missing,High,Procurement,2026-07-22,Open,DOC-AUD-329
-IAO-0331,Business ethics review,FAC-MAN-031,2025-02-13,Waste certificate missing,Low,EHS & Sustainability,2025-05-22,Closed,DOC-AUD-330
-IAO-0332,External audit (financial),FAC-OFF-116,2023-08-19,Anti-corruption training overdue,Low,Procurement,2024-01-01,Closed,DOC-AUD-331
-IAO-0333,Internal audit,FAC-WAR-084,2024-10-09,Anti-corruption training overdue,Low,Operations,2025-01-05,Overdue,DOC-AUD-332
-IAO-0334,Internal audit,FAC-WAR-062,2025-12-17,Utility invoices not reconciled to meter data,Low,Operations,2026-02-03,Closed,DOC-AUD-333
-IAO-0335,External audit (financial),FAC-OFF-130,2023-10-03,Anti-corruption training overdue,Low,EHS & Sustainability,2024-02-23,Closed,
-IAO-0336,Business ethics review,FAC-OFF-136,2025-11-18,Missing evidence for refrigerant top-ups,Medium,Procurement,2026-02-01,Closed,DOC-AUD-335
-IAO-0337,Internal audit,FAC-OFF-147,2024-12-31,Manual spreadsheet without review,Medium,Operations,2025-02-01,Closed,DOC-AUD-336
-IAO-0338,External audit (financial),FAC-MAN-032,2023-08-10,Manual spreadsheet without review,Low,Finance,2024-01-22,Closed,DOC-AUD-337
-IAO-0339,Compliance assessment,FAC-MAN-020,2025-07-11,Emission factor library outdated,Low,EHS & Sustainability,2025-09-28,Closed,DOC-AUD-338
-IAO-0340,External assurance (ESG),FAC-WAR-090,2024-02-10,Anti-corruption training overdue,High,Procurement,2024-04-27,Overdue,DOC-AUD-339
-IAO-0341,External audit (financial),FAC-OFF-140,2023-01-05,Supplier certificate expired,Low,EHS & Sustainability,2023-03-31,Closed,DOC-AUD-340
-IAO-0342,Internal audit,FAC-WAR-100,2025-04-02,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2025-08-02,Closed,DOC-AUD-341
-IAO-0343,Compliance assessment,FAC-MAN-029,2023-01-16,Segregation of duties in AP,Medium,EHS & Sustainability,2023-06-27,Closed,DOC-AUD-342
-IAO-0344,Internal audit,FAC-WAR-044,2024-07-17,Manual spreadsheet without review,Low,Operations,2024-11-02,Open,
-IAO-0345,Internal audit,FAC-WAR-082,2023-01-04,Missing evidence for refrigerant top-ups,High,Operations,2023-02-24,Closed,DOC-AUD-344
-IAO-0346,Compliance assessment,FAC-WAR-069,2026-11-13,Missing evidence for refrigerant top-ups,Low,Finance,2027-01-19,Closed,DOC-AUD-345
-IAO-0347,Internal audit,FAC-WAR-059,2025-02-10,Anti-corruption training overdue,Medium,EHS & Sustainability,2025-03-25,Closed,DOC-AUD-346
-IAO-0348,Internal audit,FAC-WAR-080,2022-11-25,Waste certificate missing,Medium,Procurement,2023-03-02,Closed,DOC-AUD-347
-IAO-0349,External assurance (ESG),FAC-OFF-138,2024-12-25,Waste certificate missing,Low,EHS & Sustainability,2025-03-29,Closed,DOC-AUD-348
-IAO-0350,Internal audit,FAC-MAN-008,2026-11-06,Waste certificate missing,Low,Procurement,2027-04-03,Closed,DOC-AUD-349
-IAO-0351,Internal audit,FAC-WAR-111,2026-12-07,Waste certificate missing,Low,Procurement,2027-01-13,Closed,DOC-AUD-350
-IAO-0352,Compliance assessment,FAC-OFF-122,2024-10-12,Emission factor library outdated,Medium,EHS & Sustainability,2025-03-02,Closed,DOC-AUD-351
-IAO-0353,Internal audit,FAC-MAN-025,2023-02-24,Missing evidence for refrigerant top-ups,Medium,Operations,2023-04-03,Closed,DOC-AUD-352
-IAO-0354,External audit (financial),FAC-MAN-022,2024-02-15,Missing evidence for refrigerant top-ups,Medium,Operations,2024-07-12,Closed,DOC-AUD-353
-IAO-0355,Compliance assessment,FAC-OFF-135,2025-10-14,Utility invoices not reconciled to meter data,Low,Operations,2025-12-31,Closed,DOC-AUD-354
-IAO-0356,External assurance (ESG),FAC-MAN-010,2022-01-24,Emission factor library outdated,Medium,EHS & Sustainability,2022-06-06,Open,DOC-AUD-355
-IAO-0357,Internal audit,FAC-OFF-133,2022-08-09,Manual spreadsheet without review,Medium,Procurement,2022-10-06,Closed,DOC-AUD-356
-IAO-0358,Internal audit,FAC-OFF-123,2025-04-07,Supplier certificate expired,Low,Procurement,2025-09-07,Closed,DOC-AUD-357
-IAO-0359,External assurance (ESG),FAC-MAN-013,2022-12-23,Anti-corruption training overdue,Medium,Finance,2023-02-06,Open,DOC-AUD-358
-IAO-0360,External assurance (ESG),FAC-MAN-014,2022-09-29,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2022-11-20,Closed,DOC-AUD-359
-IAO-0361,External assurance (ESG),FAC-WAR-099,2022-10-10,Missing evidence for refrigerant top-ups,Medium,Operations,2023-01-09,Closed,DOC-AUD-360
-IAO-0362,Compliance assessment,FAC-OFF-116,2025-04-02,Emission factor library outdated,Medium,EHS & Sustainability,2025-06-27,Overdue,DOC-AUD-361
-IAO-0363,Internal audit,FAC-WAR-090,2026-10-14,Anti-corruption training overdue,Low,EHS & Sustainability,2027-01-09,Closed,
-IAO-0364,Compliance assessment,FAC-WAR-098,2024-10-15,Missing evidence for refrigerant top-ups,Medium,Finance,2025-04-10,Closed,
-IAO-0365,External assurance (ESG),FAC-WAR-082,2022-12-14,Utility invoices not reconciled to meter data,Medium,Procurement,2023-05-20,Open,DOC-AUD-364
-IAO-0366,Internal audit,FAC-WAR-050,2023-11-17,Emission factor library outdated,Low,Operations,2024-01-11,Overdue,DOC-AUD-365
-IAO-0367,External assurance (ESG),FAC-MAN-038,2026-06-17,Missing evidence for refrigerant top-ups,Medium,Finance,2026-09-13,Closed,DOC-AUD-366
-IAO-0368,External assurance (ESG),FAC-OFF-120,2025-02-27,Segregation of duties in AP,Low,Operations,2025-04-09,Closed,DOC-AUD-367
-IAO-0369,External audit (financial),FAC-MAN-004,2023-08-31,Missing evidence for refrigerant top-ups,High,Finance,2024-01-11,Closed,DOC-AUD-368
-IAO-0370,Business ethics review,FAC-WAR-107,2024-05-01,Utility invoices not reconciled to meter data,Medium,Finance,2024-09-05,Closed,DOC-AUD-369
-IAO-0371,Internal audit,FAC-MAN-017,2023-03-02,Emission factor library outdated,Medium,EHS & Sustainability,2023-04-06,Closed,DOC-AUD-370
-IAO-0372,External audit (financial),FAC-WAR-057,2026-05-12,Segregation of duties in AP,Medium,Finance,2026-09-12,Open,DOC-AUD-371
-IAO-0373,Internal audit,FAC-OFF-131,2026-05-15,Emission factor library outdated,Medium,Operations,2026-10-20,Closed,DOC-AUD-372
-IAO-0374,External assurance (ESG),FAC-WAR-046,2026-08-14,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2026-11-02,Overdue,
-IAO-0375,External audit (financial),FAC-OFF-139,2024-11-27,Segregation of duties in AP,Low,Procurement,2025-05-11,Closed,DOC-AUD-374
-IAO-0376,Internal audit,FAC-MAN-032,2026-09-18,Waste certificate missing,Medium,Operations,2027-01-28,Open,DOC-AUD-375
-IAO-0377,Internal audit,FAC-WAR-082,2024-10-25,Missing evidence for refrigerant top-ups,Medium,Procurement,2025-03-03,Open,DOC-AUD-376
-IAO-0378,Internal audit,FAC-WAR-104,2022-12-13,Manual spreadsheet without review,Low,EHS & Sustainability,2023-03-12,Closed,DOC-AUD-377
-IAO-0379,Compliance assessment,FAC-MAN-013,2022-11-01,Missing evidence for refrigerant top-ups,High,Procurement,2023-01-17,Open,
-IAO-0380,External audit (financial),FAC-WAR-047,2024-05-22,Anti-corruption training overdue,Medium,EHS & Sustainability,2024-10-06,Closed,
-IAO-0381,Compliance assessment,FAC-WAR-080,2024-06-28,Waste certificate missing,Low,EHS & Sustainability,2024-11-14,Open,DOC-AUD-380
-IAO-0382,Business ethics review,FAC-MAN-015,2025-07-14,Segregation of duties in AP,High,Procurement,2025-12-23,Open,DOC-AUD-381
-IAO-0383,Internal audit,FAC-WAR-075,2025-08-28,Manual spreadsheet without review,Medium,Operations,2025-10-23,Closed,DOC-AUD-382
-IAO-0384,External assurance (ESG),FAC-MAN-040,2023-08-24,Segregation of duties in AP,Low,Finance,2023-12-17,Open,DOC-AUD-383
-IAO-0385,External audit (financial),FAC-MAN-011,2022-10-14,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2022-12-16,Open,DOC-AUD-384
-IAO-0386,Internal audit,FAC-WAR-107,2022-11-16,Segregation of duties in AP,High,Finance,2023-01-31,Open,DOC-AUD-385
-IAO-0387,Internal audit,FAC-WAR-107,2022-07-19,Anti-corruption training overdue,Medium,Procurement,2022-12-03,Closed,DOC-AUD-386
-IAO-0388,Compliance assessment,FAC-WAR-085,2026-02-10,Segregation of duties in AP,Medium,Operations,2026-06-27,Overdue,DOC-AUD-387
-IAO-0389,Compliance assessment,FAC-MAN-013,2022-08-22,Anti-corruption training overdue,Medium,Procurement,2022-11-16,Closed,DOC-AUD-388
-IAO-0390,Compliance assessment,FAC-WAR-098,2024-12-07,Segregation of duties in AP,Medium,Procurement,2025-01-14,Closed,DOC-AUD-389
-IAO-0391,Business ethics review,FAC-WAR-067,2025-03-18,Waste certificate missing,Low,Operations,2025-05-06,Closed,DOC-AUD-390
-IAO-0392,Internal audit,FAC-WAR-067,2025-09-17,Missing evidence for refrigerant top-ups,High,Procurement,2025-11-09,Open,DOC-AUD-391
-IAO-0393,Internal audit,FAC-OFF-119,2023-12-19,Segregation of duties in AP,Low,Operations,2024-03-08,Closed,
-IAO-0394,External audit (financial),FAC-MAN-024,2024-06-27,Anti-corruption training overdue,Low,Operations,2024-08-07,Open,DOC-AUD-393
-IAO-0395,External audit (financial),FAC-MAN-027,2022-06-09,Waste certificate missing,Medium,EHS & Sustainability,2022-07-16,Closed,DOC-AUD-394
-IAO-0396,Internal audit,FAC-WAR-069,2026-04-06,Missing evidence for refrigerant top-ups,Medium,Operations,2026-07-05,Open,DOC-AUD-395
-IAO-0397,Internal audit,FAC-MAN-030,2025-04-22,Waste certificate missing,Low,Procurement,2025-05-31,Closed,DOC-AUD-396
-IAO-0398,Internal audit,FAC-WAR-066,2022-12-13,Missing evidence for refrigerant top-ups,Medium,Operations,2023-06-10,Closed,DOC-AUD-397
-IAO-0399,External assurance (ESG),FAC-OFF-116,2026-06-11,Emission factor library outdated,Medium,Operations,2026-10-05,Open,DOC-AUD-398
-IAO-0400,Compliance assessment,FAC-MAN-008,2023-03-23,Supplier certificate expired,Low,EHS & Sustainability,2023-06-27,Open,DOC-AUD-399
-IAO-0401,External assurance (ESG),FAC-WAR-069,2025-03-26,Waste certificate missing,Medium,Procurement,2025-07-15,Open,DOC-AUD-400
-IAO-0402,Internal audit,FAC-WAR-056,2023-08-07,Missing evidence for refrigerant top-ups,Medium,Finance,2024-01-06,Open,DOC-AUD-401
-IAO-0403,Internal audit,FAC-MAN-035,2022-07-15,Supplier certificate expired,High,Procurement,2022-09-11,Closed,DOC-AUD-402
-IAO-0404,External assurance (ESG),FAC-OFF-129,2026-05-04,Emission factor library outdated,Low,EHS & Sustainability,2026-09-02,Closed,DOC-AUD-403
-IAO-0405,Internal audit,FAC-MAN-027,2022-09-09,Emission factor library outdated,Medium,Finance,2022-11-27,Closed,DOC-AUD-404
-IAO-0406,Internal audit,FAC-MAN-010,2024-10-23,Anti-corruption training overdue,High,EHS & Sustainability,2025-03-11,Open,DOC-AUD-405
-IAO-0407,Internal audit,FAC-WAR-064,2024-11-18,Supplier certificate expired,Medium,EHS & Sustainability,2025-02-09,Open,DOC-AUD-406
-IAO-0408,Business ethics review,FAC-OFF-116,2023-07-19,Emission factor library outdated,Low,Procurement,2023-12-10,Open,DOC-AUD-407
-IAO-0409,External assurance (ESG),FAC-MAN-003,2023-05-12,Emission factor library outdated,Low,EHS & Sustainability,2023-10-30,Closed,DOC-AUD-408
-IAO-0410,External audit (financial),FAC-WAR-050,2025-06-06,Segregation of duties in AP,Low,Operations,2025-07-07,Open,DOC-AUD-409
-IAO-0411,Internal audit,FAC-OFF-127,2023-07-19,Utility invoices not reconciled to meter data,Low,Finance,2023-11-26,Closed,DOC-AUD-410
-IAO-0412,Internal audit,FAC-MAN-029,2024-01-02,Anti-corruption training overdue,Low,Procurement,2024-04-09,Closed,DOC-AUD-411
-IAO-0413,Internal audit,FAC-OFF-115,2024-11-21,Anti-corruption training overdue,Low,Operations,2025-04-27,Closed,DOC-AUD-412
-IAO-0414,External assurance (ESG),FAC-MAN-037,2022-06-06,Anti-corruption training overdue,Low,Finance,2022-08-21,Closed,DOC-AUD-413
-IAO-0415,Internal audit,FAC-WAR-048,2025-04-04,Anti-corruption training overdue,Low,Operations,2025-08-20,Open,DOC-AUD-414
-IAO-0416,External assurance (ESG),FAC-OFF-150,2026-07-14,Anti-corruption training overdue,Low,Procurement,2027-01-05,Closed,DOC-AUD-415
-IAO-0417,Business ethics review,FAC-WAR-071,2024-02-09,Missing evidence for refrigerant top-ups,High,Operations,2024-06-01,Overdue,DOC-AUD-416
-IAO-0418,External assurance (ESG),FAC-WAR-070,2022-06-14,Supplier certificate expired,High,Finance,2022-07-23,Closed,DOC-AUD-417
-IAO-0419,Internal audit,FAC-MAN-018,2026-03-14,Utility invoices not reconciled to meter data,Medium,Procurement,2026-05-23,Closed,DOC-AUD-418
-IAO-0420,Internal audit,FAC-MAN-035,2022-11-03,Manual spreadsheet without review,Low,Procurement,2022-12-19,Open,
+IAO-0001,Compliance assessment,FAC-WAR-086,2022-08-12,Utility invoices not reconciled to meter data,Low,Operations,2023-01-30,Closed,DOC-AUD-0
+IAO-0002,Compliance assessment,FAC-WAR-102,2022-11-01,Waste certificate missing,Medium,EHS & Sustainability,2023-01-16,Closed,DOC-AUD-1
+IAO-0003,Internal audit,FAC-OFF-145,2026-01-19,Supplier certificate expired,Low,Procurement,2026-04-07,Closed,DOC-AUD-2
+IAO-0004,Internal audit,FAC-OFF-123,2026-09-08,Manual spreadsheet without review,Low,Finance,2027-01-17,Closed,DOC-AUD-3
+IAO-0005,Business ethics review,FAC-WAR-112,2023-04-21,Supplier certificate expired,Low,EHS & Sustainability,2023-09-14,Closed,DOC-AUD-4
+IAO-0006,Internal audit,FAC-OFF-147,2025-03-19,Emission factor library outdated,Medium,Procurement,2025-07-29,Closed,
+IAO-0007,Business ethics review,FAC-WAR-049,2026-02-27,Waste certificate missing,Low,Procurement,2026-05-22,Closed,
+IAO-0008,External audit (financial),FAC-WAR-075,2023-09-06,Supplier certificate expired,Low,Finance,2024-01-28,Closed,DOC-AUD-7
+IAO-0009,Internal audit,FAC-MAN-040,2025-04-11,Utility invoices not reconciled to meter data,High,Finance,2025-07-01,Closed,DOC-AUD-8
+IAO-0010,Business ethics review,FAC-OFF-141,2024-11-08,Anti-corruption training overdue,Medium,EHS & Sustainability,2025-01-21,Closed,DOC-AUD-9
+IAO-0011,External assurance (ESG),FAC-MAN-022,2025-02-05,Emission factor library outdated,Medium,Operations,2025-04-18,Open,DOC-AUD-10
+IAO-0012,Internal audit,FAC-MAN-002,2026-12-01,Supplier certificate expired,Low,Finance,2027-05-18,Open,DOC-AUD-11
+IAO-0013,Compliance assessment,FAC-WAR-098,2022-09-22,Supplier certificate expired,High,Procurement,2023-01-06,Closed,DOC-AUD-12
+IAO-0014,External audit (financial),FAC-MAN-011,2024-05-27,Supplier certificate expired,Low,Operations,2024-10-11,Closed,DOC-AUD-13
+IAO-0015,External assurance (ESG),FAC-WAR-046,2022-10-19,Missing evidence for refrigerant top-ups,Medium,Finance,2023-03-01,Open,
+IAO-0016,Internal audit,FAC-MAN-005,2026-05-09,Waste certificate missing,Medium,Operations,2026-06-27,Closed,DOC-AUD-15
+IAO-0017,Business ethics review,FAC-WAR-047,2025-07-23,Segregation of duties in AP,Medium,Operations,2025-08-23,Closed,DOC-AUD-16
+IAO-0018,Internal audit,FAC-WAR-085,2026-07-16,Emission factor library outdated,Medium,Procurement,2026-09-04,Closed,
+IAO-0019,Business ethics review,FAC-WAR-056,2024-04-10,Missing evidence for refrigerant top-ups,Medium,Finance,2024-09-13,Open,DOC-AUD-18
+IAO-0020,Internal audit,FAC-OFF-144,2024-08-28,Waste certificate missing,Medium,Procurement,2024-10-05,Closed,DOC-AUD-19
+IAO-0021,Compliance assessment,FAC-OFF-130,2022-06-06,Segregation of duties in AP,Low,Operations,2022-07-22,Closed,DOC-AUD-20
+IAO-0022,Internal audit,FAC-OFF-124,2023-01-02,Emission factor library outdated,Low,Finance,2023-02-19,Closed,DOC-AUD-21
+IAO-0023,Internal audit,FAC-WAR-058,2024-04-05,Supplier certificate expired,High,Operations,2024-09-25,Closed,DOC-AUD-22
+IAO-0024,Internal audit,FAC-WAR-070,2022-09-02,Waste certificate missing,Medium,EHS & Sustainability,2022-12-24,Closed,DOC-AUD-23
+IAO-0025,External assurance (ESG),FAC-MAN-024,2022-08-26,Segregation of duties in AP,Medium,Procurement,2023-02-21,Closed,DOC-AUD-24
+IAO-0026,Business ethics review,FAC-WAR-055,2024-12-05,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2025-05-25,Closed,DOC-AUD-25
+IAO-0027,External audit (financial),FAC-MAN-005,2023-09-25,Utility invoices not reconciled to meter data,High,Finance,2023-12-22,Overdue,DOC-AUD-26
+IAO-0028,Internal audit,FAC-WAR-072,2023-02-21,Manual spreadsheet without review,Low,EHS & Sustainability,2023-07-03,Open,DOC-AUD-27
+IAO-0029,External assurance (ESG),FAC-WAR-055,2023-06-01,Emission factor library outdated,Medium,Operations,2023-09-10,Closed,DOC-AUD-28
+IAO-0030,Internal audit,FAC-OFF-115,2023-05-19,Missing evidence for refrigerant top-ups,Medium,Finance,2023-10-17,Open,DOC-AUD-29
+IAO-0031,Internal audit,FAC-WAR-062,2022-11-24,Segregation of duties in AP,High,Operations,2023-05-10,Open,DOC-AUD-30
+IAO-0032,Internal audit,FAC-MAN-034,2026-11-23,Supplier certificate expired,Low,EHS & Sustainability,2027-03-09,Open,DOC-AUD-31
+IAO-0033,Internal audit,FAC-MAN-015,2023-01-30,Anti-corruption training overdue,Low,EHS & Sustainability,2023-03-28,Closed,DOC-AUD-32
+IAO-0034,Internal audit,FAC-OFF-120,2023-10-03,Anti-corruption training overdue,Medium,EHS & Sustainability,2024-03-13,Closed,DOC-AUD-33
+IAO-0035,Internal audit,FAC-MAN-034,2023-03-21,Missing evidence for refrigerant top-ups,Low,Operations,2023-07-02,Closed,
+IAO-0036,Internal audit,FAC-WAR-101,2023-04-14,Waste certificate missing,Medium,EHS & Sustainability,2023-07-24,Open,DOC-AUD-35
+IAO-0037,Internal audit,FAC-WAR-059,2024-09-27,Anti-corruption training overdue,Medium,Operations,2025-01-02,Closed,DOC-AUD-36
+IAO-0038,Internal audit,FAC-WAR-043,2022-10-10,Segregation of duties in AP,High,Operations,2022-11-19,Closed,DOC-AUD-37
+IAO-0039,Internal audit,FAC-WAR-104,2024-09-03,Waste certificate missing,High,Procurement,2025-01-15,Open,DOC-AUD-38
+IAO-0040,Internal audit,FAC-MAN-003,2025-12-23,Supplier certificate expired,Low,EHS & Sustainability,2026-03-12,Closed,DOC-AUD-39
+IAO-0041,External audit (financial),FAC-WAR-105,2024-12-09,Supplier certificate expired,Medium,EHS & Sustainability,2025-05-16,Closed,DOC-AUD-40
+IAO-0042,External assurance (ESG),FAC-MAN-005,2026-03-27,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2026-07-13,Closed,
+IAO-0043,Internal audit,FAC-MAN-015,2026-01-15,Waste certificate missing,Low,Operations,2026-04-28,Closed,DOC-AUD-42
+IAO-0044,Internal audit,FAC-WAR-082,2023-01-18,Anti-corruption training overdue,High,Operations,2023-06-17,Overdue,
+IAO-0045,External audit (financial),FAC-WAR-079,2025-12-30,Manual spreadsheet without review,Low,Procurement,2026-06-12,Closed,DOC-AUD-44
+IAO-0046,Business ethics review,FAC-WAR-113,2026-08-05,Supplier certificate expired,Low,Operations,2026-09-04,Closed,
+IAO-0047,Internal audit,FAC-WAR-110,2024-04-15,Waste certificate missing,Low,Operations,2024-06-03,Open,DOC-AUD-46
+IAO-0048,Business ethics review,FAC-WAR-084,2025-01-17,Segregation of duties in AP,Medium,Operations,2025-06-23,Closed,DOC-AUD-47
+IAO-0049,Internal audit,FAC-WAR-097,2026-08-04,Supplier certificate expired,Medium,Procurement,2026-10-19,Closed,DOC-AUD-48
+IAO-0050,External assurance (ESG),FAC-MAN-017,2026-02-17,Waste certificate missing,Medium,Procurement,2026-07-20,Closed,DOC-AUD-49
+IAO-0051,External audit (financial),FAC-MAN-004,2024-04-30,Emission factor library outdated,High,EHS & Sustainability,2024-10-19,Closed,DOC-AUD-50
+IAO-0052,Internal audit,FAC-MAN-016,2023-10-20,Missing evidence for refrigerant top-ups,Low,Procurement,2023-12-24,Closed,DOC-AUD-51
+IAO-0053,Internal audit,FAC-MAN-013,2024-03-06,Supplier certificate expired,Low,EHS & Sustainability,2024-07-13,Closed,
+IAO-0054,External assurance (ESG),FAC-WAR-108,2022-11-19,Missing evidence for refrigerant top-ups,Low,Finance,2023-01-31,Open,DOC-AUD-53
+IAO-0055,External audit (financial),FAC-WAR-057,2025-05-13,Anti-corruption training overdue,Low,Procurement,2025-07-07,Overdue,DOC-AUD-54
+IAO-0056,Internal audit,FAC-WAR-074,2025-10-10,Waste certificate missing,Medium,EHS & Sustainability,2026-03-22,Closed,DOC-AUD-55
+IAO-0057,External audit (financial),FAC-MAN-005,2022-10-03,Missing evidence for refrigerant top-ups,Low,Finance,2023-01-18,Open,DOC-AUD-56
+IAO-0058,Internal audit,FAC-MAN-023,2022-09-16,Segregation of duties in AP,High,Procurement,2023-01-23,Open,
+IAO-0059,External assurance (ESG),FAC-WAR-049,2023-07-20,Segregation of duties in AP,Low,Operations,2023-10-27,Closed,DOC-AUD-58
+IAO-0060,Compliance assessment,FAC-OFF-144,2026-05-26,Utility invoices not reconciled to meter data,Low,Finance,2026-09-15,Closed,DOC-AUD-59
+IAO-0061,External audit (financial),FAC-WAR-084,2023-04-07,Anti-corruption training overdue,Low,Procurement,2023-06-23,Open,
+IAO-0062,External audit (financial),FAC-MAN-033,2026-02-03,Waste certificate missing,Medium,Operations,2026-07-11,Closed,DOC-AUD-61
+IAO-0063,Internal audit,FAC-MAN-025,2023-04-14,Anti-corruption training overdue,High,Finance,2023-06-06,Closed,DOC-AUD-62
+IAO-0064,Internal audit,FAC-OFF-120,2026-05-25,Utility invoices not reconciled to meter data,Low,Finance,2026-09-05,Overdue,
+IAO-0065,Compliance assessment,FAC-WAR-066,2023-11-27,Anti-corruption training overdue,Low,EHS & Sustainability,2024-05-04,Open,
+IAO-0066,Compliance assessment,FAC-WAR-075,2024-04-12,Waste certificate missing,Low,EHS & Sustainability,2024-08-26,Closed,DOC-AUD-65
+IAO-0067,Internal audit,FAC-WAR-077,2026-11-25,Missing evidence for refrigerant top-ups,Medium,Finance,2026-12-30,Closed,
+IAO-0068,Internal audit,FAC-MAN-028,2022-09-19,Missing evidence for refrigerant top-ups,Medium,Operations,2022-12-12,Closed,DOC-AUD-67
+IAO-0069,External audit (financial),FAC-WAR-073,2022-09-16,Anti-corruption training overdue,Low,Procurement,2022-11-05,Open,DOC-AUD-68
+IAO-0070,Internal audit,FAC-OFF-149,2025-09-15,Waste certificate missing,High,Finance,2025-12-02,Closed,DOC-AUD-69
+IAO-0071,Internal audit,FAC-MAN-039,2025-11-03,Missing evidence for refrigerant top-ups,High,Operations,2025-12-22,Closed,
+IAO-0072,External audit (financial),FAC-WAR-064,2026-01-21,Missing evidence for refrigerant top-ups,Low,Finance,2026-05-24,Closed,DOC-AUD-71
+IAO-0073,Internal audit,FAC-OFF-137,2022-08-24,Utility invoices not reconciled to meter data,Medium,Operations,2023-02-15,Closed,DOC-AUD-72
+IAO-0074,Compliance assessment,FAC-WAR-073,2026-09-22,Missing evidence for refrigerant top-ups,Low,Operations,2027-03-18,Open,DOC-AUD-73
+IAO-0075,External assurance (ESG),FAC-OFF-134,2023-03-16,Manual spreadsheet without review,Low,EHS & Sustainability,2023-06-18,Closed,DOC-AUD-74
+IAO-0076,External assurance (ESG),FAC-OFF-129,2026-06-09,Segregation of duties in AP,Low,Procurement,2026-09-10,Open,DOC-AUD-75
+IAO-0077,Internal audit,FAC-MAN-028,2025-08-29,Anti-corruption training overdue,Medium,Finance,2025-10-19,Open,
+IAO-0078,Business ethics review,FAC-OFF-141,2025-04-14,Anti-corruption training overdue,Medium,Finance,2025-08-27,Closed,DOC-AUD-77
+IAO-0079,External audit (financial),FAC-MAN-038,2023-11-27,Missing evidence for refrigerant top-ups,Medium,Procurement,2023-12-31,Closed,DOC-AUD-78
+IAO-0080,Internal audit,FAC-MAN-035,2025-10-04,Manual spreadsheet without review,Low,Finance,2026-03-11,Closed,DOC-AUD-79
+IAO-0081,Internal audit,FAC-MAN-021,2023-01-11,Missing evidence for refrigerant top-ups,Medium,Procurement,2023-04-13,Open,
+IAO-0082,Internal audit,FAC-WAR-069,2024-05-16,Segregation of duties in AP,Low,EHS & Sustainability,2024-09-14,Closed,DOC-AUD-81
+IAO-0083,External audit (financial),FAC-WAR-109,2025-07-14,Manual spreadsheet without review,Low,Finance,2026-01-07,Closed,DOC-AUD-82
+IAO-0084,Internal audit,FAC-OFF-136,2022-11-11,Utility invoices not reconciled to meter data,High,Operations,2023-03-19,Open,DOC-AUD-83
+IAO-0085,Internal audit,FAC-WAR-110,2023-01-06,Waste certificate missing,Medium,Finance,2023-05-15,Closed,DOC-AUD-84
+IAO-0086,External audit (financial),FAC-OFF-116,2023-06-07,Anti-corruption training overdue,Low,Finance,2023-08-01,Open,DOC-AUD-85
+IAO-0087,External audit (financial),FAC-WAR-098,2023-03-27,Manual spreadsheet without review,Medium,Finance,2023-08-30,Open,DOC-AUD-86
+IAO-0088,Internal audit,FAC-WAR-061,2026-01-21,Segregation of duties in AP,Low,Operations,2026-03-02,Closed,DOC-AUD-87
+IAO-0089,Internal audit,FAC-MAN-040,2025-01-03,Supplier certificate expired,High,Operations,2025-05-16,Closed,DOC-AUD-88
+IAO-0090,Compliance assessment,FAC-WAR-104,2026-03-13,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2026-09-01,Closed,
+IAO-0091,Internal audit,FAC-OFF-128,2024-08-12,Manual spreadsheet without review,Low,Procurement,2024-12-31,Closed,DOC-AUD-90
+IAO-0092,External assurance (ESG),FAC-WAR-069,2022-11-03,Emission factor library outdated,Medium,Finance,2023-01-01,Closed,DOC-AUD-91
+IAO-0093,Business ethics review,FAC-OFF-139,2022-01-12,Supplier certificate expired,Low,Operations,2022-02-15,Closed,DOC-AUD-92
+IAO-0094,External audit (financial),FAC-MAN-041,2022-03-03,Supplier certificate expired,Medium,Procurement,2022-06-26,Open,DOC-AUD-93
+IAO-0095,Internal audit,FAC-WAR-043,2023-11-14,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2024-02-29,Open,DOC-AUD-94
+IAO-0096,Internal audit,FAC-MAN-011,2025-09-24,Manual spreadsheet without review,High,Finance,2025-12-04,Overdue,DOC-AUD-95
+IAO-0097,External audit (financial),FAC-OFF-149,2022-05-16,Waste certificate missing,Medium,Procurement,2022-07-08,Open,DOC-AUD-96
+IAO-0098,External assurance (ESG),FAC-WAR-076,2026-02-19,Anti-corruption training overdue,Low,Procurement,2026-07-10,Closed,DOC-AUD-97
+IAO-0099,Compliance assessment,FAC-WAR-098,2023-01-04,Segregation of duties in AP,High,Operations,2023-04-26,Closed,
+IAO-0100,External assurance (ESG),FAC-MAN-027,2024-06-18,Missing evidence for refrigerant top-ups,Medium,Operations,2024-11-11,Overdue,DOC-AUD-99
+IAO-0101,Internal audit,FAC-WAR-094,2023-08-10,Missing evidence for refrigerant top-ups,Low,Finance,2023-12-23,Open,
+IAO-0102,External assurance (ESG),FAC-WAR-100,2025-12-11,Supplier certificate expired,Low,Finance,2026-02-02,Closed,DOC-AUD-101
+IAO-0103,Internal audit,FAC-WAR-052,2024-05-14,Waste certificate missing,Medium,EHS & Sustainability,2024-10-14,Open,DOC-AUD-102
+IAO-0104,Internal audit,FAC-OFF-143,2024-09-16,Supplier certificate expired,High,EHS & Sustainability,2025-01-08,Closed,DOC-AUD-103
+IAO-0105,External assurance (ESG),FAC-MAN-015,2025-08-06,Emission factor library outdated,Low,Operations,2026-01-21,Closed,DOC-AUD-104
+IAO-0106,Internal audit,FAC-OFF-135,2026-04-24,Segregation of duties in AP,High,Finance,2026-09-05,Closed,DOC-AUD-105
+IAO-0107,External assurance (ESG),FAC-WAR-095,2025-05-13,Emission factor library outdated,High,Procurement,2025-06-15,Closed,DOC-AUD-106
+IAO-0108,External assurance (ESG),FAC-OFF-146,2024-12-14,Anti-corruption training overdue,Low,Procurement,2025-03-05,Closed,
+IAO-0109,External audit (financial),FAC-OFF-141,2025-05-20,Emission factor library outdated,Medium,Procurement,2025-10-11,Open,DOC-AUD-108
+IAO-0110,External assurance (ESG),FAC-OFF-124,2024-03-14,Emission factor library outdated,Medium,Procurement,2024-08-07,Closed,DOC-AUD-109
+IAO-0111,Internal audit,FAC-WAR-078,2024-10-27,Missing evidence for refrigerant top-ups,Low,Operations,2025-02-15,Closed,DOC-AUD-110
+IAO-0112,Internal audit,FAC-OFF-127,2026-07-07,Segregation of duties in AP,Low,Operations,2026-10-14,Open,DOC-AUD-111
+IAO-0113,External audit (financial),FAC-WAR-071,2024-05-28,Emission factor library outdated,Low,Procurement,2024-11-16,Closed,DOC-AUD-112
+IAO-0114,Internal audit,FAC-WAR-112,2025-03-06,Supplier certificate expired,Medium,EHS & Sustainability,2025-07-25,Closed,DOC-AUD-113
+IAO-0115,External assurance (ESG),FAC-MAN-012,2022-04-21,Manual spreadsheet without review,Low,Finance,2022-07-07,Open,DOC-AUD-114
+IAO-0116,Internal audit,FAC-WAR-092,2023-12-29,Waste certificate missing,Low,EHS & Sustainability,2024-03-06,Open,DOC-AUD-115
+IAO-0117,Internal audit,FAC-OFF-139,2023-06-19,Missing evidence for refrigerant top-ups,High,Finance,2023-10-08,Open,DOC-AUD-116
+IAO-0118,Compliance assessment,FAC-MAN-005,2026-02-17,Manual spreadsheet without review,Medium,Finance,2026-04-28,Closed,
+IAO-0119,Internal audit,FAC-MAN-017,2022-08-15,Supplier certificate expired,Medium,Operations,2023-02-03,Open,DOC-AUD-118
+IAO-0120,Compliance assessment,FAC-OFF-129,2023-08-21,Emission factor library outdated,Low,Procurement,2023-12-13,Open,DOC-AUD-119
+IAO-0121,Internal audit,FAC-MAN-010,2024-10-16,Emission factor library outdated,Low,Operations,2025-02-16,Closed,
+IAO-0122,Internal audit,FAC-WAR-109,2026-06-23,Missing evidence for refrigerant top-ups,High,Finance,2026-11-20,Closed,
+IAO-0123,Internal audit,FAC-MAN-036,2025-09-12,Utility invoices not reconciled to meter data,Low,Operations,2025-12-03,Closed,DOC-AUD-122
+IAO-0124,Internal audit,FAC-OFF-134,2025-03-25,Utility invoices not reconciled to meter data,Medium,Operations,2025-06-24,Open,DOC-AUD-123
+IAO-0125,Internal audit,FAC-MAN-005,2024-10-29,Emission factor library outdated,High,Finance,2025-04-07,Closed,DOC-AUD-124
+IAO-0126,Internal audit,FAC-WAR-067,2023-07-21,Anti-corruption training overdue,High,Finance,2023-11-23,Open,DOC-AUD-125
+IAO-0127,Business ethics review,FAC-MAN-004,2025-01-01,Emission factor library outdated,Low,EHS & Sustainability,2025-04-03,Open,DOC-AUD-126
+IAO-0128,Compliance assessment,FAC-OFF-122,2023-03-16,Manual spreadsheet without review,Medium,EHS & Sustainability,2023-09-07,Overdue,DOC-AUD-127
+IAO-0129,Internal audit,FAC-OFF-115,2024-04-18,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2024-07-28,Closed,DOC-AUD-128
+IAO-0130,External audit (financial),FAC-WAR-045,2025-08-01,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2025-10-26,Closed,DOC-AUD-129
+IAO-0131,External audit (financial),FAC-MAN-015,2025-12-19,Segregation of duties in AP,Low,Procurement,2026-04-12,Open,DOC-AUD-130
+IAO-0132,Compliance assessment,FAC-WAR-048,2025-05-29,Anti-corruption training overdue,High,EHS & Sustainability,2025-08-24,Open,DOC-AUD-131
+IAO-0133,Compliance assessment,FAC-OFF-115,2024-01-09,Supplier certificate expired,Low,Finance,2024-06-08,Closed,
+IAO-0134,Internal audit,FAC-MAN-012,2022-06-13,Anti-corruption training overdue,Medium,Operations,2022-09-09,Closed,DOC-AUD-133
+IAO-0135,External audit (financial),FAC-WAR-098,2026-09-25,Manual spreadsheet without review,Medium,Finance,2027-03-07,Open,DOC-AUD-134
+IAO-0136,External assurance (ESG),FAC-MAN-029,2024-08-27,Missing evidence for refrigerant top-ups,Low,Finance,2024-10-29,Closed,DOC-AUD-135
+IAO-0137,External assurance (ESG),FAC-MAN-025,2025-11-11,Emission factor library outdated,Medium,EHS & Sustainability,2026-02-09,Closed,DOC-AUD-136
+IAO-0138,Compliance assessment,FAC-OFF-129,2022-04-15,Missing evidence for refrigerant top-ups,Medium,Operations,2022-08-11,Closed,DOC-AUD-137
+IAO-0139,Internal audit,FAC-WAR-057,2026-07-08,Utility invoices not reconciled to meter data,Medium,Operations,2026-08-12,Closed,DOC-AUD-138
+IAO-0140,Compliance assessment,FAC-OFF-126,2025-04-17,Emission factor library outdated,Medium,Operations,2025-07-14,Overdue,DOC-AUD-139
+IAO-0141,Business ethics review,FAC-WAR-071,2026-12-11,Waste certificate missing,Low,Finance,2027-01-28,Closed,DOC-AUD-140
+IAO-0142,Internal audit,FAC-MAN-009,2023-04-05,Waste certificate missing,Medium,Operations,2023-05-20,Overdue,DOC-AUD-141
+IAO-0143,External audit (financial),FAC-OFF-143,2025-01-03,Missing evidence for refrigerant top-ups,Medium,Operations,2025-06-10,Open,
+IAO-0144,Internal audit,FAC-WAR-077,2023-09-13,Missing evidence for refrigerant top-ups,Low,Operations,2024-01-01,Closed,DOC-AUD-143
+IAO-0145,Internal audit,FAC-WAR-083,2023-07-04,Supplier certificate expired,Medium,Procurement,2023-08-08,Open,DOC-AUD-144
+IAO-0146,Internal audit,FAC-WAR-059,2023-08-18,Emission factor library outdated,Low,Procurement,2024-02-03,Closed,DOC-AUD-145
+IAO-0147,Internal audit,FAC-WAR-112,2025-03-25,Manual spreadsheet without review,High,Procurement,2025-08-04,Open,DOC-AUD-146
+IAO-0148,Internal audit,FAC-WAR-046,2024-02-06,Segregation of duties in AP,Low,Finance,2024-06-06,Overdue,DOC-AUD-147
+IAO-0149,Internal audit,FAC-WAR-077,2024-09-13,Manual spreadsheet without review,Low,EHS & Sustainability,2024-10-14,Open,DOC-AUD-148
+IAO-0150,Business ethics review,FAC-MAN-017,2025-12-30,Utility invoices not reconciled to meter data,Low,Operations,2026-06-11,Open,DOC-AUD-149
+IAO-0151,Business ethics review,FAC-WAR-087,2022-11-14,Anti-corruption training overdue,Low,Operations,2023-03-18,Closed,DOC-AUD-150
+IAO-0152,Internal audit,FAC-MAN-033,2024-05-09,Emission factor library outdated,Low,EHS & Sustainability,2024-07-02,Overdue,DOC-AUD-151
+IAO-0153,Internal audit,FAC-MAN-027,2022-05-27,Emission factor library outdated,High,Finance,2022-09-25,Closed,DOC-AUD-152
+IAO-0154,Compliance assessment,FAC-OFF-121,2023-08-01,Manual spreadsheet without review,High,Operations,2023-09-30,Closed,DOC-AUD-153
+IAO-0155,Internal audit,FAC-OFF-142,2024-12-12,Anti-corruption training overdue,High,Operations,2025-01-17,Open,DOC-AUD-154
+IAO-0156,External assurance (ESG),FAC-MAN-037,2022-02-25,Utility invoices not reconciled to meter data,Medium,Operations,2022-04-11,Closed,DOC-AUD-155
+IAO-0157,Internal audit,FAC-WAR-049,2022-11-02,Manual spreadsheet without review,Medium,Operations,2023-03-13,Closed,DOC-AUD-156
+IAO-0158,Internal audit,FAC-WAR-078,2024-03-07,Missing evidence for refrigerant top-ups,Medium,Procurement,2024-06-07,Closed,DOC-AUD-157
+IAO-0159,Internal audit,FAC-MAN-033,2026-11-06,Utility invoices not reconciled to meter data,Medium,Finance,2027-01-16,Closed,
+IAO-0160,External audit (financial),FAC-WAR-112,2022-09-05,Segregation of duties in AP,Medium,EHS & Sustainability,2022-10-27,Closed,
+IAO-0161,External audit (financial),FAC-WAR-114,2026-08-13,Manual spreadsheet without review,Medium,EHS & Sustainability,2026-12-27,Closed,DOC-AUD-160
+IAO-0162,Business ethics review,FAC-MAN-009,2026-07-10,Segregation of duties in AP,Medium,EHS & Sustainability,2026-09-18,Closed,DOC-AUD-161
+IAO-0163,Internal audit,FAC-MAN-008,2022-04-28,Manual spreadsheet without review,High,Finance,2022-06-17,Closed,
+IAO-0164,Internal audit,FAC-WAR-057,2026-10-13,Segregation of duties in AP,Medium,EHS & Sustainability,2027-01-25,Closed,DOC-AUD-163
+IAO-0165,Internal audit,FAC-MAN-031,2026-09-28,Manual spreadsheet without review,Low,Finance,2026-11-28,Closed,DOC-AUD-164
+IAO-0166,Compliance assessment,FAC-OFF-134,2023-12-06,Emission factor library outdated,Low,Finance,2024-04-24,Closed,DOC-AUD-165
+IAO-0167,Internal audit,FAC-WAR-088,2026-05-04,Emission factor library outdated,Low,EHS & Sustainability,2026-10-19,Closed,DOC-AUD-166
+IAO-0168,External assurance (ESG),FAC-WAR-049,2024-11-20,Emission factor library outdated,Medium,Procurement,2025-01-09,Closed,DOC-AUD-167
+IAO-0169,External assurance (ESG),FAC-OFF-139,2023-11-23,Waste certificate missing,Medium,Procurement,2024-04-14,Overdue,DOC-AUD-168
+IAO-0170,Internal audit,FAC-MAN-023,2022-07-22,Emission factor library outdated,High,EHS & Sustainability,2023-01-15,Open,DOC-AUD-169
+IAO-0171,Internal audit,FAC-OFF-137,2023-01-26,Missing evidence for refrigerant top-ups,Low,Procurement,2023-03-21,Closed,DOC-AUD-170
+IAO-0172,Compliance assessment,FAC-MAN-020,2023-01-17,Supplier certificate expired,Low,Finance,2023-02-22,Overdue,DOC-AUD-171
+IAO-0173,Compliance assessment,FAC-MAN-014,2026-03-31,Waste certificate missing,Medium,Operations,2026-05-17,Overdue,DOC-AUD-172
+IAO-0174,External assurance (ESG),FAC-WAR-107,2024-04-11,Segregation of duties in AP,Medium,Finance,2024-09-09,Open,DOC-AUD-173
+IAO-0175,External assurance (ESG),FAC-WAR-097,2023-02-17,Manual spreadsheet without review,Medium,EHS & Sustainability,2023-04-25,Closed,DOC-AUD-174
+IAO-0176,External audit (financial),FAC-MAN-005,2026-10-05,Emission factor library outdated,Medium,Finance,2027-01-11,Closed,DOC-AUD-175
+IAO-0177,Compliance assessment,FAC-MAN-042,2022-01-11,Segregation of duties in AP,Low,Procurement,2022-04-01,Overdue,DOC-AUD-176
+IAO-0178,External audit (financial),FAC-OFF-122,2024-06-05,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2024-08-13,Open,
+IAO-0179,Internal audit,FAC-OFF-148,2025-04-24,Manual spreadsheet without review,Low,Operations,2025-09-20,Open,DOC-AUD-178
+IAO-0180,Internal audit,FAC-OFF-139,2025-09-23,Waste certificate missing,Medium,EHS & Sustainability,2025-12-01,Closed,DOC-AUD-179
+IAO-0181,External audit (financial),FAC-MAN-014,2026-06-25,Manual spreadsheet without review,High,Procurement,2026-10-30,Closed,DOC-AUD-180
+IAO-0182,Internal audit,FAC-OFF-123,2024-05-28,Waste certificate missing,Medium,EHS & Sustainability,2024-07-24,Closed,DOC-AUD-181
+IAO-0183,External assurance (ESG),FAC-WAR-109,2025-11-19,Waste certificate missing,Medium,Procurement,2026-04-16,Closed,DOC-AUD-182
+IAO-0184,Business ethics review,FAC-OFF-143,2024-03-06,Utility invoices not reconciled to meter data,Medium,Operations,2024-06-17,Open,
+IAO-0185,Internal audit,FAC-MAN-021,2025-10-28,Waste certificate missing,Low,EHS & Sustainability,2026-01-24,Open,DOC-AUD-184
+IAO-0186,Compliance assessment,FAC-WAR-109,2022-06-30,Anti-corruption training overdue,Medium,EHS & Sustainability,2022-12-17,Open,DOC-AUD-185
+IAO-0187,Internal audit,FAC-OFF-137,2025-07-18,Segregation of duties in AP,Low,EHS & Sustainability,2025-09-04,Closed,DOC-AUD-186
+IAO-0188,Compliance assessment,FAC-OFF-140,2026-03-10,Supplier certificate expired,Low,Finance,2026-05-16,Closed,DOC-AUD-187
+IAO-0189,Internal audit,FAC-MAN-028,2024-08-08,Waste certificate missing,Medium,Finance,2024-11-19,Overdue,DOC-AUD-188
+IAO-0190,External audit (financial),FAC-OFF-127,2023-11-18,Anti-corruption training overdue,Low,Finance,2024-01-02,Closed,DOC-AUD-189
+IAO-0191,Internal audit,FAC-OFF-150,2025-06-26,Emission factor library outdated,Medium,Operations,2025-10-08,Overdue,DOC-AUD-190
+IAO-0192,Compliance assessment,FAC-MAN-006,2024-05-13,Supplier certificate expired,Low,Operations,2024-06-24,Closed,DOC-AUD-191
+IAO-0193,Compliance assessment,FAC-OFF-146,2025-08-21,Segregation of duties in AP,Medium,EHS & Sustainability,2025-10-12,Closed,DOC-AUD-192
+IAO-0194,External audit (financial),FAC-WAR-044,2025-07-01,Utility invoices not reconciled to meter data,High,Procurement,2025-10-03,Open,DOC-AUD-193
+IAO-0195,Internal audit,FAC-WAR-093,2022-06-17,Supplier certificate expired,Medium,Procurement,2022-11-26,Closed,
+IAO-0196,Internal audit,FAC-OFF-126,2024-06-13,Manual spreadsheet without review,Low,Operations,2024-07-18,Open,DOC-AUD-195
+IAO-0197,Internal audit,FAC-MAN-010,2025-10-31,Emission factor library outdated,Medium,Operations,2025-12-06,Open,DOC-AUD-196
+IAO-0198,External audit (financial),FAC-MAN-005,2023-03-30,Waste certificate missing,High,Procurement,2023-08-21,Closed,DOC-AUD-197
+IAO-0199,Internal audit,FAC-WAR-067,2022-11-10,Supplier certificate expired,Low,Operations,2022-12-24,Open,DOC-AUD-198
+IAO-0200,Business ethics review,FAC-WAR-112,2024-07-16,Anti-corruption training overdue,Low,Finance,2024-10-13,Closed,DOC-AUD-199
+IAO-0201,Internal audit,FAC-MAN-035,2022-08-19,Manual spreadsheet without review,Low,Procurement,2023-01-14,Open,DOC-AUD-200
+IAO-0202,External assurance (ESG),FAC-WAR-105,2025-02-21,Segregation of duties in AP,Low,EHS & Sustainability,2025-08-08,Closed,DOC-AUD-201
+IAO-0203,Compliance assessment,FAC-WAR-071,2022-08-10,Anti-corruption training overdue,High,Operations,2022-09-19,Overdue,DOC-AUD-202
+IAO-0204,External audit (financial),FAC-WAR-085,2025-03-03,Waste certificate missing,Low,EHS & Sustainability,2025-06-25,Open,DOC-AUD-203
+IAO-0205,Compliance assessment,FAC-MAN-003,2025-07-09,Segregation of duties in AP,Low,Finance,2025-12-04,Closed,DOC-AUD-204
+IAO-0206,Internal audit,FAC-MAN-042,2025-11-08,Utility invoices not reconciled to meter data,Medium,Procurement,2025-12-08,Closed,DOC-AUD-205
+IAO-0207,External audit (financial),FAC-OFF-144,2022-05-03,Manual spreadsheet without review,Low,EHS & Sustainability,2022-07-27,Closed,DOC-AUD-206
+IAO-0208,Internal audit,FAC-OFF-127,2026-05-08,Supplier certificate expired,Medium,Finance,2026-09-22,Open,DOC-AUD-207
+IAO-0209,Compliance assessment,FAC-MAN-031,2023-01-06,Missing evidence for refrigerant top-ups,Medium,Operations,2023-03-05,Overdue,
+IAO-0210,Internal audit,FAC-OFF-141,2026-12-28,Utility invoices not reconciled to meter data,High,Operations,2027-05-21,Closed,DOC-AUD-209
+IAO-0211,Compliance assessment,FAC-WAR-085,2023-02-22,Segregation of duties in AP,Low,EHS & Sustainability,2023-05-16,Overdue,DOC-AUD-210
+IAO-0212,Internal audit,FAC-OFF-125,2023-02-27,Manual spreadsheet without review,Low,Finance,2023-07-31,Open,
+IAO-0213,Internal audit,FAC-WAR-061,2023-04-03,Manual spreadsheet without review,High,Procurement,2023-06-01,Closed,
+IAO-0214,Compliance assessment,FAC-OFF-130,2026-06-17,Missing evidence for refrigerant top-ups,High,Procurement,2026-09-04,Closed,DOC-AUD-213
+IAO-0215,Internal audit,FAC-OFF-131,2024-09-26,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2024-12-26,Closed,DOC-AUD-214
+IAO-0216,Internal audit,FAC-MAN-036,2025-02-05,Emission factor library outdated,High,Procurement,2025-06-09,Closed,DOC-AUD-215
+IAO-0217,External assurance (ESG),FAC-MAN-022,2026-12-07,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2027-01-11,Overdue,
+IAO-0218,Compliance assessment,FAC-OFF-149,2026-08-12,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2027-01-24,Overdue,DOC-AUD-217
+IAO-0219,Compliance assessment,FAC-WAR-069,2023-05-17,Supplier certificate expired,High,Finance,2023-09-04,Open,DOC-AUD-218
+IAO-0220,External assurance (ESG),FAC-WAR-058,2022-09-28,Anti-corruption training overdue,Medium,EHS & Sustainability,2023-02-11,Open,
+IAO-0221,Business ethics review,FAC-WAR-079,2024-01-26,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2024-03-30,Closed,DOC-AUD-220
+IAO-0222,Internal audit,FAC-WAR-097,2025-04-22,Segregation of duties in AP,Low,Operations,2025-06-15,Closed,DOC-AUD-221
+IAO-0223,Compliance assessment,FAC-WAR-106,2025-03-18,Supplier certificate expired,Medium,Finance,2025-05-27,Closed,DOC-AUD-222
+IAO-0224,Internal audit,FAC-OFF-117,2024-02-19,Supplier certificate expired,Medium,Operations,2024-06-22,Open,DOC-AUD-223
+IAO-0225,External assurance (ESG),FAC-WAR-049,2023-03-31,Emission factor library outdated,Medium,Procurement,2023-05-22,Closed,DOC-AUD-224
+IAO-0226,Business ethics review,FAC-MAN-013,2024-03-14,Emission factor library outdated,Low,Operations,2024-07-09,Closed,DOC-AUD-225
+IAO-0227,Internal audit,FAC-WAR-070,2024-11-01,Segregation of duties in AP,High,Procurement,2025-04-20,Overdue,DOC-AUD-226
+IAO-0228,External assurance (ESG),FAC-WAR-050,2023-12-11,Segregation of duties in AP,Medium,Procurement,2024-02-01,Closed,DOC-AUD-227
+IAO-0229,Business ethics review,FAC-OFF-117,2025-06-03,Emission factor library outdated,Low,EHS & Sustainability,2025-08-01,Closed,DOC-AUD-228
+IAO-0230,Internal audit,FAC-WAR-056,2026-01-09,Waste certificate missing,Medium,Procurement,2026-03-29,Closed,DOC-AUD-229
+IAO-0231,External assurance (ESG),FAC-WAR-110,2025-12-19,Manual spreadsheet without review,High,Procurement,2026-04-17,Open,DOC-AUD-230
+IAO-0232,External assurance (ESG),FAC-MAN-015,2023-01-20,Utility invoices not reconciled to meter data,High,Procurement,2023-04-11,Closed,DOC-AUD-231
+IAO-0233,Internal audit,FAC-WAR-083,2023-06-08,Anti-corruption training overdue,Medium,EHS & Sustainability,2023-10-29,Open,DOC-AUD-232
+IAO-0234,Internal audit,FAC-WAR-092,2024-09-04,Segregation of duties in AP,Low,EHS & Sustainability,2024-12-15,Open,DOC-AUD-233
+IAO-0235,Business ethics review,FAC-WAR-062,2023-03-16,Manual spreadsheet without review,Medium,Operations,2023-08-02,Open,DOC-AUD-234
+IAO-0236,Internal audit,FAC-OFF-143,2026-03-20,Anti-corruption training overdue,High,Procurement,2026-07-14,Closed,DOC-AUD-235
+IAO-0237,Compliance assessment,FAC-WAR-107,2023-06-30,Segregation of duties in AP,Medium,Finance,2023-10-21,Closed,DOC-AUD-236
+IAO-0238,Internal audit,FAC-WAR-050,2026-10-21,Missing evidence for refrigerant top-ups,Low,EHS & Sustainability,2027-01-16,Closed,DOC-AUD-237
+IAO-0239,Internal audit,FAC-WAR-045,2025-04-10,Supplier certificate expired,Low,Operations,2025-06-10,Closed,DOC-AUD-238
+IAO-0240,External assurance (ESG),FAC-MAN-001,2026-02-26,Supplier certificate expired,Medium,Operations,2026-06-28,Closed,DOC-AUD-239
+IAO-0241,External assurance (ESG),FAC-MAN-025,2023-03-06,Supplier certificate expired,Low,Finance,2023-08-03,Closed,DOC-AUD-240
+IAO-0242,External assurance (ESG),FAC-MAN-011,2025-03-31,Emission factor library outdated,Medium,Operations,2025-08-04,Closed,DOC-AUD-241
+IAO-0243,External audit (financial),FAC-MAN-019,2024-12-05,Missing evidence for refrigerant top-ups,Medium,Finance,2025-05-18,Closed,DOC-AUD-242
+IAO-0244,Internal audit,FAC-OFF-116,2026-02-09,Manual spreadsheet without review,Low,Operations,2026-07-05,Closed,DOC-AUD-243
+IAO-0245,Business ethics review,FAC-WAR-061,2024-11-06,Anti-corruption training overdue,Medium,Finance,2025-01-16,Open,DOC-AUD-244
+IAO-0246,Business ethics review,FAC-OFF-144,2026-04-15,Emission factor library outdated,Medium,EHS & Sustainability,2026-06-16,Closed,DOC-AUD-245
+IAO-0247,Internal audit,FAC-MAN-036,2024-04-26,Supplier certificate expired,Medium,EHS & Sustainability,2024-07-17,Closed,
+IAO-0248,Compliance assessment,FAC-MAN-024,2024-06-27,Supplier certificate expired,Medium,Procurement,2024-09-16,Open,DOC-AUD-247
+IAO-0249,Internal audit,FAC-OFF-139,2023-06-20,Utility invoices not reconciled to meter data,Medium,Operations,2023-11-23,Overdue,DOC-AUD-248
+IAO-0250,Internal audit,FAC-WAR-079,2026-12-09,Emission factor library outdated,Low,Procurement,2027-01-24,Closed,DOC-AUD-249
+IAO-0251,Internal audit,FAC-WAR-109,2024-06-19,Segregation of duties in AP,Low,Operations,2024-10-07,Closed,DOC-AUD-250
+IAO-0252,External audit (financial),FAC-OFF-132,2025-12-26,Missing evidence for refrigerant top-ups,Medium,Procurement,2026-01-30,Open,DOC-AUD-251
+IAO-0253,Compliance assessment,FAC-MAN-035,2022-11-28,Waste certificate missing,Low,Procurement,2023-04-13,Closed,DOC-AUD-252
+IAO-0254,Internal audit,FAC-OFF-148,2026-12-04,Segregation of duties in AP,High,Finance,2027-05-29,Closed,DOC-AUD-253
+IAO-0255,Business ethics review,FAC-OFF-127,2023-11-11,Missing evidence for refrigerant top-ups,Medium,Procurement,2024-01-09,Closed,DOC-AUD-254
+IAO-0256,External audit (financial),FAC-OFF-129,2024-10-23,Manual spreadsheet without review,High,EHS & Sustainability,2025-01-05,Closed,DOC-AUD-255
+IAO-0257,External assurance (ESG),FAC-WAR-066,2026-01-12,Utility invoices not reconciled to meter data,Medium,Operations,2026-03-09,Closed,DOC-AUD-256
+IAO-0258,Internal audit,FAC-WAR-056,2023-11-27,Emission factor library outdated,Low,Operations,2024-04-17,Open,DOC-AUD-257
+IAO-0259,Internal audit,FAC-MAN-035,2025-10-22,Segregation of duties in AP,Medium,Operations,2026-03-26,Closed,DOC-AUD-258
+IAO-0260,Internal audit,FAC-WAR-045,2023-10-05,Supplier certificate expired,Medium,Finance,2024-01-02,Open,DOC-AUD-259
+IAO-0261,Internal audit,FAC-WAR-065,2026-07-29,Waste certificate missing,High,Operations,2026-10-09,Closed,DOC-AUD-260
+IAO-0262,External assurance (ESG),FAC-MAN-005,2022-02-07,Emission factor library outdated,Medium,Operations,2022-05-06,Closed,DOC-AUD-261
+IAO-0263,External assurance (ESG),FAC-WAR-060,2022-07-26,Anti-corruption training overdue,Medium,Operations,2022-10-19,Closed,DOC-AUD-262
+IAO-0264,Internal audit,FAC-WAR-060,2024-06-27,Anti-corruption training overdue,High,Operations,2024-09-18,Open,DOC-AUD-263
+IAO-0265,Internal audit,FAC-MAN-039,2026-06-17,Supplier certificate expired,High,Procurement,2026-07-31,Open,DOC-AUD-264
+IAO-0266,Internal audit,FAC-OFF-143,2024-04-30,Emission factor library outdated,Low,Operations,2024-06-21,Closed,DOC-AUD-265
+IAO-0267,External assurance (ESG),FAC-WAR-088,2022-10-19,Supplier certificate expired,Low,EHS & Sustainability,2023-02-08,Overdue,DOC-AUD-266
+IAO-0268,Internal audit,FAC-WAR-057,2023-02-28,Anti-corruption training overdue,Low,Operations,2023-06-17,Closed,DOC-AUD-267
+IAO-0269,Compliance assessment,FAC-MAN-038,2023-11-02,Segregation of duties in AP,Low,EHS & Sustainability,2024-04-20,Closed,DOC-AUD-268
+IAO-0270,External audit (financial),FAC-OFF-119,2024-10-07,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2024-11-26,Closed,DOC-AUD-269
+IAO-0271,Internal audit,FAC-OFF-119,2025-06-07,Utility invoices not reconciled to meter data,Low,Finance,2025-09-14,Open,DOC-AUD-270
+IAO-0272,Internal audit,FAC-MAN-003,2026-09-11,Manual spreadsheet without review,Low,EHS & Sustainability,2027-01-05,Overdue,DOC-AUD-271
+IAO-0273,External audit (financial),FAC-MAN-031,2026-03-16,Emission factor library outdated,Low,Operations,2026-07-04,Closed,DOC-AUD-272
+IAO-0274,Business ethics review,FAC-MAN-020,2023-06-14,Segregation of duties in AP,High,Procurement,2023-09-15,Closed,DOC-AUD-273
+IAO-0275,Internal audit,FAC-MAN-017,2022-02-03,Emission factor library outdated,Medium,Finance,2022-07-06,Open,DOC-AUD-274
+IAO-0276,Internal audit,FAC-WAR-111,2022-04-08,Segregation of duties in AP,Medium,EHS & Sustainability,2022-06-14,Overdue,
+IAO-0277,External assurance (ESG),FAC-MAN-017,2023-06-08,Utility invoices not reconciled to meter data,Low,Finance,2023-10-04,Open,DOC-AUD-276
+IAO-0278,External audit (financial),FAC-OFF-117,2025-10-13,Waste certificate missing,Low,Finance,2026-01-24,Overdue,DOC-AUD-277
+IAO-0279,Internal audit,FAC-MAN-017,2024-10-28,Missing evidence for refrigerant top-ups,Medium,EHS & Sustainability,2025-03-14,Closed,DOC-AUD-278
+IAO-0280,External assurance (ESG),FAC-MAN-039,2025-03-02,Supplier certificate expired,Low,Operations,2025-07-23,Open,DOC-AUD-279
+IAO-0281,Compliance assessment,FAC-OFF-125,2025-10-17,Utility invoices not reconciled to meter data,Low,Finance,2026-02-26,Open,DOC-AUD-280
+IAO-0282,External assurance (ESG),FAC-OFF-128,2023-12-21,Waste certificate missing,Medium,EHS & Sustainability,2024-06-15,Closed,DOC-AUD-281
+IAO-0283,Internal audit,FAC-MAN-028,2026-06-11,Waste certificate missing,Low,EHS & Sustainability,2026-08-08,Closed,DOC-AUD-282
+IAO-0284,External audit (financial),FAC-WAR-106,2026-03-27,Utility invoices not reconciled to meter data,High,Procurement,2026-05-08,Overdue,DOC-AUD-283
+IAO-0285,External audit (financial),FAC-WAR-076,2022-03-15,Missing evidence for refrigerant top-ups,High,Operations,2022-06-30,Open,DOC-AUD-284
+IAO-0286,External audit (financial),FAC-OFF-120,2023-06-06,Emission factor library outdated,Low,Procurement,2023-10-31,Open,DOC-AUD-285
+IAO-0287,Business ethics review,FAC-WAR-078,2022-08-25,Emission factor library outdated,High,Procurement,2023-01-16,Closed,DOC-AUD-286
+IAO-0288,Internal audit,FAC-OFF-152,2025-10-06,Utility invoices not reconciled to meter data,Low,Operations,2025-11-28,Closed,DOC-AUD-287
+IAO-0289,External assurance (ESG),FAC-WAR-110,2024-12-05,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2025-02-19,Closed,DOC-AUD-288
+IAO-0290,External audit (financial),FAC-WAR-098,2024-10-01,Manual spreadsheet without review,Low,Finance,2024-11-07,Closed,
+IAO-0291,Compliance assessment,FAC-WAR-047,2023-05-17,Supplier certificate expired,Low,Finance,2023-06-20,Open,DOC-AUD-290
+IAO-0292,Internal audit,FAC-MAN-002,2024-08-29,Anti-corruption training overdue,Medium,EHS & Sustainability,2025-02-20,Overdue,DOC-AUD-291
+IAO-0293,Compliance assessment,FAC-OFF-136,2022-11-18,Utility invoices not reconciled to meter data,Medium,Operations,2023-02-22,Open,DOC-AUD-292
+IAO-0294,Compliance assessment,FAC-WAR-067,2026-11-16,Emission factor library outdated,Low,EHS & Sustainability,2027-02-24,Overdue,DOC-AUD-293
+IAO-0295,Internal audit,FAC-MAN-017,2022-12-24,Utility invoices not reconciled to meter data,Medium,Procurement,2023-02-08,Closed,DOC-AUD-294
+IAO-0296,Internal audit,FAC-MAN-042,2024-02-26,Supplier certificate expired,Low,EHS & Sustainability,2024-06-14,Open,
+IAO-0297,Internal audit,FAC-OFF-143,2026-11-27,Emission factor library outdated,Medium,EHS & Sustainability,2027-02-02,Closed,DOC-AUD-296
+IAO-0298,Internal audit,FAC-OFF-139,2026-04-16,Supplier certificate expired,Medium,Finance,2026-07-04,Open,DOC-AUD-297
+IAO-0299,Internal audit,FAC-MAN-032,2022-05-10,Segregation of duties in AP,Medium,Operations,2022-08-25,Closed,
+IAO-0300,External assurance (ESG),FAC-WAR-046,2023-12-11,Supplier certificate expired,Low,Procurement,2024-03-24,Closed,DOC-AUD-299
+IAO-0301,Internal audit,FAC-OFF-150,2022-02-14,Waste certificate missing,High,Operations,2022-04-05,Closed,DOC-AUD-300
+IAO-0302,Internal audit,FAC-WAR-071,2025-04-15,Missing evidence for refrigerant top-ups,High,Finance,2025-10-08,Closed,DOC-AUD-301
+IAO-0303,Internal audit,FAC-OFF-122,2026-12-31,Utility invoices not reconciled to meter data,High,Finance,2027-04-30,Closed,DOC-AUD-302
+IAO-0304,External audit (financial),FAC-MAN-028,2026-04-07,Waste certificate missing,Medium,EHS & Sustainability,2026-08-01,Open,DOC-AUD-303
+IAO-0305,Internal audit,FAC-MAN-023,2022-02-04,Segregation of duties in AP,Medium,Finance,2022-03-09,Closed,DOC-AUD-304
+IAO-0306,Internal audit,FAC-MAN-023,2026-05-29,Supplier certificate expired,Medium,Finance,2026-08-24,Overdue,DOC-AUD-305
+IAO-0307,External assurance (ESG),FAC-WAR-069,2026-09-16,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2027-02-02,Closed,DOC-AUD-306
+IAO-0308,External audit (financial),FAC-OFF-138,2025-10-09,Segregation of duties in AP,Low,EHS & Sustainability,2026-02-15,Closed,DOC-AUD-307
+IAO-0309,Internal audit,FAC-OFF-117,2023-01-11,Anti-corruption training overdue,Low,Finance,2023-03-13,Closed,
+IAO-0310,Internal audit,FAC-WAR-044,2023-03-08,Emission factor library outdated,Low,EHS & Sustainability,2023-06-28,Closed,DOC-AUD-309
+IAO-0311,Compliance assessment,FAC-MAN-013,2025-03-12,Emission factor library outdated,Low,Finance,2025-07-31,Closed,DOC-AUD-310
+IAO-0312,Compliance assessment,FAC-OFF-120,2023-11-07,Segregation of duties in AP,Low,Finance,2024-01-11,Overdue,DOC-AUD-311
+IAO-0313,Internal audit,FAC-OFF-150,2023-09-11,Emission factor library outdated,Low,Operations,2023-11-02,Closed,DOC-AUD-312
+IAO-0314,Internal audit,FAC-WAR-053,2025-09-03,Anti-corruption training overdue,Low,Operations,2026-01-27,Closed,
+IAO-0315,Business ethics review,FAC-MAN-025,2023-04-06,Segregation of duties in AP,Medium,Finance,2023-09-03,Closed,DOC-AUD-314
+IAO-0316,Compliance assessment,FAC-MAN-042,2025-08-28,Segregation of duties in AP,Low,Operations,2026-01-20,Overdue,DOC-AUD-315
+IAO-0317,External audit (financial),FAC-WAR-099,2026-04-06,Anti-corruption training overdue,Low,Finance,2026-06-08,Open,DOC-AUD-316
+IAO-0318,Business ethics review,FAC-WAR-111,2022-09-15,Utility invoices not reconciled to meter data,Low,Procurement,2023-01-30,Closed,DOC-AUD-317
+IAO-0319,Internal audit,FAC-OFF-126,2025-10-20,Waste certificate missing,Low,Procurement,2026-01-28,Closed,
+IAO-0320,Internal audit,FAC-WAR-086,2023-10-25,Manual spreadsheet without review,Low,EHS & Sustainability,2024-03-25,Overdue,DOC-AUD-319
+IAO-0321,External audit (financial),FAC-WAR-094,2023-06-23,Utility invoices not reconciled to meter data,Medium,EHS & Sustainability,2023-07-26,Closed,DOC-AUD-320
+IAO-0322,Internal audit,FAC-WAR-095,2024-04-25,Emission factor library outdated,Low,Procurement,2024-05-31,Open,DOC-AUD-321
+IAO-0323,Internal audit,FAC-OFF-136,2025-10-16,Utility invoices not reconciled to meter data,Low,Operations,2026-03-30,Closed,DOC-AUD-322
+IAO-0324,Internal audit,FAC-MAN-011,2025-09-06,Anti-corruption training overdue,Medium,EHS & Sustainability,2025-12-16,Overdue,
+IAO-0325,Internal audit,FAC-OFF-119,2025-10-16,Manual spreadsheet without review,Medium,Procurement,2025-11-25,Closed,DOC-AUD-324
+IAO-0326,Internal audit,FAC-WAR-062,2025-11-05,Manual spreadsheet without review,Low,EHS & Sustainability,2025-12-09,Closed,DOC-AUD-325
+IAO-0327,External audit (financial),FAC-WAR-048,2022-05-28,Utility invoices not reconciled to meter data,Medium,Operations,2022-08-26,Closed,
+IAO-0328,Business ethics review,FAC-WAR-047,2026-10-16,Supplier certificate expired,High,EHS & Sustainability,2026-12-21,Open,DOC-AUD-327
+IAO-0329,External assurance (ESG),FAC-OFF-150,2023-07-24,Anti-corruption training overdue,Medium,Procurement,2023-10-25,Closed,DOC-AUD-328
+IAO-0330,Internal audit,FAC-MAN-018,2026-09-01,Emission factor library outdated,Low,Procurement,2026-11-13,Closed,DOC-AUD-329
+IAO-0331,Compliance assessment,FAC-OFF-141,2023-03-03,Anti-corruption training overdue,Medium,Operations,2023-04-07,Open,DOC-AUD-330
+IAO-0332,Compliance assessment,FAC-OFF-120,2026-12-28,Missing evidence for refrigerant top-ups,Low,Operations,2027-02-14,Closed,DOC-AUD-331
+IAO-0333,Internal audit,FAC-MAN-017,2026-11-25,Segregation of duties in AP,Low,Procurement,2027-02-09,Open,DOC-AUD-332
+IAO-0334,Compliance assessment,FAC-WAR-060,2022-10-19,Segregation of duties in AP,Medium,Procurement,2022-12-14,Open,DOC-AUD-333
+IAO-0335,External audit (financial),FAC-OFF-124,2023-01-18,Manual spreadsheet without review,Low,Finance,2023-06-21,Closed,DOC-AUD-334
+IAO-0336,Internal audit,FAC-WAR-087,2025-12-31,Manual spreadsheet without review,Low,EHS & Sustainability,2026-03-19,Closed,DOC-AUD-335
+IAO-0337,External assurance (ESG),FAC-MAN-030,2022-09-02,Manual spreadsheet without review,Medium,EHS & Sustainability,2023-02-08,Open,DOC-AUD-336
+IAO-0338,Internal audit,FAC-WAR-084,2023-11-15,Segregation of duties in AP,Low,Procurement,2024-04-02,Closed,DOC-AUD-337
+IAO-0339,External audit (financial),FAC-WAR-080,2026-12-09,Manual spreadsheet without review,High,Operations,2027-04-06,Closed,DOC-AUD-338
+IAO-0340,Internal audit,FAC-MAN-024,2024-02-09,Supplier certificate expired,High,Procurement,2024-08-02,Closed,DOC-AUD-339
+IAO-0341,Business ethics review,FAC-WAR-089,2026-10-18,Anti-corruption training overdue,High,EHS & Sustainability,2026-11-17,Closed,DOC-AUD-340
+IAO-0342,Internal audit,FAC-MAN-041,2023-04-06,Manual spreadsheet without review,High,EHS & Sustainability,2023-06-22,Overdue,DOC-AUD-341
+IAO-0343,External assurance (ESG),FAC-OFF-148,2025-09-18,Anti-corruption training overdue,Low,Operations,2026-01-11,Open,DOC-AUD-342
+IAO-0344,Compliance assessment,FAC-OFF-128,2025-11-03,Supplier certificate expired,Low,Procurement,2026-01-02,Overdue,DOC-AUD-343
+IAO-0345,Internal audit,FAC-MAN-003,2023-01-27,Segregation of duties in AP,Medium,Operations,2023-05-15,Closed,DOC-AUD-344
+IAO-0346,External audit (financial),FAC-WAR-054,2025-04-21,Supplier certificate expired,Medium,EHS & Sustainability,2025-07-03,Open,DOC-AUD-345
+IAO-0347,External assurance (ESG),FAC-WAR-060,2024-01-26,Anti-corruption training overdue,Low,EHS & Sustainability,2024-07-21,Open,DOC-AUD-346
+IAO-0348,Internal audit,FAC-WAR-081,2026-07-22,Anti-corruption training overdue,Low,EHS & Sustainability,2026-11-11,Closed,
+IAO-0349,Business ethics review,FAC-WAR-079,2026-07-25,Waste certificate missing,Medium,Procurement,2026-11-09,Closed,
+IAO-0350,Internal audit,FAC-WAR-055,2022-09-17,Anti-corruption training overdue,Low,Procurement,2023-02-23,Closed,DOC-AUD-349
+IAO-0351,Internal audit,FAC-MAN-010,2023-09-13,Waste certificate missing,High,Operations,2023-11-22,Closed,DOC-AUD-350
+IAO-0352,Internal audit,FAC-OFF-142,2025-10-28,Missing evidence for refrigerant top-ups,Low,Operations,2026-04-05,Open,DOC-AUD-351
+IAO-0353,Internal audit,FAC-WAR-111,2024-09-11,Supplier certificate expired,Low,Procurement,2025-02-19,Open,DOC-AUD-352
+IAO-0354,Internal audit,FAC-WAR-084,2026-12-23,Segregation of duties in AP,Medium,EHS & Sustainability,2027-06-17,Open,DOC-AUD-353
+IAO-0355,External audit (financial),FAC-OFF-120,2022-12-31,Missing evidence for refrigerant top-ups,Low,Operations,2023-03-28,Open,DOC-AUD-354
+IAO-0356,External audit (financial),FAC-WAR-043,2026-02-20,Missing evidence for refrigerant top-ups,Low,Procurement,2026-08-16,Overdue,DOC-AUD-355
+IAO-0357,Compliance assessment,FAC-WAR-108,2026-09-23,Supplier certificate expired,Low,Operations,2027-02-26,Closed,DOC-AUD-356
+IAO-0358,External assurance (ESG),FAC-MAN-023,2025-06-16,Anti-corruption training overdue,High,Operations,2025-10-09,Closed,DOC-AUD-357
+IAO-0359,Compliance assessment,FAC-WAR-077,2026-10-15,Segregation of duties in AP,High,Finance,2026-12-02,Open,DOC-AUD-358
+IAO-0360,Compliance assessment,FAC-OFF-142,2024-11-13,Waste certificate missing,Low,Operations,2025-05-08,Open,DOC-AUD-359
+IAO-0361,Internal audit,FAC-WAR-050,2023-01-23,Missing evidence for refrigerant top-ups,High,Operations,2023-06-12,Closed,
+IAO-0362,Internal audit,FAC-WAR-067,2023-06-12,Anti-corruption training overdue,Low,EHS & Sustainability,2023-09-11,Closed,DOC-AUD-361
+IAO-0363,Internal audit,FAC-MAN-031,2026-12-17,Segregation of duties in AP,Low,Finance,2027-04-13,Open,DOC-AUD-362
+IAO-0364,Internal audit,FAC-WAR-095,2023-08-16,Waste certificate missing,High,EHS & Sustainability,2023-10-02,Open,
+IAO-0365,External audit (financial),FAC-OFF-152,2023-02-24,Utility invoices not reconciled to meter data,Low,Finance,2023-06-27,Open,DOC-AUD-364
+IAO-0366,Internal audit,FAC-OFF-134,2025-04-07,Anti-corruption training overdue,Medium,Finance,2025-08-15,Closed,DOC-AUD-365
+IAO-0367,Internal audit,FAC-WAR-079,2026-03-24,Supplier certificate expired,Low,Procurement,2026-07-05,Open,DOC-AUD-366
+IAO-0368,Compliance assessment,FAC-MAN-020,2024-06-26,Emission factor library outdated,High,EHS & Sustainability,2024-10-22,Overdue,DOC-AUD-367
+IAO-0369,Internal audit,FAC-WAR-076,2025-09-16,Missing evidence for refrigerant top-ups,High,Operations,2026-02-10,Closed,DOC-AUD-368
+IAO-0370,Compliance assessment,FAC-WAR-059,2026-04-10,Segregation of duties in AP,Low,Procurement,2026-07-09,Closed,
+IAO-0371,Internal audit,FAC-WAR-083,2022-01-27,Anti-corruption training overdue,Medium,Finance,2022-03-07,Closed,DOC-AUD-370
+IAO-0372,Internal audit,FAC-WAR-088,2026-04-03,Anti-corruption training overdue,Low,Procurement,2026-08-17,Open,DOC-AUD-371
+IAO-0373,Internal audit,FAC-OFF-148,2022-01-04,Anti-corruption training overdue,Low,Operations,2022-05-28,Closed,DOC-AUD-372
+IAO-0374,External assurance (ESG),FAC-WAR-107,2022-08-26,Waste certificate missing,Low,EHS & Sustainability,2022-10-17,Open,DOC-AUD-373
+IAO-0375,External audit (financial),FAC-OFF-127,2022-09-22,Supplier certificate expired,Low,Finance,2022-12-24,Open,DOC-AUD-374
+IAO-0376,Internal audit,FAC-WAR-080,2022-01-25,Manual spreadsheet without review,Medium,Operations,2022-04-05,Closed,
+IAO-0377,Internal audit,FAC-WAR-046,2023-10-10,Anti-corruption training overdue,Low,Finance,2024-02-12,Open,DOC-AUD-376
+IAO-0378,Internal audit,FAC-MAN-011,2024-03-22,Manual spreadsheet without review,Low,Procurement,2024-08-31,Open,
+IAO-0379,Internal audit,FAC-MAN-028,2025-11-10,Utility invoices not reconciled to meter data,Medium,Finance,2026-02-27,Closed,DOC-AUD-378
+IAO-0380,Internal audit,FAC-MAN-029,2023-11-27,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2024-04-10,Closed,DOC-AUD-379
+IAO-0381,Internal audit,FAC-MAN-004,2023-10-06,Segregation of duties in AP,Medium,Finance,2024-03-08,Closed,DOC-AUD-380
+IAO-0382,Compliance assessment,FAC-OFF-146,2026-10-07,Segregation of duties in AP,Low,EHS & Sustainability,2026-11-22,Closed,DOC-AUD-381
+IAO-0383,Internal audit,FAC-MAN-016,2025-06-06,Emission factor library outdated,Low,Procurement,2025-11-13,Closed,
+IAO-0384,Compliance assessment,FAC-WAR-111,2024-03-06,Supplier certificate expired,Low,Operations,2024-06-24,Closed,DOC-AUD-383
+IAO-0385,Internal audit,FAC-MAN-009,2026-09-16,Emission factor library outdated,Low,EHS & Sustainability,2027-01-01,Open,
+IAO-0386,Internal audit,FAC-WAR-064,2022-08-05,Missing evidence for refrigerant top-ups,Low,Procurement,2022-12-08,Open,DOC-AUD-385
+IAO-0387,External audit (financial),FAC-WAR-050,2024-07-19,Waste certificate missing,High,EHS & Sustainability,2024-11-29,Open,DOC-AUD-386
+IAO-0388,External assurance (ESG),FAC-MAN-029,2026-04-03,Utility invoices not reconciled to meter data,Low,Operations,2026-06-19,Open,
+IAO-0389,Compliance assessment,FAC-MAN-024,2023-07-11,Missing evidence for refrigerant top-ups,Medium,Procurement,2023-12-10,Open,
+IAO-0390,Internal audit,FAC-OFF-132,2026-01-09,Segregation of duties in AP,High,Finance,2026-04-30,Closed,
+IAO-0391,Internal audit,FAC-WAR-074,2025-02-11,Manual spreadsheet without review,Medium,EHS & Sustainability,2025-03-22,Closed,DOC-AUD-390
+IAO-0392,External assurance (ESG),FAC-MAN-003,2024-04-07,Utility invoices not reconciled to meter data,Low,Operations,2024-08-26,Open,DOC-AUD-391
+IAO-0393,External assurance (ESG),FAC-MAN-015,2025-07-21,Anti-corruption training overdue,Low,Operations,2025-10-24,Open,DOC-AUD-392
+IAO-0394,External audit (financial),FAC-MAN-024,2022-03-13,Segregation of duties in AP,Low,EHS & Sustainability,2022-07-12,Closed,DOC-AUD-393
+IAO-0395,External assurance (ESG),FAC-MAN-002,2025-06-10,Anti-corruption training overdue,Low,Finance,2025-07-24,Overdue,DOC-AUD-394
+IAO-0396,External assurance (ESG),FAC-OFF-140,2026-07-25,Emission factor library outdated,Medium,Procurement,2026-11-11,Open,DOC-AUD-395
+IAO-0397,Internal audit,FAC-MAN-038,2022-11-16,Missing evidence for refrigerant top-ups,Medium,Operations,2023-03-29,Closed,DOC-AUD-396
+IAO-0398,Internal audit,FAC-WAR-053,2025-01-17,Supplier certificate expired,Low,Operations,2025-06-01,Open,DOC-AUD-397
+IAO-0399,Internal audit,FAC-OFF-119,2022-08-04,Missing evidence for refrigerant top-ups,Low,Operations,2022-11-04,Closed,DOC-AUD-398
+IAO-0400,External audit (financial),FAC-MAN-036,2024-03-18,Segregation of duties in AP,Low,EHS & Sustainability,2024-07-04,Open,
+IAO-0401,Internal audit,FAC-MAN-003,2025-08-27,Supplier certificate expired,Low,Finance,2026-02-20,Closed,DOC-AUD-400
+IAO-0402,External assurance (ESG),FAC-MAN-009,2023-04-04,Emission factor library outdated,Low,Operations,2023-05-27,Closed,DOC-AUD-401
+IAO-0403,Internal audit,FAC-MAN-018,2026-11-27,Emission factor library outdated,Medium,Procurement,2027-03-21,Open,DOC-AUD-402
+IAO-0404,Internal audit,FAC-MAN-016,2022-11-15,Manual spreadsheet without review,Medium,Procurement,2023-04-07,Closed,DOC-AUD-403
+IAO-0405,External assurance (ESG),FAC-OFF-123,2026-08-21,Segregation of duties in AP,Medium,Procurement,2026-10-10,Closed,DOC-AUD-404
+IAO-0406,External assurance (ESG),FAC-MAN-007,2026-05-26,Missing evidence for refrigerant top-ups,High,Procurement,2026-08-28,Closed,DOC-AUD-405
+IAO-0407,Internal audit,FAC-WAR-095,2024-01-01,Utility invoices not reconciled to meter data,Low,EHS & Sustainability,2024-06-10,Open,DOC-AUD-406
+IAO-0408,Internal audit,FAC-WAR-084,2022-05-27,Waste certificate missing,Medium,EHS & Sustainability,2022-07-13,Overdue,DOC-AUD-407
+IAO-0409,Compliance assessment,FAC-MAN-003,2026-02-04,Supplier certificate expired,Medium,Operations,2026-04-29,Open,DOC-AUD-408
+IAO-0410,Internal audit,FAC-WAR-053,2026-06-22,Waste certificate missing,Low,EHS & Sustainability,2026-10-31,Open,DOC-AUD-409
+IAO-0411,External audit (financial),FAC-MAN-032,2023-11-18,Waste certificate missing,Medium,Finance,2024-02-06,Overdue,DOC-AUD-410
+IAO-0412,Internal audit,FAC-WAR-060,2025-12-02,Utility invoices not reconciled to meter data,Low,Operations,2026-03-17,Open,
+IAO-0413,Compliance assessment,FAC-MAN-030,2022-02-21,Waste certificate missing,Low,Finance,2022-03-27,Closed,
+IAO-0414,External assurance (ESG),FAC-WAR-104,2025-11-10,Anti-corruption training overdue,High,EHS & Sustainability,2026-01-09,Open,
+IAO-0415,External assurance (ESG),FAC-MAN-001,2022-08-22,Segregation of duties in AP,Low,Procurement,2022-11-15,Open,DOC-AUD-414
+IAO-0416,External assurance (ESG),FAC-WAR-096,2022-05-10,Utility invoices not reconciled to meter data,Medium,Procurement,2022-06-12,Open,DOC-AUD-415
+IAO-0417,Internal audit,FAC-MAN-006,2026-05-12,Emission factor library outdated,Medium,Operations,2026-07-12,Closed,DOC-AUD-416
+IAO-0418,Business ethics review,FAC-OFF-141,2025-02-17,Supplier certificate expired,Medium,EHS & Sustainability,2025-04-26,Open,DOC-AUD-417
+IAO-0419,Internal audit,FAC-OFF-128,2026-11-04,Segregation of duties in AP,High,Finance,2027-02-06,Overdue,DOC-AUD-418
+IAO-0420,External audit (financial),FAC-MAN-038,2026-12-15,Utility invoices not reconciled to meter data,High,EHS & Sustainability,2027-04-03,Closed,DOC-AUD-419

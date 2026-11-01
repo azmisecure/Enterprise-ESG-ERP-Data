@@ -1,251 +1,255 @@
 instrument_id,instrument_type,registry,serial_number,vintage_year,technology,mwh,market_boundary,allocated_facility_id,allocation_year,retirement_date,retired_on_behalf_of,price_usd_per_mwh,synthetic_flag
-EAC-00001,Physical PPA,I-REC-like (synthetic),SYN-AU-2025-5056795234,2025,Solar PV,8686.13,AU,FAC-MAN-001,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.3,True
-EAC-00002,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2024-4176243628,2024,Solar PV,19018.027,ZA,FAC-MAN-004,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.58,True
-EAC-00003,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-7984439696,2024,Hydro,14733.054,DE,FAC-MAN-005,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.43,True
-EAC-00004,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-3682341192,2025,Wind,33427.147,DE,FAC-MAN-005,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.84,True
-EAC-00005,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-8711089277,2026,Wind,44340.962,DE,FAC-MAN-005,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.84,True
-EAC-00006,Physical PPA,I-REC-like (synthetic),SYN-MX-2025-5835149421,2025,Solar PV,4286.74,MX,FAC-MAN-006,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.72,True
-EAC-00007,Physical PPA,I-REC-like (synthetic),SYN-JP-2024-8378481728,2024,Wind,8818.373,JP,FAC-MAN-007,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.72,True
-EAC-00008,REC/I-REC,I-REC-like (synthetic),SYN-JP-2025-1708538396,2025,Hydro,9173.019,JP,FAC-MAN-007,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.97,True
-EAC-00009,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2026-5929059630,2026,Wind,7794.085,CA,FAC-MAN-008,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.48,True
-EAC-00010,REC/I-REC,M-RETS-like (synthetic),SYN-US-2024-3840477574,2024,Solar PV,7511.497,US,FAC-MAN-009,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.11,True
-EAC-00011,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-6703478762,2025,Solar PV,11284.995,US,FAC-MAN-009,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.06,True
-EAC-00012,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-6336937080,2026,Wind,22037.457,FR,FAC-MAN-010,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.24,True
-EAC-00013,REC/I-REC,I-REC-like (synthetic),SYN-CN-2026-7462444688,2026,Wind,6315.293,CN,FAC-MAN-013,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.22,True
-EAC-00014,REC/I-REC,I-REC-like (synthetic),SYN-JP-2026-4013894353,2026,Hydro,11904.178,JP,FAC-MAN-014,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.85,True
-EAC-00015,REC/I-REC,I-REC-like (synthetic),SYN-TH-2024-3019141244,2024,Hydro,19574.907,TH,FAC-MAN-015,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.73,True
-EAC-00016,Physical PPA,I-REC-like (synthetic),SYN-TH-2025-8028351910,2025,Hydro,23468.045,TH,FAC-MAN-015,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.87,True
-EAC-00017,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2024-9676158929,2024,Solar PV,11280.417,FR,FAC-MAN-016,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.65,True
-EAC-00018,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-3329024247,2026,Wind,5398.449,FR,FAC-MAN-016,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.59,True
-EAC-00019,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2023-7270082078,2023,Wind,6252.382,ZA,FAC-MAN-017,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.53,True
-EAC-00020,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2024-9795041247,2024,Wind,10660.705,CN,FAC-MAN-017,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.57,True
-EAC-00021,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2025-8004073602,2025,Solar PV,12122.554,GB,FAC-MAN-019,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.95,True
-EAC-00022,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-3193534609,2026,Wind,5517.178,GB,FAC-MAN-019,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.43,True
-EAC-00023,Physical PPA,M-RETS-like (synthetic),SYN-US-2026-6969435240,2026,Hydro,19370.735,US,FAC-MAN-021,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.72,True
-EAC-00024,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2023-8268893962,2023,Solar PV,34544.199,CN,FAC-MAN-022,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.45,True
-EAC-00025,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-1461490783,2025,Wind,49591.33,DE,FAC-MAN-022,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.03,True
-EAC-00026,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2026-1754104321,2026,Wind,20265.629,IT,FAC-MAN-023,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.1,True
-EAC-00027,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2024-7210845157,2024,Wind,8296.158,CA,FAC-MAN-024,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.94,True
-EAC-00028,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2025-7470493170,2025,Wind,11975.132,CA,FAC-MAN-024,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.25,True
-EAC-00029,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2025-3563205832,2025,Wind,12436.189,SE,FAC-MAN-025,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.42,True
-EAC-00030,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2026-6398472403,2026,Solar PV,11984.921,SE,FAC-MAN-025,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.36,True
-EAC-00031,REC/I-REC,I-REC-like (synthetic),SYN-TR-2023-9689441331,2023,Wind,5940.241,TR,FAC-MAN-026,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.67,True
-EAC-00032,Physical PPA,I-REC-like (synthetic),SYN-TR-2025-3418691226,2025,Wind,11071.921,TR,FAC-MAN-026,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.79,True
-EAC-00033,REC/I-REC,I-REC-like (synthetic),SYN-TR-2026-9784606389,2026,Wind,15361.934,TR,FAC-MAN-026,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.24,True
-EAC-00034,REC/I-REC,I-REC-like (synthetic),SYN-CN-2024-6160034453,2024,Wind,18194.972,CN,FAC-MAN-027,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.26,True
-EAC-00035,REC/I-REC,I-REC-like (synthetic),SYN-CN-2025-7046669968,2025,Solar PV,7733.621,CN,FAC-MAN-027,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.02,True
-EAC-00036,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2024-1887160453,2024,Wind,17534.49,GB,FAC-MAN-028,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.23,True
-EAC-00037,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-8489621239,2026,Hydro,16489.795,GB,FAC-MAN-028,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.33,True
-EAC-00038,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-4435825878,2024,Solar PV,4500.288,IN,FAC-MAN-029,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.31,True
-EAC-00039,REC/I-REC,I-REC-like (synthetic),SYN-IN-2025-5481902032,2025,Wind,9072.145,IN,FAC-MAN-029,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.8,True
-EAC-00040,Physical PPA,I-REC-like (synthetic),SYN-KR-2023-9965545382,2023,Wind,12183.005,KR,FAC-MAN-031,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.79,True
-EAC-00041,REC/I-REC,I-REC-like (synthetic),SYN-KR-2026-2245199467,2026,Hydro,6573.123,KR,FAC-MAN-031,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.21,True
-EAC-00042,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-1611601036,2024,Wind,6274.917,IN,FAC-MAN-032,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.92,True
-EAC-00043,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-9898286602,2026,Solar PV,7620.697,IN,FAC-MAN-032,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.91,True
-EAC-00044,Physical PPA,I-REC-like (synthetic),SYN-JP-2024-9377439871,2024,Solar PV,6899.171,JP,FAC-MAN-033,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.91,True
-EAC-00045,REC/I-REC,I-REC-like (synthetic),SYN-JP-2026-4848251487,2026,Wind,14237.032,JP,FAC-MAN-033,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.24,True
-EAC-00046,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2023-3981227615,2023,Hydro,2103.37,DE,FAC-MAN-035,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.91,True
-EAC-00047,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-7404160008,2026,Solar PV,1531.068,DE,FAC-MAN-035,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.24,True
-EAC-00048,REC/I-REC,I-REC-like (synthetic),SYN-JP-2026-2165802257,2026,Hydro,9103.994,JP,FAC-MAN-036,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.5,True
-EAC-00049,REC/I-REC,I-REC-like (synthetic),SYN-SG-2024-1138668975,2024,Hydro,11898.731,SG,FAC-MAN-037,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.39,True
-EAC-00050,Physical PPA,I-REC-like (synthetic),SYN-SG-2025-6369979367,2025,Hydro,17246.75,SG,FAC-MAN-037,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.75,True
-EAC-00051,REC/I-REC,I-REC-like (synthetic),SYN-SG-2026-3806878436,2026,Hydro,10531.621,SG,FAC-MAN-037,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.19,True
-EAC-00052,Physical PPA,M-RETS-like (synthetic),SYN-US-2024-3201924748,2024,Solar PV,15073.088,US,FAC-MAN-038,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.29,True
-EAC-00053,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-4847785115,2025,Solar PV,13925.044,US,FAC-MAN-038,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.77,True
-EAC-00054,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-9558824079,2026,Hydro,9425.596,US,FAC-MAN-038,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.99,True
-EAC-00055,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-2932456939,2024,Wind,16421.375,DE,FAC-MAN-039,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.66,True
-EAC-00056,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-3960200979,2025,Solar PV,17875.686,DE,FAC-MAN-039,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.16,True
-EAC-00057,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-3122807606,2026,Solar PV,24258.729,DE,FAC-MAN-039,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.92,True
-EAC-00058,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-8349218944,2026,Hydro,6000.275,DE,FAC-MAN-040,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.45,True
-EAC-00059,REC/I-REC,I-REC-like (synthetic),SYN-AU-2024-1997823695,2024,Solar PV,7094.324,AU,FAC-MAN-041,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.61,True
-EAC-00060,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-3324494887,2026,Hydro,8390.351,AU,FAC-MAN-041,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.15,True
-EAC-00061,Physical PPA,I-REC-like (synthetic),SYN-MX-2026-5401091095,2023,Solar PV,4206.359,MX,FAC-MAN-042,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.02,True
-EAC-00062,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-6536886414,2026,Hydro,432.349,DE,FAC-OFF-116,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.03,True
-EAC-00063,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-5292620877,2026,Solar PV,575.899,FR,FAC-OFF-117,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.3,True
-EAC-00064,REC/I-REC,I-REC-like (synthetic),SYN-IN-2025-5121518340,2025,Wind,195.899,IN,FAC-OFF-118,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.7,True
-EAC-00065,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-7866441571,2026,Hydro,348.366,IN,FAC-OFF-118,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.6,True
-EAC-00066,Physical PPA,M-RETS-like (synthetic),SYN-CA-2025-1824907867,2025,Hydro,478.057,CA,FAC-OFF-119,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.94,True
-EAC-00067,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2026-4940822712,2026,Solar PV,747.61,CA,FAC-OFF-119,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.21,True
-EAC-00068,REC/I-REC,I-REC-like (synthetic),SYN-AU-2024-5748368536,2024,Hydro,346.779,AU,FAC-OFF-120,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.21,True
-EAC-00069,REC/I-REC,I-REC-like (synthetic),SYN-AU-2025-2862240901,2025,Wind,213.1,AU,FAC-OFF-120,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.85,True
-EAC-00070,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-6140507244,2026,Wind,517.135,AU,FAC-OFF-120,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.06,True
-EAC-00071,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-6638124247,2024,Solar PV,762.204,IN,FAC-OFF-121,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.56,True
-EAC-00072,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-3263962634,2026,Solar PV,850.785,IN,FAC-OFF-121,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.58,True
-EAC-00073,REC/I-REC,I-REC-like (synthetic),SYN-BR-2023-9901816285,2023,Hydro,205.039,BR,FAC-OFF-122,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.32,True
-EAC-00074,REC/I-REC,I-REC-like (synthetic),SYN-BR-2026-4962556755,2026,Solar PV,545.236,BR,FAC-OFF-122,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.12,True
-EAC-00075,Physical PPA,M-RETS-like (synthetic),SYN-CA-2024-5743654246,2024,Solar PV,1890.009,CA,FAC-OFF-123,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.92,True
-EAC-00076,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2026-7049452221,2023,Hydro,1253.783,CA,FAC-OFF-123,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.71,True
-EAC-00077,REC/I-REC,I-REC-like (synthetic),SYN-TR-2026-8165907409,2026,Hydro,959.477,TR,FAC-OFF-124,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.3,True
-EAC-00078,REC/I-REC,I-REC-like (synthetic),SYN-TR-2024-1607836816,2024,Hydro,815.168,TR,FAC-OFF-126,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.42,True
-EAC-00079,REC/I-REC,I-REC-like (synthetic),SYN-TR-2025-3921445173,2025,Wind,543.95,TR,FAC-OFF-126,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.16,True
-EAC-00080,REC/I-REC,I-REC-like (synthetic),SYN-TR-2026-9095448690,2026,Hydro,736.89,TR,FAC-OFF-126,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.75,True
-EAC-00081,REC/I-REC,M-RETS-like (synthetic),SYN-US-2024-2411552150,2021,Hydro,816.547,US,FAC-OFF-127,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.82,True
-EAC-00082,Physical PPA,M-RETS-like (synthetic),SYN-US-2026-3583175580,2026,Hydro,310.472,US,FAC-OFF-127,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.99,True
-EAC-00083,Physical PPA,I-REC-like (synthetic),SYN-ZA-2025-6865477828,2025,Hydro,673.474,ZA,FAC-OFF-128,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.34,True
-EAC-00084,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2026-3954794678,2026,Hydro,725.325,ZA,FAC-OFF-128,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.89,True
-EAC-00085,Physical PPA,I-REC-like (synthetic),SYN-TR-2026-7007028933,2026,Solar PV,1051.445,TR,FAC-OFF-129,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.53,True
-EAC-00086,Physical PPA,I-REC-like (synthetic),SYN-TR-2023-8664172161,2023,Solar PV,903.57,TR,FAC-OFF-130,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.36,True
-EAC-00087,REC/I-REC,I-REC-like (synthetic),SYN-TR-2024-5613588013,2024,Hydro,296.62,TR,FAC-OFF-130,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.59,True
-EAC-00088,REC/I-REC,I-REC-like (synthetic),SYN-TR-2026-9712067738,2026,Wind,375.847,TR,FAC-OFF-130,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.33,True
-EAC-00089,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2023-1578614321,2023,Solar PV,256.852,DE,FAC-OFF-131,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.76,True
-EAC-00090,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-8326503489,2024,Solar PV,176.261,DE,FAC-OFF-131,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.23,True
-EAC-00091,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-3723140158,2025,Solar PV,147.722,DE,FAC-OFF-131,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.53,True
-EAC-00092,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-1599795643,2026,Wind,1030.412,DE,FAC-OFF-132,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.44,True
-EAC-00093,REC/I-REC,I-REC-like (synthetic),SYN-TR-2024-7283187332,2024,Wind,755.837,TR,FAC-OFF-133,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.43,True
-EAC-00094,Physical PPA,I-REC-like (synthetic),SYN-TR-2025-5959099691,2025,Solar PV,671.569,TR,FAC-OFF-133,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.69,True
-EAC-00095,REC/I-REC,I-REC-like (synthetic),SYN-TR-2026-9991094838,2026,Solar PV,327.558,TR,FAC-OFF-133,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.06,True
-EAC-00096,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2025-5129711737,2025,Hydro,733.303,PL,FAC-OFF-134,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.78,True
-EAC-00097,REC/I-REC,I-REC-like (synthetic),SYN-SG-2024-6180510352,2024,Wind,503.335,SG,FAC-OFF-135,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.57,True
-EAC-00098,Physical PPA,I-REC-like (synthetic),SYN-SG-2026-8033325746,2026,Wind,394.377,SG,FAC-OFF-135,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.41,True
-EAC-00099,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-5967377378,2024,Solar PV,398.473,ES,FAC-OFF-136,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.05,True
-EAC-00100,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2025-7070505723,2025,Hydro,222.864,ES,FAC-OFF-136,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.87,True
-EAC-00101,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2026-7582138282,2023,Wind,123.289,ES,FAC-OFF-136,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.37,True
-EAC-00102,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-9376135173,2026,Hydro,706.766,AU,FAC-OFF-138,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.25,True
-EAC-00103,REC/I-REC,I-REC-like (synthetic),SYN-BR-2023-1288982998,2023,Hydro,567.684,BR,FAC-OFF-139,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.94,True
-EAC-00104,REC/I-REC,I-REC-like (synthetic),SYN-BR-2025-2394219331,2025,Wind,607.637,BR,FAC-OFF-139,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.09,True
-EAC-00105,Physical PPA,I-REC-like (synthetic),SYN-CN-2024-7215151430,2024,Hydro,438.229,CN,FAC-OFF-140,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.2,True
-EAC-00106,Physical PPA,I-REC-like (synthetic),SYN-CN-2025-8538220300,2025,Hydro,365.676,CN,FAC-OFF-140,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.3,True
-EAC-00107,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2023-8654976919,2023,Hydro,566.754,PL,FAC-OFF-141,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.45,True
-EAC-00108,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2024-9275285109,2024,Solar PV,572.761,PL,FAC-OFF-141,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.31,True
-EAC-00109,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2025-6345840238,2025,Solar PV,1062.568,PL,FAC-OFF-141,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.04,True
-EAC-00110,REC/I-REC,I-REC-like (synthetic),SYN-AU-2025-7984972502,2025,Wind,1458.519,AU,FAC-OFF-142,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.1,True
-EAC-00111,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-9381403182,2026,Hydro,802.55,AU,FAC-OFF-142,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.95,True
-EAC-00112,REC/I-REC,I-REC-like (synthetic),SYN-IN-2023-5567660855,2020,Hydro,1121.37,IN,FAC-OFF-143,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.85,True
-EAC-00113,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-2853499700,2024,Hydro,584.352,IN,FAC-OFF-143,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.36,True
-EAC-00114,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-3030030798,2026,Solar PV,931.98,IN,FAC-OFF-143,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.52,True
-EAC-00115,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-6107555655,2026,Wind,391.832,AU,FAC-OFF-144,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.09,True
-EAC-00116,REC/I-REC,M-RETS-like (synthetic),SYN-US-2023-1278355864,2023,Solar PV,604.72,US,FAC-OFF-145,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.32,True
-EAC-00117,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-5558001844,2026,Wind,558.581,US,FAC-OFF-145,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.4,True
-EAC-00118,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-1576442151,2026,Hydro,356.82,FR,FAC-OFF-146,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.57,True
-EAC-00119,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2024-8402695793,2024,Solar PV,284.124,IT,FAC-OFF-147,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.79,True
-EAC-00120,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2026-2453732269,2026,Wind,436.566,IT,FAC-OFF-147,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.88,True
-EAC-00121,REC/I-REC,I-REC-like (synthetic),SYN-TR-2025-7734740718,2025,Hydro,933.047,TR,FAC-OFF-148,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.58,True
-EAC-00122,REC/I-REC,I-REC-like (synthetic),SYN-TH-2024-4250066382,2024,Hydro,753.571,TH,FAC-OFF-149,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.59,True
-EAC-00123,REC/I-REC,I-REC-like (synthetic),SYN-TH-2026-8950467039,2023,Hydro,710.284,TH,FAC-OFF-149,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.55,True
-EAC-00124,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-5605970653,2024,Solar PV,479.474,IN,FAC-OFF-150,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.91,True
-EAC-00125,Physical PPA,I-REC-like (synthetic),SYN-IN-2025-3400107230,2025,Solar PV,462.321,IN,FAC-OFF-150,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.74,True
-EAC-00126,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-5194503636,2026,Hydro,415.024,IN,FAC-OFF-150,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.07,True
-EAC-00127,REC/I-REC,I-REC-like (synthetic),SYN-KR-2025-9093847525,2025,Wind,666.126,KR,FAC-OFF-151,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.57,True
-EAC-00128,REC/I-REC,I-REC-like (synthetic),SYN-KR-2026-6820248978,2026,Wind,415.556,KR,FAC-OFF-151,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.35,True
-EAC-00129,REC/I-REC,I-REC-like (synthetic),SYN-KR-2024-7995417006,2024,Hydro,251.048,KR,FAC-OFF-152,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.28,True
-EAC-00130,REC/I-REC,I-REC-like (synthetic),SYN-AU-2025-9867540972,2025,Hydro,788.982,AU,FAC-WAR-043,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.48,True
-EAC-00131,Physical PPA,I-REC-like (synthetic),SYN-AU-2026-9835038368,2026,Solar PV,552.285,AU,FAC-WAR-043,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.38,True
-EAC-00132,REC/I-REC,I-REC-like (synthetic),SYN-CN-2024-4247040906,2024,Wind,1023.26,CN,FAC-WAR-044,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.8,True
-EAC-00133,Physical PPA,I-REC-like (synthetic),SYN-CN-2025-7301036123,2025,Hydro,350.602,CN,FAC-WAR-044,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.39,True
-EAC-00134,Physical PPA,I-REC-like (synthetic),SYN-CN-2026-1659151369,2026,Solar PV,1122.218,CN,FAC-WAR-045,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.03,True
-EAC-00135,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-5271092902,2026,Hydro,518.446,AU,FAC-WAR-047,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.03,True
-EAC-00136,Physical PPA,I-REC-like (synthetic),SYN-SG-2026-1564658339,2026,Hydro,1380.475,SG,FAC-WAR-048,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.06,True
-EAC-00137,REC/I-REC,I-REC-like (synthetic),SYN-MX-2025-5771998651,2025,Wind,1293.774,MX,FAC-WAR-049,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.94,True
-EAC-00138,Physical PPA,I-REC-like (synthetic),SYN-MX-2026-7436711114,2026,Hydro,739.592,MX,FAC-WAR-049,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.6,True
-EAC-00139,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-2306329519,2026,Wind,776.888,IN,FAC-WAR-050,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.47,True
-EAC-00140,REC/I-REC,I-REC-like (synthetic),SYN-CN-2025-5465577870,2025,Wind,334.752,CN,FAC-WAR-051,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.89,True
-EAC-00141,Physical PPA,M-RETS-like (synthetic),SYN-US-2024-5243155485,2024,Wind,763.12,US,FAC-WAR-053,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.38,True
-EAC-00142,Physical PPA,M-RETS-like (synthetic),SYN-US-2026-9874796556,2026,Solar PV,1298.071,US,FAC-WAR-053,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.97,True
-EAC-00143,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2023-6875977022,2023,Hydro,1065.838,NL,FAC-WAR-054,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.81,True
-EAC-00144,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2025-5640181273,2025,Wind,590.788,NL,FAC-WAR-054,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.51,True
-EAC-00145,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2026-1648646820,2026,Wind,686.398,NL,FAC-WAR-054,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.57,True
-EAC-00146,REC/I-REC,I-REC-like (synthetic),SYN-TR-2024-2665841664,2024,Wind,324.827,TR,FAC-WAR-055,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.4,True
-EAC-00147,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2024-7461864642,2024,Solar PV,426.333,FR,FAC-WAR-057,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.58,True
-EAC-00148,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-3326663528,2026,Wind,359.563,FR,FAC-WAR-057,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.57,True
-EAC-00149,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2025-7351021810,2025,Wind,944.104,IT,FAC-WAR-058,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.43,True
-EAC-00150,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2026-1949714019,2026,Hydro,1963.037,IT,FAC-WAR-058,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.93,True
-EAC-00151,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2025-4481462280,2025,Solar PV,596.554,GB,FAC-WAR-060,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.66,True
-EAC-00152,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-8720903207,2026,Solar PV,517.646,GB,FAC-WAR-060,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.47,True
-EAC-00153,Physical PPA,M-RETS-like (synthetic),SYN-CA-2024-8106339954,2024,Hydro,488.687,CA,FAC-WAR-061,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.86,True
-EAC-00154,Physical PPA,I-REC-like (synthetic),SYN-CN-2024-1806925406,2024,Wind,910.137,CN,FAC-WAR-062,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.98,True
-EAC-00155,REC/I-REC,I-REC-like (synthetic),SYN-SG-2023-4178077124,2023,Hydro,880.474,SG,FAC-WAR-063,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.99,True
-EAC-00156,REC/I-REC,I-REC-like (synthetic),SYN-SG-2025-8867191861,2025,Solar PV,845.613,SG,FAC-WAR-063,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.66,True
-EAC-00157,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2024-1032838253,2024,Hydro,570.39,NL,FAC-WAR-064,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.19,True
-EAC-00158,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2026-7775361118,2026,Hydro,720.018,NL,FAC-WAR-064,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.41,True
-EAC-00159,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2023-3836882503,2023,Wind,1035.474,CA,FAC-WAR-065,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.66,True
-EAC-00160,REC/I-REC,I-REC-like (synthetic),SYN-BR-2025-1001344370,2025,Solar PV,1426.969,BR,FAC-WAR-066,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.41,True
-EAC-00161,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2023-5955913723,2023,Solar PV,1060.425,PL,FAC-WAR-067,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.63,True
-EAC-00162,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2023-8663221997,2023,Solar PV,743.568,ZA,FAC-WAR-068,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.33,True
-EAC-00163,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2025-6261427321,2025,Wind,767.697,ZA,FAC-WAR-068,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.19,True
-EAC-00164,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2026-4159630358,2026,Solar PV,1078.541,ZA,FAC-WAR-068,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.2,True
-EAC-00165,Physical PPA,I-REC-like (synthetic),SYN-KR-2026-3003293374,2026,Wind,1247.993,KR,FAC-WAR-069,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.96,True
-EAC-00166,Physical PPA,I-REC-like (synthetic),SYN-BR-2025-9074407035,2025,Solar PV,909.889,BR,FAC-WAR-070,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.59,True
-EAC-00167,Physical PPA,I-REC-like (synthetic),SYN-BR-2026-8430712157,2026,Hydro,1708.955,BR,FAC-WAR-070,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.59,True
-EAC-00168,REC/I-REC,I-REC-like (synthetic),SYN-MX-2025-7709723187,2025,Hydro,399.841,MX,FAC-WAR-071,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.21,True
-EAC-00169,Physical PPA,M-RETS-like (synthetic),SYN-US-2024-2968565521,2024,Wind,1305.802,US,FAC-WAR-072,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.39,True
-EAC-00170,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-7651333914,2025,Solar PV,572.948,US,FAC-WAR-072,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.14,True
-EAC-00171,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-5581590260,2026,Wind,1635.245,US,FAC-WAR-072,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.86,True
-EAC-00172,REC/I-REC,I-REC-like (synthetic),SYN-BR-2024-4724178978,2024,Wind,609.657,BR,FAC-WAR-073,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.92,True
-EAC-00173,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-3775123858,2024,Hydro,750.695,DE,FAC-WAR-074,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.35,True
-EAC-00174,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-7583375213,2026,Wind,319.086,DE,FAC-WAR-074,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.4,True
-EAC-00175,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2023-2133997277,2023,Solar PV,802.92,FR,FAC-WAR-075,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.88,True
-EAC-00176,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2025-5376459820,2025,Hydro,773.388,FR,FAC-WAR-075,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.32,True
-EAC-00177,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-5670420850,2026,Solar PV,386.224,FR,FAC-WAR-075,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.74,True
-EAC-00178,REC/I-REC,I-REC-like (synthetic),SYN-IN-2023-5226081400,2023,Hydro,157.921,CN,FAC-WAR-076,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.85,True
-EAC-00179,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-5829358850,2024,Wind,515.837,IN,FAC-WAR-076,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.38,True
-EAC-00180,REC/I-REC,I-REC-like (synthetic),SYN-IN-2025-4263595588,2025,Wind,518.372,IN,FAC-WAR-076,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.73,True
-EAC-00181,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-1713856539,2026,Hydro,233.022,IN,FAC-WAR-076,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.59,True
-EAC-00182,REC/I-REC,I-REC-like (synthetic),SYN-BR-2026-6082201000,2026,Hydro,1000.412,BR,FAC-WAR-077,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.45,True
-EAC-00183,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2023-2830335001,2023,Wind,475.353,CN,FAC-WAR-078,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.46,True
-EAC-00184,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2025-3924472369,2025,Hydro,476.738,NL,FAC-WAR-078,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.07,True
-EAC-00185,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2026-5539006868,2026,Hydro,1027.754,NL,FAC-WAR-078,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.74,True
-EAC-00186,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-9445451781,2026,Wind,632.33,IN,FAC-WAR-079,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.36,True
-EAC-00187,REC/I-REC,M-RETS-like (synthetic),SYN-US-2023-2323950344,2023,Solar PV,792.554,US,FAC-WAR-080,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.7,True
-EAC-00188,REC/I-REC,M-RETS-like (synthetic),SYN-US-2024-5765227457,2024,Wind,1266.244,US,FAC-WAR-080,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.3,True
-EAC-00189,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-9946760614,2026,Solar PV,586.286,US,FAC-WAR-080,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.18,True
-EAC-00190,Physical PPA,M-RETS-like (synthetic),SYN-US-2024-6078653559,2024,Hydro,776.168,US,FAC-WAR-081,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.31,True
-EAC-00191,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-4437434629,2025,Wind,1212.971,US,FAC-WAR-081,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.31,True
-EAC-00192,Physical PPA,I-REC-like (synthetic),SYN-AU-2025-3279008092,2025,Wind,334.367,AU,FAC-WAR-082,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.1,True
-EAC-00193,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-8888064306,2026,Wind,294.338,AU,FAC-WAR-082,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.28,True
-EAC-00194,REC/I-REC,I-REC-like (synthetic),SYN-MX-2026-1049347404,2026,Solar PV,724.513,MX,FAC-WAR-083,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.97,True
-EAC-00195,REC/I-REC,I-REC-like (synthetic),SYN-AE-2025-8950160361,2025,Solar PV,703.588,AE,FAC-WAR-084,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.02,True
-EAC-00196,Physical PPA,I-REC-like (synthetic),SYN-AE-2026-9896228352,2026,Hydro,1687.101,AE,FAC-WAR-084,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.8,True
-EAC-00197,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-9614044203,2024,Wind,619.778,DE,FAC-WAR-085,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.93,True
-EAC-00198,REC/I-REC,I-REC-like (synthetic),SYN-TH-2024-4694616906,2024,Hydro,1388.684,TH,FAC-WAR-086,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.97,True
-EAC-00199,REC/I-REC,I-REC-like (synthetic),SYN-TH-2025-1731267341,2025,Hydro,1939.435,CN,FAC-WAR-086,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.47,True
-EAC-00200,Physical PPA,I-REC-like (synthetic),SYN-TR-2023-7963375423,2023,Wind,768.798,TR,FAC-WAR-087,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.78,True
-EAC-00201,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-8893254725,2024,Solar PV,972.734,IN,FAC-WAR-088,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.48,True
-EAC-00202,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2026-8864801698,2026,Hydro,605.58,NL,FAC-WAR-089,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.21,True
-EAC-00203,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2023-2847338044,2023,Hydro,891.2,DE,FAC-WAR-090,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.67,True
-EAC-00204,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-6671031082,2024,Hydro,1896.807,DE,FAC-WAR-090,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.03,True
-EAC-00205,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-4512189960,2026,Solar PV,900.315,DE,FAC-WAR-090,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.36,True
-EAC-00206,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-3610707030,2024,Wind,698.305,ES,FAC-WAR-091,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.62,True
-EAC-00207,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-3942619594,2026,Solar PV,1048.752,GB,FAC-WAR-092,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.47,True
-EAC-00208,Physical PPA,I-REC-like (synthetic),SYN-SG-2025-7505521762,2025,Solar PV,1685.939,SG,FAC-WAR-093,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.4,True
-EAC-00209,Physical PPA,I-REC-like (synthetic),SYN-TH-2026-4535266605,2026,Wind,2221.356,TH,FAC-WAR-094,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.97,True
-EAC-00210,REC/I-REC,I-REC-like (synthetic),SYN-IN-2025-3764961385,2025,Wind,638.692,IN,FAC-WAR-095,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.88,True
-EAC-00211,Physical PPA,M-RETS-like (synthetic),SYN-US-2024-2657157742,2024,Wind,296.778,US,FAC-WAR-096,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.54,True
-EAC-00212,Physical PPA,M-RETS-like (synthetic),SYN-US-2025-2802592066,2025,Solar PV,506.918,US,FAC-WAR-096,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.12,True
-EAC-00213,Physical PPA,I-REC-like (synthetic),SYN-SG-2025-8542239750,2025,Wind,781.893,SG,FAC-WAR-097,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.49,True
-EAC-00214,REC/I-REC,I-REC-like (synthetic),SYN-IN-2023-7510344570,2023,Solar PV,477.627,IN,FAC-WAR-098,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.91,True
-EAC-00215,Physical PPA,I-REC-like (synthetic),SYN-IN-2026-7443202679,2026,Solar PV,332.378,IN,FAC-WAR-098,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.34,True
-EAC-00216,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2023-2524677868,2023,Hydro,773.696,CA,FAC-WAR-099,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.58,True
-EAC-00217,Physical PPA,M-RETS-like (synthetic),SYN-CA-2024-8350079011,2024,Hydro,816.512,CA,FAC-WAR-099,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.44,True
-EAC-00218,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2025-8570146936,2025,Hydro,330.368,CA,FAC-WAR-099,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.08,True
-EAC-00219,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2026-9881689824,2026,Solar PV,708.916,CA,FAC-WAR-099,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.99,True
-EAC-00220,Physical PPA,I-REC-like (synthetic),SYN-MX-2024-4908345780,2024,Wind,279.383,MX,FAC-WAR-100,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.41,True
-EAC-00221,REC/I-REC,I-REC-like (synthetic),SYN-MX-2025-5523657660,2025,Solar PV,192.544,MX,FAC-WAR-100,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.89,True
-EAC-00222,Physical PPA,I-REC-like (synthetic),SYN-MX-2026-6441070153,2026,Solar PV,596.241,MX,FAC-WAR-100,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.32,True
-EAC-00223,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-8771688846,2025,Wind,1320.546,DE,FAC-WAR-101,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.44,True
-EAC-00224,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2023-9134523168,2023,Solar PV,839.004,ES,FAC-WAR-102,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.47,True
-EAC-00225,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-8457647301,2024,Solar PV,1373.762,ES,FAC-WAR-102,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.77,True
-EAC-00226,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2026-3048464856,2026,Wind,1369.823,ES,FAC-WAR-102,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.08,True
-EAC-00227,Physical PPA,I-REC-like (synthetic),SYN-CN-2023-2910200439,2023,Solar PV,247.865,CN,FAC-WAR-103,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.13,True
-EAC-00228,REC/I-REC,I-REC-like (synthetic),SYN-CN-2024-4494731283,2024,Solar PV,498.931,CN,FAC-WAR-103,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.51,True
-EAC-00229,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-7901796586,2026,Wind,564.881,DE,FAC-WAR-104,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.95,True
-EAC-00230,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2026-8126921616,2026,Wind,286.387,SE,FAC-WAR-105,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.82,True
-EAC-00231,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2023-9330634278,2023,Wind,813.953,DE,FAC-WAR-107,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.48,True
-EAC-00232,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-6512798470,2024,Hydro,760.102,DE,FAC-WAR-107,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.78,True
-EAC-00233,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-8530314375,2026,Hydro,409.006,DE,FAC-WAR-107,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.44,True
-EAC-00234,Physical PPA,I-REC-like (synthetic),SYN-CN-2024-4233426045,2024,Wind,1253.238,CN,FAC-WAR-108,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.03,True
-EAC-00235,Physical PPA,I-REC-like (synthetic),SYN-CN-2025-1357455826,2025,Solar PV,2139.147,CN,FAC-WAR-108,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.84,True
-EAC-00236,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2023-9176967381,2023,Wind,201.088,DE,FAC-WAR-110,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.55,True
-EAC-00237,Physical PPA,I-REC-like (synthetic),SYN-CN-2026-9852964443,2026,Solar PV,367.938,CN,FAC-WAR-111,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.7,True
-EAC-00238,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-9414610486,2026,Solar PV,1562.065,DE,FAC-WAR-112,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.19,True
-EAC-00239,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2025-3065136702,2025,Wind,359.201,IT,FAC-WAR-113,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.89,True
-EAC-00240,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2026-4452302781,2026,Wind,652.509,IT,FAC-WAR-113,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.29,True
-EAC-00241,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2023-4597376919,2023,Solar PV,745.638,ES,FAC-WAR-114,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.33,True
-EAC-00242,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2026-5044969863,2026,Hydro,931.874,ES,FAC-WAR-114,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.63,True
-EAC-00243,REC/I-REC,I-REC-like (synthetic),SYN-AU-2024-5748368536,2024,Hydro,346.779,AU,FAC-MAN-001,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.21,True
-EAC-00244,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2026-5044969863,2026,Hydro,931.874,ES,FAC-MAN-002,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.63,True
-EAC-00245,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-3610707030,2024,Wind,698.305,ES,FAC-MAN-003,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.62,True
-EAC-00246,REC/I-REC,I-REC-like (synthetic),SYN-TH-2026-8950467039,2026,Hydro,710.284,TH,FAC-MAN-004,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.55,True
-EAC-00247,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-8326503489,2024,Solar PV,176.261,DE,FAC-MAN-005,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.23,True
-EAC-00248,Physical PPA,M-RETS-like (synthetic),SYN-CA-2024-8350079011,2024,Hydro,816.512,CA,FAC-MAN-006,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.44,True
-EAC-00249,REC/I-REC,I-REC-like (synthetic),SYN-AU-2024-1997823695,2024,Solar PV,7094.324,AU,FAC-MAN-007,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.61,True
-EAC-00250,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-9445451781,2026,Wind,632.33,IN,FAC-MAN-008,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.36,True
+EAC-00001,REC/I-REC,I-REC-like (synthetic),SYN-TR-2025-8751341438,2025,Solar PV,46974.7,TR,FAC-MAN-001,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.64,True
+EAC-00002,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2023-8505064868,2020,Wind,10741.088,PL,FAC-MAN-002,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.96,True
+EAC-00003,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2025-3191148871,2025,Hydro,7874.431,PL,FAC-MAN-002,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.87,True
+EAC-00004,Physical PPA,M-RETS-like (synthetic),SYN-US-2023-8759977543,2023,Solar PV,10629.772,US,FAC-MAN-003,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.0,True
+EAC-00005,REC/I-REC,I-REC-like (synthetic),SYN-KR-2024-8984559257,2024,Solar PV,15740.988,KR,FAC-MAN-004,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.67,True
+EAC-00006,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2025-2472856884,2025,Solar PV,28135.523,FR,FAC-MAN-005,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.07,True
+EAC-00007,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-6756585585,2026,Wind,13157.023,FR,FAC-MAN-005,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.39,True
+EAC-00008,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-5647466318,2026,Hydro,72197.883,FR,FAC-MAN-006,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.44,True
+EAC-00009,REC/I-REC,I-REC-like (synthetic),SYN-CN-2023-7804515777,2023,Hydro,16072.879,CN,FAC-MAN-007,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.42,True
+EAC-00010,Physical PPA,I-REC-like (synthetic),SYN-CN-2025-5805205999,2025,Solar PV,14254.301,CN,FAC-MAN-008,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.91,True
+EAC-00011,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-2214953444,2025,Wind,20218.664,US,FAC-MAN-009,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.08,True
+EAC-00012,REC/I-REC,I-REC-like (synthetic),SYN-BR-2024-7694677963,2024,Hydro,7100.072,BR,FAC-MAN-010,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.44,True
+EAC-00013,REC/I-REC,I-REC-like (synthetic),SYN-BR-2025-2198359661,2025,Hydro,8952.785,BR,FAC-MAN-010,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.57,True
+EAC-00014,REC/I-REC,I-REC-like (synthetic),SYN-BR-2026-7360418407,2026,Solar PV,6053.337,BR,FAC-MAN-010,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.82,True
+EAC-00015,Physical PPA,I-REC-like (synthetic),SYN-IN-2024-3075311531,2024,Hydro,3356.725,IN,FAC-MAN-011,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.42,True
+EAC-00016,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-6608787456,2026,Solar PV,4454.348,IN,FAC-MAN-011,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.98,True
+EAC-00017,REC/I-REC,M-RETS-like (synthetic),SYN-US-2024-6477531624,2024,Hydro,11001.623,US,FAC-MAN-012,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.06,True
+EAC-00018,Physical PPA,M-RETS-like (synthetic),SYN-US-2025-7229727007,2025,Solar PV,15630.578,US,FAC-MAN-012,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.45,True
+EAC-00019,REC/I-REC,I-REC-like (synthetic),SYN-BR-2024-5467470434,2024,Wind,18558.64,BR,FAC-MAN-013,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.35,True
+EAC-00020,Physical PPA,I-REC-like (synthetic),SYN-BR-2026-6370410357,2026,Hydro,13411.874,BR,FAC-MAN-013,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.87,True
+EAC-00021,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-9216532690,2024,Solar PV,16676.19,IN,FAC-MAN-014,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.1,True
+EAC-00022,Physical PPA,I-REC-like (synthetic),SYN-IN-2026-1056187329,2026,Wind,18190.13,IN,FAC-MAN-014,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.94,True
+EAC-00023,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2026-4048717120,2023,Solar PV,9681.925,ZA,FAC-MAN-015,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.47,True
+EAC-00024,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-3746441618,2024,Wind,28951.997,DE,FAC-MAN-016,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.74,True
+EAC-00025,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-2904779801,2026,Wind,46872.25,DE,FAC-MAN-016,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.39,True
+EAC-00026,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2024-6223569892,2024,Wind,10709.593,SE,FAC-MAN-017,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.56,True
+EAC-00027,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2025-3271136729,2025,Solar PV,9114.733,SE,FAC-MAN-017,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.09,True
+EAC-00028,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2026-1409745636,2026,Solar PV,18121.261,SE,FAC-MAN-017,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.89,True
+EAC-00029,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2025-5832339834,2025,Wind,6553.622,PL,FAC-MAN-018,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.73,True
+EAC-00030,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2026-7677441770,2026,Hydro,17542.872,PL,FAC-MAN-018,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.42,True
+EAC-00031,REC/I-REC,M-RETS-like (synthetic),SYN-US-2023-4517847112,2023,Wind,5935.048,US,FAC-MAN-019,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.93,True
+EAC-00032,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2023-1199735084,2023,Hydro,5355.573,ES,FAC-MAN-020,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.92,True
+EAC-00033,REC/I-REC,M-RETS-like (synthetic),SYN-US-2024-1745472377,2024,Wind,15325.691,US,FAC-MAN-022,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.5,True
+EAC-00034,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-9874757336,2026,Wind,8830.105,US,FAC-MAN-022,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.08,True
+EAC-00035,REC/I-REC,I-REC-like (synthetic),SYN-SG-2024-6472369148,2024,Solar PV,5343.517,SG,FAC-MAN-023,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.91,True
+EAC-00036,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2024-2745460557,2024,Solar PV,5519.555,FR,FAC-MAN-024,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.72,True
+EAC-00037,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2025-7253971842,2025,Wind,7828.863,FR,FAC-MAN-024,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.59,True
+EAC-00038,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-1771472688,2026,Wind,7488.62,FR,FAC-MAN-024,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.85,True
+EAC-00039,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-7607255801,2026,Solar PV,15973.178,GB,FAC-MAN-025,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.81,True
+EAC-00040,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-4569564226,2025,Hydro,37688.261,DE,FAC-MAN-026,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.3,True
+EAC-00041,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-1696170386,2026,Wind,18443.427,DE,FAC-MAN-026,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.79,True
+EAC-00042,Physical PPA,M-RETS-like (synthetic),SYN-US-2026-1526816262,2026,Solar PV,7388.487,US,FAC-MAN-027,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.39,True
+EAC-00043,Physical PPA,I-REC-like (synthetic),SYN-JP-2026-3345912638,2026,Solar PV,16505.366,JP,FAC-MAN-028,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.32,True
+EAC-00044,REC/I-REC,I-REC-like (synthetic),SYN-KR-2026-4588524590,2026,Hydro,2564.121,KR,FAC-MAN-029,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.39,True
+EAC-00045,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2024-9669405184,2024,Hydro,16764.158,FR,FAC-MAN-030,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.41,True
+EAC-00046,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2025-5979291153,2025,Wind,16067.133,FR,FAC-MAN-030,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.27,True
+EAC-00047,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-6555162125,2026,Hydro,20131.566,FR,FAC-MAN-030,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.46,True
+EAC-00048,REC/I-REC,I-REC-like (synthetic),SYN-TR-2024-4373152875,2024,Solar PV,6587.872,TR,FAC-MAN-031,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.87,True
+EAC-00049,REC/I-REC,I-REC-like (synthetic),SYN-TR-2025-5896448506,2025,Hydro,7440.008,TR,FAC-MAN-031,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.17,True
+EAC-00050,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-1235018013,2025,Solar PV,4987.518,US,FAC-MAN-032,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.09,True
+EAC-00051,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-6715997639,2026,Wind,8970.416,US,FAC-MAN-032,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.91,True
+EAC-00052,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2024-3083682477,2024,Solar PV,4252.898,GB,FAC-MAN-033,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.74,True
+EAC-00053,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-9856171923,2026,Solar PV,11643.076,GB,FAC-MAN-034,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.51,True
+EAC-00054,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-9939344969,2026,Wind,3885.24,GB,FAC-MAN-035,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.98,True
+EAC-00055,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-1179308950,2026,Hydro,12757.692,FR,FAC-MAN-036,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.95,True
+EAC-00056,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-4539230042,2026,Wind,7175.453,GB,FAC-MAN-037,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.43,True
+EAC-00057,REC/I-REC,I-REC-like (synthetic),SYN-JP-2024-3273799571,2024,Solar PV,13492.573,JP,FAC-MAN-038,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.62,True
+EAC-00058,REC/I-REC,I-REC-like (synthetic),SYN-JP-2026-5233571393,2026,Solar PV,22547.204,JP,FAC-MAN-038,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.95,True
+EAC-00059,REC/I-REC,I-REC-like (synthetic),SYN-JP-2026-3336515013,2026,Wind,14709.036,JP,FAC-MAN-039,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.31,True
+EAC-00060,Physical PPA,I-REC-like (synthetic),SYN-MX-2023-4598216118,2023,Wind,2114.546,MX,FAC-MAN-040,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.72,True
+EAC-00061,REC/I-REC,I-REC-like (synthetic),SYN-MX-2025-8823362448,2025,Solar PV,4629.671,MX,FAC-MAN-040,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.87,True
+EAC-00062,REC/I-REC,I-REC-like (synthetic),SYN-MX-2026-8894563525,2026,Solar PV,4069.834,MX,FAC-MAN-040,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.42,True
+EAC-00063,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-8284628262,2026,Solar PV,5675.023,DE,FAC-MAN-041,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.8,True
+EAC-00064,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-7520411436,2024,Hydro,8443.971,ES,FAC-MAN-042,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.36,True
+EAC-00065,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2025-9608141792,2025,Wind,10572.568,ES,FAC-MAN-042,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.95,True
+EAC-00066,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2026-4041583959,2026,Hydro,11784.358,ES,FAC-MAN-042,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.61,True
+EAC-00067,REC/I-REC,I-REC-like (synthetic),SYN-AE-2024-5107644038,2024,Solar PV,912.541,AE,FAC-OFF-115,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.61,True
+EAC-00068,REC/I-REC,I-REC-like (synthetic),SYN-AE-2025-3532949830,2025,Solar PV,891.961,AE,FAC-OFF-115,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.43,True
+EAC-00069,REC/I-REC,I-REC-like (synthetic),SYN-AE-2026-5773634453,2026,Hydro,1026.434,AE,FAC-OFF-115,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.5,True
+EAC-00070,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2025-9886336247,2025,Solar PV,249.662,FR,FAC-OFF-116,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.7,True
+EAC-00071,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-8057244463,2026,Hydro,344.587,FR,FAC-OFF-116,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.21,True
+EAC-00072,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2025-1432499717,2025,Wind,322.282,PL,FAC-OFF-117,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.05,True
+EAC-00073,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2026-8615270970,2026,Hydro,598.767,PL,FAC-OFF-117,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.1,True
+EAC-00074,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-1143697076,2025,Solar PV,766.125,DE,FAC-OFF-118,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.54,True
+EAC-00075,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-6465036740,2026,Wind,776.457,DE,FAC-OFF-118,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.36,True
+EAC-00076,REC/I-REC,I-REC-like (synthetic),SYN-TH-2023-9040059655,2023,Hydro,635.1,TH,FAC-OFF-119,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.0,True
+EAC-00077,Physical PPA,I-REC-like (synthetic),SYN-TH-2025-4340592398,2025,Wind,709.65,TH,FAC-OFF-119,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.94,True
+EAC-00078,REC/I-REC,I-REC-like (synthetic),SYN-CN-2024-9623250359,2024,Hydro,1163.291,CN,FAC-OFF-120,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.07,True
+EAC-00079,REC/I-REC,I-REC-like (synthetic),SYN-CN-2025-5281320017,2025,Wind,1166.794,CN,FAC-OFF-120,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.71,True
+EAC-00080,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2023-5078012007,2023,Hydro,456.905,SE,FAC-OFF-121,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.36,True
+EAC-00081,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2024-4595026087,2024,Wind,270.921,SE,FAC-OFF-121,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.48,True
+EAC-00082,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2023-6097173777,2023,Solar PV,406.765,IT,FAC-OFF-122,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.38,True
+EAC-00083,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2024-9715050002,2024,Hydro,347.766,IT,FAC-OFF-122,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.18,True
+EAC-00084,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2026-9537484748,2026,Wind,584.198,IT,FAC-OFF-122,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.77,True
+EAC-00085,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2024-3390606200,2024,Hydro,1252.877,FR,FAC-OFF-123,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.55,True
+EAC-00086,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2025-3121664510,2025,Wind,486.627,FR,FAC-OFF-123,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.2,True
+EAC-00087,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-4882914269,2026,Solar PV,851.717,FR,FAC-OFF-123,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.5,True
+EAC-00088,REC/I-REC,I-REC-like (synthetic),SYN-AU-2023-4555918207,2023,Solar PV,381.07,AU,FAC-OFF-124,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.71,True
+EAC-00089,Physical PPA,I-REC-like (synthetic),SYN-AU-2025-3597800075,2025,Wind,480.772,AU,FAC-OFF-124,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.95,True
+EAC-00090,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-8459785492,2025,Wind,446.678,DE,FAC-OFF-125,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.43,True
+EAC-00091,REC/I-REC,I-REC-like (synthetic),SYN-CN-2023-1883755961,2023,Wind,771.661,CN,FAC-OFF-126,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.69,True
+EAC-00092,REC/I-REC,I-REC-like (synthetic),SYN-CN-2026-2478937898,2026,Solar PV,316.922,CN,FAC-OFF-126,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.02,True
+EAC-00093,REC/I-REC,I-REC-like (synthetic),SYN-AU-2023-5618303640,2023,Wind,874.223,AU,FAC-OFF-127,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.03,True
+EAC-00094,REC/I-REC,I-REC-like (synthetic),SYN-AU-2025-8012266159,2025,Wind,644.196,AU,FAC-OFF-127,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.24,True
+EAC-00095,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-2054659646,2026,Solar PV,536.129,AU,FAC-OFF-127,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.58,True
+EAC-00096,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-6881911308,2024,Wind,450.616,DE,FAC-OFF-128,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.05,True
+EAC-00097,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-8164634097,2026,Wind,384.263,DE,FAC-OFF-128,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.61,True
+EAC-00098,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2023-8352657303,2023,Wind,252.575,ES,FAC-OFF-129,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.02,True
+EAC-00099,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-5155603658,2024,Hydro,159.209,ES,FAC-OFF-129,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.59,True
+EAC-00100,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2025-6334604084,2025,Wind,370.136,ES,FAC-OFF-129,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.9,True
+EAC-00101,Physical PPA,I-REC-like (synthetic),SYN-MX-2023-3721167261,2023,Wind,628.504,MX,FAC-OFF-131,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.87,True
+EAC-00102,REC/I-REC,I-REC-like (synthetic),SYN-MX-2026-7584307061,2026,Wind,855.126,MX,FAC-OFF-131,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.65,True
+EAC-00103,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-7956470384,2026,Wind,623.575,FR,FAC-OFF-132,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.16,True
+EAC-00104,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-5566577948,2025,Solar PV,627.402,DE,FAC-OFF-133,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.25,True
+EAC-00105,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-9229632767,2023,Hydro,1308.107,DE,FAC-OFF-133,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.17,True
+EAC-00106,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2024-3493268155,2024,Wind,1130.795,CA,FAC-OFF-134,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.01,True
+EAC-00107,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2025-2192695638,2025,Solar PV,1118.611,CA,FAC-OFF-134,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.54,True
+EAC-00108,REC/I-REC,I-REC-like (synthetic),SYN-MX-2025-4388363840,2025,Solar PV,436.683,MX,FAC-OFF-135,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.15,True
+EAC-00109,Physical PPA,I-REC-like (synthetic),SYN-MX-2024-7537833568,2024,Wind,321.374,MX,FAC-OFF-136,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.71,True
+EAC-00110,Physical PPA,I-REC-like (synthetic),SYN-MX-2025-4744922845,2025,Solar PV,466.334,MX,FAC-OFF-136,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.71,True
+EAC-00111,REC/I-REC,I-REC-like (synthetic),SYN-MX-2026-8487986359,2026,Wind,474.474,MX,FAC-OFF-136,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.07,True
+EAC-00112,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2023-9834799213,2020,Solar PV,417.271,NL,FAC-OFF-137,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.5,True
+EAC-00113,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-4448749409,2024,Wind,592.021,ES,FAC-OFF-138,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.18,True
+EAC-00114,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2023-2489262761,2023,Wind,655.378,SE,FAC-OFF-140,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.68,True
+EAC-00115,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2024-4927367255,2024,Solar PV,245.249,SE,FAC-OFF-140,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.18,True
+EAC-00116,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2025-7448126872,2025,Solar PV,569.94,SE,FAC-OFF-140,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.07,True
+EAC-00117,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2025-6744607553,2025,Solar PV,490.151,FR,FAC-OFF-141,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.45,True
+EAC-00118,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-7869382424,2026,Solar PV,362.959,FR,FAC-OFF-141,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.29,True
+EAC-00119,REC/I-REC,I-REC-like (synthetic),SYN-MX-2024-4679570875,2024,Wind,751.902,MX,FAC-OFF-142,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.65,True
+EAC-00120,REC/I-REC,I-REC-like (synthetic),SYN-MX-2025-4193015010,2025,Hydro,579.688,MX,FAC-OFF-142,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.71,True
+EAC-00121,Physical PPA,I-REC-like (synthetic),SYN-IN-2026-5684616408,2026,Solar PV,416.515,IN,FAC-OFF-143,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.85,True
+EAC-00122,Guarantee of Origin,AIB-GO (synthetic),SYN-FR-2026-4213150058,2026,Solar PV,408.565,FR,FAC-OFF-144,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.69,True
+EAC-00123,Physical PPA,I-REC-like (synthetic),SYN-AU-2026-2494166510,2026,Hydro,453.561,AU,FAC-OFF-145,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.7,True
+EAC-00124,REC/I-REC,I-REC-like (synthetic),SYN-IN-2025-1705295973,2025,Solar PV,166.582,IN,FAC-OFF-146,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.63,True
+EAC-00125,Physical PPA,M-RETS-like (synthetic),SYN-US-2025-5296979833,2025,Hydro,514.405,US,FAC-OFF-148,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.66,True
+EAC-00126,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-8669504106,2026,Wind,353.138,US,FAC-OFF-148,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.37,True
+EAC-00127,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2024-9723954983,2024,Solar PV,395.721,ZA,FAC-OFF-149,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.44,True
+EAC-00128,Physical PPA,I-REC-like (synthetic),SYN-ZA-2026-1285657326,2026,Solar PV,196.603,ZA,FAC-OFF-149,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.42,True
+EAC-00129,REC/I-REC,I-REC-like (synthetic),SYN-CN-2023-9757308186,2023,Solar PV,754.75,CN,FAC-OFF-151,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.85,True
+EAC-00130,Physical PPA,I-REC-like (synthetic),SYN-CN-2024-8569236565,2024,Solar PV,769.099,CN,FAC-OFF-151,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.89,True
+EAC-00131,Physical PPA,I-REC-like (synthetic),SYN-CN-2026-7807941018,2026,Solar PV,698.908,CN,FAC-OFF-151,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.26,True
+EAC-00132,Guarantee of Origin,AIB-GO (synthetic),SYN-NL-2026-2914687051,2026,Hydro,468.207,NL,FAC-OFF-152,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.52,True
+EAC-00133,REC/I-REC,I-REC-like (synthetic),SYN-MX-2026-4850631883,2026,Wind,894.134,MX,FAC-WAR-043,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.25,True
+EAC-00134,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2025-9874521657,2022,Hydro,1332.088,PL,FAC-WAR-044,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.2,True
+EAC-00135,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2026-3620796783,2026,Hydro,747.234,PL,FAC-WAR-044,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.4,True
+EAC-00136,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-5898243999,2024,Solar PV,431.28,ES,FAC-WAR-045,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.13,True
+EAC-00137,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2025-6811375343,2025,Wind,357.901,ES,FAC-WAR-045,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.96,True
+EAC-00138,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2026-8567541702,2026,Hydro,669.522,ES,FAC-WAR-045,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.6,True
+EAC-00139,REC/I-REC,I-REC-like (synthetic),SYN-SG-2025-2556113778,2025,Hydro,976.237,SG,FAC-WAR-046,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.27,True
+EAC-00140,REC/I-REC,I-REC-like (synthetic),SYN-SG-2026-9071670039,2026,Solar PV,452.543,SG,FAC-WAR-046,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.95,True
+EAC-00141,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2023-8266007299,2023,Hydro,238.68,ZA,FAC-WAR-047,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.4,True
+EAC-00142,Physical PPA,I-REC-like (synthetic),SYN-ZA-2025-4478771031,2025,Solar PV,587.079,ZA,FAC-WAR-047,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.95,True
+EAC-00143,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2026-3524193599,2026,Solar PV,210.316,ZA,FAC-WAR-047,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.09,True
+EAC-00144,Physical PPA,I-REC-like (synthetic),SYN-SG-2025-8230907555,2025,Solar PV,1118.153,SG,FAC-WAR-048,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.84,True
+EAC-00145,Physical PPA,I-REC-like (synthetic),SYN-SG-2026-6368284679,2026,Wind,445.057,SG,FAC-WAR-048,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.81,True
+EAC-00146,Physical PPA,I-REC-like (synthetic),SYN-TH-2024-2170644710,2024,Solar PV,1216.511,TH,FAC-WAR-049,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.36,True
+EAC-00147,Physical PPA,I-REC-like (synthetic),SYN-TH-2025-2109862647,2025,Hydro,628.664,TH,FAC-WAR-049,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.0,True
+EAC-00148,REC/I-REC,I-REC-like (synthetic),SYN-TH-2026-2222970547,2026,Wind,936.593,TH,FAC-WAR-049,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.55,True
+EAC-00149,Physical PPA,I-REC-like (synthetic),SYN-MX-2025-1445811382,2025,Solar PV,792.492,MX,FAC-WAR-050,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.52,True
+EAC-00150,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-7415301862,2024,Wind,732.12,DE,FAC-WAR-051,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.93,True
+EAC-00151,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2025-9224849898,2025,Solar PV,394.528,DE,FAC-WAR-051,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.48,True
+EAC-00152,Physical PPA,I-REC-like (synthetic),SYN-CN-2024-3583766211,2024,Wind,549.767,CN,FAC-WAR-052,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.03,True
+EAC-00153,Physical PPA,I-REC-like (synthetic),SYN-CN-2025-1414949795,2025,Solar PV,355.285,CN,FAC-WAR-052,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.37,True
+EAC-00154,REC/I-REC,I-REC-like (synthetic),SYN-CN-2026-6838068325,2026,Wind,698.126,CN,FAC-WAR-052,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.47,True
+EAC-00155,REC/I-REC,I-REC-like (synthetic),SYN-AU-2024-9553426087,2024,Solar PV,1152.894,AU,FAC-WAR-053,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.82,True
+EAC-00156,REC/I-REC,I-REC-like (synthetic),SYN-AU-2025-9568274679,2025,Solar PV,655.975,AU,FAC-WAR-053,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.36,True
+EAC-00157,REC/I-REC,I-REC-like (synthetic),SYN-AU-2026-4894263515,2026,Solar PV,416.264,AU,FAC-WAR-053,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.76,True
+EAC-00158,REC/I-REC,M-RETS-like (synthetic),SYN-US-2024-4637415475,2024,Solar PV,1470.286,US,FAC-WAR-054,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.6,True
+EAC-00159,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-6743269496,2025,Wind,977.913,US,FAC-WAR-054,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.12,True
+EAC-00160,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-1217038754,2026,Solar PV,1202.45,US,FAC-WAR-054,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.64,True
+EAC-00161,Physical PPA,M-RETS-like (synthetic),SYN-CA-2024-1339493768,2024,Wind,726.231,CA,FAC-WAR-055,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.86,True
+EAC-00162,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2023-5925976786,2023,Wind,708.719,DE,FAC-WAR-056,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.36,True
+EAC-00163,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-4574294936,2026,Solar PV,322.122,DE,FAC-WAR-056,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.74,True
+EAC-00164,REC/I-REC,I-REC-like (synthetic),SYN-CN-2024-6076498272,2024,Solar PV,754.066,CN,FAC-WAR-058,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.17,True
+EAC-00165,Physical PPA,I-REC-like (synthetic),SYN-CN-2025-8907401622,2025,Hydro,734.686,CN,FAC-WAR-058,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.54,True
+EAC-00166,REC/I-REC,I-REC-like (synthetic),SYN-SG-2023-2460665204,2023,Wind,1008.332,SG,FAC-WAR-059,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.46,True
+EAC-00167,REC/I-REC,I-REC-like (synthetic),SYN-SG-2024-6613040322,2024,Hydro,925.473,SG,FAC-WAR-059,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.63,True
+EAC-00168,REC/I-REC,I-REC-like (synthetic),SYN-AU-2024-9890942129,2024,Solar PV,1849.04,AU,FAC-WAR-060,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.4,True
+EAC-00169,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-1747840093,2025,Wind,1767.438,US,FAC-WAR-061,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.37,True
+EAC-00170,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-4234816662,2026,Solar PV,1738.759,US,FAC-WAR-061,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.88,True
+EAC-00171,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2025-9167066193,2025,Wind,1166.192,ZA,FAC-WAR-062,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.68,True
+EAC-00172,Physical PPA,I-REC-like (synthetic),SYN-ZA-2026-7332075721,2026,Solar PV,345.313,ZA,FAC-WAR-062,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.25,True
+EAC-00173,Physical PPA,I-REC-like (synthetic),SYN-SG-2024-6466616275,2024,Wind,685.68,SG,FAC-WAR-063,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.19,True
+EAC-00174,REC/I-REC,I-REC-like (synthetic),SYN-MX-2025-9673535351,2025,Wind,1078.722,MX,FAC-WAR-064,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.35,True
+EAC-00175,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2025-8361920849,2025,Wind,972.909,SE,FAC-WAR-065,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.62,True
+EAC-00176,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2026-4321639667,2026,Wind,601.827,SE,FAC-WAR-065,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.25,True
+EAC-00177,REC/I-REC,I-REC-like (synthetic),SYN-MX-2026-9761711344,2026,Hydro,1097.772,MX,FAC-WAR-066,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.45,True
+EAC-00178,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2023-3707299016,2023,Solar PV,694.905,PL,FAC-WAR-067,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.71,True
+EAC-00179,Physical PPA,I-REC-like (synthetic),SYN-TH-2024-9836840742,2024,Wind,511.944,TH,FAC-WAR-068,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.43,True
+EAC-00180,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2024-1897900811,2024,Solar PV,1118.524,DE,FAC-WAR-069,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.34,True
+EAC-00181,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-6306832233,2026,Wind,688.123,DE,FAC-WAR-069,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.7,True
+EAC-00182,REC/I-REC,M-RETS-like (synthetic),SYN-US-2024-4509519372,2024,Hydro,200.213,US,FAC-WAR-071,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.02,True
+EAC-00183,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-1154668097,2025,Solar PV,345.605,US,FAC-WAR-071,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),8.54,True
+EAC-00184,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-9133172901,2026,Hydro,123.83,US,FAC-WAR-071,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.56,True
+EAC-00185,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2024-4483894282,2024,Hydro,171.508,CA,FAC-WAR-074,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.86,True
+EAC-00186,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2026-3353748875,2026,Solar PV,933.077,CA,FAC-WAR-074,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.99,True
+EAC-00187,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2025-3887668617,2025,Wind,451.546,GB,FAC-WAR-075,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.62,True
+EAC-00188,Physical PPA,M-RETS-like (synthetic),SYN-US-2025-9215148467,2025,Solar PV,1125.187,CN,FAC-WAR-076,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.95,True
+EAC-00189,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-5145556479,2023,Solar PV,508.185,US,FAC-WAR-076,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.41,True
+EAC-00190,REC/I-REC,I-REC-like (synthetic),SYN-SG-2023-1081312074,2023,Wind,1220.613,SG,FAC-WAR-077,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.36,True
+EAC-00191,REC/I-REC,I-REC-like (synthetic),SYN-SG-2024-7366324042,2024,Hydro,2426.349,SG,FAC-WAR-077,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),15.84,True
+EAC-00192,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2025-7779632093,2025,Wind,156.876,CN,FAC-WAR-078,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.52,True
+EAC-00193,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-2557554096,2026,Solar PV,329.301,GB,FAC-WAR-078,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.5,True
+EAC-00194,REC/I-REC,I-REC-like (synthetic),SYN-AU-2025-9603857981,2025,Solar PV,330.931,AU,FAC-WAR-079,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.1,True
+EAC-00195,Physical PPA,I-REC-like (synthetic),SYN-AU-2026-2858263973,2026,Solar PV,419.75,AU,FAC-WAR-079,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.8,True
+EAC-00196,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2026-8265464323,2026,Hydro,861.514,PL,FAC-WAR-080,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.56,True
+EAC-00197,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2024-4042749334,2024,Hydro,464.286,GB,FAC-WAR-081,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.18,True
+EAC-00198,Guarantee of Origin,AIB-GO (synthetic),SYN-GB-2026-1516015167,2026,Solar PV,482.841,GB,FAC-WAR-081,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.73,True
+EAC-00199,REC/I-REC,I-REC-like (synthetic),SYN-KR-2025-2764198467,2025,Hydro,952.105,KR,FAC-WAR-082,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.14,True
+EAC-00200,REC/I-REC,I-REC-like (synthetic),SYN-KR-2026-2174224805,2026,Hydro,279.295,KR,FAC-WAR-082,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.5,True
+EAC-00201,Physical PPA,I-REC-like (synthetic),SYN-CN-2026-7202624122,2026,Solar PV,1183.213,CN,FAC-WAR-083,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.15,True
+EAC-00202,REC/I-REC,I-REC-like (synthetic),SYN-SG-2023-9428611431,2023,Solar PV,1646.214,SG,FAC-WAR-084,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.57,True
+EAC-00203,REC/I-REC,I-REC-like (synthetic),SYN-SG-2024-7900900321,2024,Solar PV,817.231,SG,FAC-WAR-084,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.05,True
+EAC-00204,Physical PPA,I-REC-like (synthetic),SYN-SG-2026-1793769510,2026,Wind,2008.953,SG,FAC-WAR-084,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.44,True
+EAC-00205,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2024-5287731560,2024,Wind,881.148,ES,FAC-WAR-085,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.47,True
+EAC-00206,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2025-4699003898,2025,Solar PV,630.539,ES,FAC-WAR-085,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.82,True
+EAC-00207,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2026-1299039587,2026,Wind,908.076,ES,FAC-WAR-085,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),11.51,True
+EAC-00208,Guarantee of Origin,AIB-GO (synthetic),SYN-IT-2024-8083737727,2024,Wind,1033.7,IT,FAC-WAR-087,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.55,True
+EAC-00209,REC/I-REC,I-REC-like (synthetic),SYN-IN-2023-6214567047,2023,Hydro,1289.614,IN,FAC-WAR-088,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.98,True
+EAC-00210,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-9848965447,2024,Solar PV,566.695,IN,FAC-WAR-088,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.18,True
+EAC-00211,REC/I-REC,I-REC-like (synthetic),SYN-IN-2026-7103482101,2026,Solar PV,1196.521,IN,FAC-WAR-088,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.21,True
+EAC-00212,REC/I-REC,I-REC-like (synthetic),SYN-TR-2026-2827156593,2026,Wind,1319.759,TR,FAC-WAR-090,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.05,True
+EAC-00213,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2025-1561765269,2025,Hydro,605.647,SE,FAC-WAR-091,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.17,True
+EAC-00214,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2026-2443886690,2026,Solar PV,567.719,SE,FAC-WAR-091,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.25,True
+EAC-00215,REC/I-REC,I-REC-like (synthetic),SYN-IN-2024-2465291410,2024,Wind,874.566,CN,FAC-WAR-092,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.82,True
+EAC-00216,Physical PPA,I-REC-like (synthetic),SYN-IN-2025-1350000579,2025,Hydro,1734.24,IN,FAC-WAR-092,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.97,True
+EAC-00217,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2024-2865781827,2024,Wind,1390.423,SE,FAC-WAR-093,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.68,True
+EAC-00218,Guarantee of Origin,AIB-GO (synthetic),SYN-SE-2026-5169851644,2026,Hydro,1571.329,SE,FAC-WAR-093,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.14,True
+EAC-00219,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2024-6745363316,2024,Hydro,1018.842,PL,FAC-WAR-095,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.33,True
+EAC-00220,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2025-4911997442,2025,Solar PV,1427.765,PL,FAC-WAR-095,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.37,True
+EAC-00221,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2026-9568989588,2026,Solar PV,1354.257,PL,FAC-WAR-095,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.35,True
+EAC-00222,Physical PPA,I-REC-like (synthetic),SYN-MX-2025-3933919580,2025,Hydro,1117.024,MX,FAC-WAR-096,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.25,True
+EAC-00223,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2024-3807721205,2024,Hydro,974.662,CA,FAC-WAR-097,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.28,True
+EAC-00224,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2025-1847719191,2025,Hydro,2159.377,ES,FAC-WAR-098,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.88,True
+EAC-00225,Guarantee of Origin,AIB-GO (synthetic),SYN-ES-2026-5272884917,2026,Wind,1115.731,CN,FAC-WAR-098,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.81,True
+EAC-00226,REC/I-REC,M-RETS-like (synthetic),SYN-US-2025-4858651612,2025,Solar PV,826.874,US,FAC-WAR-099,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.11,True
+EAC-00227,REC/I-REC,M-RETS-like (synthetic),SYN-US-2026-8104477677,2026,Wind,1439.479,US,FAC-WAR-099,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.69,True
+EAC-00228,Physical PPA,M-RETS-like (synthetic),SYN-US-2026-4598302787,2026,Solar PV,666.415,US,FAC-WAR-101,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.62,True
+EAC-00229,REC/I-REC,I-REC-like (synthetic),SYN-ZA-2026-8140299455,2026,Wind,545.177,ZA,FAC-WAR-102,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),3.62,True
+EAC-00230,Guarantee of Origin,AIB-GO (synthetic),SYN-DE-2026-1035203415,2026,Wind,827.425,DE,FAC-WAR-103,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.05,True
+EAC-00231,REC/I-REC,I-REC-like (synthetic),SYN-CN-2023-1652531310,2023,Solar PV,1474.249,CN,FAC-WAR-104,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.0,True
+EAC-00232,REC/I-REC,I-REC-like (synthetic),SYN-CN-2024-2636701061,2024,Wind,1072.471,CN,FAC-WAR-104,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.01,True
+EAC-00233,REC/I-REC,I-REC-like (synthetic),SYN-CN-2026-8260101472,2026,Wind,1346.311,CN,FAC-WAR-104,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.83,True
+EAC-00234,REC/I-REC,I-REC-like (synthetic),SYN-CN-2024-5201733916,2024,Hydro,608.307,CN,FAC-WAR-105,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.86,True
+EAC-00235,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2026-6307146374,2026,Solar PV,415.958,CN,FAC-WAR-106,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.33,True
+EAC-00236,REC/I-REC,I-REC-like (synthetic),SYN-CN-2026-7322107169,2026,Wind,1175.7,CN,FAC-WAR-107,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),2.25,True
+EAC-00237,REC/I-REC,I-REC-like (synthetic),SYN-TR-2024-5377132283,2024,Solar PV,1752.992,TR,FAC-WAR-108,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),13.23,True
+EAC-00238,REC/I-REC,I-REC-like (synthetic),SYN-TR-2025-2030590953,2025,Solar PV,2540.043,TR,FAC-WAR-108,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),12.52,True
+EAC-00239,Physical PPA,I-REC-like (synthetic),SYN-TR-2026-3833697836,2026,Wind,2214.012,TR,FAC-WAR-108,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),6.73,True
+EAC-00240,Physical PPA,I-REC-like (synthetic),SYN-SG-2024-1494940035,2024,Hydro,852.235,SG,FAC-WAR-109,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),10.6,True
+EAC-00241,Physical PPA,I-REC-like (synthetic),SYN-SG-2025-5753547821,2025,Solar PV,739.233,SG,FAC-WAR-109,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.78,True
+EAC-00242,REC/I-REC,I-REC-like (synthetic),SYN-SG-2026-2589596698,2026,Solar PV,916.165,SG,FAC-WAR-109,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.6,True
+EAC-00243,REC/I-REC,I-REC-like (synthetic),SYN-AU-2025-4977661733,2025,Solar PV,835.639,AU,FAC-WAR-111,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),9.14,True
+EAC-00244,Physical PPA,I-REC-like (synthetic),SYN-AU-2026-6912173949,2026,Hydro,590.25,AU,FAC-WAR-111,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),1.53,True
+EAC-00245,Physical PPA,M-RETS-like (synthetic),SYN-US-2026-6557399676,2026,Wind,324.597,US,FAC-WAR-112,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),18.0,True
+EAC-00246,REC/I-REC,I-REC-like (synthetic),SYN-TR-2026-7572063069,2026,Solar PV,921.736,TR,FAC-WAR-114,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.26,True
+EAC-00247,REC/I-REC,I-REC-like (synthetic),SYN-AE-2025-3532949830,2025,Solar PV,891.961,AE,FAC-MAN-001,2025,2026-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),7.43,True
+EAC-00248,REC/I-REC,I-REC-like (synthetic),SYN-TR-2026-7572063069,2026,Solar PV,921.736,TR,FAC-MAN-002,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.26,True
+EAC-00249,REC/I-REC,I-REC-like (synthetic),SYN-IN-2023-6214567047,2023,Hydro,1289.614,IN,FAC-MAN-003,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.98,True
+EAC-00250,REC/I-REC,M-RETS-like (synthetic),SYN-CA-2024-3807721205,2024,Hydro,974.662,CA,FAC-MAN-004,2024,2025-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),4.28,True
+EAC-00251,REC/I-REC,I-REC-like (synthetic),SYN-CN-2023-1883755961,2023,Wind,771.661,CN,FAC-MAN-005,2023,2024-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),16.69,True
+EAC-00252,Guarantee of Origin,AIB-GO (synthetic),SYN-PL-2026-9568989588,2026,Solar PV,1354.257,PL,FAC-MAN-006,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),5.35,True
+EAC-00253,REC/I-REC,I-REC-like (synthetic),SYN-JP-2026-3336515013,2026,Wind,14709.036,JP,FAC-MAN-007,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),14.31,True
+EAC-00254,Physical PPA,I-REC-like (synthetic),SYN-ZA-2026-1285657326,2026,Solar PV,196.603,ZA,FAC-MAN-008,2026,2027-03-15,Halvorsen-Kaito Industrial Holdings plc (SYNTHETIC),17.42,True

@@ -1,321 +1,321 @@
 incident_id,facility_id,incident_date,incident_type,severity,reported_to_regulator,fine_usd,corrective_action_id,status
-ENVINC-0001,FAC-MAN-027,2023-04-18,Hazardous waste mislabelling,Minor,False,0.0,CAPA-24614,Closed
-ENVINC-0002,FAC-MAN-017,2024-01-19,Permit exceedance (wastewater),Minor,True,0.0,CAPA-10449,Closed
-ENVINC-0003,FAC-MAN-025,2025-11-26,Refrigerant release,Minor,False,0.0,CAPA-44830,Open
-ENVINC-0004,FAC-MAN-027,2026-11-28,Hazardous waste mislabelling,Minor,True,0.0,CAPA-12641,Closed
-ENVINC-0005,FAC-MAN-013,2024-03-24,Hazardous waste mislabelling,Minor,True,0.0,CAPA-38528,Closed
-ENVINC-0006,FAC-MAN-029,2024-03-05,Air emission exceedance,Minor,False,0.0,CAPA-86501,Closed
-ENVINC-0007,FAC-MAN-021,2024-04-08,Permit exceedance (wastewater),Minor,True,0.0,CAPA-59764,Closed
-ENVINC-0008,FAC-MAN-015,2025-03-29,Odour complaint,Minor,True,0.0,CAPA-78649,Closed
-ENVINC-0009,FAC-MAN-027,2026-04-13,Permit exceedance (wastewater),Major,False,0.0,CAPA-64592,Closed
-ENVINC-0010,FAC-MAN-006,2024-02-07,Air emission exceedance,Minor,True,0.0,CAPA-92563,Closed
-ENVINC-0011,FAC-MAN-040,2025-11-15,Air emission exceedance,Minor,False,39600.0,CAPA-85538,Closed
-ENVINC-0012,FAC-MAN-018,2022-02-08,Refrigerant release,Minor,True,0.0,CAPA-14502,Closed
-ENVINC-0013,FAC-MAN-012,2026-05-08,Permit exceedance (wastewater),Moderate,True,0.0,CAPA-52516,Open
-ENVINC-0014,FAC-MAN-039,2025-12-03,Spill (oil),Minor,False,10000.0,CAPA-30946,Closed
-ENVINC-0015,FAC-MAN-015,2024-04-10,Permit exceedance (wastewater),Minor,False,0.0,CAPA-52569,Open
-ENVINC-0016,FAC-MAN-004,2024-11-17,Spill (oil),Minor,True,0.0,CAPA-14970,Closed
-ENVINC-0017,FAC-MAN-020,2026-10-19,Air emission exceedance,Minor,False,0.0,CAPA-46089,Closed
-ENVINC-0018,FAC-MAN-025,2025-06-19,Hazardous waste mislabelling,Minor,False,0.0,CAPA-14658,Open
-ENVINC-0019,FAC-MAN-006,2025-10-05,Air emission exceedance,Minor,False,28800.0,CAPA-87187,Closed
-ENVINC-0020,FAC-MAN-015,2023-02-02,Air emission exceedance,Minor,False,0.0,CAPA-71183,Closed
-ENVINC-0021,FAC-MAN-006,2025-02-22,Permit exceedance (wastewater),Minor,False,0.0,CAPA-25356,Closed
-ENVINC-0022,FAC-MAN-028,2022-05-16,Permit exceedance (wastewater),Minor,False,0.0,CAPA-61876,Closed
-ENVINC-0023,FAC-MAN-015,2024-09-24,Hazardous waste mislabelling,Minor,False,0.0,CAPA-18376,Open
-ENVINC-0024,FAC-MAN-037,2023-09-17,Refrigerant release,Minor,True,0.0,CAPA-28619,Closed
-ENVINC-0025,FAC-MAN-003,2026-11-30,Refrigerant release,Moderate,False,0.0,CAPA-15149,Open
-ENVINC-0026,FAC-MAN-030,2026-08-31,Refrigerant release,Minor,False,0.0,CAPA-81562,Closed
-ENVINC-0027,FAC-MAN-040,2026-07-14,Air emission exceedance,Minor,True,0.0,CAPA-50887,Closed
-ENVINC-0028,FAC-MAN-042,2023-12-30,Odour complaint,Minor,False,0.0,CAPA-73573,Closed
-ENVINC-0029,FAC-MAN-030,2022-08-14,Refrigerant release,Minor,False,0.0,CAPA-91681,Closed
-ENVINC-0030,FAC-MAN-035,2026-12-01,Air emission exceedance,Minor,True,0.0,CAPA-51343,Open
-ENVINC-0031,FAC-MAN-015,2024-05-19,Air emission exceedance,Moderate,True,0.0,CAPA-39462,Closed
-ENVINC-0032,FAC-MAN-024,2024-09-23,Spill (oil),Minor,True,0.0,CAPA-35196,Closed
-ENVINC-0033,FAC-MAN-021,2025-11-24,Air emission exceedance,Moderate,True,0.0,CAPA-57225,Closed
-ENVINC-0034,FAC-MAN-021,2023-12-04,Air emission exceedance,Major,False,0.0,CAPA-32366,Open
-ENVINC-0035,FAC-MAN-036,2023-02-27,Refrigerant release,Minor,False,31400.0,CAPA-60948,Open
-ENVINC-0036,FAC-MAN-015,2026-10-27,Hazardous waste mislabelling,Minor,False,0.0,CAPA-10304,Closed
-ENVINC-0037,FAC-MAN-009,2025-09-08,Refrigerant release,Moderate,False,0.0,CAPA-24531,Closed
-ENVINC-0038,FAC-MAN-031,2026-08-31,Air emission exceedance,Minor,False,0.0,CAPA-62730,Closed
-ENVINC-0039,FAC-MAN-042,2022-11-07,Air emission exceedance,Minor,False,0.0,CAPA-84317,Closed
-ENVINC-0040,FAC-MAN-027,2024-06-30,Spill (oil),Minor,False,0.0,CAPA-65948,Open
-ENVINC-0041,FAC-MAN-018,2024-05-25,Spill (oil),Moderate,True,0.0,CAPA-85882,Closed
-ENVINC-0042,FAC-MAN-014,2026-01-09,Odour complaint,Minor,False,0.0,CAPA-31610,Closed
-ENVINC-0043,FAC-MAN-010,2023-03-15,Spill (oil),Minor,False,0.0,CAPA-30574,Closed
-ENVINC-0044,FAC-MAN-035,2023-11-17,Permit exceedance (wastewater),Minor,True,0.0,CAPA-63902,Closed
-ENVINC-0045,FAC-MAN-015,2023-04-29,Hazardous waste mislabelling,Minor,False,15100.0,CAPA-35335,Closed
-ENVINC-0046,FAC-MAN-023,2025-08-24,Air emission exceedance,Minor,True,0.0,CAPA-99544,Closed
-ENVINC-0047,FAC-MAN-028,2022-04-15,Spill (oil),Minor,False,0.0,CAPA-30427,Closed
-ENVINC-0048,FAC-MAN-022,2023-02-08,Odour complaint,Minor,True,0.0,CAPA-10860,Closed
-ENVINC-0049,FAC-MAN-027,2023-04-21,Refrigerant release,Moderate,False,0.0,CAPA-91810,Closed
-ENVINC-0050,FAC-MAN-041,2024-11-07,Refrigerant release,Moderate,False,0.0,CAPA-59104,Closed
-ENVINC-0051,FAC-MAN-041,2026-11-30,Air emission exceedance,Minor,True,0.0,CAPA-48479,Open
-ENVINC-0052,FAC-MAN-002,2025-05-04,Air emission exceedance,Minor,True,0.0,CAPA-56035,Closed
-ENVINC-0053,FAC-MAN-031,2024-05-25,Air emission exceedance,Minor,True,0.0,CAPA-17237,Closed
-ENVINC-0054,FAC-MAN-011,2022-09-17,Odour complaint,Minor,False,0.0,CAPA-70096,Closed
-ENVINC-0055,FAC-MAN-028,2022-12-23,Spill (oil),Minor,True,0.0,CAPA-28592,Closed
-ENVINC-0056,FAC-MAN-028,2023-07-28,Odour complaint,Minor,False,0.0,CAPA-87200,Open
-ENVINC-0057,FAC-MAN-041,2024-04-20,Hazardous waste mislabelling,Minor,True,0.0,CAPA-71600,Closed
-ENVINC-0058,FAC-MAN-041,2024-10-28,Permit exceedance (wastewater),Minor,False,0.0,CAPA-77185,Closed
-ENVINC-0059,FAC-MAN-032,2023-04-24,Refrigerant release,Moderate,False,0.0,CAPA-33617,Closed
-ENVINC-0060,FAC-MAN-017,2022-07-14,Refrigerant release,Minor,False,0.0,CAPA-15228,Closed
-ENVINC-0061,FAC-MAN-011,2023-05-12,Hazardous waste mislabelling,Minor,False,0.0,CAPA-53847,Closed
-ENVINC-0062,FAC-MAN-042,2026-04-28,Air emission exceedance,Moderate,False,0.0,CAPA-29804,Closed
-ENVINC-0063,FAC-MAN-009,2024-12-15,Hazardous waste mislabelling,Minor,False,0.0,CAPA-53214,Closed
-ENVINC-0064,FAC-MAN-030,2022-02-05,Spill (oil),Minor,False,0.0,CAPA-60610,Closed
-ENVINC-0065,FAC-MAN-019,2025-04-30,Spill (oil),Minor,True,0.0,CAPA-52204,Closed
-ENVINC-0066,FAC-MAN-037,2023-03-02,Spill (oil),Minor,False,0.0,CAPA-46446,Closed
-ENVINC-0067,FAC-MAN-022,2023-09-13,Permit exceedance (wastewater),Minor,False,0.0,CAPA-90670,Open
-ENVINC-0068,FAC-MAN-024,2025-12-21,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-71535,Closed
-ENVINC-0069,FAC-MAN-041,2023-09-10,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-42754,Open
-ENVINC-0070,FAC-MAN-035,2023-03-07,Refrigerant release,Minor,True,0.0,CAPA-14149,Closed
-ENVINC-0071,FAC-MAN-019,2026-02-23,Air emission exceedance,Moderate,False,0.0,CAPA-75368,Closed
-ENVINC-0072,FAC-MAN-042,2024-08-07,Hazardous waste mislabelling,Minor,True,0.0,CAPA-34628,Closed
-ENVINC-0073,FAC-MAN-001,2025-01-31,Air emission exceedance,Minor,True,6800.0,CAPA-60897,Closed
-ENVINC-0074,FAC-MAN-018,2023-05-02,Air emission exceedance,Moderate,False,0.0,CAPA-13607,Closed
-ENVINC-0075,FAC-MAN-030,2025-03-23,Refrigerant release,Minor,True,0.0,CAPA-62584,Closed
-ENVINC-0076,FAC-MAN-015,2025-03-16,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-63816,Open
-ENVINC-0077,FAC-MAN-032,2024-10-10,Odour complaint,Minor,False,0.0,CAPA-92845,Closed
-ENVINC-0078,FAC-MAN-037,2023-05-27,Spill (oil),Moderate,False,0.0,CAPA-49196,Closed
-ENVINC-0079,FAC-MAN-037,2024-08-23,Spill (oil),Minor,True,0.0,CAPA-88676,Open
-ENVINC-0080,FAC-MAN-038,2022-05-21,Odour complaint,Minor,True,49000.0,CAPA-27569,Closed
-ENVINC-0081,FAC-MAN-025,2026-03-31,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-40198,Closed
-ENVINC-0082,FAC-MAN-031,2023-07-08,Refrigerant release,Major,False,0.0,CAPA-12554,Closed
-ENVINC-0083,FAC-MAN-037,2024-01-28,Air emission exceedance,Moderate,False,0.0,CAPA-61301,Closed
-ENVINC-0084,FAC-MAN-030,2024-02-26,Refrigerant release,Minor,True,0.0,CAPA-29931,Closed
-ENVINC-0085,FAC-MAN-004,2024-03-03,Air emission exceedance,Minor,True,0.0,CAPA-83187,Closed
-ENVINC-0086,FAC-MAN-004,2024-12-17,Spill (oil),Major,True,0.0,CAPA-63307,Closed
-ENVINC-0087,FAC-MAN-007,2023-12-16,Spill (oil),Minor,True,0.0,CAPA-67653,Open
-ENVINC-0088,FAC-MAN-014,2024-11-23,Permit exceedance (wastewater),Minor,False,0.0,CAPA-44118,Closed
-ENVINC-0089,FAC-MAN-018,2024-06-11,Permit exceedance (wastewater),Major,False,0.0,CAPA-50380,Closed
-ENVINC-0090,FAC-MAN-012,2024-02-04,Odour complaint,Minor,False,0.0,CAPA-59058,Closed
-ENVINC-0091,FAC-MAN-038,2022-11-03,Refrigerant release,Moderate,False,0.0,CAPA-25590,Closed
-ENVINC-0092,FAC-MAN-002,2025-08-28,Air emission exceedance,Minor,False,0.0,CAPA-36629,Closed
-ENVINC-0093,FAC-MAN-039,2026-03-27,Hazardous waste mislabelling,Minor,False,0.0,CAPA-79930,Closed
-ENVINC-0094,FAC-MAN-003,2023-03-05,Air emission exceedance,Minor,False,0.0,CAPA-49615,Closed
-ENVINC-0095,FAC-MAN-037,2022-10-02,Odour complaint,Minor,False,0.0,CAPA-56116,Closed
-ENVINC-0096,FAC-MAN-003,2023-02-01,Odour complaint,Minor,True,0.0,CAPA-44067,Open
-ENVINC-0097,FAC-MAN-037,2025-12-19,Hazardous waste mislabelling,Minor,True,0.0,CAPA-13455,Closed
-ENVINC-0098,FAC-MAN-015,2025-10-10,Odour complaint,Moderate,False,0.0,CAPA-75028,Closed
-ENVINC-0099,FAC-MAN-008,2024-11-18,Odour complaint,Moderate,True,5700.0,CAPA-89706,Closed
-ENVINC-0100,FAC-MAN-015,2022-02-20,Air emission exceedance,Minor,True,0.0,CAPA-36750,Closed
-ENVINC-0101,FAC-MAN-025,2025-11-27,Hazardous waste mislabelling,Major,True,0.0,CAPA-21731,Closed
-ENVINC-0102,FAC-MAN-035,2025-02-23,Odour complaint,Minor,False,0.0,CAPA-27083,Open
-ENVINC-0103,FAC-MAN-003,2024-09-16,Odour complaint,Minor,True,7500.0,CAPA-97484,Closed
-ENVINC-0104,FAC-MAN-022,2024-05-19,Refrigerant release,Minor,True,0.0,CAPA-44884,Closed
-ENVINC-0105,FAC-MAN-037,2026-03-22,Refrigerant release,Minor,True,0.0,CAPA-21628,Closed
-ENVINC-0106,FAC-MAN-028,2025-02-14,Odour complaint,Minor,True,0.0,CAPA-67585,Closed
-ENVINC-0107,FAC-MAN-001,2026-10-25,Odour complaint,Minor,False,0.0,CAPA-59210,Closed
-ENVINC-0108,FAC-MAN-023,2026-07-30,Hazardous waste mislabelling,Minor,True,126100.0,CAPA-68947,Closed
-ENVINC-0109,FAC-MAN-019,2024-05-18,Refrigerant release,Minor,False,0.0,CAPA-79856,Open
-ENVINC-0110,FAC-MAN-014,2022-10-06,Hazardous waste mislabelling,Minor,False,0.0,CAPA-25194,Closed
-ENVINC-0111,FAC-MAN-001,2024-10-22,Air emission exceedance,Minor,False,0.0,CAPA-87429,Closed
-ENVINC-0112,FAC-MAN-003,2026-10-20,Air emission exceedance,Major,True,0.0,CAPA-73367,Closed
-ENVINC-0113,FAC-MAN-002,2026-03-05,Refrigerant release,Minor,False,0.0,CAPA-45612,Open
-ENVINC-0114,FAC-MAN-019,2025-11-06,Refrigerant release,Minor,False,21600.0,CAPA-87160,Closed
-ENVINC-0115,FAC-MAN-007,2024-06-11,Permit exceedance (wastewater),Minor,True,0.0,CAPA-57245,Open
-ENVINC-0116,FAC-MAN-019,2022-07-19,Hazardous waste mislabelling,Minor,False,0.0,CAPA-64959,Closed
-ENVINC-0117,FAC-MAN-010,2026-04-06,Spill (oil),Minor,False,0.0,CAPA-15032,Closed
-ENVINC-0118,FAC-MAN-041,2026-03-18,Odour complaint,Minor,True,0.0,CAPA-60491,Closed
-ENVINC-0119,FAC-MAN-025,2026-07-12,Permit exceedance (wastewater),Minor,False,0.0,CAPA-29326,Closed
-ENVINC-0120,FAC-MAN-003,2023-01-03,Hazardous waste mislabelling,Moderate,True,0.0,CAPA-88626,Closed
-ENVINC-0121,FAC-MAN-022,2024-02-27,Air emission exceedance,Minor,False,0.0,CAPA-29188,Closed
-ENVINC-0122,FAC-MAN-025,2022-05-08,Air emission exceedance,Moderate,False,0.0,CAPA-76458,Open
-ENVINC-0123,FAC-MAN-010,2022-10-15,Refrigerant release,Minor,True,34600.0,CAPA-84888,Open
-ENVINC-0124,FAC-MAN-022,2026-08-04,Refrigerant release,Minor,True,18200.0,CAPA-55287,Closed
-ENVINC-0125,FAC-MAN-035,2026-05-14,Permit exceedance (wastewater),Moderate,True,0.0,CAPA-65227,Closed
-ENVINC-0126,FAC-MAN-006,2022-12-22,Odour complaint,Minor,False,0.0,CAPA-28592,Closed
-ENVINC-0127,FAC-MAN-009,2022-04-25,Refrigerant release,Minor,False,0.0,CAPA-58784,Closed
-ENVINC-0128,FAC-MAN-031,2023-03-31,Odour complaint,Minor,False,0.0,CAPA-34766,Closed
-ENVINC-0129,FAC-MAN-034,2026-10-17,Refrigerant release,Minor,False,0.0,CAPA-21540,Closed
-ENVINC-0130,FAC-MAN-017,2022-03-20,Refrigerant release,Moderate,True,0.0,CAPA-30128,Closed
-ENVINC-0131,FAC-MAN-028,2022-04-29,Odour complaint,Minor,True,0.0,CAPA-87723,Closed
-ENVINC-0132,FAC-MAN-012,2025-10-08,Hazardous waste mislabelling,Minor,False,0.0,CAPA-56767,Closed
-ENVINC-0133,FAC-MAN-001,2024-10-20,Spill (oil),Minor,True,0.0,CAPA-17175,Closed
-ENVINC-0134,FAC-MAN-013,2022-06-16,Refrigerant release,Minor,False,0.0,CAPA-38341,Closed
-ENVINC-0135,FAC-MAN-010,2024-12-18,Spill (oil),Major,False,2300.0,CAPA-71670,Open
-ENVINC-0136,FAC-MAN-027,2026-11-24,Hazardous waste mislabelling,Minor,False,0.0,CAPA-73590,Closed
-ENVINC-0137,FAC-MAN-023,2026-08-20,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-77763,Closed
-ENVINC-0138,FAC-MAN-003,2026-11-19,Air emission exceedance,Minor,False,0.0,CAPA-86156,Closed
-ENVINC-0139,FAC-MAN-003,2026-02-23,Refrigerant release,Minor,False,0.0,CAPA-75914,Closed
-ENVINC-0140,FAC-MAN-036,2022-10-31,Odour complaint,Major,True,0.0,CAPA-67000,Closed
-ENVINC-0141,FAC-MAN-033,2023-06-14,Hazardous waste mislabelling,Minor,False,0.0,CAPA-12251,Closed
-ENVINC-0142,FAC-MAN-018,2022-09-30,Hazardous waste mislabelling,Minor,True,0.0,CAPA-17743,Closed
-ENVINC-0143,FAC-MAN-009,2025-02-06,Air emission exceedance,Minor,False,0.0,CAPA-19141,Closed
-ENVINC-0144,FAC-MAN-019,2025-02-22,Permit exceedance (wastewater),Moderate,True,0.0,CAPA-78015,Closed
-ENVINC-0145,FAC-MAN-029,2022-02-17,Air emission exceedance,Minor,False,0.0,CAPA-30847,Closed
-ENVINC-0146,FAC-MAN-034,2025-07-15,Odour complaint,Moderate,False,0.0,CAPA-13327,Closed
-ENVINC-0147,FAC-MAN-027,2026-07-16,Permit exceedance (wastewater),Moderate,False,8000.0,CAPA-83432,Closed
-ENVINC-0148,FAC-MAN-023,2025-04-30,Odour complaint,Minor,True,0.0,CAPA-15716,Closed
-ENVINC-0149,FAC-MAN-019,2026-09-24,Air emission exceedance,Minor,False,0.0,CAPA-48053,Closed
-ENVINC-0150,FAC-MAN-021,2022-03-03,Odour complaint,Moderate,False,0.0,CAPA-54518,Closed
-ENVINC-0151,FAC-MAN-029,2026-05-20,Odour complaint,Moderate,False,10400.0,CAPA-81359,Closed
-ENVINC-0152,FAC-MAN-015,2023-08-05,Hazardous waste mislabelling,Moderate,True,0.0,CAPA-12968,Closed
-ENVINC-0153,FAC-MAN-023,2022-09-08,Permit exceedance (wastewater),Minor,False,0.0,CAPA-27176,Closed
-ENVINC-0154,FAC-MAN-036,2026-10-25,Refrigerant release,Major,False,0.0,CAPA-57446,Closed
-ENVINC-0155,FAC-MAN-039,2025-03-20,Spill (oil),Minor,False,0.0,CAPA-86408,Closed
-ENVINC-0156,FAC-MAN-036,2026-10-19,Odour complaint,Minor,False,0.0,CAPA-99371,Closed
-ENVINC-0157,FAC-MAN-028,2022-12-14,Spill (oil),Moderate,False,0.0,CAPA-57005,Closed
-ENVINC-0158,FAC-MAN-009,2022-01-17,Air emission exceedance,Minor,False,0.0,CAPA-73577,Open
-ENVINC-0159,FAC-MAN-034,2026-03-25,Odour complaint,Minor,False,0.0,CAPA-61861,Closed
-ENVINC-0160,FAC-MAN-016,2026-07-24,Permit exceedance (wastewater),Minor,False,0.0,CAPA-72418,Closed
-ENVINC-0161,FAC-MAN-017,2026-09-07,Odour complaint,Minor,True,0.0,CAPA-75061,Closed
-ENVINC-0162,FAC-MAN-015,2025-07-16,Spill (oil),Minor,False,0.0,CAPA-45822,Closed
-ENVINC-0163,FAC-MAN-021,2022-07-17,Spill (oil),Minor,False,0.0,CAPA-98616,Closed
-ENVINC-0164,FAC-MAN-022,2025-03-14,Refrigerant release,Minor,False,4600.0,CAPA-42927,Closed
-ENVINC-0165,FAC-MAN-003,2024-02-24,Spill (oil),Minor,False,0.0,CAPA-16797,Closed
-ENVINC-0166,FAC-MAN-016,2023-08-19,Hazardous waste mislabelling,Minor,False,0.0,CAPA-56495,Open
-ENVINC-0167,FAC-MAN-012,2025-06-06,Odour complaint,Moderate,True,19900.0,CAPA-16189,Closed
-ENVINC-0168,FAC-MAN-012,2024-08-02,Refrigerant release,Minor,True,0.0,CAPA-98227,Closed
-ENVINC-0169,FAC-MAN-038,2026-05-20,Odour complaint,Minor,False,0.0,CAPA-20857,Closed
-ENVINC-0170,FAC-MAN-003,2023-01-09,Spill (oil),Minor,False,13400.0,CAPA-63207,Open
-ENVINC-0171,FAC-MAN-017,2023-02-16,Air emission exceedance,Minor,False,0.0,CAPA-54825,Closed
-ENVINC-0172,FAC-MAN-029,2025-05-19,Spill (oil),Minor,False,18500.0,CAPA-66730,Open
-ENVINC-0173,FAC-MAN-014,2023-08-10,Spill (oil),Moderate,False,0.0,CAPA-56659,Closed
-ENVINC-0174,FAC-MAN-003,2024-10-12,Permit exceedance (wastewater),Minor,False,2400.0,CAPA-86877,Closed
-ENVINC-0175,FAC-MAN-004,2024-10-18,Refrigerant release,Moderate,False,0.0,CAPA-60438,Closed
-ENVINC-0176,FAC-MAN-037,2026-03-31,Hazardous waste mislabelling,Minor,True,0.0,CAPA-40703,Closed
-ENVINC-0177,FAC-MAN-024,2026-07-25,Hazardous waste mislabelling,Minor,False,0.0,CAPA-60386,Closed
-ENVINC-0178,FAC-MAN-006,2024-09-07,Hazardous waste mislabelling,Minor,False,0.0,CAPA-83979,Closed
-ENVINC-0179,FAC-MAN-020,2023-01-11,Air emission exceedance,Minor,False,0.0,CAPA-97790,Closed
-ENVINC-0180,FAC-MAN-001,2026-10-10,Odour complaint,Minor,False,0.0,CAPA-81303,Closed
-ENVINC-0181,FAC-MAN-001,2026-07-21,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-49455,Closed
-ENVINC-0182,FAC-MAN-008,2022-10-11,Hazardous waste mislabelling,Minor,False,10300.0,CAPA-44357,Closed
-ENVINC-0183,FAC-MAN-017,2024-03-09,Air emission exceedance,Moderate,False,0.0,CAPA-35086,Closed
-ENVINC-0184,FAC-MAN-019,2025-05-06,Refrigerant release,Moderate,False,0.0,CAPA-94406,Closed
-ENVINC-0185,FAC-MAN-024,2026-11-02,Hazardous waste mislabelling,Minor,False,0.0,CAPA-56397,Closed
-ENVINC-0186,FAC-MAN-025,2026-10-06,Hazardous waste mislabelling,Moderate,True,0.0,CAPA-41128,Open
-ENVINC-0187,FAC-MAN-006,2026-12-10,Refrigerant release,Minor,False,0.0,CAPA-78335,Open
-ENVINC-0188,FAC-MAN-039,2025-08-25,Permit exceedance (wastewater),Minor,False,0.0,CAPA-86353,Open
-ENVINC-0189,FAC-MAN-017,2024-08-30,Odour complaint,Minor,False,0.0,CAPA-37002,Open
-ENVINC-0190,FAC-MAN-041,2022-12-20,Refrigerant release,Minor,False,0.0,CAPA-15290,Closed
-ENVINC-0191,FAC-MAN-011,2026-03-10,Permit exceedance (wastewater),Minor,False,0.0,CAPA-93545,Closed
-ENVINC-0192,FAC-MAN-014,2023-04-06,Hazardous waste mislabelling,Minor,True,0.0,CAPA-82057,Closed
-ENVINC-0193,FAC-MAN-029,2022-08-30,Refrigerant release,Minor,True,0.0,CAPA-69101,Closed
-ENVINC-0194,FAC-MAN-040,2023-05-03,Refrigerant release,Minor,True,0.0,CAPA-43623,Closed
-ENVINC-0195,FAC-MAN-024,2026-09-29,Odour complaint,Minor,True,0.0,CAPA-86297,Closed
-ENVINC-0196,FAC-MAN-017,2025-10-15,Hazardous waste mislabelling,Minor,True,0.0,CAPA-41521,Closed
-ENVINC-0197,FAC-MAN-020,2025-05-15,Hazardous waste mislabelling,Minor,False,0.0,CAPA-76612,Closed
-ENVINC-0198,FAC-MAN-004,2022-05-07,Permit exceedance (wastewater),Minor,True,0.0,CAPA-80283,Closed
-ENVINC-0199,FAC-MAN-005,2023-11-06,Refrigerant release,Minor,False,0.0,CAPA-20680,Closed
-ENVINC-0200,FAC-MAN-017,2025-11-25,Spill (oil),Minor,True,0.0,CAPA-64100,Open
-ENVINC-0201,FAC-MAN-015,2025-09-03,Permit exceedance (wastewater),Minor,False,0.0,CAPA-12807,Closed
-ENVINC-0202,FAC-MAN-008,2022-04-14,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-18879,Closed
-ENVINC-0203,FAC-MAN-009,2024-05-02,Air emission exceedance,Minor,False,0.0,CAPA-46120,Closed
-ENVINC-0204,FAC-MAN-006,2023-08-18,Spill (oil),Minor,True,0.0,CAPA-24259,Open
-ENVINC-0205,FAC-MAN-029,2023-01-11,Air emission exceedance,Minor,True,0.0,CAPA-24108,Open
-ENVINC-0206,FAC-MAN-036,2023-02-03,Odour complaint,Minor,False,0.0,CAPA-59356,Open
-ENVINC-0207,FAC-MAN-031,2022-01-15,Spill (oil),Moderate,False,0.0,CAPA-81703,Closed
-ENVINC-0208,FAC-MAN-005,2022-02-18,Hazardous waste mislabelling,Minor,False,0.0,CAPA-56359,Closed
-ENVINC-0209,FAC-MAN-008,2025-05-16,Odour complaint,Minor,False,4200.0,CAPA-13003,Closed
-ENVINC-0210,FAC-MAN-028,2023-04-09,Odour complaint,Minor,False,0.0,CAPA-51747,Closed
-ENVINC-0211,FAC-MAN-003,2025-08-23,Odour complaint,Minor,False,0.0,CAPA-95373,Closed
-ENVINC-0212,FAC-MAN-004,2023-09-07,Air emission exceedance,Moderate,True,0.0,CAPA-37004,Closed
-ENVINC-0213,FAC-MAN-005,2025-05-26,Permit exceedance (wastewater),Minor,True,0.0,CAPA-18779,Open
-ENVINC-0214,FAC-MAN-037,2024-08-31,Odour complaint,Minor,False,0.0,CAPA-53870,Closed
-ENVINC-0215,FAC-MAN-030,2025-04-21,Air emission exceedance,Major,False,0.0,CAPA-47308,Open
-ENVINC-0216,FAC-MAN-016,2026-01-21,Odour complaint,Minor,False,0.0,CAPA-61193,Closed
-ENVINC-0217,FAC-MAN-021,2026-03-11,Odour complaint,Moderate,False,0.0,CAPA-81482,Closed
-ENVINC-0218,FAC-MAN-019,2022-09-04,Air emission exceedance,Moderate,False,0.0,CAPA-53316,Open
-ENVINC-0219,FAC-MAN-041,2025-04-28,Odour complaint,Minor,False,15000.0,CAPA-78233,Closed
-ENVINC-0220,FAC-MAN-022,2024-10-12,Permit exceedance (wastewater),Minor,False,0.0,CAPA-57969,Closed
-ENVINC-0221,FAC-MAN-007,2025-05-17,Odour complaint,Minor,False,0.0,CAPA-82473,Closed
-ENVINC-0222,FAC-MAN-024,2023-01-28,Odour complaint,Moderate,False,0.0,CAPA-59103,Closed
-ENVINC-0223,FAC-MAN-005,2022-06-05,Hazardous waste mislabelling,Minor,True,0.0,CAPA-51041,Closed
-ENVINC-0224,FAC-MAN-040,2024-05-12,Spill (oil),Minor,False,0.0,CAPA-91372,Closed
-ENVINC-0225,FAC-MAN-012,2026-11-09,Spill (oil),Minor,True,6100.0,CAPA-40929,Closed
-ENVINC-0226,FAC-MAN-019,2023-06-09,Permit exceedance (wastewater),Major,False,0.0,CAPA-70681,Closed
-ENVINC-0227,FAC-MAN-037,2026-12-02,Hazardous waste mislabelling,Minor,True,0.0,CAPA-70855,Closed
-ENVINC-0228,FAC-MAN-022,2026-02-06,Refrigerant release,Minor,False,11500.0,CAPA-65437,Closed
-ENVINC-0229,FAC-MAN-038,2024-10-08,Refrigerant release,Minor,True,38900.0,CAPA-95120,Closed
-ENVINC-0230,FAC-MAN-033,2025-03-07,Hazardous waste mislabelling,Minor,True,0.0,CAPA-94142,Closed
-ENVINC-0231,FAC-MAN-020,2023-03-11,Refrigerant release,Moderate,True,0.0,CAPA-32204,Closed
-ENVINC-0232,FAC-MAN-024,2024-11-22,Odour complaint,Minor,False,0.0,CAPA-42225,Closed
-ENVINC-0233,FAC-MAN-030,2023-02-01,Hazardous waste mislabelling,Minor,False,0.0,CAPA-16916,Closed
-ENVINC-0234,FAC-MAN-028,2025-11-08,Hazardous waste mislabelling,Minor,True,0.0,CAPA-43050,Closed
-ENVINC-0235,FAC-MAN-040,2026-11-29,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-15675,Closed
-ENVINC-0236,FAC-MAN-009,2026-08-14,Odour complaint,Minor,True,0.0,CAPA-22762,Closed
-ENVINC-0237,FAC-MAN-020,2025-11-13,Odour complaint,Minor,False,3500.0,CAPA-46190,Open
-ENVINC-0238,FAC-MAN-024,2024-07-26,Odour complaint,Minor,False,0.0,CAPA-17748,Closed
-ENVINC-0239,FAC-MAN-016,2026-11-28,Odour complaint,Minor,False,3700.0,CAPA-43244,Closed
-ENVINC-0240,FAC-MAN-040,2023-04-20,Air emission exceedance,Minor,True,0.0,CAPA-13940,Closed
-ENVINC-0241,FAC-MAN-007,2024-08-03,Refrigerant release,Minor,False,0.0,CAPA-66130,Closed
-ENVINC-0242,FAC-MAN-029,2025-09-30,Air emission exceedance,Moderate,False,0.0,CAPA-46415,Closed
-ENVINC-0243,FAC-MAN-003,2022-07-03,Spill (oil),Minor,False,0.0,CAPA-14925,Closed
-ENVINC-0244,FAC-MAN-037,2025-12-30,Refrigerant release,Moderate,True,0.0,CAPA-43831,Closed
-ENVINC-0245,FAC-MAN-012,2024-08-12,Air emission exceedance,Minor,True,0.0,CAPA-84258,Closed
-ENVINC-0246,FAC-MAN-020,2026-08-29,Air emission exceedance,Minor,True,0.0,CAPA-73468,Closed
-ENVINC-0247,FAC-MAN-004,2026-11-10,Air emission exceedance,Minor,True,0.0,CAPA-79053,Closed
-ENVINC-0248,FAC-MAN-021,2023-09-08,Spill (oil),Minor,False,0.0,CAPA-83626,Closed
-ENVINC-0249,FAC-MAN-042,2024-01-16,Refrigerant release,Minor,False,0.0,CAPA-18801,Closed
-ENVINC-0250,FAC-MAN-025,2024-12-30,Spill (oil),Minor,False,0.0,CAPA-61978,Closed
-ENVINC-0251,FAC-MAN-014,2024-10-03,Air emission exceedance,Minor,False,0.0,CAPA-77441,Closed
-ENVINC-0252,FAC-MAN-004,2023-04-27,Air emission exceedance,Minor,False,0.0,CAPA-50478,Open
-ENVINC-0253,FAC-MAN-037,2023-08-29,Hazardous waste mislabelling,Minor,False,0.0,CAPA-40011,Closed
-ENVINC-0254,FAC-MAN-001,2023-04-30,Air emission exceedance,Minor,True,9400.0,CAPA-12239,Closed
-ENVINC-0255,FAC-MAN-029,2025-12-19,Odour complaint,Moderate,True,0.0,CAPA-94761,Closed
-ENVINC-0256,FAC-MAN-023,2026-09-07,Refrigerant release,Minor,True,0.0,CAPA-40851,Closed
-ENVINC-0257,FAC-MAN-002,2023-10-15,Permit exceedance (wastewater),Minor,True,0.0,CAPA-52188,Closed
-ENVINC-0258,FAC-MAN-020,2025-10-13,Spill (oil),Minor,True,0.0,CAPA-61174,Closed
-ENVINC-0259,FAC-MAN-036,2022-06-04,Air emission exceedance,Minor,False,0.0,CAPA-60267,Closed
-ENVINC-0260,FAC-MAN-010,2023-08-30,Refrigerant release,Minor,False,0.0,CAPA-32911,Closed
-ENVINC-0261,FAC-MAN-007,2024-02-27,Permit exceedance (wastewater),Minor,True,0.0,CAPA-79780,Open
-ENVINC-0262,FAC-MAN-017,2025-05-20,Air emission exceedance,Major,False,0.0,CAPA-37949,Closed
-ENVINC-0263,FAC-MAN-025,2026-01-14,Air emission exceedance,Moderate,False,0.0,CAPA-10777,Closed
-ENVINC-0264,FAC-MAN-023,2025-06-06,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-93251,Closed
-ENVINC-0265,FAC-MAN-011,2024-02-25,Hazardous waste mislabelling,Minor,False,0.0,CAPA-57031,Closed
-ENVINC-0266,FAC-MAN-025,2023-09-02,Refrigerant release,Minor,True,0.0,CAPA-62490,Open
-ENVINC-0267,FAC-MAN-003,2022-10-18,Odour complaint,Minor,False,0.0,CAPA-36573,Closed
-ENVINC-0268,FAC-MAN-012,2022-08-09,Refrigerant release,Minor,False,0.0,CAPA-14306,Closed
-ENVINC-0269,FAC-MAN-010,2022-01-14,Permit exceedance (wastewater),Minor,False,0.0,CAPA-55438,Closed
-ENVINC-0270,FAC-MAN-015,2024-07-20,Permit exceedance (wastewater),Minor,True,0.0,CAPA-33024,Closed
-ENVINC-0271,FAC-MAN-008,2026-11-28,Spill (oil),Moderate,False,0.0,CAPA-58768,Closed
-ENVINC-0272,FAC-MAN-026,2025-07-20,Permit exceedance (wastewater),Minor,False,0.0,CAPA-57619,Closed
-ENVINC-0273,FAC-MAN-023,2023-12-29,Odour complaint,Moderate,True,10500.0,CAPA-74049,Open
-ENVINC-0274,FAC-MAN-009,2022-11-18,Permit exceedance (wastewater),Minor,False,0.0,CAPA-57353,Closed
-ENVINC-0275,FAC-MAN-033,2025-09-08,Odour complaint,Moderate,False,0.0,CAPA-74062,Open
-ENVINC-0276,FAC-MAN-013,2026-08-08,Hazardous waste mislabelling,Minor,False,0.0,CAPA-19508,Open
-ENVINC-0277,FAC-MAN-041,2026-02-25,Permit exceedance (wastewater),Minor,True,0.0,CAPA-13271,Closed
-ENVINC-0278,FAC-MAN-041,2022-03-18,Odour complaint,Minor,False,0.0,CAPA-95405,Closed
-ENVINC-0279,FAC-MAN-038,2024-04-19,Spill (oil),Major,False,0.0,CAPA-78954,Open
-ENVINC-0280,FAC-MAN-017,2023-05-17,Refrigerant release,Minor,False,0.0,CAPA-11949,Closed
-ENVINC-0281,FAC-MAN-033,2026-06-17,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-60915,Open
-ENVINC-0282,FAC-MAN-030,2022-01-03,Refrigerant release,Moderate,False,0.0,CAPA-40457,Closed
-ENVINC-0283,FAC-MAN-008,2025-07-05,Permit exceedance (wastewater),Minor,False,0.0,CAPA-16237,Closed
-ENVINC-0284,FAC-MAN-009,2025-04-08,Refrigerant release,Minor,True,34700.0,CAPA-55684,Open
-ENVINC-0285,FAC-MAN-040,2022-10-31,Spill (oil),Minor,True,0.0,CAPA-89980,Open
-ENVINC-0286,FAC-MAN-036,2023-05-07,Refrigerant release,Minor,False,0.0,CAPA-50163,Closed
-ENVINC-0287,FAC-MAN-016,2022-06-29,Refrigerant release,Minor,True,0.0,CAPA-80926,Closed
-ENVINC-0288,FAC-MAN-042,2024-10-14,Odour complaint,Minor,False,0.0,CAPA-26304,Open
-ENVINC-0289,FAC-MAN-019,2022-03-06,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-91954,Closed
-ENVINC-0290,FAC-MAN-033,2024-09-25,Refrigerant release,Minor,False,0.0,CAPA-31588,Closed
-ENVINC-0291,FAC-MAN-009,2026-07-16,Spill (oil),Minor,False,0.0,CAPA-62202,Closed
-ENVINC-0292,FAC-MAN-004,2025-11-27,Air emission exceedance,Minor,False,0.0,CAPA-23306,Closed
-ENVINC-0293,FAC-MAN-007,2023-07-20,Air emission exceedance,Minor,False,0.0,CAPA-35353,Closed
-ENVINC-0294,FAC-MAN-005,2024-11-19,Spill (oil),Minor,True,0.0,CAPA-10141,Closed
-ENVINC-0295,FAC-MAN-028,2023-04-22,Air emission exceedance,Moderate,False,0.0,CAPA-22409,Closed
-ENVINC-0296,FAC-MAN-031,2026-09-16,Hazardous waste mislabelling,Major,False,0.0,CAPA-81322,Closed
-ENVINC-0297,FAC-MAN-019,2025-01-11,Air emission exceedance,Minor,False,0.0,CAPA-64597,Closed
-ENVINC-0298,FAC-MAN-042,2026-07-31,Spill (oil),Minor,True,0.0,CAPA-36097,Closed
-ENVINC-0299,FAC-MAN-037,2022-10-05,Air emission exceedance,Minor,False,0.0,CAPA-68382,Open
-ENVINC-0300,FAC-MAN-019,2026-04-13,Hazardous waste mislabelling,Minor,False,0.0,CAPA-78040,Closed
-ENVINC-0301,FAC-MAN-039,2024-08-10,Permit exceedance (wastewater),Minor,False,0.0,CAPA-72578,Closed
-ENVINC-0302,FAC-MAN-020,2025-12-02,Refrigerant release,Minor,False,0.0,CAPA-35161,Closed
-ENVINC-0303,FAC-MAN-017,2025-04-03,Permit exceedance (wastewater),Moderate,True,0.0,CAPA-97762,Closed
-ENVINC-0304,FAC-MAN-020,2026-04-08,Spill (oil),Minor,False,14200.0,CAPA-32996,Closed
-ENVINC-0305,FAC-MAN-004,2024-03-08,Spill (oil),Major,False,0.0,CAPA-99614,Closed
-ENVINC-0306,FAC-MAN-005,2025-07-20,Hazardous waste mislabelling,Major,False,0.0,CAPA-39196,Closed
-ENVINC-0307,FAC-MAN-029,2026-11-03,Air emission exceedance,Minor,False,0.0,CAPA-81443,Closed
-ENVINC-0308,FAC-MAN-029,2023-11-17,Permit exceedance (wastewater),Minor,False,0.0,CAPA-34325,Closed
-ENVINC-0309,FAC-MAN-039,2024-06-08,Odour complaint,Minor,True,0.0,CAPA-53897,Closed
-ENVINC-0310,FAC-MAN-034,2025-10-16,Odour complaint,Major,False,0.0,CAPA-38059,Closed
-ENVINC-0311,FAC-MAN-030,2026-11-03,Air emission exceedance,Minor,True,0.0,CAPA-14124,Closed
-ENVINC-0312,FAC-MAN-016,2023-09-11,Permit exceedance (wastewater),Moderate,True,0.0,CAPA-63205,Closed
-ENVINC-0313,FAC-MAN-027,2024-03-16,Hazardous waste mislabelling,Minor,False,0.0,CAPA-35421,Closed
-ENVINC-0314,FAC-MAN-035,2025-09-10,Spill (oil),Moderate,True,0.0,CAPA-30676,Closed
-ENVINC-0315,FAC-MAN-005,2025-12-04,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-62073,Closed
-ENVINC-0316,FAC-MAN-033,2026-02-13,Hazardous waste mislabelling,Minor,False,0.0,CAPA-96111,Closed
-ENVINC-0317,FAC-MAN-020,2023-07-31,Refrigerant release,Minor,True,0.0,CAPA-70289,Closed
-ENVINC-0318,FAC-MAN-012,2026-07-27,Refrigerant release,Minor,False,0.0,CAPA-56807,Closed
-ENVINC-0319,FAC-MAN-013,2022-03-25,Permit exceedance (wastewater),Minor,False,36400.0,CAPA-29625,Closed
-ENVINC-0320,FAC-MAN-002,2022-01-31,Refrigerant release,Minor,True,0.0,CAPA-34153,Closed
+ENVINC-0001,FAC-MAN-022,2022-08-24,Hazardous waste mislabelling,Minor,False,0.0,CAPA-52143,Closed
+ENVINC-0002,FAC-MAN-033,2026-02-08,Air emission exceedance,Minor,False,0.0,CAPA-69376,Closed
+ENVINC-0003,FAC-MAN-002,2023-10-01,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-30476,Closed
+ENVINC-0004,FAC-MAN-006,2023-10-17,Spill (oil),Minor,True,0.0,CAPA-82856,Closed
+ENVINC-0005,FAC-MAN-038,2026-01-03,Spill (oil),Minor,True,0.0,CAPA-12492,Closed
+ENVINC-0006,FAC-MAN-002,2023-05-22,Refrigerant release,Moderate,False,10200.0,CAPA-88960,Closed
+ENVINC-0007,FAC-MAN-022,2024-06-06,Odour complaint,Minor,True,0.0,CAPA-67505,Open
+ENVINC-0008,FAC-MAN-005,2025-01-08,Odour complaint,Minor,True,0.0,CAPA-37867,Closed
+ENVINC-0009,FAC-MAN-023,2024-08-30,Spill (oil),Minor,True,0.0,CAPA-82419,Closed
+ENVINC-0010,FAC-MAN-003,2023-09-15,Hazardous waste mislabelling,Minor,True,0.0,CAPA-56532,Closed
+ENVINC-0011,FAC-MAN-031,2022-11-19,Permit exceedance (wastewater),Moderate,True,0.0,CAPA-38344,Closed
+ENVINC-0012,FAC-MAN-028,2026-10-01,Permit exceedance (wastewater),Minor,False,7800.0,CAPA-88564,Closed
+ENVINC-0013,FAC-MAN-021,2024-05-13,Permit exceedance (wastewater),Minor,False,0.0,CAPA-71871,Open
+ENVINC-0014,FAC-MAN-020,2023-02-03,Air emission exceedance,Minor,False,0.0,CAPA-46189,Closed
+ENVINC-0015,FAC-MAN-019,2022-06-06,Odour complaint,Minor,False,0.0,CAPA-98001,Closed
+ENVINC-0016,FAC-MAN-019,2022-04-01,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-25136,Closed
+ENVINC-0017,FAC-MAN-006,2024-07-16,Odour complaint,Minor,True,0.0,CAPA-67369,Closed
+ENVINC-0018,FAC-MAN-030,2026-03-01,Spill (oil),Minor,False,0.0,CAPA-36217,Closed
+ENVINC-0019,FAC-MAN-035,2026-10-18,Spill (oil),Moderate,True,0.0,CAPA-57772,Closed
+ENVINC-0020,FAC-MAN-020,2026-06-25,Air emission exceedance,Minor,False,0.0,CAPA-72432,Open
+ENVINC-0021,FAC-MAN-029,2023-06-07,Refrigerant release,Moderate,True,30900.0,CAPA-20801,Closed
+ENVINC-0022,FAC-MAN-017,2022-09-12,Odour complaint,Moderate,True,0.0,CAPA-42831,Open
+ENVINC-0023,FAC-MAN-012,2023-09-12,Spill (oil),Moderate,True,0.0,CAPA-71166,Closed
+ENVINC-0024,FAC-MAN-033,2023-05-31,Air emission exceedance,Major,False,2700.0,CAPA-63110,Open
+ENVINC-0025,FAC-MAN-016,2026-10-15,Spill (oil),Minor,False,0.0,CAPA-53176,Closed
+ENVINC-0026,FAC-MAN-013,2024-09-08,Spill (oil),Minor,False,0.0,CAPA-93301,Open
+ENVINC-0027,FAC-MAN-003,2026-12-23,Odour complaint,Major,False,0.0,CAPA-15209,Closed
+ENVINC-0028,FAC-MAN-017,2025-01-29,Hazardous waste mislabelling,Minor,False,0.0,CAPA-69481,Open
+ENVINC-0029,FAC-MAN-023,2026-02-24,Air emission exceedance,Minor,False,2000.0,CAPA-48971,Closed
+ENVINC-0030,FAC-MAN-015,2024-02-01,Permit exceedance (wastewater),Minor,False,0.0,CAPA-84101,Closed
+ENVINC-0031,FAC-MAN-033,2026-08-09,Spill (oil),Minor,False,0.0,CAPA-51255,Closed
+ENVINC-0032,FAC-MAN-029,2026-08-17,Odour complaint,Minor,True,0.0,CAPA-14478,Closed
+ENVINC-0033,FAC-MAN-040,2026-09-12,Hazardous waste mislabelling,Minor,False,0.0,CAPA-87001,Closed
+ENVINC-0034,FAC-MAN-035,2025-05-21,Odour complaint,Minor,True,0.0,CAPA-17948,Closed
+ENVINC-0035,FAC-MAN-020,2023-10-10,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-61540,Closed
+ENVINC-0036,FAC-MAN-004,2024-08-28,Permit exceedance (wastewater),Minor,True,0.0,CAPA-48842,Closed
+ENVINC-0037,FAC-MAN-001,2026-01-08,Hazardous waste mislabelling,Major,True,0.0,CAPA-63373,Open
+ENVINC-0038,FAC-MAN-008,2023-10-04,Hazardous waste mislabelling,Minor,False,0.0,CAPA-28176,Closed
+ENVINC-0039,FAC-MAN-017,2026-09-26,Spill (oil),Major,False,0.0,CAPA-52085,Closed
+ENVINC-0040,FAC-MAN-002,2024-01-21,Permit exceedance (wastewater),Minor,False,0.0,CAPA-31732,Closed
+ENVINC-0041,FAC-MAN-026,2026-02-09,Air emission exceedance,Major,True,0.0,CAPA-30132,Closed
+ENVINC-0042,FAC-MAN-014,2024-06-18,Hazardous waste mislabelling,Minor,True,0.0,CAPA-92674,Closed
+ENVINC-0043,FAC-MAN-008,2022-10-20,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-91310,Closed
+ENVINC-0044,FAC-MAN-008,2022-09-25,Hazardous waste mislabelling,Minor,True,0.0,CAPA-54316,Closed
+ENVINC-0045,FAC-MAN-030,2024-11-23,Hazardous waste mislabelling,Moderate,True,0.0,CAPA-56925,Closed
+ENVINC-0046,FAC-MAN-008,2022-02-11,Hazardous waste mislabelling,Minor,False,0.0,CAPA-91354,Closed
+ENVINC-0047,FAC-MAN-016,2025-06-19,Odour complaint,Minor,True,0.0,CAPA-79073,Closed
+ENVINC-0048,FAC-MAN-010,2026-12-31,Hazardous waste mislabelling,Minor,False,0.0,CAPA-56211,Closed
+ENVINC-0049,FAC-MAN-039,2022-07-11,Air emission exceedance,Minor,False,0.0,CAPA-27051,Closed
+ENVINC-0050,FAC-MAN-040,2022-06-25,Odour complaint,Moderate,True,0.0,CAPA-19283,Closed
+ENVINC-0051,FAC-MAN-008,2022-04-15,Odour complaint,Minor,True,0.0,CAPA-23890,Closed
+ENVINC-0052,FAC-MAN-042,2025-03-15,Odour complaint,Minor,True,0.0,CAPA-61169,Closed
+ENVINC-0053,FAC-MAN-033,2025-09-13,Hazardous waste mislabelling,Minor,True,0.0,CAPA-96091,Closed
+ENVINC-0054,FAC-MAN-001,2024-11-04,Spill (oil),Minor,False,0.0,CAPA-79003,Closed
+ENVINC-0055,FAC-MAN-014,2025-02-25,Air emission exceedance,Minor,False,0.0,CAPA-76959,Closed
+ENVINC-0056,FAC-MAN-027,2023-01-11,Permit exceedance (wastewater),Major,False,0.0,CAPA-20164,Closed
+ENVINC-0057,FAC-MAN-027,2022-12-02,Hazardous waste mislabelling,Minor,False,0.0,CAPA-24104,Closed
+ENVINC-0058,FAC-MAN-005,2023-07-09,Refrigerant release,Minor,False,0.0,CAPA-95671,Closed
+ENVINC-0059,FAC-MAN-042,2022-07-21,Air emission exceedance,Minor,True,0.0,CAPA-25592,Closed
+ENVINC-0060,FAC-MAN-028,2022-05-25,Odour complaint,Major,False,0.0,CAPA-77282,Closed
+ENVINC-0061,FAC-MAN-022,2026-05-30,Odour complaint,Minor,False,0.0,CAPA-81623,Closed
+ENVINC-0062,FAC-MAN-035,2026-09-07,Refrigerant release,Minor,False,0.0,CAPA-56858,Open
+ENVINC-0063,FAC-MAN-029,2025-12-22,Hazardous waste mislabelling,Moderate,True,0.0,CAPA-15230,Closed
+ENVINC-0064,FAC-MAN-015,2024-11-29,Air emission exceedance,Moderate,True,0.0,CAPA-48904,Closed
+ENVINC-0065,FAC-MAN-014,2025-03-13,Refrigerant release,Major,False,0.0,CAPA-26235,Closed
+ENVINC-0066,FAC-MAN-026,2023-07-18,Permit exceedance (wastewater),Minor,False,0.0,CAPA-12957,Closed
+ENVINC-0067,FAC-MAN-004,2024-06-13,Odour complaint,Minor,False,0.0,CAPA-82784,Closed
+ENVINC-0068,FAC-MAN-031,2022-02-01,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-91981,Closed
+ENVINC-0069,FAC-MAN-001,2025-12-22,Permit exceedance (wastewater),Minor,False,0.0,CAPA-19662,Open
+ENVINC-0070,FAC-MAN-040,2022-08-31,Odour complaint,Minor,True,10500.0,CAPA-87227,Closed
+ENVINC-0071,FAC-MAN-038,2023-04-17,Odour complaint,Minor,False,0.0,CAPA-26426,Closed
+ENVINC-0072,FAC-MAN-042,2026-07-21,Permit exceedance (wastewater),Minor,True,0.0,CAPA-44524,Closed
+ENVINC-0073,FAC-MAN-031,2022-11-12,Air emission exceedance,Minor,False,0.0,CAPA-94047,Closed
+ENVINC-0074,FAC-MAN-038,2024-08-03,Refrigerant release,Moderate,False,0.0,CAPA-39455,Closed
+ENVINC-0075,FAC-MAN-031,2024-10-02,Hazardous waste mislabelling,Minor,True,0.0,CAPA-35423,Closed
+ENVINC-0076,FAC-MAN-006,2023-06-08,Air emission exceedance,Minor,True,0.0,CAPA-44996,Closed
+ENVINC-0077,FAC-MAN-009,2024-06-29,Refrigerant release,Moderate,False,0.0,CAPA-63556,Open
+ENVINC-0078,FAC-MAN-020,2023-02-24,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-82040,Closed
+ENVINC-0079,FAC-MAN-001,2022-04-12,Hazardous waste mislabelling,Minor,False,21100.0,CAPA-15865,Closed
+ENVINC-0080,FAC-MAN-030,2026-02-01,Refrigerant release,Minor,True,0.0,CAPA-81704,Closed
+ENVINC-0081,FAC-MAN-005,2024-03-31,Refrigerant release,Minor,False,5400.0,CAPA-26923,Closed
+ENVINC-0082,FAC-MAN-015,2026-10-30,Hazardous waste mislabelling,Minor,False,17600.0,CAPA-39735,Closed
+ENVINC-0083,FAC-MAN-038,2026-03-25,Permit exceedance (wastewater),Minor,True,0.0,CAPA-79535,Closed
+ENVINC-0084,FAC-MAN-036,2026-09-11,Permit exceedance (wastewater),Minor,True,0.0,CAPA-26365,Closed
+ENVINC-0085,FAC-MAN-034,2022-01-21,Air emission exceedance,Minor,True,0.0,CAPA-46082,Closed
+ENVINC-0086,FAC-MAN-027,2023-01-27,Air emission exceedance,Moderate,False,0.0,CAPA-60254,Closed
+ENVINC-0087,FAC-MAN-006,2022-09-19,Hazardous waste mislabelling,Minor,True,16900.0,CAPA-95205,Closed
+ENVINC-0088,FAC-MAN-016,2022-01-30,Air emission exceedance,Moderate,False,0.0,CAPA-31430,Closed
+ENVINC-0089,FAC-MAN-021,2026-02-13,Spill (oil),Minor,False,8700.0,CAPA-38429,Closed
+ENVINC-0090,FAC-MAN-028,2024-04-22,Air emission exceedance,Minor,True,35600.0,CAPA-34059,Closed
+ENVINC-0091,FAC-MAN-009,2026-06-16,Hazardous waste mislabelling,Minor,True,0.0,CAPA-78730,Closed
+ENVINC-0092,FAC-MAN-003,2023-07-24,Permit exceedance (wastewater),Moderate,False,11600.0,CAPA-67180,Closed
+ENVINC-0093,FAC-MAN-013,2022-05-10,Air emission exceedance,Minor,False,0.0,CAPA-85689,Closed
+ENVINC-0094,FAC-MAN-008,2024-02-02,Air emission exceedance,Minor,False,0.0,CAPA-26729,Closed
+ENVINC-0095,FAC-MAN-012,2022-12-28,Spill (oil),Minor,False,0.0,CAPA-76107,Closed
+ENVINC-0096,FAC-MAN-034,2025-02-10,Spill (oil),Moderate,False,0.0,CAPA-29111,Closed
+ENVINC-0097,FAC-MAN-036,2025-09-29,Odour complaint,Minor,False,0.0,CAPA-43361,Closed
+ENVINC-0098,FAC-MAN-010,2022-08-27,Refrigerant release,Minor,False,0.0,CAPA-23075,Closed
+ENVINC-0099,FAC-MAN-042,2024-10-27,Odour complaint,Minor,False,22400.0,CAPA-16642,Closed
+ENVINC-0100,FAC-MAN-033,2026-04-02,Air emission exceedance,Minor,True,0.0,CAPA-47085,Closed
+ENVINC-0101,FAC-MAN-016,2024-01-27,Air emission exceedance,Minor,False,0.0,CAPA-45331,Closed
+ENVINC-0102,FAC-MAN-011,2024-07-15,Permit exceedance (wastewater),Moderate,True,0.0,CAPA-78698,Closed
+ENVINC-0103,FAC-MAN-035,2023-07-12,Refrigerant release,Moderate,False,0.0,CAPA-84750,Closed
+ENVINC-0104,FAC-MAN-037,2026-04-11,Refrigerant release,Minor,False,0.0,CAPA-40310,Open
+ENVINC-0105,FAC-MAN-004,2025-03-21,Hazardous waste mislabelling,Minor,False,0.0,CAPA-31665,Closed
+ENVINC-0106,FAC-MAN-003,2025-01-18,Air emission exceedance,Minor,False,0.0,CAPA-17238,Open
+ENVINC-0107,FAC-MAN-018,2026-01-22,Hazardous waste mislabelling,Minor,False,0.0,CAPA-68450,Open
+ENVINC-0108,FAC-MAN-016,2023-03-12,Hazardous waste mislabelling,Minor,True,0.0,CAPA-14604,Closed
+ENVINC-0109,FAC-MAN-035,2024-11-28,Air emission exceedance,Minor,False,0.0,CAPA-22881,Closed
+ENVINC-0110,FAC-MAN-041,2026-02-18,Odour complaint,Minor,False,0.0,CAPA-60803,Open
+ENVINC-0111,FAC-MAN-008,2023-02-27,Refrigerant release,Minor,False,0.0,CAPA-87471,Open
+ENVINC-0112,FAC-MAN-022,2022-05-03,Hazardous waste mislabelling,Minor,False,0.0,CAPA-58008,Closed
+ENVINC-0113,FAC-MAN-019,2025-12-23,Refrigerant release,Moderate,False,0.0,CAPA-54093,Closed
+ENVINC-0114,FAC-MAN-037,2023-07-09,Odour complaint,Minor,False,0.0,CAPA-48589,Open
+ENVINC-0115,FAC-MAN-019,2023-03-11,Refrigerant release,Minor,True,0.0,CAPA-98981,Closed
+ENVINC-0116,FAC-MAN-040,2026-10-20,Air emission exceedance,Moderate,False,0.0,CAPA-11648,Closed
+ENVINC-0117,FAC-MAN-040,2024-09-22,Permit exceedance (wastewater),Minor,False,0.0,CAPA-42470,Closed
+ENVINC-0118,FAC-MAN-005,2022-06-11,Refrigerant release,Minor,False,72400.0,CAPA-81138,Closed
+ENVINC-0119,FAC-MAN-005,2024-04-15,Air emission exceedance,Moderate,False,0.0,CAPA-72090,Closed
+ENVINC-0120,FAC-MAN-025,2025-02-27,Refrigerant release,Minor,False,0.0,CAPA-21294,Closed
+ENVINC-0121,FAC-MAN-019,2022-10-09,Spill (oil),Minor,False,0.0,CAPA-79118,Open
+ENVINC-0122,FAC-MAN-017,2026-01-27,Air emission exceedance,Minor,True,0.0,CAPA-96476,Closed
+ENVINC-0123,FAC-MAN-002,2022-08-21,Odour complaint,Minor,False,0.0,CAPA-48786,Closed
+ENVINC-0124,FAC-MAN-007,2024-05-09,Hazardous waste mislabelling,Minor,False,0.0,CAPA-47031,Closed
+ENVINC-0125,FAC-MAN-016,2022-01-18,Odour complaint,Minor,False,0.0,CAPA-28658,Closed
+ENVINC-0126,FAC-MAN-021,2025-10-12,Spill (oil),Minor,False,0.0,CAPA-42685,Closed
+ENVINC-0127,FAC-MAN-024,2026-01-05,Permit exceedance (wastewater),Minor,False,0.0,CAPA-21795,Closed
+ENVINC-0128,FAC-MAN-036,2025-05-28,Odour complaint,Major,False,0.0,CAPA-38653,Closed
+ENVINC-0129,FAC-MAN-029,2023-10-04,Permit exceedance (wastewater),Major,False,0.0,CAPA-85707,Closed
+ENVINC-0130,FAC-MAN-012,2024-03-23,Refrigerant release,Minor,False,23500.0,CAPA-67204,Closed
+ENVINC-0131,FAC-MAN-025,2026-01-26,Odour complaint,Minor,False,0.0,CAPA-75373,Closed
+ENVINC-0132,FAC-MAN-030,2024-07-01,Odour complaint,Minor,True,0.0,CAPA-52006,Closed
+ENVINC-0133,FAC-MAN-019,2026-02-21,Spill (oil),Moderate,False,0.0,CAPA-95686,Closed
+ENVINC-0134,FAC-MAN-032,2025-10-10,Odour complaint,Minor,False,0.0,CAPA-20460,Closed
+ENVINC-0135,FAC-MAN-021,2024-05-21,Odour complaint,Minor,False,0.0,CAPA-85929,Closed
+ENVINC-0136,FAC-MAN-018,2023-05-31,Odour complaint,Minor,True,0.0,CAPA-52550,Closed
+ENVINC-0137,FAC-MAN-014,2024-07-21,Air emission exceedance,Major,True,0.0,CAPA-65732,Closed
+ENVINC-0138,FAC-MAN-009,2024-12-13,Spill (oil),Moderate,False,0.0,CAPA-29902,Closed
+ENVINC-0139,FAC-MAN-006,2024-10-04,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-61059,Closed
+ENVINC-0140,FAC-MAN-025,2023-03-26,Hazardous waste mislabelling,Minor,False,0.0,CAPA-79215,Closed
+ENVINC-0141,FAC-MAN-002,2025-06-27,Hazardous waste mislabelling,Minor,False,0.0,CAPA-26231,Open
+ENVINC-0142,FAC-MAN-029,2025-01-20,Hazardous waste mislabelling,Minor,True,6500.0,CAPA-35430,Closed
+ENVINC-0143,FAC-MAN-021,2024-08-12,Spill (oil),Minor,True,0.0,CAPA-65966,Closed
+ENVINC-0144,FAC-MAN-018,2022-02-15,Hazardous waste mislabelling,Moderate,True,0.0,CAPA-50617,Open
+ENVINC-0145,FAC-MAN-031,2025-08-16,Spill (oil),Minor,True,0.0,CAPA-83364,Closed
+ENVINC-0146,FAC-MAN-022,2022-12-16,Air emission exceedance,Minor,False,6500.0,CAPA-16760,Closed
+ENVINC-0147,FAC-MAN-026,2025-10-11,Odour complaint,Minor,True,0.0,CAPA-32455,Closed
+ENVINC-0148,FAC-MAN-034,2024-01-10,Hazardous waste mislabelling,Minor,True,0.0,CAPA-82424,Open
+ENVINC-0149,FAC-MAN-007,2023-04-08,Refrigerant release,Moderate,False,0.0,CAPA-91371,Closed
+ENVINC-0150,FAC-MAN-023,2024-12-09,Spill (oil),Minor,False,0.0,CAPA-72888,Closed
+ENVINC-0151,FAC-MAN-014,2025-06-05,Odour complaint,Minor,True,0.0,CAPA-23121,Closed
+ENVINC-0152,FAC-MAN-002,2026-02-10,Permit exceedance (wastewater),Minor,True,28300.0,CAPA-94096,Closed
+ENVINC-0153,FAC-MAN-033,2025-12-12,Air emission exceedance,Moderate,False,0.0,CAPA-43167,Closed
+ENVINC-0154,FAC-MAN-028,2022-03-26,Hazardous waste mislabelling,Minor,True,0.0,CAPA-33022,Closed
+ENVINC-0155,FAC-MAN-004,2025-04-29,Spill (oil),Minor,False,0.0,CAPA-62368,Closed
+ENVINC-0156,FAC-MAN-013,2026-03-30,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-24625,Closed
+ENVINC-0157,FAC-MAN-005,2024-08-12,Air emission exceedance,Minor,False,45500.0,CAPA-35930,Open
+ENVINC-0158,FAC-MAN-009,2023-09-04,Spill (oil),Minor,False,0.0,CAPA-98800,Closed
+ENVINC-0159,FAC-MAN-005,2023-03-20,Permit exceedance (wastewater),Minor,False,0.0,CAPA-71757,Closed
+ENVINC-0160,FAC-MAN-026,2023-01-27,Spill (oil),Minor,True,3900.0,CAPA-80284,Open
+ENVINC-0161,FAC-MAN-012,2024-05-23,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-70242,Closed
+ENVINC-0162,FAC-MAN-002,2025-06-09,Air emission exceedance,Moderate,False,0.0,CAPA-14852,Closed
+ENVINC-0163,FAC-MAN-035,2024-06-19,Spill (oil),Minor,True,8000.0,CAPA-13107,Closed
+ENVINC-0164,FAC-MAN-023,2025-04-09,Refrigerant release,Minor,False,0.0,CAPA-62762,Closed
+ENVINC-0165,FAC-MAN-037,2022-03-30,Hazardous waste mislabelling,Minor,True,0.0,CAPA-35004,Closed
+ENVINC-0166,FAC-MAN-018,2022-04-07,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-25221,Open
+ENVINC-0167,FAC-MAN-039,2022-10-08,Refrigerant release,Minor,False,0.0,CAPA-48838,Closed
+ENVINC-0168,FAC-MAN-028,2025-11-05,Air emission exceedance,Moderate,False,0.0,CAPA-86193,Closed
+ENVINC-0169,FAC-MAN-028,2026-05-11,Spill (oil),Minor,False,0.0,CAPA-13490,Closed
+ENVINC-0170,FAC-MAN-015,2023-01-27,Odour complaint,Minor,False,0.0,CAPA-24525,Closed
+ENVINC-0171,FAC-MAN-041,2022-03-03,Odour complaint,Moderate,False,0.0,CAPA-10269,Open
+ENVINC-0172,FAC-MAN-019,2024-02-24,Odour complaint,Major,True,0.0,CAPA-89681,Open
+ENVINC-0173,FAC-MAN-014,2022-11-23,Hazardous waste mislabelling,Minor,True,31200.0,CAPA-48749,Closed
+ENVINC-0174,FAC-MAN-003,2023-11-11,Refrigerant release,Minor,True,0.0,CAPA-24674,Closed
+ENVINC-0175,FAC-MAN-015,2024-01-11,Spill (oil),Minor,True,0.0,CAPA-64413,Closed
+ENVINC-0176,FAC-MAN-017,2024-09-23,Spill (oil),Minor,False,7600.0,CAPA-35582,Open
+ENVINC-0177,FAC-MAN-026,2025-01-27,Hazardous waste mislabelling,Minor,False,0.0,CAPA-27714,Closed
+ENVINC-0178,FAC-MAN-028,2023-09-07,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-12795,Closed
+ENVINC-0179,FAC-MAN-019,2023-04-06,Hazardous waste mislabelling,Minor,False,0.0,CAPA-14549,Open
+ENVINC-0180,FAC-MAN-038,2026-09-20,Refrigerant release,Moderate,False,0.0,CAPA-42831,Open
+ENVINC-0181,FAC-MAN-011,2024-02-19,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-62673,Closed
+ENVINC-0182,FAC-MAN-028,2022-01-21,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-28073,Closed
+ENVINC-0183,FAC-MAN-020,2023-04-14,Spill (oil),Minor,False,0.0,CAPA-20963,Closed
+ENVINC-0184,FAC-MAN-031,2025-04-29,Refrigerant release,Minor,False,0.0,CAPA-48197,Closed
+ENVINC-0185,FAC-MAN-014,2024-02-19,Spill (oil),Moderate,False,0.0,CAPA-25972,Closed
+ENVINC-0186,FAC-MAN-009,2026-10-21,Air emission exceedance,Moderate,False,0.0,CAPA-42385,Closed
+ENVINC-0187,FAC-MAN-028,2025-03-14,Hazardous waste mislabelling,Minor,False,14300.0,CAPA-74138,Closed
+ENVINC-0188,FAC-MAN-002,2024-06-13,Permit exceedance (wastewater),Minor,True,0.0,CAPA-46565,Open
+ENVINC-0189,FAC-MAN-022,2024-07-10,Refrigerant release,Minor,True,0.0,CAPA-16887,Closed
+ENVINC-0190,FAC-MAN-014,2022-11-27,Hazardous waste mislabelling,Minor,False,0.0,CAPA-54993,Closed
+ENVINC-0191,FAC-MAN-034,2026-02-24,Spill (oil),Minor,False,0.0,CAPA-48478,Closed
+ENVINC-0192,FAC-MAN-004,2023-03-16,Air emission exceedance,Moderate,False,0.0,CAPA-42281,Closed
+ENVINC-0193,FAC-MAN-019,2025-10-26,Hazardous waste mislabelling,Minor,True,0.0,CAPA-25305,Closed
+ENVINC-0194,FAC-MAN-014,2023-05-12,Spill (oil),Minor,True,0.0,CAPA-44376,Closed
+ENVINC-0195,FAC-MAN-034,2023-09-29,Refrigerant release,Moderate,False,0.0,CAPA-60043,Closed
+ENVINC-0196,FAC-MAN-022,2022-02-08,Hazardous waste mislabelling,Minor,False,2600.0,CAPA-23010,Open
+ENVINC-0197,FAC-MAN-006,2026-05-28,Hazardous waste mislabelling,Minor,False,0.0,CAPA-92704,Open
+ENVINC-0198,FAC-MAN-025,2026-09-17,Odour complaint,Minor,False,0.0,CAPA-43104,Closed
+ENVINC-0199,FAC-MAN-029,2026-04-25,Spill (oil),Minor,False,14000.0,CAPA-60251,Closed
+ENVINC-0200,FAC-MAN-038,2026-05-07,Hazardous waste mislabelling,Minor,True,0.0,CAPA-19406,Closed
+ENVINC-0201,FAC-MAN-042,2025-02-15,Permit exceedance (wastewater),Minor,False,0.0,CAPA-75722,Closed
+ENVINC-0202,FAC-MAN-001,2025-07-24,Hazardous waste mislabelling,Major,True,0.0,CAPA-14115,Closed
+ENVINC-0203,FAC-MAN-035,2025-05-21,Hazardous waste mislabelling,Moderate,True,0.0,CAPA-40055,Closed
+ENVINC-0204,FAC-MAN-033,2022-08-12,Odour complaint,Minor,False,47300.0,CAPA-78893,Closed
+ENVINC-0205,FAC-MAN-007,2026-07-20,Permit exceedance (wastewater),Minor,False,0.0,CAPA-98175,Closed
+ENVINC-0206,FAC-MAN-027,2023-06-15,Hazardous waste mislabelling,Minor,True,0.0,CAPA-98345,Open
+ENVINC-0207,FAC-MAN-031,2022-01-29,Permit exceedance (wastewater),Minor,False,0.0,CAPA-74924,Closed
+ENVINC-0208,FAC-MAN-037,2024-08-20,Permit exceedance (wastewater),Minor,False,0.0,CAPA-33787,Closed
+ENVINC-0209,FAC-MAN-031,2025-11-17,Air emission exceedance,Moderate,True,0.0,CAPA-49320,Closed
+ENVINC-0210,FAC-MAN-035,2024-08-23,Refrigerant release,Minor,False,25700.0,CAPA-86745,Closed
+ENVINC-0211,FAC-MAN-015,2022-05-09,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-90895,Closed
+ENVINC-0212,FAC-MAN-019,2026-08-16,Refrigerant release,Minor,False,0.0,CAPA-71438,Closed
+ENVINC-0213,FAC-MAN-027,2024-01-24,Odour complaint,Moderate,False,0.0,CAPA-67823,Closed
+ENVINC-0214,FAC-MAN-031,2026-06-04,Refrigerant release,Moderate,False,0.0,CAPA-91750,Open
+ENVINC-0215,FAC-MAN-010,2022-12-04,Refrigerant release,Minor,False,0.0,CAPA-52780,Closed
+ENVINC-0216,FAC-MAN-025,2023-01-30,Permit exceedance (wastewater),Minor,False,16200.0,CAPA-26074,Open
+ENVINC-0217,FAC-MAN-035,2023-03-08,Hazardous waste mislabelling,Minor,False,0.0,CAPA-61913,Open
+ENVINC-0218,FAC-MAN-029,2022-02-04,Permit exceedance (wastewater),Minor,False,0.0,CAPA-55179,Closed
+ENVINC-0219,FAC-MAN-005,2024-10-12,Spill (oil),Minor,False,0.0,CAPA-40094,Closed
+ENVINC-0220,FAC-MAN-009,2024-11-06,Odour complaint,Minor,True,0.0,CAPA-89964,Closed
+ENVINC-0221,FAC-MAN-020,2023-03-03,Refrigerant release,Major,True,0.0,CAPA-51213,Open
+ENVINC-0222,FAC-MAN-023,2026-03-18,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-81379,Closed
+ENVINC-0223,FAC-MAN-007,2022-03-17,Air emission exceedance,Major,True,0.0,CAPA-27825,Closed
+ENVINC-0224,FAC-MAN-039,2025-03-11,Refrigerant release,Minor,True,0.0,CAPA-99629,Closed
+ENVINC-0225,FAC-MAN-006,2025-03-27,Spill (oil),Minor,False,0.0,CAPA-42925,Closed
+ENVINC-0226,FAC-MAN-025,2024-08-25,Odour complaint,Minor,False,0.0,CAPA-53316,Open
+ENVINC-0227,FAC-MAN-023,2022-06-13,Spill (oil),Minor,False,0.0,CAPA-14532,Closed
+ENVINC-0228,FAC-MAN-009,2022-07-08,Spill (oil),Minor,False,42600.0,CAPA-55656,Closed
+ENVINC-0229,FAC-MAN-034,2023-07-03,Spill (oil),Minor,False,0.0,CAPA-69025,Closed
+ENVINC-0230,FAC-MAN-031,2022-05-27,Spill (oil),Minor,False,0.0,CAPA-20709,Closed
+ENVINC-0231,FAC-MAN-017,2022-04-11,Hazardous waste mislabelling,Major,False,0.0,CAPA-28979,Closed
+ENVINC-0232,FAC-MAN-042,2024-10-21,Refrigerant release,Moderate,False,0.0,CAPA-88230,Closed
+ENVINC-0233,FAC-MAN-028,2024-07-13,Odour complaint,Moderate,False,0.0,CAPA-73395,Closed
+ENVINC-0234,FAC-MAN-020,2024-12-18,Hazardous waste mislabelling,Major,False,0.0,CAPA-58091,Closed
+ENVINC-0235,FAC-MAN-040,2023-11-21,Spill (oil),Moderate,False,0.0,CAPA-15662,Closed
+ENVINC-0236,FAC-MAN-015,2022-01-29,Odour complaint,Minor,False,0.0,CAPA-80939,Closed
+ENVINC-0237,FAC-MAN-008,2025-04-17,Odour complaint,Minor,False,0.0,CAPA-75397,Closed
+ENVINC-0238,FAC-MAN-042,2023-04-07,Odour complaint,Minor,False,0.0,CAPA-19943,Closed
+ENVINC-0239,FAC-MAN-021,2026-11-11,Air emission exceedance,Moderate,True,0.0,CAPA-94646,Closed
+ENVINC-0240,FAC-MAN-041,2025-05-16,Air emission exceedance,Moderate,True,0.0,CAPA-34324,Closed
+ENVINC-0241,FAC-MAN-013,2026-05-18,Odour complaint,Minor,True,125000.0,CAPA-37518,Closed
+ENVINC-0242,FAC-MAN-005,2022-01-20,Permit exceedance (wastewater),Minor,False,0.0,CAPA-89853,Closed
+ENVINC-0243,FAC-MAN-024,2026-05-02,Spill (oil),Minor,True,0.0,CAPA-67891,Closed
+ENVINC-0244,FAC-MAN-001,2026-10-28,Refrigerant release,Minor,False,8000.0,CAPA-25059,Closed
+ENVINC-0245,FAC-MAN-016,2024-03-02,Spill (oil),Minor,False,0.0,CAPA-70227,Open
+ENVINC-0246,FAC-MAN-017,2026-08-12,Permit exceedance (wastewater),Minor,False,0.0,CAPA-59936,Closed
+ENVINC-0247,FAC-MAN-010,2023-03-15,Refrigerant release,Minor,False,0.0,CAPA-37019,Closed
+ENVINC-0248,FAC-MAN-027,2025-10-29,Spill (oil),Minor,False,0.0,CAPA-77044,Closed
+ENVINC-0249,FAC-MAN-004,2025-03-26,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-52027,Closed
+ENVINC-0250,FAC-MAN-003,2022-02-26,Air emission exceedance,Minor,True,0.0,CAPA-79174,Closed
+ENVINC-0251,FAC-MAN-012,2024-09-09,Odour complaint,Minor,True,0.0,CAPA-60247,Closed
+ENVINC-0252,FAC-MAN-036,2024-04-11,Air emission exceedance,Moderate,True,0.0,CAPA-35680,Closed
+ENVINC-0253,FAC-MAN-034,2023-07-26,Air emission exceedance,Minor,True,0.0,CAPA-99793,Closed
+ENVINC-0254,FAC-MAN-040,2024-05-25,Odour complaint,Minor,True,16200.0,CAPA-34313,Closed
+ENVINC-0255,FAC-MAN-010,2026-06-11,Spill (oil),Minor,False,0.0,CAPA-58838,Closed
+ENVINC-0256,FAC-MAN-041,2026-08-15,Odour complaint,Moderate,False,0.0,CAPA-82181,Closed
+ENVINC-0257,FAC-MAN-009,2026-05-07,Air emission exceedance,Minor,False,0.0,CAPA-96392,Closed
+ENVINC-0258,FAC-MAN-040,2022-08-23,Refrigerant release,Minor,False,0.0,CAPA-46054,Closed
+ENVINC-0259,FAC-MAN-018,2025-12-31,Permit exceedance (wastewater),Minor,True,46100.0,CAPA-63250,Closed
+ENVINC-0260,FAC-MAN-012,2024-09-27,Odour complaint,Minor,True,0.0,CAPA-78339,Closed
+ENVINC-0261,FAC-MAN-035,2024-10-19,Refrigerant release,Minor,False,0.0,CAPA-43832,Closed
+ENVINC-0262,FAC-MAN-035,2026-07-17,Air emission exceedance,Minor,False,0.0,CAPA-72868,Closed
+ENVINC-0263,FAC-MAN-003,2022-11-03,Refrigerant release,Minor,True,0.0,CAPA-85778,Closed
+ENVINC-0264,FAC-MAN-009,2025-11-08,Permit exceedance (wastewater),Minor,False,0.0,CAPA-12881,Closed
+ENVINC-0265,FAC-MAN-014,2026-03-29,Spill (oil),Minor,False,0.0,CAPA-89476,Closed
+ENVINC-0266,FAC-MAN-021,2022-03-15,Spill (oil),Minor,False,0.0,CAPA-65841,Open
+ENVINC-0267,FAC-MAN-034,2024-01-05,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-28116,Closed
+ENVINC-0268,FAC-MAN-022,2026-03-30,Hazardous waste mislabelling,Minor,False,0.0,CAPA-59485,Closed
+ENVINC-0269,FAC-MAN-004,2022-09-19,Air emission exceedance,Minor,False,0.0,CAPA-43931,Closed
+ENVINC-0270,FAC-MAN-015,2022-09-20,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-39684,Closed
+ENVINC-0271,FAC-MAN-018,2022-08-06,Odour complaint,Minor,False,0.0,CAPA-42598,Closed
+ENVINC-0272,FAC-MAN-029,2025-06-20,Refrigerant release,Minor,False,0.0,CAPA-43477,Closed
+ENVINC-0273,FAC-MAN-016,2023-11-18,Spill (oil),Minor,False,12400.0,CAPA-62349,Closed
+ENVINC-0274,FAC-MAN-001,2026-10-25,Permit exceedance (wastewater),Major,False,0.0,CAPA-78217,Closed
+ENVINC-0275,FAC-MAN-034,2026-03-30,Refrigerant release,Minor,False,0.0,CAPA-11635,Closed
+ENVINC-0276,FAC-MAN-031,2023-01-23,Permit exceedance (wastewater),Minor,False,0.0,CAPA-21392,Closed
+ENVINC-0277,FAC-MAN-029,2025-07-31,Spill (oil),Minor,False,0.0,CAPA-33921,Closed
+ENVINC-0278,FAC-MAN-024,2025-02-19,Odour complaint,Minor,True,0.0,CAPA-90963,Closed
+ENVINC-0279,FAC-MAN-020,2023-01-06,Spill (oil),Minor,True,0.0,CAPA-79776,Open
+ENVINC-0280,FAC-MAN-019,2025-03-05,Spill (oil),Minor,False,0.0,CAPA-67169,Closed
+ENVINC-0281,FAC-MAN-018,2026-06-13,Spill (oil),Minor,True,0.0,CAPA-84408,Closed
+ENVINC-0282,FAC-MAN-029,2026-07-30,Odour complaint,Minor,False,3800.0,CAPA-49728,Closed
+ENVINC-0283,FAC-MAN-029,2025-06-15,Permit exceedance (wastewater),Minor,False,0.0,CAPA-38305,Closed
+ENVINC-0284,FAC-MAN-026,2025-05-02,Permit exceedance (wastewater),Minor,False,0.0,CAPA-14588,Closed
+ENVINC-0285,FAC-MAN-028,2026-08-28,Hazardous waste mislabelling,Moderate,False,0.0,CAPA-96099,Open
+ENVINC-0286,FAC-MAN-019,2024-04-27,Air emission exceedance,Moderate,True,0.0,CAPA-66963,Closed
+ENVINC-0287,FAC-MAN-030,2026-12-13,Spill (oil),Minor,False,0.0,CAPA-37898,Closed
+ENVINC-0288,FAC-MAN-028,2026-12-06,Air emission exceedance,Minor,False,0.0,CAPA-47744,Closed
+ENVINC-0289,FAC-MAN-016,2024-11-21,Refrigerant release,Moderate,False,0.0,CAPA-34665,Closed
+ENVINC-0290,FAC-MAN-011,2026-05-14,Odour complaint,Minor,False,0.0,CAPA-46934,Closed
+ENVINC-0291,FAC-MAN-009,2022-06-07,Hazardous waste mislabelling,Minor,False,0.0,CAPA-96963,Closed
+ENVINC-0292,FAC-MAN-039,2023-11-23,Odour complaint,Minor,True,0.0,CAPA-77608,Closed
+ENVINC-0293,FAC-MAN-013,2024-02-20,Permit exceedance (wastewater),Minor,False,0.0,CAPA-72459,Closed
+ENVINC-0294,FAC-MAN-015,2024-12-20,Hazardous waste mislabelling,Major,False,0.0,CAPA-90322,Closed
+ENVINC-0295,FAC-MAN-035,2025-07-15,Hazardous waste mislabelling,Minor,True,0.0,CAPA-52156,Closed
+ENVINC-0296,FAC-MAN-012,2024-11-02,Spill (oil),Minor,False,0.0,CAPA-67563,Closed
+ENVINC-0297,FAC-MAN-008,2026-01-27,Permit exceedance (wastewater),Minor,False,0.0,CAPA-48151,Closed
+ENVINC-0298,FAC-MAN-042,2026-02-01,Refrigerant release,Minor,False,0.0,CAPA-43587,Open
+ENVINC-0299,FAC-MAN-028,2024-04-14,Permit exceedance (wastewater),Moderate,False,0.0,CAPA-33507,Closed
+ENVINC-0300,FAC-MAN-035,2023-11-24,Refrigerant release,Moderate,True,0.0,CAPA-58375,Closed
+ENVINC-0301,FAC-MAN-024,2026-01-07,Air emission exceedance,Minor,True,0.0,CAPA-26006,Open
+ENVINC-0302,FAC-MAN-011,2025-08-10,Odour complaint,Minor,True,0.0,CAPA-43011,Closed
+ENVINC-0303,FAC-MAN-005,2024-11-15,Hazardous waste mislabelling,Minor,False,0.0,CAPA-33061,Closed
+ENVINC-0304,FAC-MAN-034,2025-05-19,Air emission exceedance,Minor,True,0.0,CAPA-66216,Closed
+ENVINC-0305,FAC-MAN-020,2025-03-25,Refrigerant release,Minor,True,19000.0,CAPA-66552,Closed
+ENVINC-0306,FAC-MAN-033,2025-09-03,Air emission exceedance,Minor,False,0.0,CAPA-42742,Closed
+ENVINC-0307,FAC-MAN-007,2022-02-20,Odour complaint,Minor,True,0.0,CAPA-12662,Closed
+ENVINC-0308,FAC-MAN-018,2025-07-15,Hazardous waste mislabelling,Minor,False,0.0,CAPA-83179,Closed
+ENVINC-0309,FAC-MAN-025,2022-06-27,Odour complaint,Minor,False,0.0,CAPA-34318,Closed
+ENVINC-0310,FAC-MAN-014,2026-06-18,Permit exceedance (wastewater),Moderate,True,18200.0,CAPA-65525,Closed
+ENVINC-0311,FAC-MAN-037,2024-04-23,Spill (oil),Minor,False,0.0,CAPA-94663,Closed
+ENVINC-0312,FAC-MAN-029,2023-12-12,Odour complaint,Minor,True,0.0,CAPA-18260,Closed
+ENVINC-0313,FAC-MAN-036,2026-02-19,Odour complaint,Moderate,True,0.0,CAPA-43452,Closed
+ENVINC-0314,FAC-MAN-002,2023-02-18,Permit exceedance (wastewater),Minor,True,0.0,CAPA-51619,Closed
+ENVINC-0315,FAC-MAN-039,2023-05-10,Spill (oil),Minor,False,0.0,CAPA-64756,Open
+ENVINC-0316,FAC-MAN-016,2025-12-31,Air emission exceedance,Moderate,False,0.0,CAPA-50052,Closed
+ENVINC-0317,FAC-MAN-007,2022-01-15,Spill (oil),Moderate,False,0.0,CAPA-15674,Open
+ENVINC-0318,FAC-MAN-016,2023-05-05,Air emission exceedance,Minor,True,31500.0,CAPA-11687,Closed
+ENVINC-0319,FAC-MAN-004,2022-12-24,Air emission exceedance,Major,False,0.0,CAPA-44433,Closed
+ENVINC-0320,FAC-MAN-028,2025-03-12,Hazardous waste mislabelling,Moderate,True,0.0,CAPA-46231,Closed

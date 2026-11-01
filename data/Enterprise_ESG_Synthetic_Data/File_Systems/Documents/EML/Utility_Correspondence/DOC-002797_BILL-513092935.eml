@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-513092935 for account nan
+Date: Wed, 06 Apr 2022 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for March 2022 is attached (PDF). Amount due: 19,562.38 EUR.

@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-272575044 for account UA-69606747
+Date: Sat, 04 Oct 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for September 2025 is attached (PDF). Amount due: 322,767.41 TRY.

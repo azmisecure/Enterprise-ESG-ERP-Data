@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-415803247 for account UA-72153810
+Date: Wed, 03 Dec 2025 07:00:00 +0000
+X-Synthetic: true
+
+Your water bill for November 2025 is attached (PDF). Amount due: 468.56 SGD.

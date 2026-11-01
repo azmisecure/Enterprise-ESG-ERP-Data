@@ -1,0 +1,7 @@
+From: billing@synthetic-utility.example
+To: ap-energy@hkih.synthetic.example
+Subject: Your bill BILL-835565315 for account UA-67016581
+Date: Tue, 14 Jul 2026 07:00:00 +0000
+X-Synthetic: true
+
+Your electricity bill for June 2026 is attached (PDF). Amount due: 36,335,533.61 JPY.

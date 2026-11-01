@@ -4453,7 +4453,7 @@
    },
    {
     "name": "supplier_id",
-    "dtype": "str"
+    "dtype": "object"
    },
    {
     "name": "customer_id",
