@@ -1,3 +1,4 @@
 data/Enterprise_ESG_Synthetic_Data/GHG_Accounting/Calculation_Results/ghg_activities_all.parquet filter=lfs diff=lfs merge=lfs -text
 data/Enterprise_ESG_Synthetic_Data/GHG_Accounting/Scope_3/scope3_activities.parquet filter=lfs diff=lfs merge=lfs -text
 data/Enterprise_ESG_Synthetic_Data/Logistics/shipments.parquet filter=lfs diff=lfs merge=lfs -text
+data/Enterprise_ESG_Synthetic_Data/ERP/Finance/GL/gl_transactions.parquet filter=lfs diff=lfs merge=lfs -text
